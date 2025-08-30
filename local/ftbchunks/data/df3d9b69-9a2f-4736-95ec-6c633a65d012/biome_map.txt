@@ -1,2 +1,0 @@
-#7F8 sgjourney:abydos_desert
-#4F1 minecraft:ocean

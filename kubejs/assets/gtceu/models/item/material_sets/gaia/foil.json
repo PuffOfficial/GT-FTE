@@ -1,7 +1,0 @@
-{
-    "parent":"item/generated",
-    "textures": {
-      "layer0":"gtceu:item/material_sets/gaia/foil",
-      "layer1":"gtceu:item/material_sets/dull/foil_overlay"
-    }
-  }

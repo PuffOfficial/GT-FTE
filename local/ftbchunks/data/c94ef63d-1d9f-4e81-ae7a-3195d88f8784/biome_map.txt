@@ -1,8 +1,0 @@
-#7F8 sgjourney:abydos_desert
-#757 sgjourney:abydos_spires
-#1A0 sgjourney:cavum_tenebrae_shattered_crust
-#22A sgjourney:chulak_forest
-#4F1 minecraft:ocean
-#141 sgjourney:rima_cracks
-#418 sgjourney:rima_shattered_plains
-#652 sgjourney:unitas_desert

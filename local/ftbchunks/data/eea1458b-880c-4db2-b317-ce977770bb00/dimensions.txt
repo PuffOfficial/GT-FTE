@@ -1,2 +1,0 @@
-minecraft:overworld
-sgjourney:abydos

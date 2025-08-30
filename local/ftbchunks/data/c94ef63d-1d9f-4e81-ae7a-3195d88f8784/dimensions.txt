@@ -1,6 +1,0 @@
-minecraft:overworld
-sgjourney:cavum_tenebrae
-sgjourney:abydos
-sgjourney:unitas
-sgjourney:rima
-sgjourney:chulak
