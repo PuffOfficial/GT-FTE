@@ -1,0 +1,54 @@
+{
+    "item.kubejs.ulv_electric_piston": "Электрический поршень (§8ULV§r)",
+    "item.kubejs.ulv_robot_arm": "Роботизированный манипулятор (§8ULV§r)",
+    "item.kubejs.ulv_conveyor_module": "Конвейерный модуль (§8ULV§r)",
+    "item.kubejs.ulv_electric_motor": "Электрический мотор (§8ULV§r)",
+    "item.kubejs.ulv_electric_pump": "Электрическая помпа (§8ULV§r)",
+
+    "item.kubejs.ram_mainframe": "RAM комплекс",
+    "item.kubejs.ram_stick": "Пластинка RAM",
+
+    "item.kubejs.stick_fragments": "Фрагменты палок",
+    "item.kubejs.simple_knitting_kit": "Простой набор для вязания",
+    "item.kubejs.string_mesh_chunk": "Кусок нитьевой сетки",
+
+    "item.kubejs.stargate_chevron": "Шеврон звёздых врат",
+    "item.kubejs.stargate_coil": "Катушка звёздых врат",
+    "item.kubejs.stargate_computation_mainframe": "Компутационный комплекс звёздых врат",
+    "item.kubejs.stargate_field_generator": "Генератор щита звёздых врат",
+
+    "item.kubejs.p_credit": "P-Кредит",
+
+    "item.kubejs.alfheim_runes": "Руны Альфхейма",
+
+    "gtfte.cavum_tenebrae": "§o§7Кажется атмосфера этой планеты токсична... Может мне нужен какой нибудь костюм?",
+    "gtfte.unitas": "§o§7Почему я чуствую запах серы?",
+    "gtfte.rima": "§o§7Хм, кажись атмосфера этой планеты абсолютно нормальная.",
+    "gtfte.chulak": "§o§7Хм, кажись атмосфера этой планеты абсолютно нормальная",
+    "gtfte.abydos": "§o§7А тут горячо!",
+    "gtfte.dizzy": "§o§7Я себя не очень хорошо чуствую...",
+    "gtfte.overworld": "§o§7Вы чуствуете расслабление после своего приключения.",
+
+    "gtfte.name.universal_circuit": "Универсальная микросхема (%s)",
+    "gtfte.tooltip.universal_circuit": "§7Сила %s!",
+
+    "gtfte.name.fuel_rod": "Топливный стержень (%s)",
+
+    "gtfte.tooltip.bedrock_crusher": "Не большой бур",
+    "gtfte.tooltip.daycycle_simulation_chamber": "Симулятор реальной жизни, но для растений",
+
+    "gtfte.tooltip.primitive": "Поддерживает только §8ULV§r люки для энергии.",
+    "gtfte.tooltip.ulv_component": "§7Этот компонент недостаточно силён чтобы работать как улучшение механизма...",
+
+    "gtfte.tooltip.alchemical_crucible_1": "Котёл но лучше",
+    "gtfte.tooltip.alchemical_crucible_2": "За каждый уровень выше LV§7, температура увеличивается на §r75K",
+
+    "gtfte.components.heat_capacity": "Температура: %s§cK§r",
+    "gtfte.components.parallels": "Параллелей: %s§r",
+    "gtfte.components.parallelsNoOverprice": "Параллели без умножения энергии: %s§r",
+
+    "gtfte.tooltip.etbf": "Имеет все модификаторы Электрической Плавильной Печи",
+
+    "gtfte.tooltip.parallel": "Имеет встроенную параллель:§5 %s §r"
+
+}

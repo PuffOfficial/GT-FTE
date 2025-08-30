@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_9__uv"
+	group: ""
+	icon: "kubejs:universal_uv_circuit"
+	id: "013934991C3E7A50"
+	order_index: 11
+	quest_links: [ ]
+	quests: [{
+		id: "03BF5FF67AED96DB"
+		tasks: [{
+			id: "0E93E9676003EABC"
+			title: "Start Questline"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: [
+		"To The Stars!"
+		"In Development"
+	]
+	title: "Chapter 9 | UV"
+}

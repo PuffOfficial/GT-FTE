@@ -1,0 +1,26 @@
+[20:01:14] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[20:01:14] [INIT] Loaded plugins:
+[20:01:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[20:01:14] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[20:01:14] [INIT] - thedarkcolour.exdeorum.compat.kubejs.ExDeorumKubeJsPlugin
+[20:01:14] [INIT] - pie.ilikepiefoo.AdditionsPlugin
+[20:01:14] [INIT] - pie.ilikepiefoo.compat.jei.JEIKubeJSPlugin
+[20:01:14] [INIT] - com.almostreliable.kubeio.kube.KubePlugin
+[20:01:14] [INIT] - com.lowdragmc.lowdraglib.kjs.LDLibKubeJSPlugin
+[20:01:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[20:01:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[20:01:14] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[20:01:14] [INIT] - com.probejs.ProbeJSPlugin
+[20:01:14] [INIT] - com.almostreliable.summoningrituals.compat.kubejs.AlmostKube
+[20:01:14] [INIT] - com.gregtechceu.gtceu.integration.kjs.GregTechKubeJSPlugin
+[20:01:14] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[20:01:14] [INIT] - forestry.compat.kubejs.ForestryKubeJsPlugin
+[20:01:14] [INFO] Loaded script client_scripts:default.js in 0.0 s
+[20:01:14] [INFO] Loaded script client_scripts:JEIHiding.js in 0.003 s
+[20:01:14] [INFO] Loaded script client_scripts:rpc.js in 0.0 s
+[20:01:14] [INFO] Loaded script client_scripts:tooltips/MaterialTooltip.js in 0.004 s
+[20:01:14] [INFO] tooltips/MultiTooltip.js#1: Loaded Java class 'net.minecraft.ChatFormatting'
+[20:01:14] [INFO] tooltips/MultiTooltip.js#2: Loaded Java class 'net.minecraft.network.chat.Style'
+[20:01:14] [INFO] tooltips/MultiTooltip.js#3: Loaded Java class 'net.minecraft.network.chat.TextColor'
+[20:01:14] [INFO] Loaded script client_scripts:tooltips/MultiTooltip.js in 0.004 s
+[20:01:14] [INFO] Loaded 5/5 KubeJS client scripts in 0.071 s with 0 errors and 0 warnings

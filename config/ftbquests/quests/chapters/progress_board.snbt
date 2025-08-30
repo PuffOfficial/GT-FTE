@@ -1,0 +1,908 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progress_board"
+	group: "76ED85C1705485DC"
+	icon: "gtceu:basic_electronic_circuit"
+	id: "43E6C2F3822C71A5"
+	images: [
+		{
+			height: 1.0d
+			image: "sgjourney:item/classic_stargate"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.05d
+			y: -10.05d
+		}
+		{
+			color: 0
+			height: 1.0d
+			image: "sgjourney:item/classic_stargate"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -10.0d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "2C2E3A53CA39C2E8"
+			linked_quest: "5955E1625D920AD9"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			id: "4DAF147C7069CAD6"
+			linked_quest: "426F8528C4D611A5"
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			id: "0D206502CC945371"
+			linked_quest: "7F1A662BC5DD5056"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "656E88E6DB8A2B17"
+			linked_quest: "7F4C6CCBD315351F"
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			id: "1A5C39B8C69B73F8"
+			linked_quest: "14B6BFDF16837E05"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			id: "389A965A2CE4AFAB"
+			linked_quest: "037DB579F5E7A700"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			id: "3EB3089015B504D4"
+			linked_quest: "317FFA2977338B9D"
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			id: "2DF011CD215E923A"
+			linked_quest: "20BE916B64487527"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "4AD05A1F41FD6AB9"
+			linked_quest: "3480AC8317E8A5F5"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			id: "04B9B0CAC252010D"
+			linked_quest: "3C77E5AB51BB570B"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "62E41C2145B0335F"
+			linked_quest: "4646AF9D82FD324F"
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			id: "546B3C7DCA954F04"
+			linked_quest: "3A0243C9EED71C6B"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			id: "205E9EF6DA4BBA62"
+			linked_quest: "3B92DE056716095E"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "6ACCF693954887FC"
+			linked_quest: "7DED8C385C0AB146"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "0796B74AF4F0FBEB"
+			linked_quest: "1B2D017D30DD8B36"
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "5A3798F2299123FC"
+			linked_quest: "573095E34ACE3D80"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "2E074AF0E533A104"
+			linked_quest: "7BC987DC56492A03"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "3ACECA79175611B5"
+			linked_quest: "40CE0F5F9F40386E"
+			x: 6.0d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			id: "21F39A0BCFEDE602"
+			tasks: [{
+				id: "3238C5FE2BC37F6F"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			id: "2F89B3C636BB98FB"
+			tasks: [{
+				id: "5C4A7ADEFF410E00"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2F89B3C636BB98FB"]
+			id: "5C73E4AC4B098EAD"
+			tasks: [{
+				id: "512BE5022206F4EA"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5C73E4AC4B098EAD"]
+			id: "557AB3D9D4D9EE6A"
+			tasks: [{
+				id: "0A951682E91D37A4"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["557AB3D9D4D9EE6A"]
+			id: "4640096EC1A2B00C"
+			tasks: [{
+				id: "60E111CC0DFD1073"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "0A50DC9AC67F81D1"
+			tasks: [{
+				id: "434D9F48FD5830D9"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A50DC9AC67F81D1"]
+			id: "051F2242426885E6"
+			tasks: [{
+				id: "327F2FB0B3FF6F34"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["051F2242426885E6"]
+			id: "282D9EDFB3A0EBEC"
+			tasks: [{
+				id: "25BF97B0A3DC11CC"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["282D9EDFB3A0EBEC"]
+			id: "33158C4186BDDAF6"
+			tasks: [{
+				id: "388F0BD0DE3A8AFE"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "56A45B7BDFA25BC4"
+			tasks: [{
+				id: "426181A8C37138E4"
+				item: "gtceu:mv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			id: "7E74313BD2288CCA"
+			tasks: [{
+				id: "602ABC977EE45E71"
+				item: "gtceu:hv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "4F8E19422D606BD0"
+			tasks: [{
+				id: "7D6A47B961EA83B3"
+				item: "gtceu:ev_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "7DFEAB09C3492E60"
+			tasks: [{
+				id: "3519AB512234C612"
+				item: "gtceu:iv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "63AF040EFA59E6B0"
+			tasks: [{
+				id: "2655A856B10071AA"
+				item: "gtceu:luv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "11654D3B3E959770"
+			tasks: [{
+				id: "52A4277ACA01A29E"
+				item: "gtceu:zpm_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "1A665F24B40871ED"
+			tasks: [{
+				id: "148BC6D3E7801BE5"
+				item: "gtceu:uv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0B93F7C0A7CAA3BD"
+			tasks: [{
+				id: "53530D87260D164B"
+				item: "gtceu:uhv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "36E686C15FD5BE50"
+			tasks: [{
+				id: "50A1952146D3C153"
+				item: "gtceu:ulv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["24F705B2B2311FCD"]
+			id: "45665F80A0589246"
+			tasks: [{
+				id: "011F4C137CBE82BA"
+				item: "gtceu:silicon_wafer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["337D46CFC639FE04"]
+			id: "51E390773CAE71A2"
+			tasks: [{
+				id: "03EC81993AFF2A80"
+				item: "gtceu:phosphorus_wafer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["33F4F7D13F3EB65A"]
+			id: "423B9CB802CE64BC"
+			tasks: [{
+				id: "77D338920DC33225"
+				item: "gtceu:naquadah_wafer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1889D13D1DC81C1C"]
+			id: "1EC07D14BCD227E6"
+			tasks: [{
+				id: "784EAD761D1D1D49"
+				item: "gtceu:neutronium_wafer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["45665F80A0589246"]
+			id: "6C5C6A02F88E1687"
+			tasks: [{
+				id: "41FD4FB73A6B55FA"
+				item: "kubejs:nether_imbued_wafer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["51E390773CAE71A2"]
+			id: "05A051539E8C1F68"
+			tasks: [{
+				id: "38AF4A293A72238C"
+				item: "kubejs:mana_doped_wafer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "24F705B2B2311FCD"
+			tasks: [{
+				id: "121E0FBFF46BC3B7"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "337D46CFC639FE04"
+			tasks: [{
+				id: "409BCDA0BE036810"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "33F4F7D13F3EB65A"
+			tasks: [{
+				id: "21CB97DE65759906"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "1889D13D1DC81C1C"
+			tasks: [{
+				id: "60226F4495D24AFA"
+				item: "gtceu:neutronium_boule"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "0D54447CBC688C5C"
+			tasks: [{
+				id: "5D4B90AB9E3F872E"
+				item: "gtceu:uev_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "69D2ECD9979FA4A1"
+			tasks: [{
+				id: "7CB76F3C28D26B5E"
+				item: "gtceu:uiv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "7F8DD9BE88193FED"
+			tasks: [{
+				id: "6B50BF3FD5CFDAF2"
+				item: "gtceu:uxv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "721C6365C8ADC30D"
+			tasks: [{
+				id: "07CA6F5001BF3789"
+				item: "gtceu:opv_machine_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["426F8528C4D611A5"]
+			id: "0D5CDA8E8CCEA8C2"
+			tasks: [{
+				id: "76D910F09AF05B6A"
+				item: "kubejs:universal_ulv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7F4C6CCBD315351F"]
+			id: "5390BB04AB2E91B3"
+			tasks: [{
+				id: "61CA3565245E97DC"
+				item: "kubejs:universal_lv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["317FFA2977338B9D"]
+			id: "68A4A9E4DF8ACA12"
+			tasks: [{
+				id: "75D5D4BA4D2724DA"
+				item: "kubejs:universal_mv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4646AF9D82FD324F"]
+			id: "4C526CAC19761ABB"
+			tasks: [{
+				id: "2BDA44B30A53DD8A"
+				item: "kubejs:universal_hv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B2D017D30DD8B36"]
+			id: "2982EF62120A2DA4"
+			tasks: [{
+				id: "5F3EE1DCA26CDF18"
+				item: "kubejs:universal_ev_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F89B3C636BB98FB"]
+			id: "371A6853F488B041"
+			tasks: [{
+				id: "4A8B6500144D2561"
+				item: "kubejs:universal_iv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0A50DC9AC67F81D1"]
+			id: "0DCD6B8224EE3644"
+			tasks: [{
+				id: "398D4895795D099A"
+				item: "kubejs:universal_luv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["328FC20512B5DD45"]
+			id: "3459C6CAD31574AE"
+			tasks: [{
+				id: "601B822AA8DF7E7F"
+				item: "kubejs:universal_zpm_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49BBAA307584F776"]
+			id: "41BF363B99BADC67"
+			tasks: [{
+				id: "5DECECF3DF76B647"
+				item: "kubejs:universal_uv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["378C9FA49BCE1085"]
+			id: "69403D329A446641"
+			tasks: [{
+				id: "3077E1DE912CB777"
+				item: "kubejs:universal_uhv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6437B91F88408182"]
+			id: "08E9B543504219AB"
+			tasks: [{
+				id: "2EA9C823CD9CB429"
+				item: "kubejs:universal_uev_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["251131871D033E52"]
+			id: "743CD5EFE03558FA"
+			tasks: [{
+				id: "1C74AFA7E6E1DE76"
+				item: "kubejs:universal_uiv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5E8531EF99AB450B"]
+			id: "0C231A4B294264EC"
+			tasks: [{
+				id: "1D949BBD28405F1A"
+				item: "kubejs:universal_uxv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D88873256067B5A"]
+			id: "390D008FF92E3C52"
+			tasks: [{
+				id: "6B58E316A95F3E9E"
+				item: "kubejs:universal_opv_circuit"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			id: "328FC20512B5DD45"
+			tasks: [{
+				id: "0E267511B10218F6"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "31C99BAAA0EDABC7"
+			tasks: [{
+				id: "7974DEFC53EBC7A6"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "745986BE10081154"
+			tasks: [{
+				id: "79CB371BEBCCD24E"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "6843B1197B8E627C"
+			tasks: [{
+				id: "3575B903AE79121D"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "2817AB596A280C65"
+			tasks: [{
+				id: "52AA812ABD36F14F"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "49BBAA307584F776"
+			tasks: [{
+				id: "1F2CB3DC987909D8"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "0E554DDCC4143B3A"
+			tasks: [{
+				id: "0DADC93EFAF44A51"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "1AD8FD65E5D9459D"
+			tasks: [{
+				id: "37974E6436AF7EFE"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "6E0F5E21AD00F440"
+			tasks: [{
+				id: "79075331767C0058"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "378C9FA49BCE1085"
+			tasks: [{
+				id: "50AAE42FCFAA39B3"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "5451A7641880C7D9"
+			tasks: [{
+				id: "7E0C6FC909D4D16B"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "603EE53933B89D3C"
+			tasks: [{
+				id: "235AF52CCFBF1B8D"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			id: "7E9980F88750D032"
+			tasks: [{
+				id: "1A76EE61D98341E4"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "6437B91F88408182"
+			tasks: [{
+				id: "4A2F50FBB2F4FCF9"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "4AE238E30A32D63C"
+			tasks: [{
+				id: "383618206E4A024E"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			id: "7A77AA3DDB363D1D"
+			tasks: [{
+				id: "30191F4162589F18"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			id: "5B55342F7A29C4AC"
+			tasks: [{
+				id: "54B95C4450EEB37A"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "251131871D033E52"
+			tasks: [{
+				id: "11A46F676DCB4CCA"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			id: "5E8531EF99AB450B"
+			tasks: [{
+				id: "499632DC6E6C7B6E"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			id: "1D88873256067B5A"
+			tasks: [{
+				id: "6270252073299334"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			icon: "minecraft:sand"
+			id: "0A6CCBB6540C5B80"
+			tasks: [{
+				dimension: "sgjourney:abydos"
+				id: "66A2844CC48200F0"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			icon: "minecraft:deepslate"
+			id: "2A5EA96B82987BD1"
+			tasks: [{
+				dimension: "sgjourney:cavum_tenebrae"
+				id: "4B853700DB52FA12"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			icon: "minecraft:grass_block"
+			id: "7284819AAFFE90AD"
+			tasks: [{
+				dimension: "sgjourney:chulak"
+				id: "52104AB8D37632DB"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			icon: "minecraft:moss_block"
+			id: "37DE1B3B9BCAFAC3"
+			tasks: [{
+				dimension: "sgjourney:rima"
+				id: "7DFF13120C7F3407"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			icon: "sgjourney:sulfur_sand"
+			id: "6613F4C0C3068E52"
+			tasks: [{
+				dimension: "sgjourney:unitas"
+				id: "61CFD975ECBD8A65"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+	]
+	title: "Progress Board"
+}

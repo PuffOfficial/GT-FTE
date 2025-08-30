@@ -1,0 +1,27 @@
+ServerEvents.recipes(event => {
+event.recipes.gtceu.gas_collector("gtfte:cavum_tenebrae_air")
+        .dimension("sgjourney:cavum_tenebrae")
+        .outputFluids("gtceu:cavum_tenebrae_air")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.EV]);
+event.recipes.gtceu.gas_collector("gtfte:rima_air")
+        .dimension("sgjourney:rima")
+        .outputFluids("gtceu:rima_air")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.EV]);
+event.recipes.gtceu.gas_collector("gtfte:unitas_air")
+        .dimension("sgjourney:unitas")
+        .outputFluids("gtceu:unitas_air")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.EV]);
+event.recipes.gtceu.gas_collector("gtfte:abydos_air")
+        .dimension("sgjourney:abydos")
+        .outputFluids("gtceu:abydos_air")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.EV]);
+event.recipes.gtceu.gas_collector("gtfte:chulak_air")
+        .dimension("sgjourney:chulak")
+        .outputFluids("gtceu:chulak_air")
+        .duration(200)
+        .EUt(GTValues.VA[GTValues.EV]);
+})

@@ -1,0 +1,3164 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-08-12 15:10:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:ocean": "2025-08-12 15:10:39 +0200"
+    },
+    "done": false
+  },
+  "ae2wtlib:recipes/magnet_card": {
+    "criteria": {
+      "has_wct": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern_access": {
+    "criteria": {
+      "has_wit": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_pattern_encoding": {
+    "criteria": {
+      "has_wpt": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/ce": {
+    "criteria": {
+      "has_wpt": "2025-08-12 15:32:26 +0200",
+      "has_wct": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/ca": {
+    "criteria": {
+      "has_wit": "2025-08-12 15:32:26 +0200",
+      "has_wct": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/upgrade_crafting": {
+    "criteria": {
+      "has_wct": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_universal_terminal/ae": {
+    "criteria": {
+      "has_wit": "2025-08-12 15:32:26 +0200",
+      "has_wpt": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_pattern_access_terminal": {
+    "criteria": {
+      "has_wt": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/quantum_bridge_card": {
+    "criteria": {
+      "has_wit": "2025-08-12 15:32:26 +0200",
+      "has_wpt": "2025-08-12 15:32:26 +0200",
+      "has_wct": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "ae2wtlib:recipes/wireless_pattern_encoding_terminal": {
+    "criteria": {
+      "has_wt": "2025-08-12 15:32:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/worktable": {
+    "criteria": {
+      "has_item": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/lexicon": {
+    "criteria": {
+      "has_alt_item": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/foresters_manual_butterfly": {
+    "criteria": {
+      "has_item": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/foresters_manual_honeydrop": {
+    "criteria": {
+      "has_item": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/foresters_manual_sapling": {
+    "criteria": {
+      "has_item": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/enchanter": {
+    "criteria": {
+      "has_ingredient": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/catalogue": {
+    "criteria": {
+      "has_item": "2025-08-13 12:10:50 +0200"
+    },
+    "done": true
+  },
+  "trashcans:recipes/misc/liquid_trash_can": {
+    "criteria": {
+      "recipe_condition": "2025-08-13 14:35:29 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/basic_fluid_filter": {
+    "criteria": {
+      "has_ingredient": "2025-08-13 14:35:29 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/food/cake_can": {
+    "criteria": {
+      "has_item": "2025-08-13 15:36:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-08-13 16:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-08-13 16:57:55 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:technology/root": {
+    "criteria": {
+      "hold_stargate": "2025-08-13 16:58:08 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/use_stargate": {
+    "criteria": {
+      "used_stargate": "2025-08-13 17:13:44 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/visit_cavum_tenebrae": {
+    "criteria": {
+      "entered_cavum_tenebrae": "2025-08-13 17:13:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/tools/stone_hammer": {
+    "criteria": {
+      "has_item": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_brick_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/stone_gear": {
+    "criteria": {
+      "has_ingredient": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/deepslate_tile_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_deepslate_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobbled_deepslate_wall": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_deepslate_wall_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_deepslate_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobbled_deepslate_stairs": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_bricks_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/deepslate_tiles_from_cobbled_deepslate_stonecutting": {
+    "criteria": {
+      "has_cobbled_deepslate": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2025-08-13 17:20:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-08-13 17:49:36 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/visit_abydos": {
+    "criteria": {
+      "entered_abydos": "2025-08-13 20:05:16 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/visit_unitas": {
+    "criteria": {
+      "entered_unitas": "2025-08-13 20:21:25 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/visit_rima": {
+    "criteria": {
+      "entered_rima": "2025-08-13 20:42:35 +0200"
+    },
+    "done": true
+  },
+  "thaumon:recipes/decorations/greatwood_log_wall": {
+    "criteria": {
+      "has_greatwood_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "woodenbucket:recipes/misc/wooden_bucket": {
+    "criteria": {
+      "has_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "thaumon:recipes/decorations/greatwood_wood": {
+    "criteria": {
+      "has_greatwood_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "thaumon:recipes/decorations/greatwood_log_post": {
+    "criteria": {
+      "has_greatwood_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "thaumon:recipes/decorations/greatwood_planks": {
+    "criteria": {
+      "has_greatwood_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/log_pile": {
+    "criteria": {
+      "has_item": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "thaumon:recipes/decorations/greatwood_button": {
+    "criteria": {
+      "has_greatwood_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/stick": {
+    "criteria": {
+      "has_ingredient": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "thaumon:recipes/decorations/greatwood_pressure_plate": {
+    "criteria": {
+      "has_greatwood_log": "2025-08-14 11:39:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-08-14 14:25:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-08-14 14:25:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-08-14 14:25:49 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/root": {
+    "criteria": {
+      "get_golden_idol": "2025-08-16 19:12:29 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:recipes/misc/archeology_table": {
+    "criteria": {
+      "has_golden_idol": "2025-08-16 19:12:29 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/red_string_container": {
+    "criteria": {
+      "has_base_block": "2025-08-16 19:45:44 +0200"
+    },
+    "done": true
+  },
+  "trashcans:recipes/misc/item_trash_can": {
+    "criteria": {
+      "recipe_condition": "2025-08-16 19:45:44 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/glass_cable": {
+    "criteria": {
+      "certus": "2025-08-19 20:48:30 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_fluix_clean": {
+    "criteria": {
+      "has_glass_cable": "2025-08-19 20:48:30 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_fluix_clean": {
+    "criteria": {
+      "has_covered_dense_cable": "2025-08-19 20:48:30 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_booster": {
+    "criteria": {
+      "has_dusts/ender": "2025-08-19 21:44:22 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/item_conduit": {
+    "criteria": {
+      "has_ingredient": "2025-08-20 08:23:59 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/energy_conduit": {
+    "criteria": {
+      "has_ingredient": "2025-08-20 08:23:59 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/fluid_conduit": {
+    "criteria": {
+      "has_ingredient": "2025-08-20 08:23:59 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/redstone_conduit": {
+    "criteria": {
+      "has_ingredient": "2025-08-20 08:23:59 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/bog_earth_wax_capsule": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/humus_compost": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/compost_ash": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/vanilla_dirt_chest": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/bog_earth_can": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/bog_earth_refractory": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/humus_fertilizer": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/bog_earth_bucket": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/compost_wheat": {
+    "criteria": {
+      "has_item": "2025-08-20 21:53:26 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/engine_clockwork": {
+    "criteria": {
+      "has_item": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/tools/wooden_hammer": {
+    "criteria": {
+      "has_item": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/jungle_sieve": {
+    "criteria": {
+      "has_item": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-08-21 07:51:58 +0200"
+    },
+    "done": true
+  },
+  "trashcans:trash_can": {
+    "criteria": {
+      "has_liquid_trash_can": "2025-08-21 20:52:38 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/manasteel_block_deconstruct": {
+    "criteria": {
+      "has_item": "2025-08-22 07:54:02 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_pickaxe": {
+    "criteria": {
+      "has_certus_quartz": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_sword": {
+    "criteria": {
+      "has_certus_quartz": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_energy_cell": {
+    "criteria": {
+      "has_crystals/certus": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_spade": {
+    "criteria": {
+      "has_certus_quartz": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_hoe": {
+    "criteria": {
+      "has_certus_quartz": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_axe": {
+    "criteria": {
+      "has_certus_quartz": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_wrench": {
+    "criteria": {
+      "has_certus_quartz": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/certus_quartz_cutting_knife": {
+    "criteria": {
+      "has_certus_quartz": "2025-08-22 18:21:50 +0200"
+    },
+    "done": true
+  },
+  "trashcans:recipes/misc/ultimate_trash_can": {
+    "criteria": {
+      "recipe_condition": "2025-08-22 20:45:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-08-24 09:31:22 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/light_detector": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_lavender": {
+    "criteria": {
+      "has_item": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_blaze": {
+    "criteria": {
+      "has_item": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_pickaxe": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_hoe": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_dark": {
+    "criteria": {
+      "has_item": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_red": {
+    "criteria": {
+      "has_item": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/quartz_sunny": {
+    "criteria": {
+      "has_item": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_sword": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_cutting_knife": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_spade": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_wrench": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/nether_quartz_axe": {
+    "criteria": {
+      "has_nether_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-08-24 14:22:46 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/muffled_upgrade": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/underwater_upgrade": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/thruster_upgrade": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/engine_upgrade_smithing": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/muffled_upgrade_smithing": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/underwater_upgrade_smithing": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/shock_absorber_upgrade": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/engine_upgrade": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/thruster_upgrade_smithing": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "jetboots:recipes/misc/shock_absorber_upgrade_smithing": {
+    "criteria": {
+      "has_jetboots": "2025-08-24 14:31:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2025-08-24 18:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2025-08-24 18:05:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-08-24 18:05:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-08-24 18:05:21 +0200"
+    },
+    "done": true
+  },
+  "rootsclassic:recipes/misc/runic_tablet": {
+    "criteria": {
+      "has_old_root": "2025-08-24 18:05:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/bottler": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/rainmaker": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_gourd_managed": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/gold_to_diamond_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/centrifuge": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/diamond_to_obsidian_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_crops_managed": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_ender_managed": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/fermenter": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/moistener": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/fabricator": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/diamond_crystal_chest": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/raintank": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/alveary_hygro": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/still": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/butterfly_chest": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/diamond_to_crystal_chest_upgrade": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/peat_bog_managed": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/bee_chest": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/squeezer": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_mushroom_managed": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/arboretum_managed": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_nether_managed": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/carpenter": {
+    "criteria": {
+      "has_item": "2025-08-25 08:33:27 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/iron_mesh": {
+    "criteria": {
+      "has_item": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/wood_to_iron_chest_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/copper_iron_chest": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/fluid_tank": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/iron_mesh_from_flint_mesh": {
+    "criteria": {
+      "has_item": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lantern": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/copper_to_iron_chest_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/vanilla_iron_chest": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chain": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smithing_table": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/iron_to_gold_chest_upgrade": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/pressurized_fluid_tank": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/tools/iron_hammer": {
+    "criteria": {
+      "has_item": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-08-25 08:49:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-08-25 09:24:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2025-08-25 09:25:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-25 09:25:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-08-25 09:25:15 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_quartz_lines": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_mossy_stone_brick": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/gear_copper": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/upgrades/wood_to_copper_chest_upgrade": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_brick_nether": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/stamp_2n": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_cut_sandstone": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crank": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_quartz": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_cracked_stone_brick": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_brick_chiseled": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/vanilla_copper_chest": {
+    "criteria": {
+      "has_copper_ingot": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_stone_brick": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/engine_peat": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_brick": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_quartz_chiseled": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/farm_plain_sandstone_chiseled": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2025-08-25 09:42:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/fluid_cell_housing": {
+    "criteria": {
+      "has_dusts/redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_fluix": {
+    "criteria": {
+      "has_dusts/redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_cell_housing": {
+    "criteria": {
+      "has_dusts/redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/redstone_root": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_fluix": {
+    "criteria": {
+      "has_dusts/redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/climate_control_module": {
+    "criteria": {
+      "has_item": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "trashcans:recipes/misc/energy_trash_can": {
+    "criteria": {
+      "recipe_condition": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-08-25 09:42:16 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/tree_chest": {
+    "criteria": {
+      "has_item": "2025-08-25 10:59:31 +0200"
+    },
+    "done": true
+  },
+  "rootsclassic:recipes/tools/bark_knife": {
+    "criteria": {
+      "has_sapling": "2025-08-25 10:59:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-08-25 11:02:36 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/dark_oak_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/willow_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/acacia_desert_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/citrus_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/padauk_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/poplar_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/balsa_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahogany_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/baobab_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/teak_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/frame_untreated": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/chestnut_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahogany_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/hill_cherry_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/sequoia_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/cocobolo_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/walnut_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/citrus_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/balsa_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahogany_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ipe_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/baobab_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/oak_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/cocobolo_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/walnut_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/cocobolo_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahoe_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/acacia_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/larch_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/maple_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/poplar_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/acacia_desert_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/poplar_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/wenge_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/balsa_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/lime_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/jungle_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/plum_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ipe_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahoe_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/wood_gear_corner": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/willow_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/pine_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/palm_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/jungle_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/tools/crook": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/greenheart_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahoe_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/plum_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/maple_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/hill_cherry_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/acacia_desert_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/dark_oak_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/zebrawood_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/maple_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/cocobolo_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/baobab_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahogany_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/sequoia_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ipe_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/padauk_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/mahoe_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/walnut_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/larch_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/cherry_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/zebrawood_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/papaya_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/wenge_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/kapok_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/papaya_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/spruce_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/maple_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/cherry_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ipe_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/chestnut_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/padauk_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/padauk_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/papaya_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/lime_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/willow_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/teak_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/zebrawood_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/wood_gear": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/palm_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/larch_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/balsa_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/pine_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/birch_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/giganteum_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ebony_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/citrus_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/palm_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/zebrawood_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/poplar_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/birch_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/walnut_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/papaya_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/giganteum_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ebony_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/plum_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/greenheart_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/giganteum_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/chestnut_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/sequoia_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/sequoia_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/kapok_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/wenge_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/teak_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/greenheart_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/baobab_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ebony_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/hill_cherry_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/plum_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/acacia_desert_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/acacia_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/chestnut_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/lime_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/giganteum_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/ebony_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/willow_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/kapok_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/greenheart_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/tools/scoop": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/citrus_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/kapok_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/palm_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/lime_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/spruce_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/pine_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/oak_compressed_sieve": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/wenge_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/teak_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/larch_fireproof_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/pine_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/hill_cherry_fence_gate": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/building_blocks/oak_fireproof_fence": {
+    "criteria": {
+      "has_item": "2025-08-25 13:59:05 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/spruce_compressed_sieve": {
+    "criteria": {
+      "has_item": "2025-08-25 14:04:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-08-25 14:04:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-08-25 14:04:21 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_classic_stargate_block": {
+    "criteria": {
+      "got_classic_stargate_block": "2025-08-25 14:53:12 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:technology/obtain_pda": {
+    "criteria": {
+      "got_pda": "2025-08-25 16:00:52 +0200"
+    },
+    "done": true
+  },
+  "botania:main/tiny_potato_pet": {
+    "criteria": {
+      "code_triggered": "2025-08-25 16:06:28 +0200"
+    },
+    "done": true
+  },
+  "sgjourney:adventure/visit_chulak": {
+    "criteria": {
+      "entered_chulak": "2025-08-25 16:15:06 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/void_chassis": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 16:33:34 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/iron_gear": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 16:33:34 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/primitive_alloy_smelter": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 16:33:34 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/basic_capacitor": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 16:33:34 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/infinity_rod": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 16:33:34 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/reinforced_obsidian_block": {
+    "criteria": {
+      "has_ingredient": "2025-08-25 16:33:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-08-27 17:46:14 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/tools/bone_crook": {
+    "criteria": {
+      "has_item": "2025-08-27 17:46:14 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/stamp_5n": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/tools/smoker": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/mailbox": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/blank_gene_sample": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/upgrade_frame": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/ingot_bronze_alloying": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/can": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/gear_tin": {
+    "criteria": {
+      "has_item": "2025-08-28 07:46:20 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/engine_biogas": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/tools/bronze_shovel": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/genetic_transposer": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/mutatron": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/tools/grafter": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/tools/wrench": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/tools/bronze_pickaxe": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/sturdy_machine": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/gear_bronze": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/tools/naturalist_helmet": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/receptacle": {
+    "criteria": {
+      "has_item": "2025-08-28 18:21:06 +0200"
+    },
+    "done": true
+  },
+  "avaritia:infinity/infinity_armor": {
+    "criteria": {
+      "main": "2025-08-29 07:58:54 +0200"
+    },
+    "done": true
+  },
+  "avaritia:infinity/infinity_sword": {
+    "criteria": {
+      "main": "2025-08-29 07:59:10 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_helmet": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_sword": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_bow": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_chestplate": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/misc/infinity_nugget": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_axe": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_pickaxe": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:infinity/infinity_ingot": {
+    "criteria": {
+      "main": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_pants": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_hoe": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/skull_fire_sword": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_boots": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_shovel": {
+    "criteria": {
+      "has_item": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/infinity": {
+    "criteria": {
+      "has_infinity_ingot": "2025-08-29 07:59:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/neutron_nugget": {
+    "criteria": {
+      "has_neutron_ingot": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_ingot": {
+    "criteria": {
+      "has_item": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/misc/infinity_catalyst": {
+    "criteria": {
+      "has_item": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "avaritia:main/neutron_ingot": {
+    "criteria": {
+      "main": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/neutron_compressor": {
+    "criteria": {
+      "has_item": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/misc/neutron_gear": {
+    "criteria": {
+      "has_item": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/neutron": {
+    "criteria": {
+      "has_neutron_ingot": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/endest_pearl": {
+    "criteria": {
+      "has_item": "2025-08-29 08:00:24 +0200"
+    },
+    "done": true
+  },
+  "avaritia:main/endest_pearl": {
+    "criteria": {
+      "main": "2025-08-29 08:30:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/infinity_ingot": {
+    "criteria": {
+      "has_infinity": "2025-08-29 09:12:59 +0200"
+    },
+    "done": true
+  },
+  "avaritia:infinity/matter_cluster": {
+    "criteria": {
+      "main": "2025-08-29 09:13:22 +0200"
+    },
+    "done": true
+  },
+  "avaritia:infinity/infinity_pickaxe": {
+    "criteria": {
+      "main": "2025-08-29 09:13:26 +0200"
+    },
+    "done": true
+  },
+  "avaritia:singularity/infinity_catalyst": {
+    "criteria": {
+      "main": "2025-08-29 09:53:19 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/misc/star_fuel": {
+    "criteria": {
+      "has_item": "2025-08-29 09:53:19 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/neutron_collector": {
+    "criteria": {
+      "has_item": "2025-08-29 09:53:19 +0200"
+    },
+    "done": true
+  },
+  "avaritia:main/singularity": {
+    "criteria": {
+      "main": "2025-08-29 10:42:08 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/misc/eternal_singularity": {
+    "criteria": {
+      "has_item": "2025-08-29 10:42:08 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/misc/infinity_catalyst_eternal": {
+    "criteria": {
+      "has_item": "2025-08-29 10:42:09 +0200"
+    },
+    "done": true
+  },
+  "avaritia:main/root": {
+    "criteria": {
+      "main": "2025-08-29 12:36:03 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/misc/crystal_matrix_ingot": {
+    "criteria": {
+      "has_item": "2025-08-29 12:36:03 +0200"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/entity_filter": {
+    "criteria": {
+      "has_ingredient": "2025-08-29 16:16:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-08-29 16:16:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2025-08-29 16:16:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/neutron_ingot_from_neutron_block": {
+    "criteria": {
+      "has_neutron": "2025-08-29 16:16:39 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/diamond_mesh_from_golden_mesh": {
+    "criteria": {
+      "has_item": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "rootsclassic:recipes/misc/attuned_standing_stone": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/misc/diamond_mesh": {
+    "criteria": {
+      "has_item": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "forestry:recipes/misc/stamp_20n": {
+    "criteria": {
+      "has_item": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/environmental_processor": {
+    "criteria": {
+      "has_item": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "ironchest:recipes/decorations/chests/gold_diamond_chest": {
+    "criteria": {
+      "has_diamonds": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "gendustry:recipes/misc/genetics_processor": {
+    "criteria": {
+      "has_item": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "exdeorum:recipes/tools/diamond_hammer": {
+    "criteria": {
+      "has_item": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-08-29 17:47:16 +0200"
+    },
+    "done": true
+  },
+  "avaritia:recipes/tools/infinity_bucket": {
+    "criteria": {
+      "has_item": "2025-08-29 17:52:02 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

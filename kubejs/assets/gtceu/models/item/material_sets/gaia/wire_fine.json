@@ -1,0 +1,8 @@
+{
+    "parent":"item/generated",
+    "textures": {
+      "layer0":"gtceu:item/material_sets/gaia/wire_fine",
+      "layer1":"gtceu:block/material_sets/gaia/block_secondary",
+      "layer2":"gtceu:item/material_sets/dull/wire_fine_overlay"
+    }
+  }

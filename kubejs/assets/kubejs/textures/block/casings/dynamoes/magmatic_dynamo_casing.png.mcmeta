@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/magmatic_dynamo_ctm"
+    }
+}

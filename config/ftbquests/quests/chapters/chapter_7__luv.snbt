@@ -1,0 +1,868 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_7__luv"
+	group: ""
+	icon: "kubejs:universal_luv_circuit"
+	id: "1E533AA43C729C94"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/voltage/luv/bottom"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DED8C385C0AB146"]
+			id: "1070C7B62A4BD14A"
+			size: 1.25d
+			subtitle: "You LuV GregTech (Atleast i hope you do)"
+			tasks: [{
+				id: "6A306D855B068610"
+				title: "Start Questline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1070C7B62A4BD14A"]
+			id: "2079AEDE63F03E70"
+			rewards: [{
+				id: "61A7420E5AAEEA95"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10063E3DC9F2504D"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2079AEDE63F03E70"
+				"017D138919C55CC3"
+				"212AF32F93D5D3F7"
+			]
+			id: "58B2DE474E0E06B3"
+			rewards: [{
+				id: "0D46215E1164A432"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CEF4D4ACB1E36C1"
+				item: "gtceu:luv_electric_motor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"58B2DE474E0E06B3"
+				"017D138919C55CC3"
+				"212AF32F93D5D3F7"
+			]
+			id: "5FB15480138C5D78"
+			rewards: [{
+				id: "1FD9F15605F81406"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "652BC705E3524B81"
+				item: "gtceu:luv_conveyor_module"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"2079AEDE63F03E70"
+				"017D138919C55CC3"
+				"212AF32F93D5D3F7"
+			]
+			id: "252058D0317CAE30"
+			rewards: [{
+				id: "035E793D109B778A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22CA2B1F596FB688"
+				item: "gtceu:luv_sensor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2079AEDE63F03E70"
+				"017D138919C55CC3"
+				"212AF32F93D5D3F7"
+			]
+			id: "1DFB498529CE242C"
+			rewards: [{
+				id: "75D05D6C1DBC7596"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63E8103F83E8A42B"
+				item: "gtceu:luv_emitter"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2079AEDE63F03E70"
+				"017D138919C55CC3"
+				"212AF32F93D5D3F7"
+			]
+			id: "64469E4602BA22B9"
+			rewards: [{
+				id: "52D3267E23E076C6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F3BF5298E84A969"
+				item: "gtceu:luv_field_generator"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"58B2DE474E0E06B3"
+				"017D138919C55CC3"
+				"212AF32F93D5D3F7"
+			]
+			id: "382EDCC638ACD24F"
+			rewards: [{
+				id: "038335BB59F46AEA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BF77FE237E96679"
+				item: "gtceu:luv_electric_piston"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"382EDCC638ACD24F"
+				"017D138919C55CC3"
+				"212AF32F93D5D3F7"
+			]
+			id: "67EE79A83DBDBCD4"
+			rewards: [{
+				id: "51B739D3D544F0EA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EF9D07CC741A0DC"
+				item: "gtceu:luv_robot_arm"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2079AEDE63F03E70"]
+			id: "30BEDB6D70A1EE70"
+			rewards: [{
+				id: "5DD301BB487C414A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7253C6B228F4B8E9"
+				item: "gtceu:iv_scanner"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30BEDB6D70A1EE70"]
+			hide_dependent_lines: true
+			id: "017D138919C55CC3"
+			rewards: [{
+				id: "4D53F7836F9D786B"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B1D99B0B9DF3654"
+				item: {
+					Count: 1
+					id: "gtceu:data_stick"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1070C7B62A4BD14A"]
+			id: "730E225BAC071FC4"
+			rewards: [{
+				id: "683C93725F1F86C2"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "09D8728777414C99"
+				item: "gtceu:aspect_collector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["730E225BAC071FC4"]
+			description: [
+				"Aspect system is inspired by Thaumcraft mod made for older versions of Minecraft "
+				"&8&o(And currently developed by team CoFH for modern minecraft)&r&r"
+				"This system works just like chemistry!"
+			]
+			id: "0E39A6946808A737"
+			rewards: [
+				{
+					id: "64E140493B3C6220"
+					item: "gtceu:crystallized_ordo_gem"
+					type: "item"
+				}
+				{
+					id: "139260AF6E407D91"
+					item: "gtceu:crystallized_aer_gem"
+					type: "item"
+				}
+				{
+					id: "62CA0589001B3020"
+					item: "gtceu:crystallized_terra_gem"
+					type: "item"
+				}
+				{
+					id: "71F17B60B39BBDDB"
+					item: "gtceu:crystallized_ignis_gem"
+					type: "item"
+				}
+				{
+					id: "2694B7A6CE2774AC"
+					item: "gtceu:crystallized_aqua_gem"
+					type: "item"
+				}
+				{
+					id: "2ABC6997C04A39C3"
+					item: "gtceu:crystallized_perditio_gem"
+					type: "item"
+				}
+				{
+					id: "6FEA23FD912F8B30"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "342095927955B8A3"
+				type: "checkmark"
+			}]
+			title: "Basic Aspects"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1070C7B62A4BD14A"]
+			id: "7654D71BC20B336A"
+			rewards: [{
+				id: "2FB78B6636D12CD8"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "682240040EFEAF0C"
+				item: "gtceu:titanium_noctium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7654D71BC20B336A"]
+			description: [
+				"First machine with our, own logic! Every recipe requires certain temperature as EBF does."
+				"BUT! They also have temperature limit! That means if temperature is above the limit - Machine won't works"
+			]
+			id: "52BDC3DA495B2C31"
+			rewards: [{
+				id: "14AD7C74F366AF4C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "\"Blup, blup, blup\" - Crucible"
+			tasks: [{
+				id: "10F4978DAFC071A5"
+				item: "gtceu:alchemical_crucible"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"0E39A6946808A737"
+				"52BDC3DA495B2C31"
+			]
+			hide_dependent_lines: true
+			id: "212AF32F93D5D3F7"
+			rewards: [{
+				id: "7937940A55CBB8E2"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "185FD4C2A905D5B7"
+				item: "gtceu:thaumium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1070C7B62A4BD14A"]
+			id: "6B2A39BC8E6FD712"
+			rewards: [{
+				id: "1ADE26F577865EE1"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23EF7E6C58F5DCCB"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["52BDC3DA495B2C31"]
+			description: ["Cool, isn't it?"]
+			id: "751CCA9196F0670D"
+			rewards: [{
+				id: "7C4C2E389C9C6B51"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "FISSION!"
+			tasks: [{
+				id: "65C2FE6C3C47E1DC"
+				item: "gtceu:fission_reactor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["751CCA9196F0670D"]
+			id: "7CA1C9BB087430CA"
+			rewards: [{
+				id: "43DAEB5DD656A634"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55456E580A8F8501"
+				item: "gtceu:plutonium_241_fuel_rod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["751CCA9196F0670D"]
+			id: "108D189C132B3069"
+			rewards: [{
+				id: "1019B0930652096F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F3F367A5BF42345"
+				item: "gtceu:celestite_fuel_rod"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1070C7B62A4BD14A"]
+			id: "290655905B58D685"
+			rewards: [{
+				id: "471787B0A487613A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "05474DC93D085C4A"
+				item: "gtceu:beryllium_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1070C7B62A4BD14A"]
+			id: "36609591FF0E5C3B"
+			rewards: [{
+				id: "4D1B8A9B3920008E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19FF6D5649B18E1B"
+				item: "gtceu:bismuth_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"36609591FF0E5C3B"
+				"290655905B58D685"
+			]
+			id: "26481099250E25A8"
+			rewards: [{
+				id: "5C2E3B209EEE5C3A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68551E727C30A768"
+				item: "gtceu:irradiation_chamber"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26481099250E25A8"]
+			id: "4E5245E343DAFD64"
+			rewards: [{
+				id: "3B99F451E672C894"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B738150C042BB75"
+				item: "gtceu:beryllium_4_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["26481099250E25A8"]
+			id: "495584F4C67C063C"
+			rewards: [{
+				id: "62E90D470BA53B5E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F032BCB8E89EC64"
+				item: "gtceu:bismuth_210_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["495584F4C67C063C"]
+			id: "70C2D0A4821E3E69"
+			rewards: [{
+				id: "7EB0C9D6C32A9B46"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39FE254305BA9CBB"
+				item: "gtceu:bismuth_210_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70C2D0A4821E3E69"]
+			id: "01166AD90F9E7248"
+			rewards: [{
+				id: "0A98B0FCD30B964C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B0E0CE101ACC97C"
+				item: "gtceu:decay_chamber"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["01166AD90F9E7248"]
+			id: "3F3E27F8ABA79B0B"
+			rewards: [{
+				id: "121558D0E9395D1A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "112125FB73934048"
+				item: "gtceu:polonium_210_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F3E27F8ABA79B0B"]
+			id: "6881B1712881FBB4"
+			rewards: [{
+				id: "638B68077865B499"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "618FD8DC42082F24"
+				item: "gtceu:polonium_210_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1DB0193B65853745"]
+			id: "6B50E46038CF0BA7"
+			rewards: [{
+				id: "2D7176287BA8461D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1326A30C09045BCD"
+				item: "gtceu:uranium_235_fuel_rod"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"6881B1712881FBB4"
+				"6B50E46038CF0BA7"
+				"751CCA9196F0670D"
+			]
+			id: "4BA23612F51E23D9"
+			rewards: [{
+				id: "4EB35935A8DB35B7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0824693FF11EC68C"
+				item: "gtceu:uranium_236_fuel_rod"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6881B1712881FBB4"]
+			id: "659FB68A1EC5ED7A"
+			rewards: [{
+				id: "5F855E8C7D8D2A41"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "177590DFC63CB17A"
+				item: "gtceu:polonium_dust"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["382E4D5425BEF3CA"]
+			id: "0B71DBA9EEB610D8"
+			rewards: [{
+				id: "6BAD3A517345072E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "300BBF4DDBA2D6B5"
+				item: "gtceu:enriched_uranium_hexafluoride_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"769D690E2E850284"
+				"4D4441B4394DA6F6"
+			]
+			id: "382E4D5425BEF3CA"
+			rewards: [{
+				id: "6D177BA4F0C22DD3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4917EF1641040E91"
+				item: "gtceu:uranium_hexafluoride_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1070C7B62A4BD14A"]
+			id: "769D690E2E850284"
+			rewards: [{
+				id: "7206E952B96727D0"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CCBDD4DF2EB448D"
+				item: "gtceu:uraninite_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "4D4441B4394DA6F6"
+			rewards: [{
+				id: "61EABFAE98D40F61"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75EB3A598FCAA0D1"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0B71DBA9EEB610D8"]
+			id: "1DB0193B65853745"
+			rewards: [{
+				id: "3E6EDAF7DFE9B3C9"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D5FC21E1D3DBC83"
+				item: "gtceu:uranium_235_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["382E4D5425BEF3CA"]
+			id: "5873C054A09C6469"
+			rewards: [{
+				id: "0092E3E6E304A81A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1381A0B0E191D708"
+				item: "gtceu:depleted_uranium_hexafluoride_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5873C054A09C6469"]
+			id: "2D549039FF0122D6"
+			rewards: [{
+				id: "7B14B74005911B80"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16120DD03D1C4B0F"
+				item: "gtceu:uranium_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4BA23612F51E23D9"]
+			id: "6BD8D17D9A2F4762"
+			rewards: [{
+				id: "58A8D65A78D07CF9"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "767EA2080BC4B789"
+				item: "gtceu:uranium_236_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6BD8D17D9A2F4762"]
+			id: "4CBB26DE40261010"
+			rewards: [{
+				id: "1AF399B666D02469"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AB8A05C352640C1"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4CBB26DE40261010"]
+			id: "1B2D017D30DD8B36"
+			rewards: [{
+				id: "5FFC007C0BBEEEBF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "23EB6585D7CFDA86"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1B2D017D30DD8B36"]
+			id: "573095E34ACE3D80"
+			rewards: [{
+				id: "4695E507B95120EE"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60575FD3D61B7503"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["573095E34ACE3D80"]
+			id: "7BC987DC56492A03"
+			rewards: [{
+				id: "7F64CEE5A6FA139F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29F2DF5562B879CB"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7BC987DC56492A03"]
+			id: "40CE0F5F9F40386E"
+			rewards: [{
+				id: "0F33108738BF9EFA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "43EFE50399897552"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["40CE0F5F9F40386E"]
+			id: "43BC0088B32BBA36"
+			rewards: [{
+				id: "23292C1256BA7FB1"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "710853F1177CF64D"
+				item: "gtceu:luv_circuit_assembler"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2079AEDE63F03E70"]
+			description: ["You could buy them btw"]
+			id: "57C848991FEA804C"
+			optional: true
+			subtitle: "Creative Flight"
+			tasks: [{
+				id: "6A06B2EAC9408C2D"
+				item: {
+					Count: 1
+					id: "jetboots:jetboots"
+					tag: {
+						energy: 0
+						max_energy: 1000000
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["The Power Of Atom"]
+	title: "Chapter 7 | LuV"
+}

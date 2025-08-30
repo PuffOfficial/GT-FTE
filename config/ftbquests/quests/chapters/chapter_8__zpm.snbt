@@ -1,0 +1,115 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_8__zpm"
+	group: ""
+	icon: "kubejs:universal_zpm_circuit"
+	id: "2C26E7F5B92EE51E"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/voltage/zpm/bottom"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40CE0F5F9F40386E"]
+			id: "3CE8DE09CF6B1DD7"
+			tasks: [{
+				id: "4B6DB21EEE4BF4A8"
+				title: "Start Questline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CE8DE09CF6B1DD7"]
+			description: ["Get ready to make processing line for it"]
+			id: "1ECCCECBE241A6B2"
+			tasks: [{
+				id: "70A1588D588DF878"
+				item: "gtceu:raw_naquadah"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CE8DE09CF6B1DD7"]
+			id: "7EB1C6FE21C73AF4"
+			tasks: [{
+				id: "6CFA09CD373895D2"
+				item: "gtceu:luv_chemical_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EB1C6FE21C73AF4"]
+			id: "6006FBD9134A213A"
+			tasks: [{
+				id: "757C99F4CBB03C70"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6006FBD9134A213A"]
+			id: "07943D376BEF96C5"
+			tasks: [{
+				id: "214AE732D0B3350F"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34200949BA7F72DC"]
+			id: "03AA099719DF13E8"
+			tasks: [{
+				id: "655C4DD068C449CE"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ECCCECBE241A6B2"]
+			id: "34200949BA7F72DC"
+			tasks: [{
+				id: "219AD6293F975AEC"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07943D376BEF96C5"]
+			id: "7526A264778255DD"
+			subtitle: "Expensive, isn't it?"
+			tasks: [{
+				id: "1BD0FBADF99E6F91"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+	]
+	subtitle: [
+		"Fusing Unfuseable"
+		"In Development"
+	]
+	title: "Chapter 8 | ZPM"
+}

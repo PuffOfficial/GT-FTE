@@ -1,0 +1,1186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5__ev"
+	group: ""
+	icon: "kubejs:universal_ev_circuit"
+	id: "6C67AEF67B9305B7"
+	images: [
+		{
+			height: 2.0d
+			image: "gtceu:block/casings/voltage/ev/bottom"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 4.0d
+			image: "sgjourney:item/classic_stargate"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			color: 1973790
+			height: 4.0d
+			image: "sgjourney:item/classic_stargate"
+			rotation: 0.0d
+			width: 4.0d
+			x: 8.6d
+			y: 0.1d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3480AC8317E8A5F5"]
+			id: "53E7621A1D34622C"
+			rewards: [{
+				id: "5E02E196581EAD06"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "gtfte:titanium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "EV"
+			tasks: [{
+				id: "6063C9A1D3EE6183"
+				title: "Start Questline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			id: "0D2DAA87B43ABEB7"
+			rewards: [{
+				id: "73B8A9AA3AA3C7EA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E20E26A75187A22"
+				item: "gtceu:platinum_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D2DAA87B43ABEB7"]
+			id: "7FC05F937902F546"
+			rewards: [{
+				id: "0B239A22A1A185B3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "761601775D04BB6A"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			id: "7A97EE012828C308"
+			rewards: [{
+				id: "42CD88D47E6EF2FC"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A54B3437F53E098"
+				item: "gtceu:tantalum_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A97EE012828C308"]
+			id: "41C8D622BB1188AE"
+			rewards: [{
+				id: "58BCCCA2D1B2B64F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D5BE8C7AE6A1D58"
+				item: "gtceu:smd_transistor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7A97EE012828C308"]
+			id: "4C92565C4159C700"
+			rewards: [{
+				id: "2BA7E7AE8F00DD66"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D0CDE20F5C80614"
+				item: "gtceu:smd_resistor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			id: "192D8FBBA5B6B6D6"
+			rewards: [{
+				id: "02A9D2A1F1165C7B"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3514781923B60296"
+				item: "gtceu:polyvinyl_chloride_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["192D8FBBA5B6B6D6"]
+			description: ["Why polyvinyl chloride? It is much more efficient to use"]
+			id: "79220E852A869E13"
+			rewards: [{
+				id: "77402842F14D4AC5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DC98A84F9E682DB"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			description: [
+				"As you know, you don't have access to petrochem, so, you are going to make styrene out of coal gas!"
+				""
+				"Don't worry, you will get access to it in this chapter"
+			]
+			id: "53344E0A07CC8002"
+			rewards: [{
+				id: "3C9C6BCBFD609B59"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Why?"
+			tasks: [{
+				id: "52DE56F457DF6A8A"
+				item: "gtceu:pyrolyse_oven"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53344E0A07CC8002"]
+			id: "6FD044E808DA676B"
+			rewards: [{
+				id: "661FB1F4075A7BD3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F65A04352C67981"
+				item: "gtceu:wood_tar_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53344E0A07CC8002"]
+			id: "0A1FF749436D6FCB"
+			rewards: [{
+				id: "00F4A5414CF78AD5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E62A6AB5B37D334"
+				item: "gtceu:coal_gas_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A1FF749436D6FCB"]
+			id: "261007F0A6AB7A77"
+			rewards: [{
+				id: "00F26582B6B40FC8"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A0D7496724437E2"
+				item: "gtceu:ethylbenzene_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6FD044E808DA676B"]
+			id: "2C682999A6EF43D1"
+			rewards: [{
+				id: "21400AE750968343"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CEB844F6780C585"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			id: "5B666EE841D0ED23"
+			rewards: [{
+				id: "08DD5D00D3367CD5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4701D1390186F2FF"
+					item: "gtceu:vanadium_pentoxide_dust"
+					type: "item"
+				}
+				{
+					id: "187C5ED5E19F3BDE"
+					item: "gtceu:molybdenum_trioxide_dust"
+					type: "item"
+				}
+			]
+			title: "Maleic Anhydride catalysts"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5B666EE841D0ED23"
+				"2C682999A6EF43D1"
+			]
+			id: "6ED16DBC2D044B16"
+			rewards: [{
+				id: "3701D8DB8E07ABD6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A8913FDE01FCDA0"
+				item: "gtceu:maleic_anhydride_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6ED16DBC2D044B16"]
+			id: "742799E189AC22D5"
+			rewards: [{
+				id: "51B4BD52D399D344"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5848CE96B7EE4489"
+				item: "gtceu:acetaldehyde_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"742799E189AC22D5"
+				"4867BEB512641580"
+			]
+			id: "53699EC0418DD19F"
+			rewards: [{
+				id: "6E021CD764650D4A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E2F0FF8A99819C2"
+				item: "gtceu:butadiene_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["261007F0A6AB7A77"]
+			id: "114DCF08438BF5E3"
+			rewards: [{
+				id: "2190F80DE67A0A45"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ACB17265A305823"
+				item: "gtceu:styrene_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"53699EC0418DD19F"
+				"114DCF08438BF5E3"
+			]
+			hide_dependent_lines: true
+			id: "46BC27293D895D54"
+			rewards: [{
+				id: "2D7A9533D319DF66"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Cool rubber"
+			tasks: [{
+				id: "69090863FD1624FC"
+				item: "gtceu:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2EC2D709ED7B523C"]
+			hide_dependency_lines: false
+			id: "2E41096492A10A81"
+			rewards: [{
+				id: "0898DA69B50F4357"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DF514D366FE7EC8"
+				item: "gtceu:fluorite_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2E41096492A10A81"]
+			id: "54393E80B6B64B1D"
+			rewards: [{
+				id: "69E1FE5B44123331"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4569F0EDF84BF8ED"
+				item: "gtceu:hydrofluoric_acid_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["550B70F366D1DD75"]
+			id: "6755859B31A774DF"
+			rewards: [{
+				id: "7D37B53A158707CC"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5107D8973DA6B3F0"
+				item: "gtceu:chloroform_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"54393E80B6B64B1D"
+				"6755859B31A774DF"
+			]
+			id: "37A0BCBAA01A3D94"
+			rewards: [{
+				id: "6B239F2DD8CF1C0E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "769B5CDEB01A809D"
+				item: "gtceu:tetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["37A0BCBAA01A3D94"]
+			description: ["Congrats! Polytetrafluoroethylene (Aka PTFE/Teflon)"]
+			id: "2B9EC00FD667786D"
+			rewards: [{
+				id: "00FD23D0FDE725F7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04CD4F5CCC22C089"
+				item: "gtceu:polytetrafluoroethylene_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B9EC00FD667786D"]
+			id: "4867BEB512641580"
+			rewards: [{
+				id: "065E01AAB8F80D0C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01A92903F61238B1"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["79220E852A869E13"]
+			description: ["Yes, it is IV circuit, but please, make quests below it before going to it!"]
+			id: "3C77E5AB51BB570B"
+			rewards: [{
+				id: "54B7891DAD4D2334"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "IV...?"
+			tasks: [{
+				id: "6C29029A4D233BB8"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1BBD2F9BF332F558"]
+			id: "73C1708A01BF63F4"
+			rewards: [{
+				id: "44AA47D8A08CB960"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61C7038A2EFAB7FE"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"73C1708A01BF63F4"
+				"62B7F5F18242C00F"
+			]
+			hide_dependent_lines: true
+			id: "20B3D7D7672CD9C1"
+			rewards: [{
+				id: "74AFB0CD6024CD94"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "621B8F6CA3C11438"
+				item: "gtceu:stargate_alloy_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BBD2F9BF332F558"]
+			id: "62B7F5F18242C00F"
+			rewards: [{
+				id: "23A924A04CFF9BA3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3E7E5A49F008FBE0"
+				item: { Count: 16, id: "gtceu:nichrome_coil_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7D0766AFFB500CCC"
+				"6EA73A265956C2AF"
+			]
+			hide_dependent_lines: true
+			id: "3CDC92FFE95AF80E"
+			rewards: [{
+				id: "556768294E192490"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BD02565A6928F02"
+				item: "gtceu:terrasteel_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C77E5AB51BB570B"]
+			description: [
+				"Why won't we use normal terrestrial plates? I don't know, P-Corp disabled them for &osome&r reason"
+				""
+				"&8P.S. They were totally not bugged&r"
+			]
+			id: "7D0766AFFB500CCC"
+			rewards: [{
+				id: "59138979C73EAEA6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "2E9F94D30C0B7331"
+					item: "gtceu:terrestrial"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "6252D5C089DEB943"
+					item: { Count: 36, id: "gtceu:tempered_glass" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "6A7510498423737A"
+					item: { Count: 20, id: "gtceu:manasteel_frame" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1AECF93D8C360B49"
+					item: { Count: 6, id: "gtceu:stainless_steel_gearbox" }
+					type: "item"
+				}
+				{
+					id: "0F2B955F933FC364"
+					item: "kubejs:manasteel_coil"
+					type: "item"
+				}
+				{
+					id: "48C10C87B8770042"
+					item: "kubejs:hv_mana_amplifier"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			description: [
+				"Congrats, from now on - You have access to &0petrochem&r!"
+				""
+				"You can drill oil in Cavum Tenebrae Dimension"
+				""
+				"What do you mean you don't know the code? Just check the informational desk!"
+				""
+				"Alsooo, cavum tenebrae has a bit of an issue with &ogravity&r"
+			]
+			icon: "gtceu:oil_bucket"
+			id: "0855FD13DDB6FB26"
+			rewards: [{
+				id: "2317D236A8D1ABF1"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24AE48024B8E7C69"
+				title: "PETROCHEM!!!!!"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			id: "2EC2D709ED7B523C"
+			rewards: [{
+				id: "6DCF694CD47D6546"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3647FDC054D43E13"
+				item: "gtceu:sluice"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EC2D709ED7B523C"]
+			id: "36ADC656979F37CF"
+			rewards: [{
+				id: "0EC5E0961E9FD517"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EB1367489574178"
+				item: "gtceu:phosphorus_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36ADC656979F37CF"]
+			id: "64274F8F54EE8894"
+			rewards: [{
+				id: "4DFF5AB5BD66AC80"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F84AFB04F05E414"
+				item: "gtceu:phosphorus_boule"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6603C309FF8A52F1"]
+			description: ["EV ENERGY HATCH!!!"]
+			hide_dependent_lines: true
+			id: "6EA73A265956C2AF"
+			rewards: [{
+				id: "48BBDC4ED50C112A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "2DD1AF89B852EA8A"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			id: "1BBD2F9BF332F558"
+			rewards: [{
+				id: "30D7103C574F010E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A23078FA0BC64B"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53E7621A1D34622C"]
+			id: "17219F5B1213CE5F"
+			rewards: [{
+				id: "24A74F4CA7C3E0B8"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AC4885FD1931D9D"
+				item: "gtceu:natural_gas_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["17219F5B1213CE5F"]
+			id: "59F45C4BBE628C6B"
+			rewards: [{
+				id: "530573CB7B44E1B7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5807AF8B60D64BC5"
+				item: "gtceu:refinery_gas_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59F45C4BBE628C6B"]
+			id: "550B70F366D1DD75"
+			rewards: [{
+				id: "2AA3848794DB7CF3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3237057FC6B0846A"
+				item: "gtceu:methane_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59F45C4BBE628C6B"]
+			id: "43C41B646EEA0323"
+			rewards: [{
+				id: "178C936114FDE576"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "704B144E345A1F37"
+				item: "gtceu:lpg_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5A780CBD0408CA5A"]
+			id: "7634EFE4202B16DB"
+			rewards: [{
+				id: "65B65024810B752A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AFB4D1E99677059"
+				item: "manafluid:mana_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"43C41B646EEA0323"
+				"7634EFE4202B16DB"
+			]
+			description: ["Extremely powerfull version of LPG! Burns for 15 seconds"]
+			id: "251C59F90E509D29"
+			rewards: [{
+				id: "2E291FD55B6A7E1A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BC397B0E3C6F42"
+				item: "gtceu:mana_fused_lpg_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["251C59F90E509D29"]
+			id: "0ECD64F2F9E59538"
+			rewards: [{
+				id: "440A1C6E5E9F668A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0DF441548F72A083"
+					item: "gtceu:gas_large_turbine"
+					type: "item"
+				}
+				{
+					id: "16DD0AB56518C169"
+					item: "gtceu:ev_rotor_holder"
+					type: "item"
+				}
+				{
+					id: "2CE177A91B92C4BB"
+					item: "gtceu:ev_energy_output_hatch"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "5A780CBD0408CA5A"
+			rewards: [{
+				id: "28256358A3861B36"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "470E08FD535286C6"
+				item: "gtceu:hv_electric_mana_garden"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			description: ["Yay, tungsten!"]
+			id: "7A4012F357AAEDAE"
+			rewards: [{
+				id: "1DF7CE6661971ED6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B364A6078C6D962"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+				{
+					id: "3FCE2CCAA1AEE978"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+			]
+			title: "Tunstate-Scheelite Vein"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1BBD2F9BF332F558"]
+			id: "4E776C1F020168EC"
+			rewards: [{
+				id: "06AFE0E4EB1CA661"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BF46E5035B71F9D"
+				item: "gtceu:ev_chemical_bath"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4E776C1F020168EC"
+				"7A4012F357AAEDAE"
+			]
+			id: "50AD42EB74608FB1"
+			rewards: [{
+				id: "32D433E4AE7AAC59"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03571DAE41BF0778"
+				item: "gtceu:tungstic_acid_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BBD2F9BF332F558"]
+			id: "0AB5DA7272458062"
+			rewards: [{
+				id: "137DC331451814F5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "306544B8B3861B62"
+				item: "gtceu:ev_electrolyzer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0AB5DA7272458062"
+				"50AD42EB74608FB1"
+			]
+			id: "6EA41DEEEC04B684"
+			rewards: [{
+				id: "2BF477B284A2368C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20316A7A7D4A9A3B"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EA41DEEEC04B684"]
+			id: "204AD55237D91ACC"
+			rewards: [{
+				id: "51B1231C3D475FCA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5523A9834488308D"
+				item: "gtceu:tungsten_steel_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3C77E5AB51BB570B"]
+			id: "1FEB3ECD07296880"
+			rewards: [{
+				id: "3C9BE3F8BF83E10D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D23B80085C5053E"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["204AD55237D91ACC"]
+			id: "4F340A1CE2CEBE5D"
+			rewards: [{
+				id: "59495A0F66AC3049"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "1E487AFFFAEB94B0"
+				item: "gtceu:iv_machine_casing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["64274F8F54EE8894"]
+			id: "7BB0502ABA1E150A"
+			rewards: [{
+				id: "1B012C6299DF8E6A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60ADBC21B6A7DCAC"
+				item: "kubejs:mana_doped_wafer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BB0502ABA1E150A"]
+			id: "6603C309FF8A52F1"
+			rewards: [{
+				id: "1C97D9E0EDC4BC76"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AB48FD158F7CA2C"
+				item: "gtceu:mpic_chip"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"20B3D7D7672CD9C1"
+				"3CDC92FFE95AF80E"
+				"46BC27293D895D54"
+			]
+			id: "370D44A1BD846E4C"
+			rewards: [{
+				id: "4988DF23B6FA3475"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D0436735C409B3F"
+				item: "kubejs:stargate_computation_mainframe"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20B3D7D7672CD9C1"]
+			id: "6DFEE6B89346925F"
+			rewards: [{
+				id: "4D57D8C6103E944D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A8911E6CA4BCEFC"
+				item: "kubejs:stargate_coil"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"20B3D7D7672CD9C1"
+				"3CDC92FFE95AF80E"
+			]
+			id: "51E4968A6DD6460F"
+			rewards: [{
+				id: "67E672E933B3E167"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66B3C75E33826E32"
+				item: "kubejs:stargate_chevron"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3CDC92FFE95AF80E"]
+			id: "3793000BF45F2E8A"
+			rewards: [{
+				id: "4924BFD5F0C0F65E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BAB028FC603059F"
+				item: "kubejs:stargate_field_generator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"370D44A1BD846E4C"
+				"51E4968A6DD6460F"
+				"3793000BF45F2E8A"
+				"6DFEE6B89346925F"
+			]
+			description: [
+				"Well, yeah it isn't your final task"
+				"You still have 9 chapters ahead!"
+			]
+			id: "17F721F6D4B53924"
+			rewards: [{
+				id: "255AF44F09CF4B8E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "Finally! I can leave this modpa... What? This is not final task?"
+			tasks: [
+				{
+					id: "0AE9587661114977"
+					item: "sgjourney:classic_stargate_base_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "698E36F826F6CD58"
+					item: { Count: 9, id: "sgjourney:classic_stargate_chevron_block" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "6B91258B6BDA449B"
+					item: { Count: 14, id: "sgjourney:classic_stargate_ring_block" }
+					type: "item"
+				}
+			]
+			title: "THE STARGATE"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17F721F6D4B53924"]
+			id: "21006FCD6F81BA4E"
+			rewards: [{
+				id: "2A970807AC77A3DD"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Don't forget to power this thing!"
+			tasks: [{
+				id: "7C4332E09E9C322C"
+				item: "sgjourney:classic_dhd"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Stargate Journey: GT-7"]
+	title: "Chapter 5 | EV"
+}

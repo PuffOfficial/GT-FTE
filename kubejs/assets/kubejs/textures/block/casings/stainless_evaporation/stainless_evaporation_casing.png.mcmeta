@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/stainless_evaporation/stainless_evaporation_casing_ctm"
+    }
+}

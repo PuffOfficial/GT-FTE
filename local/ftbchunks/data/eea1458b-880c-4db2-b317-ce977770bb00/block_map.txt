@@ -1,0 +1,13 @@
+#441F5E forestry:beehive_desert
+#C6AC20 minecraft:cactus
+#6D3851 sgjourney:classic_ring
+#3F84B7 minecraft:grass_block
+#D59A23 sgjourney:milky_way_dhd
+#86FC77 minecraft:sand
+#7E2654 minecraft:sandstone
+#9D474B minecraft:sandstone_slab
+#38B5DB minecraft:sandstone_stairs
+#13D503 minecraft:smooth_sandstone
+#046DFC minecraft:smooth_sandstone_slab
+#70F44C minecraft:smooth_sandstone_stairs
+#DC3458 minecraft:stone

@@ -1,0 +1,67 @@
+{
+    "item.kubejs.ulv_electric_piston": "ULV Electric Piston",
+    "item.kubejs.ulv_robot_arm": "ULV Robot Arm",
+    "item.kubejs.ulv_conveyor_module": "ULV Conveyor Module",
+    "item.kubejs.ulv_electric_motor": "ULV Electric Motor",
+    "item.kubejs.ulv_electric_pump": "ULV Electric Pump",
+
+    "item.kubejs.ram_mainframe": "RAM Mainframe",
+    "item.kubejs.ram_stick": "RAM Stick",
+
+    "item.kubejs.stick_fragments": "Stick Fragments",
+    "item.kubejs.simple_knitting_kit": "Simple Knitting Kit",
+    "item.kubejs.string_mesh_chunk": "String Mesh Chunk",
+
+    "item.kubejs.p_credit": "P-Credit",
+
+    "item.kubejs.alfheim_runes": "Alfheim Runes",
+
+    "gtfte.cavum_tenebrae": "§o§7Seems like atmosphere of this planet is toxic... Maybe you should use somekind of suit?",
+    "gtfte.unitas": "§o§7You take a deep breath... And feel smell of sulfur...?",
+    "gtfte.rima": "§o§7You take a deep breath, and feel yourself absolutely... Normal",
+    "gtfte.chulak": "§o§7You take a deep breath, and feel yourself absolutely... Normal?",
+    "gtfte.abydos": "§o§7You take a deep breath... It is hot there!",
+    "gtfte.dizzy": "§o§7I am feeling dizzy...",
+    "gtfte.overworld": "§o§7You feel a relief after your journey.",
+
+    "gtfte.tooltip.material.infinity": "<rainb>The densest material in the entire universe, as %s<rainb>.</rainb>",
+
+    "gtfte.name.universal_circuit": "%s Universal Circuit",
+    "gtfte.tooltip.universal_circuit": "§7You feel the power of %s!",
+
+    "gtfte.name.fuel_rod": "Fuel Rod (%s)",
+
+    "gtfte.tooltip.bedrock_crusher": "Not Large Miner",
+    "gtfte.tooltip.energizer": "Not turbo charger!",
+    "gtfte.tooltip.daycycle_simulation_chamber": "Real life simulator, but for plants",
+
+    "gtfte.tooltip.primitive": "Supports only §8ULV§r energy hatches.",
+    "gtfte.tooltip.ulv_component": "§7Not powerful enough to work as cover...",
+
+    "gtfte.tooltip.alchemical_crucible_1": "Cauldron but better",
+    "gtfte.tooltip.alchemical_crucible_2": "For every voltage tier above LV§7, temperature is increased by §r75K.",
+
+    "gtfte.components.heat_capacity": "Heat Capacity: %s§cK§r",
+    "gtfte.components.parallels": "Default Parallels: %s§r",
+
+    "gtfte.tooltip.etbf": "Has all modifiers of Electric Blast Furnace",
+
+    "gtfte.tooltip.defaultParallel": "Has default parallels:§5 %s §r",
+
+    "gtfte.ionizing_cleanroom": "Ionizing Hatch",
+
+    "gtfte.tagprefix.ingot": "an Ingot",
+    "gtfte.tagprefix.plate": "a Plate",
+    "gtfte.tagprefix.tiny_dust": "a Tiny Pile of Dust",
+    "gtfte.tagprefix.small_dust": "a Small Pile of Dust",
+    "gtfte.tagprefix.dust": "a Dust",
+    "gtfte.tagprefix.double_plate": "a Double Plate",
+    "gtfte.tagprefix.gear": "a Gear",
+    "gtfte.tagprefix.small_gear": "a Small Gear",
+    "gtfte.tagprefix.nugget": "a Nugget",
+    "gtfte.tagprefix.ring": "a Ring",
+    "gtfte.tagprefix.bolt": "a Bolt",
+    "gtfte.tagprefix.screw": "a Screw",
+    "gtfte.tagprefix.rod": "a Rod"
+
+}

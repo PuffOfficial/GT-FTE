@@ -1,0 +1,626 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_5__hv"
+	group: ""
+	icon: "kubejs:universal_hv_circuit"
+	id: "32287059B164D9C2"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/voltage/hv/bottom"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"037DB579F5E7A700"
+				"1F261EC63F00BEE0"
+			]
+			id: "71814F73D267D242"
+			rewards: [{
+				id: "3F22F4D06D70C23B"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "gtfte:stainless_steel"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "59F0AD4690685707"
+				title: "Start Questline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			id: "149BB3A230A89F6D"
+			rewards: [{
+				id: "3A3E60CE52F825E7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7501D39146D75E2B"
+				item: "gtceu:capacitor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["482C4CB89D7066CE"]
+			id: "7631C3302FF374D4"
+			rewards: [{
+				id: "29662C755D77E0F9"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0799309152318DF4"
+				item: "gtceu:inductor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			id: "47E3EAD31C31AA46"
+			rewards: [{
+				id: "010B2EC5AB27C15C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C5CE5430268F153"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"149BB3A230A89F6D"
+				"1F67E822AB370A93"
+				"756B8FD230AC81BE"
+			]
+			id: "317FFA2977338B9D"
+			rewards: [{
+				id: "50E8A9ED774774D9"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39B4457143BA4B0A"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7631C3302FF374D4"
+				"317FFA2977338B9D"
+			]
+			id: "20BE916B64487527"
+			rewards: [{
+				id: "50F8DB92895A5C1F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "198DA88EFD6A8741"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			id: "0ACBA5560558967C"
+			rewards: [{
+				id: "29DE17A4F684E360"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60AB43D84271C2B9"
+				item: "gtceu:electrotine_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ACBA5560558967C"]
+			id: "140F1C639DD20AEB"
+			rewards: [{
+				id: "68A71F687E06B185"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A3BE81AC402A797"
+				item: "gtceu:blue_alloy_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["140F1C639DD20AEB"]
+			id: "1D5B5ABF47EFDDED"
+			rewards: [{
+				id: "548DD62B124C181A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD03CA00461139A"
+				item: "gtceu:blue_alloy_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1D5B5ABF47EFDDED"
+				"20BE916B64487527"
+				"5AD2C7ADF2D02146"
+			]
+			id: "3480AC8317E8A5F5"
+			rewards: [{
+				id: "66566B87D35C8776"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "54D31F21FC76FECA"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4F268C87B28D547D"
+				"1F261EC63F00BEE0"
+				"179925835028C313"
+			]
+			id: "598D4307DC8D28DF"
+			rewards: [{
+				id: "04B070F5B26CAFDF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "7566851212BD165B"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["598D4307DC8D28DF"]
+			description: [
+				"Better automate polyethylene early, because it will be required really often in HV and EV"
+				""
+				"Like right now! You need to make a simple cleanroom"
+			]
+			id: "5AD2C7ADF2D02146"
+			rewards: [{
+				id: "10CE9F4279772458"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7C34EB792BF5881C"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					count: 75L
+					id: "3A56A6FBE5BD8002"
+					item: { Count: 75, id: "gtceu:plascrete" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "530F5AA8740CA5C2"
+					item: { Count: 8, id: "gtceu:filter_casing" }
+					type: "item"
+				}
+			]
+			title: "3x3 Cleanroom"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			id: "502B5497A3E3E498"
+			rewards: [{
+				id: "64DBCEA86DA17C61"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Another one?"
+			tasks: [{
+				id: "0B9FEF2DF2E058F1"
+				item: "gtceu:hv_magmatic_dynamo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["598D4307DC8D28DF"]
+			id: "341F5E87D65F4FDD"
+			rewards: [{
+				id: "61ED54D4DEC46358"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3642440C2B7A2572"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["598D4307DC8D28DF"]
+			id: "084E91AD2652C646"
+			rewards: [{
+				id: "6C5DD024E3C7FC06"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65FA6AC18A10288A"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["084E91AD2652C646"]
+			id: "4EFC92183438D8FC"
+			rewards: [{
+				id: "2E949D31F086C494"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6A1E600742F14BC9"
+					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+				{
+					id: "49B9BF2A4553C536"
+					item: "gtceu:lpic_wafer"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1EE6B11EE6E3AA8D"
+				"4EFC92183438D8FC"
+				"717AF3256B50EAED"
+			]
+			id: "0674125B007A39EF"
+			rewards: [{
+				id: "4DDC208047A73FD0"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Potassium."
+			tasks: [{
+				id: "45DD00BE0571823F"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["341F5E87D65F4FDD"]
+			id: "1EE6B11EE6E3AA8D"
+			rewards: [{
+				id: "63ED2180DB45E4A7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E5233F302133005"
+				item: "gtceu:hv_voltage_coil"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			description: ["You know how to get potassium already"]
+			hide_dependency_lines: true
+			id: "717AF3256B50EAED"
+			rewards: [{
+				id: "64E329930665625D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Kris, get the banana"
+			tasks: [{
+				id: "18498FE48967C1D7"
+				item: "gtceu:sodium_potassium_bucket"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47E3EAD31C31AA46"]
+			id: "756B8FD230AC81BE"
+			rewards: [{
+				id: "6CBD6624095C796D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58559A90D57E847B"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EE6B11EE6E3AA8D"]
+			id: "44D6F0BC09E682EC"
+			rewards: [{
+				id: "20BBF84AF78AD6EA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04927274A1836ED1"
+				item: "gtceu:hv_reconstruction_chamber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["341F5E87D65F4FDD"]
+			description: ["Throw lead dust in to the mana pool with mana, and you will get ilmenite!"]
+			id: "0CE7A33CE4104011"
+			rewards: [{
+				id: "4D3C2A9EBDC3CD65"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57187E6F2101B123"
+				item: "gtceu:ilmenite_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0CE7A33CE4104011"]
+			id: "5A33F7974E1A7EE4"
+			rewards: [{
+				id: "562DFF4732267645"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A80E98197C7E5D2"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A33F7974E1A7EE4"]
+			id: "4DBC0B46A488D16D"
+			rewards: [{
+				id: "14CC2243427149AA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CA52E4A8F1D6C44"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			id: "482C4CB89D7066CE"
+			rewards: [{
+				id: "089E2F02D5001DDC"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09EC1084C63ECEB0"
+				item: "gtceu:nickel_zinc_ferrite_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4DBC0B46A488D16D"
+				"5A3BA11BC37616CE"
+				"637FA2BE63D019C2"
+			]
+			id: "727935C408FBEDBD"
+			rewards: [{
+				id: "1E48D751F3B0697B"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "2688E95BFCB398C3"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3480AC8317E8A5F5"]
+			id: "5A3BA11BC37616CE"
+			rewards: [{
+				id: "3CD80CAE998591D0"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D91425A0F080357"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3480AC8317E8A5F5"]
+			id: "2BA0842A675D9264"
+			rewards: [{
+				id: "672C39BA6F88B9B8"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B67CD3233AEAE54"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			id: "179925835028C313"
+			rewards: [{
+				id: "7850A144FCD63CD6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21E306A1158401A9"
+				item: "gtceu:manasteel_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["598D4307DC8D28DF"]
+			description: ["From now on, you have access to AE2!"]
+			id: "4CD59D003B155136"
+			rewards: [{
+				id: "47C9ECC4D3311E4E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16A1B1C30D3537F3"
+				title: "AE2"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["341F5E87D65F4FDD"]
+			hide_dependency_lines: true
+			id: "4B4BA11FAAFBA60A"
+			rewards: [{
+				id: "4FCD7BE05768BC54"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "7A8E51179C051C27"
+				item: "gtceu:marble_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B4BA11FAAFBA60A"]
+			id: "637FA2BE63D019C2"
+			rewards: [{
+				id: "2890C49395FD14B4"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "09AE6CCAE99D90CD"
+				item: { Count: 2, id: "gtceu:magnesium_dust" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["71814F73D267D242"]
+			id: "21DBBB1DC070219B"
+			rewards: [{
+				id: "2F5A28F6692076F7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FAC49B38EE7CA46"
+				item: "gtceu:nether_imbued_lava_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["HEV Suit is better"]
+	title: "Chapter 4 | HV"
+}

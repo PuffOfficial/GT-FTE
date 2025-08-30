@@ -1,0 +1,19 @@
+// Compost colors for thaumon. You may add your own colors, change existing ones, or remove colors that aren't needed.
+amberglass_pane, #ffffff
+ancient_stone_door, #796b5c
+ancient_stone_window_pane, #615548
+arcane_stone_window_pane, #b8a172
+crystal_lamp, #b897ed
+crystal_stand, #90e8dc
+eldritch_stone_window_pane, #2c263a
+gilded_greatwood_door, #89684b
+greatwood_door, #544037
+greatwood_window_pane, #c0a16e
+grimoire, #d06b68
+grimoire_stack, #be5e5c
+mutagen, #a7288c
+research_notes, #ffffe0
+retort, #5e9383
+silverwood_door, #fffffc
+silverwood_window_pane, #ffffcd
+vial_rack, #6c5e5e

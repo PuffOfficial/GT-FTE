@@ -1,0 +1,53 @@
+
+#Inventory Management Configuration
+[general]
+	#Simple toggle for the mod! Set to false to disable.
+	modEnabled = true
+	#Whether to show sort buttons in the UI.
+	showSort = true
+	#Whether to show transfer buttons in the UI.
+	showTransfer = true
+	#Whether to show auto-stack buttons in the UI.
+	showStack = true
+	#Whether to show the settings button in the UI.
+	showSettingsButton = true
+
+	[general.position]
+		#Default X offset for button position
+		#Range: -100 ~ 100
+		defaultOffsetX = -4
+		#Default Y offset for button position
+		#Range: -100 ~ 100
+		defaultOffsetY = -1
+
+	[general.sorting]
+		#Sorting mode for inventory sorting
+		#Allowed Values: ALPHABETICAL, AMOUNT, MOD_ID
+		sortingMode = "AMOUNT"
+		#Enable automatic stack refilling when items are used up
+		autoRefillEnabled = true
+		#Enable automatic refilling from shulker boxes in inventory
+		autoRefillFromShulkers = true
+		#Ignore hotbar items when using Transfer All to Container
+		ignoreHotbarInTransfer = true
+
+#Mod Compatibility Settings
+[compatibility]
+	#Container compatibility overrides
+	#Format: 'pattern|sort,transfer,stack'
+	#Example: 'com.somemod.*Container|true,true,false'
+	#Pattern supports wildcards (*)
+	containerOverrides = ["com.progwml6.ironchest.*|true,true,true", "com.tfar.metalbarrels.*|true,true,true", "ninjaphenix.expandedstorage.*|true,true,true", "vazkii.quark.content.management.*|true,true,true", "ironfurnaces.gui.furnaces.*|true,true,false", "com.simibubi.create.content.logistics.depot.*|true,true,true", "com.simibubi.create.content.logistics.vault.*|true,true,true"]
+	#Blacklisted container patterns
+	#Containers matching these patterns will have no buttons
+	#Example: 'com.somemod.special.*'
+	blacklist = ["appeng.client.gui.implementations.*", "appeng.client.gui.me.items.*", "de.mari_023.ae2wtlib.*", "com.github.glodblock.epp.client.gui.*", "com.glodblock.github.extendedae.client.gui.*", "gripe._90.megacells.menu.*", "net.pedroksl.advanced_ae.client.gui.*", "com.refinedmods.refinedstorage.screen.*", "com.refinedmods.refinedstorage.common.content.*Screen", "org.cyclops.integrateddynamics.inventory.container.*", "org.cyclops.integratedterminals.inventory.container.*", "net.p3pp3rf1y.sophisticatedbackpacks.*", "net.p3pp3rf1y.sophisticatedstorage.*", "tfar.craftingstation.*", "tfar.dankstorage.*", "com.jaquadro.minecraft.storagedrawers.*", "mcjty.rftoolsutility.modules.crafter.*", "cofh.thermal.core.client.gui.*", "com.direwolf20.justdirethings.client.screens.*", "com.direwolf20.laserio.client.screens.*", "aztech.modern_industrialization.*.gui.*", "com.enderio.machines.common.blocks.*Menu", "cy.jdkdigital.productivebees.*", "cy.jdkdigital.productivetrees.*", "com.stal111.forbidden_arcanus.client.gui.*", "tv.soaryn.xycraft.*", "com.mrbysco.forcecraft.menu.*", "net.chococraft.forge.common.inventory.*", "thedarkcolour.gendustry.menu.*", "se.mickelus.tetra.blocks.workbench.*", "com.simibubi.create.content.contraptions.*"]
+	#Enable dynamic container detection for unknown modded containers
+	enableDynamicDetection = true
+	#Minimum number of slots required for a container to be considered storage
+	#Range: 1 ~ 54
+	minSlotsForDetection = 9
+	#Percentage of slots that must accept common items for dynamic detection (0.0-1.0)
+	#Range: 0.0 ~ 1.0
+	slotAcceptanceThreshold = 0.75
+

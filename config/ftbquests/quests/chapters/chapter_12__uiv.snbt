@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_12__uiv"
+	group: ""
+	icon: "kubejs:universal_uiv_circuit"
+	id: "46B2F78DD4265A81"
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		id: "44151C71388AF5FC"
+		tasks: [{
+			id: "272BF981D100B09B"
+			title: "Start Questline"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["In Development"]
+	title: "Chapter 12 | UIV"
+}

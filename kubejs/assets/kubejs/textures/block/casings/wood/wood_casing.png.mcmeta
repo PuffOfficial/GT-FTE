@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/wood/wood_casing_ctm"
+    }
+}

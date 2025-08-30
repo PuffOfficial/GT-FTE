@@ -1,0 +1,5 @@
+#7F8 sgjourney:abydos_desert
+#1A0 sgjourney:cavum_tenebrae_shattered_crust
+#5A5 bloodmagic:none
+#3DC minecraft:plains
+#652 sgjourney:unitas_desert

@@ -1,0 +1,32 @@
+{
+    "name": "LV Chapter",
+    "tooltip": [
+        "Welcome to the LV Chapter!"
+    ],
+    "item": {
+        "item": "gtceu:steel_ingot",
+        "count": 1
+    },
+    "display": {
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "scale": 1.5
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.6
+    },
+    "colors": {
+        "base": "#4e4e4e",
+        "accent": "#34373e"
+    }
+}
+

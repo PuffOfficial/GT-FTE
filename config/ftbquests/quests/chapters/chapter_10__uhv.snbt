@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_10__uhv"
+	group: ""
+	icon: "kubejs:universal_uhv_circuit"
+	id: "7202288CD8932143"
+	order_index: 12
+	quest_links: [ ]
+	quests: [{
+		id: "78EC87A570370111"
+		tasks: [{
+			id: "1C1E7280BAC16FEA"
+			title: "Start Questline"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["In Development"]
+	title: "Chapter 10 | UHV"
+}

@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/vanadium_steel/vanadium_steel_casing_ctm"
+    }
+}

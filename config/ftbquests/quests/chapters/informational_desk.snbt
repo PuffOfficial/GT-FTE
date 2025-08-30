@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "informational_desk"
+	group: ""
+	id: "531DED5B3F7D93C9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Good morning, pioneer of P-Corp."
+				"You are not first pioneer in this timeline, you are №&k192."
+				"As you were sent there without instructions, you will be guided by... *Insert drums there* Mike!"
+				""
+				"&8 Btw, he is a bit of &obum&r"
+				""
+				"That's all from us, Mike is waiting for you!"
+			]
+			id: "34FC2C897C2194C0"
+			size: 1.25d
+			tasks: [{
+				id: "34A944361F5241A5"
+				title: "Your Guide - Mike!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["17F721F6D4B53924"]
+			description: ["Terra - 27-25-4-35-10-28 (Aka your base)"]
+			id: "1C999655CA3E2F77"
+			rewards: [
+				{
+					command: "/sgjourney stargateNetwork address sgjourney:abydos"
+					elevate_perms: true
+					icon: "gtceu:abydos_marker"
+					id: "688451655BD262B1"
+					title: "Abydos"
+					type: "command"
+				}
+				{
+					command: "/sgjourney stargateNetwork address sgjourney:cavum_tenebrae"
+					elevate_perms: true
+					icon: "gtceu:cavum_tenebrae_marker"
+					id: "454CD8F3E0688D54"
+					title: "Cavum Tenebrae"
+					type: "command"
+				}
+				{
+					command: "/sgjourney stargateNetwork address sgjourney:chulak"
+					elevate_perms: true
+					icon: "gtceu:chulak_marker"
+					id: "20BE1478F6DF2FA3"
+					title: "Chulak"
+					type: "command"
+				}
+				{
+					command: "/sgjourney stargateNetwork address sgjourney:rima"
+					icon: "gtceu:rima_marker"
+					id: "407238B90C5241F4"
+					title: "Rima"
+					type: "command"
+				}
+				{
+					command: "/sgjourney stargateNetwork address sgjourney:unitas"
+					icon: "gtceu:unitas_marker"
+					id: "697FD166CCDD7929"
+					title: "Unitas"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "18BF6B017910D7A0"
+				title: "Get All Codes"
+				type: "checkmark"
+			}]
+			title: "Stargate Codes"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Informational Desk"
+}

@@ -1,0 +1,389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3__lv"
+	group: ""
+	icon: "kubejs:universal_lv_circuit"
+	id: "33C0F1ABA0677D89"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/voltage/lv/bottom"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5955E1625D920AD9"]
+			id: "74E4A7EA06264A37"
+			rewards: [{
+				id: "7F0E3051EA46BCC4"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "gtfte:steel_ingot"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "13C36FB4D26E52A9"
+				title: "Start Questline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74E4A7EA06264A37"]
+			id: "2573BB3C8659FC67"
+			tasks: [
+				{
+					id: "78B12C6799378CE1"
+					item: "exdeorum:porcelain_crucible"
+					type: "item"
+				}
+				{
+					id: "08DDBDFF4D30D54F"
+					item: "minecraft:lightning_rod"
+					type: "item"
+				}
+			]
+			title: "Lava Production"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5643E6BFF3514DA4"]
+			description: ["Free power out of lava! Automate it through  Ex Deorum"]
+			id: "24D1D45E50705728"
+			size: 1.25d
+			tasks: [{
+				id: "1961BC8F92C6E6C7"
+				title: "Early Power Generation"
+				type: "checkmark"
+			}]
+			x: 3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2573BB3C8659FC67"]
+			id: "5643E6BFF3514DA4"
+			tasks: [{
+				id: "22FE0AB8438779A2"
+				item: "gtceu:lv_magmatic_dynamo"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74E4A7EA06264A37"]
+			id: "2509450198728111"
+			tasks: [{
+				id: "7F910DDB4504FC0F"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2509450198728111"]
+			id: "3CC01A5B40D1B31A"
+			tasks: [{
+				id: "600A6DA2D8876084"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			title: "Assembler"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2509450198728111"]
+			description: ["Unlocks access to gallium!"]
+			id: "7B7ACB833ACCCEEE"
+			tasks: [
+				{
+					id: "5009479D4EA549AF"
+					item: "gtceu:lv_ore_washer"
+					type: "item"
+				}
+				{
+					id: "4D0E31F5508FF30B"
+					item: "gtceu:lv_thermal_centrifuge"
+					type: "item"
+				}
+			]
+			title: "Basic ore Processing"
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B7ACB833ACCCEEE"]
+			description: [
+				"Put crushed &6sphalerite&r ore in to washer with water on a 1'st circuit, then, put it in a thermal centrifuge."
+				""
+				"You will get &5gallium&r as byproduct"
+			]
+			id: "0C8B45E4575A6125"
+			tasks: [{
+				id: "4177FA7B09AE4BFE"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2509450198728111"
+				"12A5CD98C69DD7E0"
+			]
+			id: "3753E61B93A406A0"
+			tasks: [{
+				id: "1E84F39BA553A823"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3753E61B93A406A0"]
+			id: "1816BCA4BDA19D5C"
+			tasks: [{
+				id: "43171A812E767375"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0C8B45E4575A6125"
+				"1816BCA4BDA19D5C"
+			]
+			id: "3FB591D33A8461D4"
+			size: 1.0d
+			tasks: [
+				{
+					id: "16F863E933C0D454"
+					item: "gtceu:gallium_arsenide_dust"
+					type: "item"
+				}
+				{
+					id: "4AC204BE30A89BC9"
+					item: "gtceu:diode"
+					type: "item"
+				}
+			]
+			title: "Diodes"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3CC01A5B40D1B31A"
+				"3753E61B93A406A0"
+			]
+			id: "3EA108CE2C622C48"
+			tasks: [{
+				id: "45B850EEAC1BC777"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3EA108CE2C622C48"]
+			id: "21DAE8984CDC9A44"
+			size: 1.0d
+			tasks: [{
+				id: "3F9342F2AF36CF56"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"21DAE8984CDC9A44"
+				"3FB591D33A8461D4"
+				"5955E1625D920AD9"
+			]
+			id: "7F1A662BC5DD5056"
+			size: 1.25d
+			tasks: [{
+				id: "4A85D69F71E3D923"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2509450198728111"]
+			id: "0984886ECAA14064"
+			tasks: [{
+				id: "24C49A9A07C50608"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0984886ECAA14064"]
+			hide_dependent_lines: true
+			id: "12A5CD98C69DD7E0"
+			size: 1.25d
+			tasks: [
+				{
+					id: "26E304733E45C08A"
+					item: "gtceu:silver_dust"
+					type: "item"
+				}
+				{
+					id: "07E25EF88D811700"
+					item: "gtceu:nickel_dust"
+					type: "item"
+				}
+				{
+					id: "30F5A712AFA213B4"
+					item: "gtceu:realgar_dust"
+					type: "item"
+				}
+				{
+					id: "60ECBB2625FC2625"
+					item: "gtceu:stibnite_dust"
+					type: "item"
+				}
+			]
+			title: "More Ores"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"12A5CD98C69DD7E0"
+				"3CC01A5B40D1B31A"
+			]
+			id: "27387225DE14B39B"
+			tasks: [
+				{
+					id: "4C5F1DD01458AF44"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "002EFC8B77FF3846"
+					item: { Count: 16, id: "kubejs:copper_coil" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "589C573041397246"
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2509450198728111"]
+			id: "18FEDA07E133EDCA"
+			tasks: [
+				{
+					id: "7B2D0B13BE14523D"
+					item: "gtceu:lv_electrolyzer"
+					type: "item"
+				}
+				{
+					id: "4446043C779EC6C6"
+					item: "gtceu:sapphire_dust"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["18FEDA07E133EDCA"]
+			id: "6B9C1713E3C42399"
+			tasks: [{
+				id: "05E42151208973B7"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27387225DE14B39B"]
+			id: "3305D2189876F39E"
+			tasks: [{
+				count: 16L
+				id: "61D6D97B8683C736"
+				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6B9C1713E3C42399"
+				"3305D2189876F39E"
+			]
+			id: "623A17C3B9F530E3"
+			size: 1.25d
+			tasks: [{
+				id: "5C17DB0A83E5C8E9"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["623A17C3B9F530E3"]
+			id: "79ED3F03E8876975"
+			size: 1.0d
+			tasks: [{
+				id: "7EB0F250B63D599B"
+				item: "gtceu:mv_machine_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7F1A662BC5DD5056"]
+			id: "3EE0BB9441CA45F5"
+			subtitle: "Cheaper Circuits"
+			tasks: [{
+				id: "139321BFD15F8E36"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+	]
+	subtitle: ["Simplicity In It's Final Form"]
+	title: "Chapter 2 | LV"
+}

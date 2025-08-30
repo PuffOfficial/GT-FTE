@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/active/reactor/fission_reactor_rod_ctm"
+    }
+}

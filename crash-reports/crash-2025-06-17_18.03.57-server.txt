@@ -1,0 +1,269 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2025-06-17 18:03:57
+Description: Ticking block entity
+
+dev.latvian.mods.rhino.EvaluatorException: Can't find method com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine.recipeModifier(com.gregtechceu.gtceu.common.machine.multiblock.steam.SteamParallelMultiblockMachine,com.gregtechceu.gtceu.api.recipe.GTRecipe,number). (startup_scripts:GT/multiblocks/steam_assembler.js#8)
+	at dev.latvian.mods.rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.reportRuntimeError(Context.java:133) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.reportRuntimeError(Context.java:173) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.reportRuntimeError1(Context.java:145) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.NativeJavaMethod.call(NativeJavaMethod.java:379) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:986) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.doTopCall(Context.java:1374) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:70) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at jdk.proxy3.$Proxy98.getModifier(Unknown Source) ~[?:?] {}
+	at com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifierList.getModifier(RecipeModifierList.java:36) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifier.applyModifier(RecipeModifier.java:43) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.multiblock.WorkableMultiblockMachine.getRealRecipe(WorkableMultiblockMachine.java:202) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.multiblock.WorkableMultiblockMachine.doModifyRecipe(WorkableMultiblockMachine.java:197) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.feature.IRecipeLogicMachine.fullModifyRecipe(IRecipeLogicMachine.java:48) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.trait.RecipeLogic.onRecipeFinish(RecipeLogic.java:470) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.trait.RecipeLogic.serverTick(RecipeLogic.java:196) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.TickableSubscription.run(TickableSubscription.java:23) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.MetaMachine.executeTick(MetaMachine.java:293) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.MetaMachine.serverTick(MetaMachine.java:265) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.block.IMachineBlock.lambda$getTicker$0(IMachineBlock.java:77) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.m_142224_(LevelChunk.java:689) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.m_142224_(LevelChunk.java:782) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading}
+	at net.minecraft.world.level.Level.m_46463_(Level.java:468) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:flywheel.impl.mixins.json:LevelMixin,pl:mixin:APP:kubejs-common.mixins.json:LevelMixin,pl:mixin:APP:gtceu.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:351) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mods: 
+	GregTech (gtceu), Version: 1.6.4
+		Issue tracker URL: https://github.com/GregTechCEu/GregTech-Modern/issues/
+		at TRANSFORMER/gtceu@1.6.4/com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifierList.getModifier(RecipeModifierList.java:36)
+
+	Rhino (rhino), Version: 2001.2.3-build.10
+		Issue tracker URL: https://github.com/KubeJS-Mods/Rhino/issues
+		at TRANSFORMER/rhino@2001.2.3-build.10/dev.latvian.mods.rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
+Stacktrace:
+	at dev.latvian.mods.rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.reportRuntimeError(Context.java:133) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.reportRuntimeError(Context.java:173) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.reportRuntimeError1(Context.java:145) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.NativeJavaMethod.call(NativeJavaMethod.java:379) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:986) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.doTopCall(Context.java:1374) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:70) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.Context.callSync(Context.java:1357) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at dev.latvian.mods.rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74) ~[rhino-forge-2001.2.3-build.10.jar%23259!/:2001.2.3-build.10] {re:classloading}
+	at jdk.proxy3.$Proxy98.getModifier(Unknown Source) ~[?:?] {}
+	at com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifierList.getModifier(RecipeModifierList.java:36) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.recipe.modifier.RecipeModifier.applyModifier(RecipeModifier.java:43) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.multiblock.WorkableMultiblockMachine.getRealRecipe(WorkableMultiblockMachine.java:202) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.multiblock.WorkableMultiblockMachine.doModifyRecipe(WorkableMultiblockMachine.java:197) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.feature.IRecipeLogicMachine.fullModifyRecipe(IRecipeLogicMachine.java:48) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.trait.RecipeLogic.onRecipeFinish(RecipeLogic.java:470) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.trait.RecipeLogic.serverTick(RecipeLogic.java:196) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.TickableSubscription.run(TickableSubscription.java:23) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.MetaMachine.executeTick(MetaMachine.java:293) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.machine.MetaMachine.serverTick(MetaMachine.java:265) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at com.gregtechceu.gtceu.api.block.IMachineBlock.lambda$getTicker$0(IMachineBlock.java:77) ~[gtceu-1.20.1-1.6.4.jar%23244!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.m_142224_(LevelChunk.java:689) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.m_142224_(LevelChunk.java:782) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading}
+	at net.minecraft.world.level.Level.m_46463_(Level.java:468) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:flywheel.impl.mixins.json:LevelMixin,pl:mixin:APP:kubejs-common.mixins.json:LevelMixin,pl:mixin:APP:gtceu.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:351) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+-- Block entity being ticked --
+Details:
+	Name: gtceu:steam_assembler // com.gregtechceu.gtceu.api.blockentity.MetaMachineBlockEntity
+	Block: Block{gtceu:steam_assembler}[facing=north,server_tick=true,upwards_facing=north]
+	Block location: World: (-3,-59,-32), Section: (at 13,5,0 in -1,-4,-2; chunk contains blocks -16,-64,-32 to -1,319,-17), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+	Block: Block{gtceu:steam_assembler}[facing=north,server_tick=true,upwards_facing=north]
+	Block location: World: (-3,-59,-32), Section: (at 13,5,0 in -1,-4,-2; chunk contains blocks -16,-64,-32 to -1,319,-17), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,-64,-512 to -1,319,-1)
+Stacktrace:
+	at net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.m_142224_(LevelChunk.java:689) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading}
+	at net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.m_142224_(LevelChunk.java:782) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading}
+	at net.minecraft.world.level.Level.m_46463_(Level.java:468) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:flywheel.impl.mixins.json:LevelMixin,pl:mixin:APP:kubejs-common.mixins.json:LevelMixin,pl:mixin:APP:gtceu.mixins.json:LevelMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:351) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:kubejs-common.mixins.json:ServerLevelMixin,pl:mixin:APP:create.mixins.json:accessor.ServerLevelAccessor,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['makarbebrej123'/16, l='ServerLevel[New World]', x=-0.20, y=-60.00, z=-32.73]]
+	Chunk stats: 2299
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (0,-60,0), Section: (at 0,4,0 in 0,-4,0; chunk contains blocks 0,-64,0 to 15,319,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,-64,0 to 511,319,511)
+	Level time: 955318 game time, 54000 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Known server brands: forge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.client.server.IntegratedServer.m_5705_(IntegratedServer.java:89) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[client-1.20.1-20230612.114412-srg.jar%23272!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:balm.mixins.json:MinecraftServerMixin,pl:mixin:APP:ae2.mixins.json:spatial.MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:MinecraftServerMixin,pl:mixin:APP:kubejs-common.mixins.json:inject_resources.MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.15, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 1341236512 bytes (1279 MiB) / 4441767936 bytes (4236 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 12th Gen Intel(R) Core(TM) i5-12500H
+	Identifier: Intel64 Family 6 Model 154 Stepping 3
+	Microarchitecture: Alder Lake
+	Frequency (GHz): 3.11
+	Number of physical packages: 1
+	Number of physical CPUs: 12
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 3050 Laptop GPU
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x25a2
+	Graphics card #0 versionInfo: DriverVersion=32.0.15.7652
+	Graphics card #1 name: Intel(R) UHD Graphics
+	Graphics card #1 vendor: Intel Corporation (0x8086)
+	Graphics card #1 VRAM (MB): 1024.00
+	Graphics card #1 deviceId: 0x4626
+	Graphics card #1 versionInfo: DriverVersion=31.0.101.4502
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Virtual memory max (MB): 36479.95
+	Virtual memory used (MB): 25841.57
+	Swap memory total (MB): 20480.00
+	Swap memory used (MB): 1893.02
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx8192m -Xms256m
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['makarbebrej123'/16, l='ServerLevel[New World]', x=-0.20, y=-60.00, z=-32.73]]
+	Data Packs: vanilla, mod:rhino (incompatible), mod:kuma_api, mod:exdeorum, mod:superflatworldnoslimes, mod:controlling (incompatible), mod:mixinextras (incompatible), mod:itemzoom, mod:guideme (incompatible), mod:ldlib (incompatible), mod:balm, mod:cloth_config (incompatible), mod:forge, mod:glodium (incompatible), mod:jei, mod:ae2 (incompatible), mod:ae2netanalyser (incompatible), mod:pccard, mod:mousetweaks, mod:configuration, mod:defaultworldtype, mod:curios (incompatible), mod:flywheel, mod:ponder (incompatible), mod:create, mod:collective, mod:searchables (incompatible), mod:architectury (incompatible), mod:kubejs (incompatible), mod:ae2wtlib (incompatible), mod:ftblibrary (incompatible), mod:gtceu, mod:ftbteams (incompatible), mod:ftbquests (incompatible), mod:ftbxmodcompat (incompatible), mod:appleskin (incompatible), mod:yet_another_config_lib_v3 (incompatible), mod:ae2ct, mod:ftbquestsfreezefix, mod:defaultoptions, create:dynamic_data, gtceu:dynamic_data, mod:ftbultimine (incompatible), mod:twerkitmeal (incompatible), mod:nonetherportal, mod:disablestructures (incompatible), mod:highlighter (incompatible), mod:iceberg (incompatible), mod:itemfilters (incompatible), mod:cofh_core, mod:thermal, mod:systeams (incompatible), mod:enderio, mod:thermal_foundation, mod:thermal_expansion, mod:kubejs_enderio, mod:bucketlib, mod:woodenbucket, mod:trofers, mod:kubejs_create (incompatible), mod:summoningrituals, mod:kubejs_thermal (incompatible), mod:embeddium, mod:jade (incompatible), mod:titanium (incompatible), mod:functionalstorage, mod:zerocore (incompatible), mod:bigreactors (incompatible), mod:extremesoundmuffler
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: forge-47.4.1
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.1.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.1.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.1.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.1.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.1.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		rhino-forge-2001.2.3-build.10.jar                 |Rhino                         |rhino                         |2001.2.3-build.10   |DONE      |Manifest: NOSIGNATURE
+		kuma-api-forge-20.1.10+1.20.1.jar                 |KumaAPI                       |kuma_api                      |20.1.10             |DONE      |Manifest: NOSIGNATURE
+		exdeorum-1.46.jar                                 |Ex Deorum                     |exdeorum                      |1.46                |DONE      |Manifest: NOSIGNATURE
+		nonetherportal-1.20.1-1.0.jar                     |No Nether Portal!             |nonetherportal                |1.20.1-1.0          |DONE      |Manifest: NOSIGNATURE
+		superflatworldnoslimes-1.20.1-3.5.jar             |Superflat World No Slimes     |superflatworldnoslimes        |3.5                 |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.112.jar                  |Just Enough Items             |jei                           |15.20.0.112         |DONE      |Manifest: NOSIGNATURE
+		Controlling-forge-1.20.1-12.0.2.jar               |Controlling                   |controlling                   |12.0.2              |DONE      |Manifest: NOSIGNATURE
+		mixinextras-forge-0.4.1.jar                       |MixinExtras                   |mixinextras                   |0.4.1               |DONE      |Manifest: NOSIGNATURE
+		itemzoom-1.20.1-2.9.0.jar                         |Item Zoom                     |itemzoom                      |2.9.0               |DONE      |Manifest: NOSIGNATURE
+		guideme-20.1.9.jar                                |GuideME                       |guideme                       |20.1.9              |DONE      |Manifest: NOSIGNATURE
+		ldlib-forge-1.20.1-1.0.34.jar                     |LowDragLib                    |ldlib                         |1.0.34              |DONE      |Manifest: NOSIGNATURE
+		TwerkItMeal-2.3.0.jar                             |TwerkItMeal                   |twerkitmeal                   |2.3.0               |DONE      |Manifest: NOSIGNATURE
+		balm-forge-1.20.1-7.3.31-all.jar                  |Balm                          |balm                          |7.3.31              |DONE      |Manifest: NOSIGNATURE
+		cloth-config-11.1.136-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.136            |DONE      |Manifest: NOSIGNATURE
+		forge-1.20.1-47.4.1-universal.jar                 |Forge                         |forge                         |47.4.1              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		embeddium-0.3.31+mc1.20.1.jar                     |Embeddium                     |embeddium                     |0.3.31+mc1.20.1     |DONE      |Manifest: NOSIGNATURE
+		ZeroCore2-1.20.1-2.1.47.jar                       |Zero CORE 2                   |zerocore                      |1.20.1-2.1.47       |DONE      |Manifest: NOSIGNATURE
+		Glodium-1.20-1.5-forge.jar                        |Glodium                       |glodium                       |1.20-1.5-forge      |DONE      |Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		cofh_core-1.20.1-11.0.2.56.jar                    |CoFH Core                     |cofh_core                     |11.0.2              |DONE      |Manifest: NOSIGNATURE
+		thermal_core-1.20.1-11.0.6.24.jar                 |Thermal Series                |thermal                       |11.0.6              |DONE      |Manifest: NOSIGNATURE
+		systeams-1.20.1-1.9.1.jar                         |Thermal Systeams              |systeams                      |1.9.1               |DONE      |Manifest: NOSIGNATURE
+		pccard-1.20.1-1.0.15.jar                          |Programmed Circuit Card       |pccard                        |1.0.15              |DONE      |Manifest: NOSIGNATURE
+		MouseTweaks-forge-mc1.20.1-2.25.1.jar             |Mouse Tweaks                  |mousetweaks                   |2.25.1              |DONE      |Manifest: NOSIGNATURE
+		configuration-forge-1.20.1-2.2.0.jar              |Configuration                 |configuration                 |2.2.0               |DONE      |Manifest: NOSIGNATURE
+		titanium-1.20.1-3.8.32.jar                        |Titanium                      |titanium                      |3.8.32              |DONE      |Manifest: NOSIGNATURE
+		Jade-1.20.1-Forge-11.13.1.jar                     |Jade                          |jade                          |11.13.1+forge       |DONE      |Manifest: NOSIGNATURE
+		appliedenergistics2-forge-15.4.5.jar              |Applied Energistics 2         |ae2                           |15.4.5              |DONE      |Manifest: NOSIGNATURE
+		AE2NetworkAnalyzer-1.20-1.0.6-forge.jar           |AE2NetworkAnalyzer            |ae2netanalyser                |1.20-1.0.6-forge    |DONE      |Manifest: NOSIGNATURE
+		Highlighter-1.20.1-forge-1.1.9.jar                |Highlighter                   |highlighter                   |1.1.9               |DONE      |Manifest: NOSIGNATURE
+		EnderIO-1.20.1-6.2.11-beta-all.jar                |Ender IO                      |enderio                       |6.2.11-beta         |DONE      |Manifest: NOSIGNATURE
+		DefaultWorldType-1.20.1-4.0.4.jar                 |Default World Type            |defaultworldtype              |1.20.1-4.0.4        |DONE      |Manifest: NOSIGNATURE
+		Iceberg-1.20.1-forge-1.1.25.jar                   |Iceberg                       |iceberg                       |1.1.25              |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.14.1+1.20.1.jar                    |Curios API                    |curios                        |5.14.1+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-1.0.4.jar                   |Flywheel                      |flywheel                      |1.0.4               |DONE      |Manifest: NOSIGNATURE
+		Ponder-Forge-1.20.1-1.0.80.jar                    |Ponder                        |ponder                        |1.0.80              |DONE      |Manifest: NOSIGNATURE
+		create-1.20.1-6.0.6.jar                           |Create                        |create                        |6.0.6               |DONE      |Manifest: NOSIGNATURE
+		bucketlib-1.20.1-2.3.7.1.jar                      |BucketLib                     |bucketlib                     |1.20.1-2.3.7.1      |DONE      |Manifest: NOSIGNATURE
+		collective-1.20.1-8.3.jar                         |Collective                    |collective                    |8.3                 |DONE      |Manifest: NOSIGNATURE
+		Searchables-forge-1.20.1-1.0.3.jar                |Searchables                   |searchables                   |1.0.3               |DONE      |Manifest: NOSIGNATURE
+		thermal_foundation-1.20.1-11.0.6.70.jar           |Thermal Foundation            |thermal_foundation            |11.0.6              |DONE      |Manifest: NOSIGNATURE
+		thermal_expansion-1.20.1-11.0.1.29.jar            |Thermal Expansion             |thermal_expansion             |11.0.1              |DONE      |Manifest: NOSIGNATURE
+		ftb-ultimine-forge-2001.1.5.jar                   |FTB Ultimine                  |ftbultimine                   |2001.1.5            |DONE      |Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |DONE      |Manifest: NOSIGNATURE
+		kubejs-forge-2001.6.5-build.16.jar                |GT: Flatter Then Ever         |kubejs                        |2001.6.5-build.16   |DONE      |Manifest: NOSIGNATURE
+		ae2wtlib-15.2.3-forge.jar                         |AE2WTLib                      |ae2wtlib                      |15.2.3-forge        |DONE      |Manifest: NOSIGNATURE
+		ftb-library-forge-2001.2.9.jar                    |FTB Library                   |ftblibrary                    |2001.2.9            |DONE      |Manifest: NOSIGNATURE
+		item-filters-forge-2001.1.0-build.59.jar          |Item Filters                  |itemfilters                   |2001.1.0-build.59   |DONE      |Manifest: NOSIGNATURE
+		summoningrituals-forge-1.20.1-2.0.8.jar           |Summoning Rituals             |summoningrituals              |1.20.1-2.0.8        |DONE      |Manifest: NOSIGNATURE
+		kubejs-thermal-2001.1.10-build.2.jar              |KubeJS Thermal                |kubejs_thermal                |2001.1.10-build.2   |DONE      |Manifest: NOSIGNATURE
+		kubejs_enderio-forge-1.20.1-0.6.0.jar             |KubeJS-EnderIO                |kubejs_enderio                |1.20.1-0.6.0        |DONE      |Manifest: NOSIGNATURE
+		gtceu-1.20.1-1.6.4.jar                            |GregTech                      |gtceu                         |1.6.4               |DONE      |Manifest: NOSIGNATURE
+		ftb-teams-forge-2001.3.1.jar                      |FTB Teams                     |ftbteams                      |2001.3.1            |DONE      |Manifest: NOSIGNATURE
+		ftb-quests-forge-2001.4.13.jar                    |FTB Quests                    |ftbquests                     |2001.4.13           |DONE      |Manifest: NOSIGNATURE
+		ftb-xmod-compat-forge-2.1.3.jar                   |FTB XMod Compat               |ftbxmodcompat                 |2.1.3               |DONE      |Manifest: NOSIGNATURE
+		trofers-forge-5.0.2.jar                           |Trofers                       |trofers                       |5.0.2               |DONE      |Manifest: NOSIGNATURE
+		kubejs-create-forge-2001.3.0-build.8.jar          |KubeJS Create                 |kubejs_create                 |2001.3.0-build.8    |DONE      |Manifest: NOSIGNATURE
+		appleskin-forge-mc1.20.1-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |DONE      |Manifest: NOSIGNATURE
+		yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar  |YetAnotherConfigLib           |yet_another_config_lib_v3     |3.6.6+1.20.1-forge  |DONE      |Manifest: NOSIGNATURE
+		functionalstorage-1.20.1-1.2.10.jar               |Functional Storage            |functionalstorage             |1.20.1-1.2.10       |DONE      |Manifest: NOSIGNATURE
+		ExtremeReactors2-1.20.1-2.0.92.jar                |Extreme Reactors              |bigreactors                   |1.20.1-2.0.92       |DONE      |Manifest: NOSIGNATURE
+		DisableStructures-1.20.1-1.0.1.jar                |DisableStructures             |disablestructures             |1.20.1-1.0.1        |DONE      |Manifest: NOSIGNATURE
+		woodenbucket-1.20.1-2.1.0.0.jar                   |Wooden Bucket                 |woodenbucket                  |1.20.1-2.1.0.0      |DONE      |Manifest: NOSIGNATURE
+		ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar       |Extreme Sound Muffler         |extremesoundmuffler           |3.48                |DONE      |Manifest: NOSIGNATURE
+		ae2ct-1.20.1-1.0.5.jar                            |ae2CraftingTree               |ae2ct                         |1.20.1-1.0.5        |DONE      |Manifest: NOSIGNATURE
+		ftbquestsfreezefix-forge-1.0.0-1.20.1.jar         |FTB Quests Freeze Fix         |ftbquestsfreezefix            |1.0.0               |DONE      |Manifest: NOSIGNATURE
+		defaultoptions-forge-1.20-18.0.1.jar              |Default Options               |defaultoptions                |18.0.1              |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 26353b1d-344a-4719-b044-7ef48755b154
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.1
+	Flywheel Backend: flywheel:indirect

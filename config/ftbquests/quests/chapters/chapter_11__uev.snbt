@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_11__uev"
+	group: ""
+	icon: "kubejs:universal_uev_circuit"
+	id: "3C9E98A29D64F642"
+	order_index: 13
+	quest_links: [ ]
+	quests: [{
+		id: "52C88D2738AB265C"
+		tasks: [{
+			id: "00DB60F2221AEB91"
+			title: "Start Questline"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["In Development"]
+	title: "Chapter 11 | UEV"
+}

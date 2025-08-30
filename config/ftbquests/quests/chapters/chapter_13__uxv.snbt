@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_13__uxv"
+	group: ""
+	icon: "kubejs:universal_uxv_circuit"
+	id: "5043133A78F284F8"
+	order_index: 15
+	quest_links: [ ]
+	quests: [{
+		id: "2734786AEE2BB607"
+		tasks: [{
+			id: "5C45512FED9967A1"
+			title: "Start Questline"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["In Development"]
+	title: "Chapter 13 | UXV"
+}

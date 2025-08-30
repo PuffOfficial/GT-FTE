@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: "76ED85C1705485DC"
+	icon: "kubejs:p_credit"
+	id: "1E37755BE7B2029C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lInteresting fact:&r Even if you enable Wandering Traders through gamerules, they will be disabled by default on next world launch"]
+			hide_dependent_lines: true
+			id: "3D4008D7CA276577"
+			subtitle: "Very original"
+			tasks: [{
+				id: "527FACAAAB069E86"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3D4008D7CA276577"]
+			icon: {
+				Count: 1
+				id: "jetboots:jetboots"
+				tag: {
+					energy: 0
+					max_energy: 1000000
+				}
+			}
+			id: "5E978B885746BC8E"
+			rewards: [{
+				id: "0724C2F3DF44370B"
+				item: {
+					Count: 1
+					id: "jetboots:jetboots"
+					tag: {
+						energy: 0
+						max_energy: 1000000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "4B94DB065A317A64"
+				item: { Count: 32, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Jet Boots"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D4008D7CA276577"
+				"17916E3265B61ADD"
+			]
+			icon: "gtceu:wrought_iron_ingot"
+			id: "38A950D5E15EB9A7"
+			rewards: [{
+				count: 16
+				id: "4B02A2ABC1750DED"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "0A8EF0CC45C81D47"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Wrought Iron"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D4008D7CA276577"
+				"66242176308D56AE"
+			]
+			icon: "gtceu:steel_ingot"
+			id: "1497F50ED05DE521"
+			rewards: [{
+				count: 16
+				id: "33C1359D59C05ACB"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0256DAC35A82BD95"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Steel"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D4008D7CA276577"
+				"623A17C3B9F530E3"
+			]
+			icon: "gtceu:aluminium_ingot"
+			id: "50213048AB4D4482"
+			rewards: [{
+				count: 16
+				id: "67A63FD4B231B668"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "399B33B9AAF10864"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Aluminium"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D4008D7CA276577"
+				"4E19A7686399FB89"
+			]
+			icon: "gtceu:stainless_steel_ingot"
+			id: "4E472D79CEA6DFC1"
+			rewards: [{
+				count: 16
+				id: "6CA6F238ED367A7D"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "333175EE49E9D6DD"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Stainless Steel"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D4008D7CA276577"
+				"727935C408FBEDBD"
+			]
+			icon: "gtceu:titanium_ingot"
+			id: "39198EFF2B6E1A18"
+			rewards: [{
+				count: 16
+				id: "25FAB22580077AE6"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "0D20250B6A857F9D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Titanium"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D4008D7CA276577"
+				"204AD55237D91ACC"
+			]
+			icon: "gtceu:tungsten_steel_ingot"
+			id: "7CB22472E0A86F9A"
+			rewards: [{
+				count: 16
+				id: "1A00399DAB9506D5"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 24L
+				id: "2C6BE8A8ECD441FB"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Tungstensteel"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"3D4008D7CA276577"
+				"1070C7B62A4BD14A"
+			]
+			icon: "gtceu:rhodium_plated_palladium_ingot"
+			id: "1CFC648BB6164224"
+			rewards: [{
+				count: 16
+				id: "619973F7201C4EFC"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "504C6C5057424321"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Rhodium-Plated Palladium"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3D4008D7CA276577"]
+			icon: "gtceu:naquadah_alloy_ingot"
+			id: "3255F024CF3C54A9"
+			rewards: [{
+				count: 16
+				id: "1366C3CDDA5DEB36"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 40L
+				id: "20E41E5123FC8F5D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Naquadah Alloy"
+			x: -4.0d
+			y: -3.0d
+		}
+	]
+	title: "ShOp!!!"
+}

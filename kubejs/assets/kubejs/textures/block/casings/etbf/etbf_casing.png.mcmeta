@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/etbf/etbf_casing_ctm"
+    }
+}

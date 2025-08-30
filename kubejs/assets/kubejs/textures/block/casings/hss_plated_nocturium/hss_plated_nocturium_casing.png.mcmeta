@@ -1,0 +1,5 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/casings/hss_plated_nocturium/hss_plated_nocturium_casing_ctm"
+    }
+}

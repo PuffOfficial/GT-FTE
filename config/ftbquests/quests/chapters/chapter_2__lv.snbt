@@ -1,0 +1,853 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2__lv"
+	group: ""
+	icon: "kubejs:universal_ulv_circuit"
+	id: "6046367ADCE4B3AD"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/voltage/ulv/bottom"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["426F8528C4D611A5"]
+			description: ["Yes, i made ULV tier"]
+			id: "35FE18644DAE5F47"
+			rewards: [{
+				id: "44D4E7BACA348170"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "gtfte:wrought_iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "552CD0D83349A112"
+				title: "Start Questline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35FE18644DAE5F47"]
+			id: "7BCFC0E2FB57C267"
+			tasks: [{
+				id: "04DB76D430EE3D45"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			title: "Rubber Ingredients"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BCFC0E2FB57C267"]
+			description: ["Yes, this process is much easier there&l"]
+			id: "0836083ED1DB364A"
+			rewards: [{
+				id: "12BA5FAAB09EAB6B"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31E26750D7263481"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"35FE18644DAE5F47"
+				"0836083ED1DB364A"
+			]
+			id: "7D37D5E1AF5DBA7D"
+			rewards: [{
+				id: "7B92CE518EB9A308"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DC84387F82247F9"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "5AAD1F14FEF64ECB"
+			rewards: [{
+				id: "4036605016F3BB67"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Cheaper wires"
+			tasks: [{
+				id: "23294B9D6BE43905"
+				item: "gtceu:ulv_wiremill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "3599033936B7D307"
+			rewards: [{
+				id: "1D874927D9DCC6DE"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "477D39E65E8C0062"
+				item: "gtceu:ulv_arc_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "7AB6A757104C3EB3"
+			rewards: [{
+				id: "2CB1DCC897417ED0"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Okay, that one is not cheaper"
+			tasks: [{
+				id: "4766B8705FB60D7C"
+				item: "gtceu:ulv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "1710510F5855B4C6"
+			rewards: [{
+				id: "4B03B0ED0587F70A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Not cheaper rubber"
+			tasks: [{
+				id: "16C235160EB8A559"
+				item: "gtceu:ulv_extractor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "5C7235716E9F1F27"
+			rewards: [{
+				id: "64328129B161E8CF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40A69B09DA79AF12"
+				item: "gtceu:ulv_polarizer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "3DA9D0C6EC50DD97"
+			rewards: [{
+				id: "2C1825BCC24C7D20"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Automated Sieve"
+			tasks: [{
+				id: "2BE06AF7E759EDD9"
+				item: "gtceu:ulv_sifter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5C7235716E9F1F27"
+				"7AB6A757104C3EB3"
+			]
+			id: "51679B8BC04EDBA5"
+			rewards: [{
+				id: "052337E06745B063"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70CA667C780EA07D"
+				item: "gtceu:ulv_voltage_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51679B8BC04EDBA5"]
+			id: "43E6A51234A307E8"
+			rewards: [{
+				id: "0E9505A1F21D97FB"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "798B0FAC85199302"
+				item: "gtceu:ulv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "283EA90A0EF62F3B"
+			rewards: [{
+				id: "7230EF3132DD7C3C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5126038C49F40EBB"
+				item: "gtceu:ulv_compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7D37D5E1AF5DBA7D"
+				"3DA9D0C6EC50DD97"
+			]
+			id: "6FF62848CBFCA97C"
+			rewards: [{
+				id: "04AD0B0D107C5630"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F592C9ECF94DE55"
+				item: "gtceu:ulv_macerator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"283EA90A0EF62F3B"
+				"522F74A413040E4E"
+			]
+			id: "048349612D145110"
+			rewards: [{
+				id: "25A71CDBD745A9EE"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E08D5EBED8544B8"
+				item: "gtceu:compressed_fireclay"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6FF62848CBFCA97C"]
+			id: "522F74A413040E4E"
+			rewards: [{
+				id: "41E983CE31821000"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A2EE8B9C2F04B65"
+				item: "gtceu:fireclay_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3599033936B7D307"
+				"558DE2F6968B43B5"
+			]
+			id: "15035F19CC40BADE"
+			rewards: [{
+				id: "553EAC5BA957BF81"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "Brick 2.0"
+			tasks: [{
+				id: "185AF3AF393DB277"
+				item: "gtceu:ceramic_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"15035F19CC40BADE"
+				"0BB20AF10BC7E7EE"
+			]
+			id: "22489FAC0C29B0FB"
+			rewards: [{
+				id: "6BCECC8E979D93B5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43F22347980DBC7E"
+				item: "gtceu:ceramic_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"048349612D145110"
+				"43E6A51234A307E8"
+			]
+			description: [""]
+			id: "0BB20AF10BC7E7EE"
+			rewards: [{
+				id: "706BB88BC8A995FF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "The hell is... \"PEBF\"? Where is my \"PBF\"!!!"
+			tasks: [
+				{
+					id: "7A1552EC904AEE84"
+					item: "gtceu:primitive_electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6F003F787372D3E7"
+					item: { Count: 8, id: "kubejs:wrought_iron_firebox" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "39E8D0958E5E9A78"
+					item: { Count: 10, id: "kubejs:solid_wrought_iron_casing" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0BB20AF10BC7E7EE"]
+			id: "66242176308D56AE"
+			rewards: [{
+				id: "7C57B9134C8068F8"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71FBF44822292CED"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7AB6A757104C3EB3"]
+			id: "0A3B562281A742E6"
+			rewards: [{
+				id: "65D71857856A3EBC"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0BAAB1BB0E0ADA3A"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A3B562281A742E6"]
+			id: "1E265916D16CF46D"
+			rewards: [{
+				id: "32151A473A7CD859"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77E2FB822500A051"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22489FAC0C29B0FB"]
+			id: "311DD9BB75792824"
+			rewards: [{
+				id: "5EAEC171822DD1C7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "371E716B86AA0268"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"66242176308D56AE"
+				"1E265916D16CF46D"
+				"311DD9BB75792824"
+				"6226B3ADEF0473E6"
+				"426F8528C4D611A5"
+			]
+			id: "5955E1625D920AD9"
+			rewards: [{
+				id: "4FF10FCF45CF3E2B"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3A19C9A65564C29F"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66242176308D56AE"]
+			id: "36B7E1CFE80AD617"
+			rewards: [{
+				id: "39AC2543876F145C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5576B6D40737E2F8"
+				item: "gtceu:lv_machine_casing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35FE18644DAE5F47"]
+			hide_dependent_lines: true
+			id: "6766E14EB09EF6ED"
+			rewards: [{
+				id: "031D5080516A3AE3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			subtitle: "You will hate this on... No, you will just hate hand crafting those"
+			tasks: [
+				{
+					id: "469A5DDE520DAAE9"
+					item: "kubejs:ulv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "5E2305A8A477B8DB"
+					item: "kubejs:ulv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "46280CAFBCACE444"
+					item: "kubejs:ulv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "46803B758174D117"
+					item: "kubejs:ulv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "4DA706641CF60B01"
+					item: "kubejs:ulv_electric_piston"
+					type: "item"
+				}
+			]
+			title: "ULV Crafting Components"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "0938597485E2E543"
+			rewards: [{
+				id: "2C6A521BEDB89C32"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D3CD1831D39CD26"
+				item: "gtceu:ulv_electrolyzer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0938597485E2E543"]
+			id: "558DE2F6968B43B5"
+			rewards: [{
+				id: "0BD3132322D2B959"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 10L
+					id: "3D93F3321FDD0314"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "7BECC7796CE740AE"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+			]
+			title: "Glass electrolyzing products"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CD8A8BF79B0C7B7"]
+			description: [
+				"Time for some farming! Has 1/30 chance to drop from any crop"
+				""
+				"But, you can speed up this process by breaking wheat with crook!"
+			]
+			icon: "gtceu:verdant_copper_ingot"
+			id: "4A08A3ECB0190812"
+			rewards: [{
+				id: "40291EECE39D7210"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3724FBC1A1B97C2B"
+					item: "rootsclassic:verdant_sprig"
+					type: "item"
+				}
+				{
+					id: "0A3833FE79A754C4"
+					item: "gtceu:verdant_copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Verdant Copper"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CD8A8BF79B0C7B7"]
+			description: [
+				"Try breaking some grass, to get old roots, has 1/10 chance"
+				""
+				"Don't know how to get grass in a flat world? - Use bonemeal"
+				""
+				"Don't know hot to get bonemeal in a flat world? - Skeletons at night"
+				""
+				"Lazy to farm bonemeal? Break grass with a crook, it will give you more roots"
+			]
+			icon: "gtceu:root_iron_ingot"
+			id: "12BC49D2BB967B94"
+			rewards: [{
+				id: "7484BBEC3F7D2DA7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2982114EF9DA7653"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+				{
+					id: "3EE75CE26209D987"
+					item: "gtceu:root_iron_ingot"
+					type: "item"
+				}
+			]
+			title: "Root Iron"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1710510F5855B4C6"
+				"7CD8A8BF79B0C7B7"
+			]
+			description: ["By putting ender pearls in to extractor, you can get 4 milibuckets of potassium, and dragon's eye"]
+			icon: "gtceu:dragon_gold_ingot"
+			id: "20DC23256B7FD46E"
+			rewards: [{
+				id: "73EBEDCED2E3384E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "376A2CB82E78175D"
+					item: "rootsclassic:dragons_eye"
+					type: "item"
+				}
+				{
+					id: "68BB07AEFCD91C8D"
+					item: "gtceu:dragon_gold_ingot"
+					type: "item"
+				}
+			]
+			title: "Dragon Gold"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"20DC23256B7FD46E"
+				"12BC49D2BB967B94"
+				"4A08A3ECB0190812"
+			]
+			id: "1C8AEFC0F2202C91"
+			rewards: [{
+				id: "292CA9809987BC8E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20BEC376165886D7"
+					item: "rootsclassic:altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "026E1ABF4B05FDDA"
+					item: { Count: 8, id: "rootsclassic:mundane_standing_stone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "59A5A2F6FBD57F3C"
+					item: "rootsclassic:brazier"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C8AEFC0F2202C91"]
+			id: "40941BEA462A90A2"
+			rewards: [{
+				id: "3E08AFFE4C71400A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E0BCB2758E2EAC3"
+				item: "gtceu:marble"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C8AEFC0F2202C91"
+				"48F0C9B4E06D7546"
+			]
+			id: "6226B3ADEF0473E6"
+			rewards: [{
+				id: "2CBF0B006BB0B813"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27966D0FB0651548"
+				item: "gtceu:living_steel_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"40941BEA462A90A2"
+				"6EB96B4646CE60AD"
+			]
+			id: "48F0C9B4E06D7546"
+			rewards: [{
+				id: "4EDA0ACA1BC8D610"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "28A47C6A08753105"
+				item: "rootsclassic:attuned_standing_stone"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "6E289E883D46F07F"
+			rewards: [{
+				id: "62B12DB0D99E699D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0537316ADEB409CB"
+				item: "gtceu:ulv_hydrokinetic_dynamo"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35FE18644DAE5F47"]
+			id: "59814AF3A03C3488"
+			rewards: [{
+				id: "36022EAB3863B834"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0DC127BF58276167"
+				item: "gtceu:primitive_electric_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35FE18644DAE5F47"]
+			id: "45DF71A04C9F1943"
+			rewards: [{
+				id: "06558313DCADC5C2"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76B10CDCA2ED2D0F"
+				item: "forestry:worktable"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3219118CCDEDE0C4"]
+			id: "6EB96B4646CE60AD"
+			rewards: [{
+				id: "47B3B6195A95C80A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FA691E23E2B9A75"
+				item: "gtceu:marble_bricks"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66242176308D56AE"]
+			id: "3219118CCDEDE0C4"
+			rewards: [{
+				id: "1103A982CC6E7313"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6534D183B9757AE3"
+					item: "gtceu:ulv_extruder"
+					type: "item"
+				}
+				{
+					id: "320353D7CD8EB46D"
+					item: "gtceu:ingot_extruder_mold"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7D37D5E1AF5DBA7D"]
+			id: "7CD8A8BF79B0C7B7"
+			tasks: [{
+				id: "5C749F996F200901"
+				item: "gtceu:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43E6A51234A307E8"]
+			id: "572F7C8EA97556B7"
+			tasks: [{
+				id: "58450B592B8EE953"
+				item: "gtceu:primitive_bender"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+	]
+	subtitle: ["The Power Of... Hydrokinetics...?"]
+	title: "Chapter 1 | ULV"
+}

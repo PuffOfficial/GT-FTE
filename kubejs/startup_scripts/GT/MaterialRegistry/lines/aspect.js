@@ -1,0 +1,52 @@
+GTCEuStartupEvents.registry("gtceu:material", event => {
+event.create("alchemical_bronze")
+    .ingot()
+    .color(0xe6ab7d).secondaryColor(0x6a3d39).iconSet("bright")
+    .flags( 
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+        GTMaterialFlags.GENERATE_FOIL,
+        GTMaterialFlags.GENERATE_FRAME,
+        GTMaterialFlags.GENERATE_ROTOR,
+        GTMaterialFlags.GENERATE_RING,
+        GTMaterialFlags.GENERATE_SMALL_GEAR,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_SPRING,
+        GTMaterialFlags.GENERATE_BOLT_SCREW
+);
+event.create("thaumium")
+    .ingot()
+    .color(0x7d6694).secondaryColor(0x4c2f69).iconSet("bright")
+    .flags( 
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+        GTMaterialFlags.GENERATE_FOIL,
+        GTMaterialFlags.GENERATE_FRAME,
+        GTMaterialFlags.GENERATE_ROTOR,
+        GTMaterialFlags.GENERATE_RING,
+        GTMaterialFlags.GENERATE_SMALL_GEAR,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_SPRING,
+        GTMaterialFlags.GENERATE_BOLT_SCREW,
+        GTMaterialFlags.GENERATE_ROUND
+    );
+event.create("void_metal")
+    .ingot()
+    .color(0x2f1d40).secondaryColor(0x000000).iconSet("metallic")
+    .flags( 
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_ROD,
+        GTMaterialFlags.GENERATE_FINE_WIRE,
+        GTMaterialFlags.GENERATE_FOIL,
+        GTMaterialFlags.GENERATE_FRAME,
+        GTMaterialFlags.GENERATE_ROTOR,
+        GTMaterialFlags.GENERATE_RING,
+        GTMaterialFlags.GENERATE_SMALL_GEAR,
+        GTMaterialFlags.GENERATE_GEAR,
+        GTMaterialFlags.GENERATE_SPRING,
+        GTMaterialFlags.GENERATE_BOLT_SCREW,
+        GTMaterialFlags.GENERATE_ROUND
+);
+})

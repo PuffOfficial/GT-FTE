@@ -1,0 +1,36 @@
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
+	event.create('terrestrial')
+		.category('multiblock')
+		.setMaxIOSize(3, 1, 1, 0)
+		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+		.setSound(GTSoundEntries.COOLING);
+});
+
+GTCEuStartupEvents.registry('gtceu:machine', event => {
+	event.create('terrestrial', 'multiblock')
+		.rotationState(RotationState.NON_Y_AXIS)
+		.recipeTypes(['terrestrial'])
+		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH)
+		.appearanceBlock(() => Block.getBlock("gtceu:clean_machine_casing"))
+		.pattern(definition => FactoryBlockPattern.start()
+			.aisle('#####', '#AAA#', '#AAA#', '#AAA#', '#####')
+			.aisle('#####', 'ABBBA', 'ABEBA', 'ABBBA', '#RRR#')
+			.aisle('#####', 'ABEBA', 'AEGEA', 'ABEBA', '#RRR#')
+			.aisle('#####', 'ABBBA', 'ABEBA', 'ABBBA', '#RRR#')
+			.aisle('##C##', '#AAA#', '#AAA#', '#AAA#', '#####')
+			.where('C', Predicates.controller(Predicates.blocks(definition.get())))
+			.where('#', Predicates.blocks('gtceu:clean_machine_casing')
+				.or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
+				.or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(1).setPreviewCount(1)))
+            .where('R', Predicates.blocks('kubejs:manasteel_coil'))
+			.where('A', Predicates.blocks('gtceu:tempered_glass'))
+			.where('B', Predicates.blocks('gtceu:manasteel_frame'))
+			.where('E', Predicates.blocks('gtceu:stainless_steel_gearbox'))
+			.where('G', Predicates.blocks('kubejs:hv_mana_amplifier'))
+			.where(' ', Predicates.any())
+			.build())
+		.workableCasingModel("gtceu:block/casings/solid/machine_casing_clean_stainless_steel", "kubejs:block/multiblock/terrastrial")
+});
