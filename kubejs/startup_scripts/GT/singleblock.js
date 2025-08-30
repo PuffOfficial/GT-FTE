@@ -113,6 +113,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .langValue(Component.translatable(`gtfte.name.primitive_maintenance_hatch`))
             .rotationState(RotationState.ALL)
             .abilities("primitive_maintenance")
-            .workableTieredHullModel("kubejs:block/custom/c_maintenance")
+            .workableTieredHullModel("kubejs:block/custom/primitive_maintenance")
         )
 })  
