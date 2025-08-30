@@ -168,6 +168,9 @@ event.remove({ id: 'gtceu:circuit_assembler/quantum_assembly_iv' })
 event.remove({ id: 'gtceu:circuit_assembler/quantum_computer_luv_soldering_alloy' })
 event.remove({ id: 'gtceu:circuit_assembler/quantum_computer_luv' })
 
+event.remove({ id: 'gtceu:chemical_reactor/uhpic_wafer' })
+event.remove({ id: 'gtceu:large_chemical_reactor/uhpic_wafer' })
+
 
 event.remove({ id: 'gtceu:sifter/gravel_sifting' })
 

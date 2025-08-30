@@ -216,6 +216,12 @@ event.add("chulak/cassiterite", vein => {
 })
 // MARK: BEDROCK FLUIDS:
 GTCEuServerEvents.fluidVeins(event => {
+
+    event.remove("gtceu:heavy_oil_deposit")
+    event.remove("gtceu:light_oil_deposit")
+    event.remove("gtceu:oil_deposit")
+    event.remove("gtceu:raw_oil_deposit")
+
     event.add("cavum_tenebrae/raw_oil", vein => {
         vein.dimensions("sgjourney:cavum_tenebrae")
         vein.fluid(() => Fluid.of("gtceu:oil_medium").fluid)

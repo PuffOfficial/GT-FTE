@@ -103,7 +103,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .langValue(`Ionizing Module`)
             .rotationState(RotationState.ALL)
             .abilities(PartAbility.MAINTENANCE)
-            .workableTieredHullModel("kubejs:block/custom/ionizing_module")
+            .workableTieredHullModel("kubejs:block/machines/ionizing_module")
         )
 
     event.create("primitive_maintenance_hatch", "custom")
@@ -116,6 +116,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .modelProperty($GTMachineModelProperties.IS_FORMED)
             .modelProperty($GTMachineModelProperties.IS_TAPED)
             .rotationState(RotationState.ALL)
-            .workableTieredHullModel("kubejs:block/custom/primitive_maintenance")
+            .workableTieredHullModel("kubejs:block/machines/primitive_maintenance")
         )
 })  

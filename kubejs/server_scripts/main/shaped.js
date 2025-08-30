@@ -111,6 +111,35 @@ event.shaped('gtceu:primitive_electric_furnace', [
     D: global.ULV.Wire('double'),
   }
 );
+// MARK: Gregtech Affliated
+event.shaped('gtceu:zpm_ionizing_module', [
+    'CAC', 
+    'EBD',
+    'CAC'  
+  ], { 
+    A: global.ZPM.Circuit, 
+    B: global.ZPM.Hull,
+    C: global.ZPM.Cable('single'),
+    D: global.LuV.RobotArm,
+    E: global.LuV.Emitter
+  }
+);
+event.shaped('gtceu:ulv_primitive_maintenance_hatch', [
+    'GFD', 
+    'HBE',
+    'CAI'  
+  ], { 
+    A: global.ULV.Circuit, 
+    B: global.ULV.Hull,
+    C: global.ULV.Cable('single'),
+    D: global.tools.AnyWrench,
+    E: global.tools.AnyScrewdriver,
+    F: global.tools.AnyWireCutter,
+    G: global.tools.AnyMallet,
+    H: 'gtceu:treated_wood_plate',
+    I: 'gtceu:copper_small_fluid_pipe',
+  }
+).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver, global.tools.AnyWrench, global.tools.AnyWireCutter]);
 // MARK: Crafting Components
 event.shaped('gtceu:empty_fuel_rod', [
     'BCB', 

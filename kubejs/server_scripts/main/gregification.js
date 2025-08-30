@@ -26,7 +26,7 @@ event.shaped('minecraft:lightning_rod', [
     D: 'gtceu:copper_rod',  
     E: 'gtceu:copper_screw',  
   }
-);
+).damageIngredient([global.tools.AnyHammer, global.tools.AnyScrewdriver]);
 event.shaped('forestry:worktable', [
     'B C', 
     'ADA',
@@ -39,7 +39,7 @@ event.shaped('forestry:worktable', [
     E: 'gtceu:iron_screw',
     F: 'minecraft:chest'
   }
-);
+).damageIngredient([global.tools.AnyMallet, global.tools.AnySaw]);
 // MARK: CobbleForDays
 event.shaped('cobblefordays:tier_1', [
     'ABA', 
@@ -53,7 +53,7 @@ event.shaped('cobblefordays:tier_1', [
     E: 'minecraft:water_bucket',  
     F: 'minecraft:lava_bucket'
   }
-);
+).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
 event.shaped('cobblefordays:tier_2', [
     'ABA', 
     'FDE',
@@ -66,7 +66,7 @@ event.shaped('cobblefordays:tier_2', [
     E: 'minecraft:water_bucket',  
     F: 'minecraft:lava_bucket'
   }
-);
+).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
 event.shaped('cobblefordays:tier_3', [
     'ABA', 
     'FDE',
@@ -79,7 +79,7 @@ event.shaped('cobblefordays:tier_3', [
     E: 'minecraft:water_bucket',  
     F: 'minecraft:lava_bucket'
   }
-);
+).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
 event.shaped('cobblefordays:tier_4', [
     'ABA', 
     'FDE',
@@ -92,7 +92,7 @@ event.shaped('cobblefordays:tier_4', [
     E: 'minecraft:water_bucket',  
     F: 'minecraft:lava_bucket'
   }
-);
+).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
 event.shaped('cobblefordays:tier_5', [
     'ABA', 
     'FDE',
@@ -105,7 +105,7 @@ event.shaped('cobblefordays:tier_5', [
     E: 'minecraft:water_bucket',  
     F: 'minecraft:lava_bucket'
   }
-);
+).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
 // MARK: AE2
 event.shaped('ae2:controller', [
     'BAB', 
