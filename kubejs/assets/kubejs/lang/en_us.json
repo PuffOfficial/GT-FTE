@@ -31,6 +31,8 @@
 
     "gtfte.name.fuel_rod": "Fuel Rod (%s)",
 
+    "gtfte.name.primitive_maintenance_hatch": "Primitive Maintenance Hatch",
+    "gtfte.name.ionizing_module": "Ionizing Module",
     "gtfte.tooltip.bedrock_crusher": "Not Large Miner",
     "gtfte.tooltip.energizer": "Not turbo charger!",
     "gtfte.tooltip.daycycle_simulation_chamber": "Real life simulator, but for plants",
@@ -48,7 +50,7 @@
 
     "gtfte.tooltip.defaultParallel": "Has default parallels:§5 %s §r",
 
-    "gtfte.ionizing_cleanroom": "Ionizing Hatch",
+    "gtfte.ionizing_cleanroom": "§5 Ionizing Module",
 
     "gtfte.tagprefix.ingot": "an Ingot",
     "gtfte.tagprefix.plate": "a Plate",

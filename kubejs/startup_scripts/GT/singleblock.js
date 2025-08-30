@@ -1,7 +1,9 @@
 const $MaintenanceHatchPartMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.part.MaintenanceHatchPartMachine")
-
 const $CleaningMaintenanceHatchPartMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.part.CleaningMaintenanceHatchPartMachine")
 
+const $GTMachineModelProperties = Java.loadClass("com.gregtechceu.gtceu.api.machine.property.GTMachineModelProperties")
+
+const $ParallelHatchPartMachine = Java.loadClass("com.gregtechceu.gtceu.common.machine.multiblock.part.ParallelHatchPartMachine");
 
 
 // CUSTOM RECIPE TYPES
@@ -98,7 +100,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         })
         .tiers(GTValues.ZPM)
         .definition((tier, builder) => builder
-            .langValue(Component.translatable(`gtfte.name.ionizing_module`))
+            .langValue(`Ionizing Module`)
             .rotationState(RotationState.ALL)
             .abilities(PartAbility.MAINTENANCE)
             .workableTieredHullModel("kubejs:block/custom/ionizing_module")
@@ -110,9 +112,10 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         })
         .tiers(GTValues.ULV)
         .definition((tier, builder) => builder
-            .langValue(Component.translatable(`gtfte.name.primitive_maintenance_hatch`))
+            .langValue(`Primitive Maintenance Hatch`)
+            .modelProperty($GTMachineModelProperties.IS_FORMED)
+            .modelProperty($GTMachineModelProperties.IS_TAPED)
             .rotationState(RotationState.ALL)
-            .abilities("primitive_maintenance")
             .workableTieredHullModel("kubejs:block/custom/primitive_maintenance")
         )
 })  

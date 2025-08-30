@@ -13,6 +13,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 			.where('#', Predicates.blocks('kubejs:solid_wrought_iron_casing')
 				.or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
 				.or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.blocks('gtceu:ulv_primitive_maintenance_hatch').setExactLimit(1).setPreviewCount(1))
 				.or(Predicates.blocks(PartAbility.INPUT_ENERGY.getBlocks([GTValues.ULV]).toArray()).setMaxGlobalLimited(2).setPreviewCount(1)))
             .where('R', Predicates.blocks('kubejs:wrought_iron_firebox'))
 			.where(' ', Predicates.any())
