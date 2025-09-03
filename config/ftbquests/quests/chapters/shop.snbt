@@ -53,7 +53,7 @@
 				type: "item"
 			}]
 			title: "Jet Boots"
-			x: 0.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -232,7 +232,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3D4008D7CA276577"]
+			dependencies: [
+				"3D4008D7CA276577"
+				"34200949BA7F72DC"
+			]
 			icon: "gtceu:naquadah_alloy_ingot"
 			id: "3255F024CF3C54A9"
 			rewards: [{
@@ -251,6 +254,56 @@
 			title: "Naquadah Alloy"
 			x: -4.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["3D4008D7CA276577"]
+			icon: "gtceu:prospector.hv"
+			id: "073384F997450C3F"
+			rewards: [{
+				id: "3E45BCC15DDB7D18"
+				item: "gtceu:prospector.hv"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "02559757A42A7248"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Advanced Prospector (HV)"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D4008D7CA276577"]
+			icon: {
+				Count: 1
+				id: "avaritia:infinity_clock"
+				tag: {
+					mode: { }
+				}
+			}
+			id: "7E998D6EC68F18A5"
+			rewards: [{
+				id: "1D5A8EED940411A4"
+				item: {
+					Count: 1
+					id: "avaritia:infinity_clock"
+					tag: {
+						mode: { }
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "0FA426555A28F24B"
+				item: { Count: 32, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Infinity Clock"
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 	title: "ShOp!!!"

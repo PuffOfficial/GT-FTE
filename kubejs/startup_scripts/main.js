@@ -52,8 +52,8 @@ StartupEvents.registry('item', register => {
 
     register.create("alfheim_runes").texture("kubejs:item/alfheim_runes").maxStackSize(1)
 
-    register.create("ram_mainframe").texture("kubejs:item/components/ram_complex").maxStackSize(1)
-    register.create("ram_stick").texture("kubejs:item/components/ram_stick").maxStackSize(8)
+    register.create("ram_mainframe").texture("kubejs:item/components/ram_complex").maxStackSize(4)
+    register.create("ram_stick").texture("kubejs:item/components/ram_stick").maxStackSize(16)
 
     register.create("gtceu:abydos_marker").texture("kubejs:item/markers/abydos_marker").displayName("Abydos")
     register.create("gtceu:rima_marker").texture("kubejs:item/markers/rima_marker").displayName("Rima")

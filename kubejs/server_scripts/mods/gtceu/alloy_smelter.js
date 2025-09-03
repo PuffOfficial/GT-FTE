@@ -15,4 +15,9 @@ event.recipes.gtceu.alloy_smelter('gtfte:dragon_gold')
       .itemOutputs('gtceu:dragon_gold_ingot')
       .duration(80)
       .EUt(GTValues.VA[GTValues.ULV]);
+event.recipes.gtceu.alloy_smelter('gtfte:quartz_glass')
+      .itemInputs(['4x gtceu:nether_quartz_dust', 'minecraft:glass'])
+      .itemOutputs('ae2:quartz_glass')
+      .duration(200)
+      .EUt(GTValues.VA[GTValues.MV]);
 })

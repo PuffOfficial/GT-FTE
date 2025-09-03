@@ -19,7 +19,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.rotationState(RotationState.NON_Y_AXIS)
 		.machine((holder) => new $CoilWorkableElectricMultiblockMachine(holder))
 		.recipeType('alchemy')
-		.recipeModifier((machine, recipe) => AlchemyOverclock(machine, recipe))
+		.recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT_SUBTICK,(machine, recipe) => AlchemyOverclock(machine, recipe)])
 		.appearanceBlock(() => Block.getBlock("kubejs:corruption_proof_casing"))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle('S S','###','###','###','###')

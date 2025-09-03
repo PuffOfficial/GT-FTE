@@ -11,6 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('large_barrel', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('barrel')
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
         .appearanceBlock(() => Block.getBlock("gtceu:treated_wood_planks"))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('RRR', 'F#F', 'F#F', 'F#F')

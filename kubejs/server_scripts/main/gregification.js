@@ -130,37 +130,37 @@ event.shaped('ae2:drive', [
     E: 'ae2:memory_processor',
   }
 );
-event.shaped('ae2:pattern_provider', [
-    'BDB', 
-    'ACA',
-    'BEB'  
-  ], {
-    A: global.EV.Circuit,
-    B: 'gtceu:titanium_plate',
-    C: global.EV.Hull,
-    E: 'ae2:logic_processor',
-    D: 'kubejs:ram_mainframe',
-  }
-);
-event.shaped('ae2:molecular_assembler', [
-    'BCB', 
-    'DAD',
-    'BCB'  
-  ], {
-    A: global.EV.Circuit,
-    B: 'gtceu:titanium_plate',
-    C: 'gtceu:glass_plate',
-    D: global.HV.RobotArm
-  }
-);
-event.shaped('ae2:interface', [
+event.shaped('2x ae2:pattern_provider', [
     'BDB', 
     'ACA',
     'BEB'  
   ], {
     A: global.HV.Circuit,
-    B: 'gtceu:stainless_steel_plate',
+    B: 'gtceu:titanium_plate',
     C: global.HV.Hull,
+    E: 'ae2:logic_processor',
+    D: 'kubejs:ram_mainframe',
+  }
+);
+event.shaped('2x ae2:molecular_assembler', [
+    'BCB', 
+    'DAD',
+    'BCB'  
+  ], {
+    A: global.HV.Circuit,
+    B: 'gtceu:titanium_plate',
+    C: 'gtceu:glass_plate',
+    D: global.HV.RobotArm
+  }
+);
+event.shaped('2x ae2:interface', [
+    'BDB', 
+    'ACA',
+    'BEB'  
+  ], {
+    A: global.MV.Circuit,
+    B: 'gtceu:stainless_steel_plate',
+    C: global.MV.Hull,
     E: 'ae2:memory_processor',
     D: 'kubejs:ram_mainframe',
   }
@@ -173,6 +173,26 @@ event.shaped('ae2:crafting_unit', [
     A: 'ae2:calculation_processor',
     B: 'gtceu:stainless_steel_plate',
     E: 'ae2:logic_processor',
+  }
+);
+event.shaped('ae2:formation_core', [
+    'AB ', 
+    'EB ',
+    '   '  
+  ], {
+    A: 'ae2:logic_processor',
+    B: 'gtceu:stainless_steel_plate',
+    E: 'gtceu:flawless_certus_quartz_gem',
+  }
+);
+event.shaped('2x ae2:annihilation_core', [
+    'AB ', 
+    'EB ',
+    '   '  
+  ], {
+    A: 'ae2:logic_processor',
+    B: 'gtceu:stainless_steel_plate',
+    E: 'gtceu:flawless_fluix_gem',
   }
 );
 event.recipes.gtceu.assembler('gtfte:chest')

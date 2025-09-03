@@ -10,6 +10,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 	event.create('star_forge', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeType('star_forge')
+        .recipeModifiers([GTRecipeModifiers.OC_PERFECT_SUBTICK])
 		.appearanceBlock(() => Block.getBlock('kubejs:hss_plated_nocturium_casing'))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle("  ###  "," EGGGE ","#GGGGG#","#GGGGG#","#GGGGG#"," EGGGE ","  ###  ")

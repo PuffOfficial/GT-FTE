@@ -15,7 +15,7 @@ event.shaped('exdeorum:flint_mesh', [
   ], {
     M: 'exdeorum:string_mesh',  
     F: 'gtceu:flint_dust', 
-    C: 'kubejs:string_mesh_chunk',
+    C: 'minecraft:string',
   }
 );
 event.shaped('exdeorum:iron_mesh', [
@@ -25,7 +25,7 @@ event.shaped('exdeorum:iron_mesh', [
   ], {
     M: 'exdeorum:flint_mesh',  
     F: 'gtceu:long_iron_rod', 
-    C: 'kubejs:string_mesh_chunk',
+    C: 'minecraft:string',
   }
 );
 event.shaped('exdeorum:golden_mesh', [
@@ -35,7 +35,7 @@ event.shaped('exdeorum:golden_mesh', [
   ], {
     M: 'exdeorum:iron_mesh',  
     F: 'gtceu:long_gold_rod', 
-    C: 'kubejs:string_mesh_chunk',
+    C: 'minecraft:string',
   }
 );
 // MARK: Roots

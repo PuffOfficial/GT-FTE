@@ -17,7 +17,7 @@ event.create("radiation_resistant_alloy")
     .ingot()
     .liquid()
     .color(0x7e6f82).secondaryColor(0x355e67).iconSet(GTMaterialIconSet.METALLIC)
-    .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_SMALL_GEAR, )
+    .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_SMALL_GEAR)
     .formula("WNiCu")
     .components("1x tungsten","1x nickel","1x copper");
 //Titanium Oxide
@@ -34,14 +34,6 @@ event.create("stargate_alloy")
     .color(0x8eb2ba).secondaryColor(0x355e67).iconSet(GTMaterialIconSet.METALLIC)
     .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_SMALL_GEAR)
     .components("2x titanium", "1x molybdenum", "12x steel", "2x manasteel");
-//Tenebron
-event.create("tenebron")
-    .ingot()
-    .liquid()
-    .color(0x313131).secondaryColor(0x002522).iconSet(GTMaterialIconSet.BRIGHT)
-    .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_SMALL_GEAR)
-    .formula("WNiCu")
-    .components("1x tungsten","1x nickel","1x copper");
 //Silicon Carbide
 event.create("silicon_carbide")
     .ingot()

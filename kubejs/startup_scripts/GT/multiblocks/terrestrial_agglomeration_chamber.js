@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 	event.create('terrestrial', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeTypes(['terrestrial'])
-		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH)
+        .recipeModifiers([GTRecipeModifiers.OC_PERFECT_SUBTICK])
 		.appearanceBlock(() => Block.getBlock("gtceu:clean_machine_casing"))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle('#####', '#AAA#', '#AAA#', '#AAA#', '#####')

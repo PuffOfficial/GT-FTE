@@ -32,11 +32,11 @@ event.recipes.gtceu.circuit_assembler('gtfte:stargate_computation_mainframe')
       .EUt(GTValues.VA[GTValues.HV]);
 event.recipes.gtceu.circuit_assembler('gtfte:ram_stick')
       .itemInputs(['8x gtceu:ram_chip', 'gtceu:soc', 'gtceu:gold_bolt', '16x gtceu:fine_red_alloy_wire', 'gtceu:plastic_printed_circuit_board'])
-      .itemOutputs('kubejs:ram_stick')
+      .itemOutputs('2x kubejs:ram_stick')
       .duration(600)    
       .EUt(GTValues.VA[GTValues.MV]);
 event.recipes.gtceu.circuit_assembler('gtfte:ram_mainframe')
-      .itemInputs(['2x kubejs:ram_stick', global.HV.CircuitMulti(1), '4x gtceu:black_steel_plate','16x gtceu:fine_copper_wire','2x gtceu:soc'])
+      .itemInputs(['2x kubejs:ram_stick', global.MV.CircuitMulti(2), '4x gtceu:black_steel_plate','16x gtceu:fine_copper_wire','2x gtceu:soc'])
       .itemOutputs('kubejs:ram_mainframe')
       .duration(600)    
       .EUt(GTValues.VA[GTValues.HV]);

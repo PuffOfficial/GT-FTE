@@ -99,5 +99,3 @@ const ionizingCleanroom = new $CleanroomType("ionizing", "gtfte.ionizing_cleanro
 //Custom partAbilities
 const $PartAbility = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.PartAbility");
 const PRIMITIVE_MAINTENANCE = new $PartAbility("primitive_maintenance")
-//Custom HPCA components
-

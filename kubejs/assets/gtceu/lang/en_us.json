@@ -56,6 +56,18 @@
     "material.gtceu.deepslate_slurry": "Deepslate Slurry",
     "material.gtceu.livingrock_slurry": "Livingrock Slurry",    
 
+    "material.gtceu.salty_mixture": "Salty Mixture",   
+
+    "material.gtceu.polylactic_acid": "Polylactic Acid",
+    "material.gtceu.lactic_acid": "Lactic Acid",
+    "material.gtceu.stannous_octoate": "Stannous Octoate",
+    "material.gtceu.tin_dioxide": "Tin Dioxide",
+    "material.gtceu.tin_chloride": "Tin Chloride",
+    "material.gtceu.2_ethylhexanoic_acid": "2-Ethylhexanoic Acid",
+    "material.gtceu.propylene": "Propylene",
+    "material.gtceu.starch": "Starch",
+    "material.gtceu.raw_starch": "Raw Starch",
+
     "material.gtceu.acetaldehyde": "Acetaldehyde",
     "material.gtceu.maleic_anhydride": "Maleic Anhydride",
     "material.gtceu.diethyl_succinate": "Diethyl Succinate",
@@ -128,6 +140,9 @@
     "gtceu.jei.ore_vein.unitas/lapis": "Lapis Vein",
     "gtceu.jei.ore_vein.unitas/monazite": "Monazite Vein",
     "gtceu.jei.ore_vein.cavum_tenebrae/pitchblende": "Pitchblende Vein",
+    "gtceu.jei.ore_vein.cavum_tenebrae/sombralite": "Sombralite Vein",
+    "gtceu.jei.ore_vein.cavum_tenebrae/chulak": "Cassiterite Vein",
+
 
     "material.gtceu.cavum_tenebrae_air": "Cavum Tenebrae Air",
     "material.gtceu.rima_air": "Rima Air",
@@ -137,6 +152,8 @@
 
     "tagprefix.sandstone": "Sandstone %s Ore",
     "tagprefix.sulfur_sand": "Sulfur Sand %s Ore",
+
+    "tagprefix.bended": "%s Bended Plate",
 
     "material.gtceu.ordo": "Ordo",
     "material.gtceu.ignis": "Ignis",

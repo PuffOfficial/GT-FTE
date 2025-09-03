@@ -72,9 +72,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     RegisterULVSingleblock("macerator", "macerator", "Macerator", "macerator", GTValues.ULV)
     RegisterULVSingleblock("electrolyzer", "electrolyzer", "Electrolyzer", "electrolyzer", GTValues.ULV)
     RegisterULVSingleblock("extruder", "extruder", "Extruder", "extruder", GTValues.ULV)
-    RegisterSimpleSingleblock("electric_mana_pool", "electric_mana_pool", "Mana Pool", "electric_mana_pool", [GTValues.HV,GTValues.EV,GTValues.IV,GTValues.LuV,GTValues.ZPM])    
     RegisterSimpleSingleblock("electric_mana_garden", "mana_garden", "Mana Garden", "mana_garden", [GTValues.HV,GTValues.EV,GTValues.IV,GTValues.LuV,GTValues.ZPM])
-//    RegisterSimpleSingleblock("stone_generator", "stone_generator", "Stone Generator", "stone_generator", GTValues.ULV)
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {

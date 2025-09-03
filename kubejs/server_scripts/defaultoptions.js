@@ -3,7 +3,7 @@ ServerEvents.loaded(event => {
 
     server.runCommandSilent(`ae2 channelmode infinite`)
     
-    event.server.gameRules.set("doTraderSpawning", 'false')
+    server.gameRules.set("doTraderSpawning", 'false')
 
     console.info("Gamerules set!");
 

@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 	event.create('primitive_electric_blast_furnace', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeType('pebf')
-		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH)
+		.recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
 		.appearanceBlock(() => Block.getBlock('kubejs:firebricks'))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle('RRR', '###', '###', '###', 'FFF')

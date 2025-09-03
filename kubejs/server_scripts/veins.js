@@ -221,8 +221,31 @@ GTCEuServerEvents.fluidVeins(event => {
     event.remove("gtceu:light_oil_deposit")
     event.remove("gtceu:oil_deposit")
     event.remove("gtceu:raw_oil_deposit")
+    event.remove("gtceu:salt_water_deposit")
+    event.remove("gtceu:natural_gas_deposit")
 
-    event.add("cavum_tenebrae/raw_oil", vein => {
+    event.add("gtfte:overworld/salty_mixture_deposit", vein => {
+        vein.dimensions("minecraft:overworld")
+        vein.fluid(() => Fluid.of("gtceu:salty_mixture").fluid)
+        vein.weight(5)
+        vein.minimumYield(80)
+        vein.maximumYield(150)
+        vein.depletionAmount(10)
+        vein.depletionChance(20)
+        vein.depletedYield(20)
+    })
+    event.add("gtfte:overworld/natural_gas", vein => {
+        vein.dimensions("minecraft:overworld")
+        vein.fluid(() => Fluid.of("gtceu:natural_gas").fluid)
+        vein.weight(5)
+        vein.minimumYield(120)
+        vein.maximumYield(200)
+        vein.depletionAmount(20)
+        vein.depletionChance(30)
+        vein.depletedYield(10)
+    })
+
+    event.add("gtfte:cavum_tenebrae/raw_oil", vein => {
         vein.dimensions("sgjourney:cavum_tenebrae")
         vein.fluid(() => Fluid.of("gtceu:oil_medium").fluid)
         vein.weight(100)
@@ -232,7 +255,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletionChance(50)
         vein.depletedYield(20)
     })
-    event.add("cavum_tenebrae/oil", vein => {
+    event.add("gtfte:cavum_tenebrae/oil", vein => {
         vein.dimensions("sgjourney:cavum_tenebrae")
         vein.fluid(() => Fluid.of("gtceu:oil").fluid)
         vein.weight(100)
@@ -242,7 +265,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletionChance(50)
         vein.depletedYield(20)
     })
-    event.add("cavum_tenebrae/heavy_oil", vein => {
+    event.add("gtfte:cavum_tenebrae/heavy_oil", vein => {
         vein.dimensions("sgjourney:cavum_tenebrae")
         vein.fluid(() => Fluid.of("gtceu:oil_heavy").fluid)
         vein.weight(100)
@@ -252,7 +275,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletionChance(50)
         vein.depletedYield(20)
     })
-        event.add("cavum_tenebrae/heavy_oil", vein => {
+    event.add("gtfte:cavum_tenebrae/heavy_oil", vein => {
         vein.dimensions("sgjourney:cavum_tenebrae")
         vein.fluid(() => Fluid.of("gtceu:oil_heavy").fluid)
         vein.weight(100)
@@ -262,7 +285,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletionChance(50)
         vein.depletedYield(20)
     })
-    event.add("cavum_tenebrae/light_oil", vein => {
+    event.add("gtfte:cavum_tenebrae/light_oil", vein => {
         vein.dimensions("sgjourney:cavum_tenebrae")
         vein.fluid(() => Fluid.of("gtceu:oil_light").fluid)
         vein.weight(100)

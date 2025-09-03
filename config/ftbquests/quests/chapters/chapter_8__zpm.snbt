@@ -43,8 +43,8 @@
 			dependencies: ["3CE8DE09CF6B1DD7"]
 			id: "7EB1C6FE21C73AF4"
 			tasks: [{
-				id: "6CFA09CD373895D2"
-				item: "gtceu:luv_chemical_reactor"
+				id: "1C5568D11FF4F492"
+				item: "gtceu:luv_energy_input_hatch"
 				type: "item"
 			}]
 			x: 0.0d
@@ -120,6 +120,17 @@
 			}]
 			x: -3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["7526A264778255DD"]
+			id: "2FC7A0456BE14F12"
+			tasks: [{
+				id: "2F552C2C30B38018"
+				item: "gtceu:europium_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
 		}
 	]
 	subtitle: [

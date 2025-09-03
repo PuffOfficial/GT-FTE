@@ -732,6 +732,7 @@
 		}
 		{
 			dependencies: ["53E7621A1D34622C"]
+			description: ["In some places, there's &lnatural gas&r underneath the bedrock, aswell as salt water that can be used for chlorine, hydrogen and oxygen production"]
 			id: "17219F5B1213CE5F"
 			rewards: [{
 				id: "24A74F4CA7C3E0B8"
@@ -1131,6 +1132,7 @@
 			description: [
 				"Well, yeah it isn't your final task"
 				"You still have 9 chapters ahead!"
+				""
 			]
 			id: "17F721F6D4B53924"
 			rewards: [{

@@ -171,8 +171,8 @@ event.remove({ id: 'gtceu:circuit_assembler/quantum_computer_luv' })
 event.remove({ id: 'gtceu:chemical_reactor/uhpic_wafer' })
 event.remove({ id: 'gtceu:large_chemical_reactor/uhpic_wafer' })
 
-
-event.remove({ id: 'gtceu:sifter/gravel_sifting' })
+event.remove({ id: 'functionalstorage:custom_compacting/amethyst' })
+event.remove({ id: 'gtceu:compressor/compress_amethyst_gem_to_block' })
 
 event.remove({ output: 'gtceu:primitive_blast_furnace' })
 event.remove({ output: 'gtceu:cupronickel_ingot', type: 'gtceu:alloy_smelter' })
@@ -181,6 +181,8 @@ event.remove({ id: 'gtceu:smelting/smelt_dust_cupronickel_to_ingot'})
 event.remove({ id: 'gtceu:extractor/extract_cupronickel_dust'})
 
 event.remove({ id: 'enderio:fire_crafting/infinity'})
+
+event.remove({ id: 'gtceu:shaped/mv_machine_hull' })
 
 
 AE2ItemsToAnnihilate.forEach(item => {

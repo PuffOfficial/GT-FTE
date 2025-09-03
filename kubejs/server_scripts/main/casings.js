@@ -31,7 +31,8 @@ event.recipes.gtceu.assembler(`${casing}_assembler`)
       .duration(50)
       .EUt(16)
 }
-// MARK: Voltage Casings
+// MARK: Voltage
+//Casings
     event.recipes.gtceu.assembler('gtfte:luv_machine_casing')
         .itemInputs([
             "4x gtceu:double_thaumium_plate", 
@@ -41,4 +42,16 @@ event.recipes.gtceu.assembler(`${casing}_assembler`)
         .itemOutputs('gtceu:luv_machine_casing')
         .duration(50)
         .EUt(GTValues.VA[GTValues.LV]);
+//Hulls
+event.shaped('gtceu:mv_machine_hull', [
+    '   ', 
+    'AFA',
+    'CMC'  
+  ], {
+    M: 'gtceu:mv_machine_casing',  
+    F: 'gtceu:aluminium_plate', 
+    C: 'gtceu:copper_single_cable',
+    A: 'gtceu:polylactic_acid_plate',
+  }
+);
 })

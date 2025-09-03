@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 	event.create('energizer', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeType('energizing')
-		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH)
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
 		.appearanceBlock(() => Block.getBlock("gtceu:solid_machine_casing"))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle('#R#', '#R#')

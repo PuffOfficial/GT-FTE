@@ -28,7 +28,7 @@ global.ComplicatedAspects = [
 //Tier 3
     ["alienis", "tenebrae", "vacuos", 0x775570],
     ["arbor", "aer", "herba", 0x8e6932],
-    ["auram", "ear", "praecantatio", 0xe4b9d7],
+    ["auram", "aer", "praecantatio", 0xe4b9d7],
     ["corpus", "bestia", "mortuus", 0xf4448d],
     ["exanimis", "mortuus", "motus", 0x373f03],
     ["spiritus", "mortuus", "victus", 0x525252],

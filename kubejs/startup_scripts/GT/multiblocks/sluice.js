@@ -10,6 +10,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 
 	event.create('sluice', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
 		.recipeType('sluicing')
 		.appearanceBlock(() => Block.getBlock("gtceu:solid_machine_casing"))
 		.pattern(definition => FactoryBlockPattern.start()

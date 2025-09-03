@@ -11,6 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 	event.create('aspect_collector', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeType('aspect_collecting')
+		.recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT_SUBTICK])
 		.appearanceBlock(() => Block.getBlock("gtceu:robust_machine_casing"))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle(' ### ',' #R# ',' #R# ',' #R# ',' ### ')

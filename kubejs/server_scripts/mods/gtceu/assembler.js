@@ -162,6 +162,27 @@ event.shaped('gtceu:ulv_assembler', [
         .itemOutputs('2x enderio:item_conduit')
         .duration(100)
         .EUt(GTValues.VA[GTValues.MV]);
+    event.recipes.gtceu.assembler('gtfte:item_filter')
+        .itemInputs([
+            "2x gtceu:polyethylene_plate", 
+            "gtceu:item_filter"])
+        .itemOutputs('enderio:basic_item_filter')
+        .duration(60)
+        .EUt(GTValues.VA[GTValues.LV]);
+    event.recipes.gtceu.assembler('gtfte:fluid_filter')
+        .itemInputs([
+            "2x gtceu:polyvinyl_chloride_plate", 
+            "gtceu:fluid_filter"])
+        .itemOutputs('enderio:basic_fluid_filter')
+        .duration(60)
+        .EUt(GTValues.VA[GTValues.LV]);
+    event.recipes.gtceu.assembler('gtfte:adv_item_filter')
+        .itemInputs([
+            "2x gtceu:diamond_plate", 
+            "enderio:basic_item_filter"])
+        .itemOutputs('enderio:advanced_item_filter')
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.MV]);
 // MARK: Coils
     event.recipes.gtceu.assembler('gtfte:containment_coil')
         .itemInputs([

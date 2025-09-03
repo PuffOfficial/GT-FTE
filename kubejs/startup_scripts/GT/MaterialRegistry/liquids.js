@@ -14,4 +14,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
     event.create("endstone_slurry")
         .liquid()
         .color(0xf6fabd).iconSet(GTMaterialIconSet.DULL)
+
+    event.create("salty_mixture")
+        .liquid()
+        .color(0x4854da).iconSet(GTMaterialIconSet.DULL)
+        .components("1x salt_water", "1x rock_salt")
 })

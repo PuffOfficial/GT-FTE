@@ -20,7 +20,6 @@ event.shaped('gtceu:sluice', [
             '12x gtceu:crushed_gold_ore',
             '24x gtceu:crushed_copper_ore',
             '32x gtceu:crushed_vanadium_magnetite_ore',
-            '24x gtceu:crushed_silver_ore',
             '64x gtceu:crushed_coal_ore',
             '16x gtceu:crushed_nickel_ore'
         ])
@@ -29,8 +28,8 @@ event.shaped('gtceu:sluice', [
     event.recipes.gtceu.sluicing('gtfte:sand_sluicing')
         .inputFluids('gtceu:sand_slurry 1000')
         .itemOutputs([
-            '8x gtceu:raw_diamond',
-            '8x gtceu:raw_emerald',
+            '4x gtceu:crushed_diamond_ore',
+            '4x gtceu:crushed_emerald_ore',
             '64x gtceu:crushed_redstone_ore',   
             '16x gtceu:crushed_magnesite_ore',
             '16x gtceu:crushed_pyrolusite_ore',

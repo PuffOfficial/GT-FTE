@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 	event.create('daycycle_simulation_chamber', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeType('growth_simulator')
-		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH)
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
 		.appearanceBlock(() => Block.getBlock("gtceu:solid_machine_casing"))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle('###', '#R#', '#R#', '#R#', '###')

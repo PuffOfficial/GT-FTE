@@ -23,7 +23,7 @@ SimpleTooltip("energizer")
 AdvancedTooltip("gtceu:alchemical_crucible", 'alchemical_crucible_1', "", 'alchemical_crucible_2', "")
 
 AdvancedTooltip("gtceu:etbf", "defaultParallel", "§58", 'etbf', "")
-AdvancedTooltip("gtceu:primitive_bender", "defaultParallel", "§54", "primitive", "")
+AdvancedTooltip("gtceu:primitive_bender", "", "", "primitive", "")
 AdvancedTooltip("gtceu:primitive_electric_furnace", "defaultParallel", "§58", "primitive", "")
 AdvancedTooltip("gtceu:primitive_alloy_smelter", "defaultParallel", "§54", "primitive", "")
 

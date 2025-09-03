@@ -1,0 +1,1277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_page"
+	group: "76ED85C1705485DC"
+	id: "3D3DB244D0D964D9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Have you ever felt lost in your ore processing? No? You are lying! Of course you did!"
+				"This chapter is made to navigate in ore production/processing through out the pack"
+			]
+			id: "59BCA6979DB2C413"
+			tasks: [{
+				id: "14B02A366CDF6CA2"
+				title: "Waht is tihs"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"59BCA6979DB2C413"
+				"5F842C107460A8C5"
+			]
+			icon: "exdeorum:oak_sieve"
+			id: "07F0F599F47CEABC"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5146081741C624EE"
+				title: "Ex Deorum: Sifting"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07F0F599F47CEABC"]
+			id: "298E81B1D1441788"
+			tasks: [{
+				id: "695280D2C9AF3A3A"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07F0F599F47CEABC"]
+			id: "206CF0BBDB4B505E"
+			tasks: [{
+				id: "4CD32E089D1DDC32"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["298E81B1D1441788"]
+			id: "5718E2510864217A"
+			tasks: [{
+				id: "077B9347C19ED8AB"
+				item: "gtceu:crushed_copper_ore"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["298E81B1D1441788"]
+			id: "20533FE3A702ACEE"
+			tasks: [{
+				id: "3B98E0597800CDF4"
+				item: "gtceu:crushed_iron_ore"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["298E81B1D1441788"]
+			id: "187D2734A99BB99D"
+			tasks: [{
+				id: "3AEF764AFBEF9D48"
+				item: "gtceu:crushed_lead_ore"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206CF0BBDB4B505E"]
+			id: "5A8213CAF20D3B3A"
+			tasks: [{
+				id: "03436783106B353B"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["298E81B1D1441788"]
+			id: "640BCA5760254398"
+			tasks: [{
+				id: "6C157733C498380A"
+				item: "gtceu:crushed_gold_ore"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["206CF0BBDB4B505E"]
+			id: "1FE1D2D7EA3CAD21"
+			tasks: [{
+				id: "68583579B14553C1"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["298E81B1D1441788"]
+			id: "1D807128562EF508"
+			tasks: [{
+				id: "48C557817A48599C"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"07F0F599F47CEABC"
+				"3DA9D0C6EC50DD97"
+			]
+			icon: "gtceu:ulv_sifter"
+			id: "6C0EFE14B0A63EB0"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "18A63D7416E9C0F5"
+				title: "GregTech: Sifting"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["206CF0BBDB4B505E"]
+			id: "1D68D89D600B0CFD"
+			tasks: [{
+				id: "219EB5AF55DA1C1E"
+				item: "gtceu:cassiterite_sand_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["206CF0BBDB4B505E"]
+			id: "3B8000E4F3DB7A92"
+			tasks: [{
+				id: "7254019558737438"
+				item: "gtceu:sphalerite_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C0EFE14B0A63EB0"]
+			id: "08E32E8A6A871CF2"
+			tasks: [{
+				id: "0762DA362A47132A"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C0EFE14B0A63EB0"]
+			id: "2AD63E3F3088E6DA"
+			tasks: [{
+				id: "1F6C08927E6D3660"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08E32E8A6A871CF2"]
+			id: "514DC5B13B2612F6"
+			tasks: [{
+				id: "64F35B98BB2C8B98"
+				item: "gtceu:crushed_copper_ore"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08E32E8A6A871CF2"]
+			id: "060A35ED9F9CA81A"
+			tasks: [{
+				id: "6282E3D77DB4C856"
+				item: "gtceu:crushed_iron_ore"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08E32E8A6A871CF2"]
+			id: "72588E8F13F03A42"
+			tasks: [{
+				id: "7800CB69EC59E9C8"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08E32E8A6A871CF2"]
+			id: "1D28A4B0AC25AF29"
+			tasks: [{
+				id: "5F604514A834C9FB"
+				item: "gtceu:crushed_lead_ore"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08E32E8A6A871CF2"]
+			id: "4987B2C8CD0A0E3B"
+			tasks: [{
+				id: "2C8B824D6BB4F8A2"
+				item: "gtceu:crushed_gold_ore"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AD63E3F3088E6DA"]
+			id: "01CA1C3B10F01C3D"
+			tasks: [{
+				id: "464916ADB4E7204A"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AD63E3F3088E6DA"]
+			id: "471D8D8B9FF86BD5"
+			tasks: [{
+				id: "2A79A04DB5C85D8F"
+				item: "gtceu:sphalerite_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AD63E3F3088E6DA"]
+			id: "7CC1C58F7573BC0D"
+			tasks: [{
+				id: "0B7A19DEA6B85D00"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AD63E3F3088E6DA"]
+			id: "4EAE8688991E1C3C"
+			tasks: [{
+				id: "1F0C4D778E48142D"
+				item: "gtceu:cassiterite_sand_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2AD63E3F3088E6DA"]
+			id: "0B6574F0404EDD7A"
+			tasks: [{
+				id: "0493C7801AD06749"
+				item: "gtceu:raw_diamond"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2AD63E3F3088E6DA"]
+			id: "1DC3618AC74E58B1"
+			tasks: [{
+				id: "4AB45B6E6BDB36DF"
+				item: "gtceu:crushed_emerald_ore"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C0EFE14B0A63EB0"]
+			icon: "gtceu:sluice"
+			id: "40E412BC17D05C53"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "71A72782D6A73D3A"
+				title: "GT:FTE: Sluicing"
+				type: "checkmark"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40E412BC17D05C53"]
+			id: "6477F476335509E0"
+			tasks: [{
+				id: "55DB22557AECEBCF"
+				item: "gtceu:gravel_slurry_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40E412BC17D05C53"]
+			id: "61797B37319DF243"
+			tasks: [{
+				id: "38C9E7858B9F9AAB"
+				item: "gtceu:sand_slurry_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40E412BC17D05C53"]
+			id: "00D919FC632D3A8B"
+			tasks: [{
+				id: "4D864D171CC42514"
+				item: "gtceu:endstone_slurry_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["40E412BC17D05C53"]
+			id: "67D5E9B7057F87CD"
+			tasks: [{
+				id: "3A2507104D93100A"
+				item: "gtceu:netherrack_slurry_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "2ACA1B59C2A217B6"
+			tasks: [{
+				id: "2546734B8B9C4ED7"
+				item: "gtceu:crushed_platinum_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "52FC86797914E84F"
+			tasks: [{
+				id: "0FA3EA739C9B16CE"
+				item: "gtceu:crushed_bornite_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "1BB42931BFBE5A4D"
+			tasks: [{
+				id: "6538229D68D361A8"
+				item: "gtceu:crushed_magnetite_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "7E2836724FB917C1"
+			tasks: [{
+				id: "6D6A4CAC4662666B"
+				item: "gtceu:crushed_bauxite_ore"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "56DC1CF404942261"
+			tasks: [{
+				id: "1808959A8ED8C0CB"
+				item: "gtceu:crushed_chromite_ore"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "2B4265A1C211DB6F"
+			tasks: [{
+				id: "32675B9A96E7079D"
+				item: "gtceu:crushed_gold_ore"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "5D8ABCC4237F7DE1"
+			tasks: [{
+				id: "652487226B421344"
+				item: "gtceu:crushed_ilmenite_ore"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["00D919FC632D3A8B"]
+			id: "0BF448313BE5F8B8"
+			tasks: [{
+				id: "3798E1E4FEA61404"
+				item: "gtceu:crushed_pitchblende_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6477F476335509E0"]
+			id: "4A1809317634CCC0"
+			tasks: [{
+				id: "15B08B8B952000D5"
+				item: "gtceu:crushed_nickel_ore"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6477F476335509E0"]
+			id: "39CF378F1F2DC065"
+			tasks: [{
+				id: "22A0B6EE7A6314BB"
+				item: "gtceu:crushed_copper_ore"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6477F476335509E0"]
+			id: "59AF041F6E66C4BC"
+			tasks: [{
+				id: "7F2F1A028C4E64DC"
+				item: "gtceu:crushed_cassiterite_ore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6477F476335509E0"]
+			id: "6AF140CFD95E7D26"
+			tasks: [{
+				id: "1E84B7752386586A"
+				item: "gtceu:crushed_coal_ore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6477F476335509E0"]
+			id: "3C8AA7F679CD17D0"
+			tasks: [{
+				id: "6F85111863D2FF74"
+				item: "gtceu:crushed_lead_ore"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6477F476335509E0"]
+			id: "4871421126DACE10"
+			tasks: [{
+				id: "0F2ADFF716146148"
+				item: "gtceu:crushed_gold_ore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6477F476335509E0"]
+			id: "00B8A431FBE5C2A2"
+			tasks: [{
+				id: "7A98C2EC8419F007"
+				item: "gtceu:crushed_vanadium_magnetite_ore"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67D5E9B7057F87CD"]
+			id: "3324163C26609CF7"
+			tasks: [{
+				id: "3931D94F8F6A39B6"
+				item: "gtceu:crushed_yellow_limonite_ore"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["67D5E9B7057F87CD"]
+			id: "1179D6524B5CFABF"
+			tasks: [{
+				id: "7562F5A6CBF3D950"
+				item: "gtceu:crushed_sphalerite_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["67D5E9B7057F87CD"]
+			id: "387B67945895B646"
+			tasks: [{
+				id: "769E270876BB15FF"
+				item: "gtceu:crushed_gold_ore"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["67D5E9B7057F87CD"]
+			id: "08F2AB1BBA94DB6A"
+			tasks: [{
+				id: "5FCEBD8259F8B6FA"
+				item: "gtceu:crushed_sulfur_ore"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67D5E9B7057F87CD"]
+			id: "4FCE69B6A9415B58"
+			tasks: [{
+				id: "24CD378606EDEF19"
+				item: "gtceu:crushed_goethite_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["67D5E9B7057F87CD"]
+			id: "6459D6F085920719"
+			tasks: [{
+				id: "255A21819AD2EDAA"
+				item: "gtceu:crushed_tricalcium_phosphate_ore"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["61797B37319DF243"]
+			id: "3C899777F6093D1D"
+			tasks: [{
+				id: "3CF4CBCDCADD2885"
+				item: "gtceu:crushed_diamond_ore"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61797B37319DF243"]
+			id: "0DFE4F96039C7D4D"
+			tasks: [{
+				id: "43330534F2684CA3"
+				item: "gtceu:crushed_magnesite_ore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["61797B37319DF243"]
+			id: "20C2F9065520781A"
+			tasks: [{
+				id: "48A30AB6CF66C7A7"
+				item: "gtceu:crushed_wulfenite_ore"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61797B37319DF243"]
+			id: "03CE1644EFD8DE83"
+			tasks: [{
+				id: "262B9529564865E2"
+				item: "gtceu:crushed_fluorite_ore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61797B37319DF243"]
+			id: "13E2B619F099EC07"
+			tasks: [{
+				id: "77F3C1BCDEE71A42"
+				item: "gtceu:crushed_emerald_ore"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["61797B37319DF243"]
+			id: "54E0BAF9850D6ADB"
+			tasks: [{
+				id: "74D320770A47CEA3"
+				item: "gtceu:crushed_redstone_ore"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["61797B37319DF243"]
+			id: "5F121B9E78A817C1"
+			tasks: [{
+				id: "78A0626B8D42D773"
+				item: "gtceu:crushed_tantalite_ore"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"59BCA6979DB2C413"
+				"17F721F6D4B53924"
+			]
+			icon: "kubejs:stargate_chevron"
+			id: "4167196ADEE20371"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "651E82BD006AE268"
+				title: "GT:FTE: Stargate"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4167196ADEE20371"]
+			icon: "gtceu:abydos_marker"
+			id: "61660C2E6547F4D8"
+			tasks: [{
+				dimension: "sgjourney:abydos"
+				id: "6EBB7DA091446262"
+				type: "dimension"
+			}]
+			title: "Abydos"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["61660C2E6547F4D8"]
+			id: "01C97708EEB7A659"
+			tasks: [
+				{
+					id: "7E11F1C2E2BBAC00"
+					item: "gtceu:raw_naquadah"
+					type: "item"
+				}
+				{
+					id: "2BE7A727E04B29E5"
+					item: "gtceu:raw_plutonium"
+					type: "item"
+				}
+			]
+			title: "Naquadah Vein"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61660C2E6547F4D8"]
+			id: "62864257F94C52D7"
+			tasks: [
+				{
+					id: "334CB23BE79A31C3"
+					item: "gtceu:raw_goethite"
+					type: "item"
+				}
+				{
+					id: "321789534C374D6A"
+					item: "gtceu:raw_yellow_limonite"
+					type: "item"
+				}
+				{
+					id: "75307F0987E4E4F2"
+					item: "gtceu:raw_hematite"
+					type: "item"
+				}
+				{
+					id: "15BD170D595357FC"
+					item: "gtceu:raw_malachite"
+					type: "item"
+				}
+			]
+			title: "Iron Vein"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61660C2E6547F4D8"]
+			id: "00FF6C864C4BEA46"
+			tasks: [
+				{
+					id: "00E308638F6A4203"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "5F36816747ECE042"
+					item: "gtceu:raw_pyrite"
+					type: "item"
+				}
+				{
+					id: "41CCC4366F3E8271"
+					item: "gtceu:raw_chalcopyrite"
+					type: "item"
+				}
+				{
+					id: "78F5D229B128EEB9"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			title: "Copper Vein"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["61660C2E6547F4D8"]
+			id: "4783EE07387EB97F"
+			tasks: [
+				{
+					id: "21522F291BAB8518"
+					item: "gtceu:raw_soapstone"
+					type: "item"
+				}
+				{
+					id: "7360A916701E7439"
+					item: "gtceu:raw_talc"
+					type: "item"
+				}
+				{
+					id: "4A36BD74C580E6CD"
+					item: "gtceu:raw_glauconite_sand"
+					type: "item"
+				}
+				{
+					id: "6E9A297D9F1FF4AE"
+					item: "gtceu:raw_pentlandite"
+					type: "item"
+				}
+			]
+			title: "Lubricant Vein"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61660C2E6547F4D8"]
+			id: "591067B831E8DF81"
+			tasks: [
+				{
+					id: "31CA7519A845EB3A"
+					item: "gtceu:raw_powellite"
+					type: "item"
+				}
+				{
+					id: "4A8B67931164D8AB"
+					item: "gtceu:raw_tungstate"
+					type: "item"
+				}
+				{
+					id: "110607C2266579E7"
+					item: "gtceu:raw_scheelite"
+					type: "item"
+				}
+			]
+			title: "Tungstate-Scheelite vein"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61660C2E6547F4D8"]
+			id: "03593C76DE79ABD6"
+			tasks: [
+				{
+					id: "4BC8660E3C23A64F"
+					item: "gtceu:raw_coal"
+					type: "item"
+				}
+				{
+					id: "14A29C857C940A63"
+					item: "gtceu:raw_graphite"
+					type: "item"
+				}
+			]
+			title: "Coal Vein"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4167196ADEE20371"]
+			icon: "gtceu:rima_marker"
+			id: "36B24BBD33AF6BC3"
+			tasks: [{
+				dimension: "sgjourney:rima"
+				id: "6056B590F79414CE"
+				type: "dimension"
+			}]
+			title: "Rima"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4167196ADEE20371"]
+			icon: "gtceu:cavum_tenebrae_marker"
+			id: "28057C6A88CCB8A1"
+			tasks: [{
+				dimension: "sgjourney:cavum_tenebrae"
+				id: "66CA7EF88A699E27"
+				type: "dimension"
+			}]
+			title: "Cavum Tenebrae"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28057C6A88CCB8A1"]
+			id: "538374DA0CB86F22"
+			tasks: [
+				{
+					id: "3F0B068D7D2E6FAF"
+					item: "gtceu:raw_sombralite"
+					type: "item"
+				}
+				{
+					id: "7FC26710BD5A382F"
+					item: "gtceu:raw_fluorite"
+					type: "item"
+				}
+				{
+					id: "58A161B4A8585966"
+					item: "gtceu:raw_diamond"
+					type: "item"
+				}
+				{
+					id: "4EBE2F87D88F5EE0"
+					item: "gtceu:raw_cobaltite"
+					type: "item"
+				}
+			]
+			title: "Sombralite Vein"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28057C6A88CCB8A1"]
+			id: "4EFB9D42457619D1"
+			tasks: [
+				{
+					id: "053CDE77F66CD5C5"
+					item: "gtceu:raw_pitchblende"
+					type: "item"
+				}
+				{
+					id: "2EF0B594B9EC6B78"
+					item: "gtceu:raw_uraninite"
+					type: "item"
+				}
+			]
+			title: "Pitchblende Vein"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4167196ADEE20371"]
+			icon: "gtceu:chulak_marker"
+			id: "48D4535C841A3925"
+			tasks: [{
+				dimension: "sgjourney:chulak"
+				id: "0C92788215815BF9"
+				type: "dimension"
+			}]
+			title: "Chulak"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4167196ADEE20371"]
+			icon: "gtceu:unitas_marker"
+			id: "3D0B8F6301AB5058"
+			tasks: [{
+				dimension: "sgjourney:unitas"
+				id: "32AEBDDB5437728F"
+				type: "dimension"
+			}]
+			title: "Unitas"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D0B8F6301AB5058"]
+			id: "2E033D851E7D4ED4"
+			tasks: [
+				{
+					id: "3A971AE6321C6E77"
+					item: "gtceu:raw_lazurite"
+					type: "item"
+				}
+				{
+					id: "015F000D79D37F15"
+					item: "gtceu:raw_sodalite"
+					type: "item"
+				}
+				{
+					id: "5F9F36F9AF3E3F52"
+					item: "gtceu:raw_lapis"
+					type: "item"
+				}
+				{
+					id: "735372DFEE9FF50F"
+					item: "gtceu:raw_calcite"
+					type: "item"
+				}
+			]
+			title: "Lapis Vein"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D0B8F6301AB5058"]
+			id: "1B4320A53369BBCC"
+			tasks: [
+				{
+					id: "36B992A5370581F0"
+					item: "gtceu:raw_bastnasite"
+					type: "item"
+				}
+				{
+					id: "4A947DB94704DC6A"
+					item: "gtceu:raw_monazite"
+					type: "item"
+				}
+				{
+					id: "796DF37CE798FA9D"
+					item: "gtceu:raw_neodymium"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D0B8F6301AB5058"]
+			id: "28E078738A26AA6F"
+			tasks: [
+				{
+					id: "0850C8A8FCA395DD"
+					item: "gtceu:raw_bornite"
+					type: "item"
+				}
+				{
+					id: "4B4083D2AF1F8190"
+					item: "gtceu:raw_cooperite"
+					type: "item"
+				}
+				{
+					id: "60E52B1ACB3A9B01"
+					item: "gtceu:raw_platinum"
+					type: "item"
+				}
+				{
+					id: "6A941DB84FC60BD2"
+					item: "gtceu:raw_palladium"
+					type: "item"
+				}
+			]
+			title: "Sheldonite Vein"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48D4535C841A3925"]
+			id: "5290457D8F1CA3F9"
+			tasks: [
+				{
+					id: "0FE45436ABAAF84A"
+					item: "gtceu:raw_cassiterite"
+					type: "item"
+				}
+				{
+					id: "15D8FDCD77478C12"
+					item: "gtceu:raw_cassiterite_sand"
+					type: "item"
+				}
+			]
+			title: "Cassiterite Vein"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["59BCA6979DB2C413"]
+			description: ["Ore-Affiliated processes."]
+			id: "209B0BA4814FB70E"
+			tasks: [{
+				id: "5A727A92358A52C8"
+				title: "Waht is tihs 2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"5F842C107460A8C5"
+				"209B0BA4814FB70E"
+			]
+			icon: "botania:mana_pool"
+			id: "763B4E6EF3C6B7E4"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "75EDCB611EF2347C"
+				title: "Ex Deorum: Sifting"
+				type: "checkmark"
+			}]
+			title: "Botania: Mana Pool"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"5F842C107460A8C5"
+				"209B0BA4814FB70E"
+			]
+			icon: "gtceu:lv_arc_furnace"
+			id: "15851A069B85F6B3"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "391208847E62929B"
+				title: "Ex Deorum: Sifting"
+				type: "checkmark"
+			}]
+			title: "GregTech: Arc Furnace"
+			x: 2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["15851A069B85F6B3"]
+			id: "4F91B64559AF4DD0"
+			tasks: [{
+				id: "2F8FB349FECB0DBA"
+				item: "gtceu:stibnite_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["15851A069B85F6B3"]
+			id: "2A98EB60EE816DF7"
+			tasks: [{
+				id: "66E133EA0CEC758C"
+				item: "gtceu:realgar_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["15851A069B85F6B3"]
+			id: "5F247DC232E57961"
+			tasks: [{
+				id: "183B84D3F07BCDD6"
+				item: "gtceu:lead_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["15851A069B85F6B3"]
+			id: "69CF73650BDF08BA"
+			tasks: [{
+				id: "3A1DA2404A19BAC1"
+				item: "gtceu:nickel_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["15851A069B85F6B3"]
+			id: "57999EBB488B92B3"
+			tasks: [{
+				id: "26466AB8FAD2EEBB"
+				item: "gtceu:silver_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["763B4E6EF3C6B7E4"]
+			description: [
+				"Ores that you see on the right - Can be looped using mana from botania."
+				"Put 1 ore dust in to pool, and it will give you 1 raw ore, macerate it, smelt it, macerate it, and you will get double ores!"
+			]
+			id: "2FD5B628430C61E9"
+			tasks: [{
+				id: "28DC9859D1F67785"
+				title: "Loopable ores"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["763B4E6EF3C6B7E4"]
+			id: "1022144CA57917BC"
+			tasks: [{
+				id: "1CDEB12EA857CE6F"
+				item: "gtceu:vanadium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["763B4E6EF3C6B7E4"]
+			id: "508A4BEACC0FB842"
+			tasks: [{
+				id: "5C65F6EAA47C87DB"
+				item: "gtceu:ruby_gem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["763B4E6EF3C6B7E4"]
+			id: "742A3B5B222D0914"
+			tasks: [{
+				id: "2E5697002A3DAC29"
+				item: "gtceu:raw_saltpeter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["763B4E6EF3C6B7E4"]
+			id: "2D256286EFAF98E8"
+			tasks: [{
+				id: "49E7B2FFBCEC7F19"
+				item: "gtceu:raw_pyrolusite"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["763B4E6EF3C6B7E4"]
+			id: "198DDDA4ED23E7F4"
+			tasks: [{
+				id: "0EE94EB6B25538B8"
+				item: "gtceu:electrotine_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["763B4E6EF3C6B7E4"]
+			id: "4FDC2C1AAC509843"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7ACE5E03E04C3600"
+				item: "kubejs:hv_mana_amplifier"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4FDC2C1AAC509843"]
+			id: "62991BBCB4377E3F"
+			tasks: [{
+				id: "130B6384FA36B3AB"
+				item: "gtceu:raw_lapis"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4FDC2C1AAC509843"]
+			id: "00BE543D51A451FE"
+			tasks: [{
+				id: "6A877CBBE6E52CA5"
+				item: "gtceu:ilmenite_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -11.0d
+		}
+	]
+	title: "Processing Page"
+}

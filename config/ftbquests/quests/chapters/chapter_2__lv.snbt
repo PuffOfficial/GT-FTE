@@ -366,6 +366,11 @@
 					item: { Count: 10, id: "kubejs:solid_wrought_iron_casing" }
 					type: "item"
 				}
+				{
+					id: "3B83882F58B32C5E"
+					item: "gtceu:ulv_primitive_maintenance_hatch"
+					type: "item"
+				}
 			]
 			x: 7.0d
 			y: 2.5d

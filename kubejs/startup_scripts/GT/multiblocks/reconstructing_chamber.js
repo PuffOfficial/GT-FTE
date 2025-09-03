@@ -20,7 +20,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeType('reconstructing')
 		.appearanceBlock(() => Block.getBlock("kubejs:vanadium_steel_casing"))
-		.recipeModifier(GTRecipeModifiers.PARALLEL_HATCH)
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK])
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle('###', '###', '###')
 			.aisle('RRR', 'R R', 'RRR')

@@ -348,6 +348,7 @@
 			dependencies: [
 				"6B9C1713E3C42399"
 				"3305D2189876F39E"
+				"205438A3BCBB794E"
 			]
 			id: "623A17C3B9F530E3"
 			size: 1.25d
@@ -357,18 +358,6 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["623A17C3B9F530E3"]
-			id: "79ED3F03E8876975"
-			size: 1.0d
-			tasks: [{
-				id: "7EB0F250B63D599B"
-				item: "gtceu:mv_machine_casing"
-				type: "item"
-			}]
-			x: -1.5d
 			y: -4.0d
 		}
 		{
@@ -382,6 +371,125 @@
 			}]
 			x: 0.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["74E4A7EA06264A37"]
+			id: "230B55050606E37A"
+			tasks: [{
+				id: "1D6B3C5A6C17446C"
+				item: "gtceu:starch_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"230B55050606E37A"
+				"643A20E15EFE9517"
+			]
+			id: "7E69A50A8478B6E8"
+			tasks: [{
+				id: "7520CB1AF02E257B"
+				item: "gtceu:lactic_acid_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["74E4A7EA06264A37"]
+			id: "1DD90687E60E80C0"
+			tasks: [{
+				id: "4924E4D472A8DBAC"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DD90687E60E80C0"]
+			id: "643A20E15EFE9517"
+			tasks: [{
+				id: "73647CF59BBCD7EB"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1DD90687E60E80C0"]
+			id: "7E82D5044767A7B9"
+			tasks: [{
+				id: "702574CF472D0D00"
+				item: "gtceu:propylene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E82D5044767A7B9"]
+			id: "69BB1CE917AA964B"
+			tasks: [{
+				id: "72273B33EFCE233C"
+				item: "gtceu:2_ethylhexanoic_acid_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74E4A7EA06264A37"]
+			id: "1FE54DDC91416E47"
+			tasks: [{
+				id: "120B56C9EABCD269"
+				item: "gtceu:tin_dioxide_dust"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"69BB1CE917AA964B"
+				"1FE54DDC91416E47"
+			]
+			id: "2B8CCC15FC808DEE"
+			tasks: [{
+				id: "4CCAB5B086122672"
+				item: "gtceu:stannous_octoate_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7E69A50A8478B6E8"
+				"2B8CCC15FC808DEE"
+			]
+			id: "4A8DF8E168EA488A"
+			tasks: [{
+				id: "3DF7B0C6EA04572E"
+				item: "gtceu:polylactic_acid_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A8DF8E168EA488A"]
+			id: "79B3225C4417161E"
+			tasks: [{
+				id: "4C43B65E3B3D8742"
+				item: "gtceu:polylactic_acid_plate"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Simplicity In It's Final Form"]
