@@ -1,5 +1,6 @@
 let simpleAspects = ['ordo', 'aqua', 'terra', 'perditio', 'ignis', 'aer']
 ServerEvents.recipes(event => {
+//MARK: Aspects
     for (const [name, component1, component2, color] of global.ComplicatedAspects) {
         event.recipes.gtceu.chemical_reactor(`gtfte:aspect_${name}_1`).circuit(1)
             .inputFluids([`gtceu:${component1} 1000`,`gtceu:${component2} 1000`])
@@ -37,6 +38,7 @@ ServerEvents.recipes(event => {
             .duration(200)
             .EUt(2048);   
     })
+//MARK: Fuel Rods
     for (const [name, color] of global.FuelRods) {
         event.recipes.gtceu.canner(`gtfte:${name}_fuel_rod_filling`)
             .itemInputs(`gtceu:empty_fuel_rod`)
@@ -52,4 +54,5 @@ ServerEvents.recipes(event => {
             .duration(100)
             .EUt(32);  
     }
+//MARK: 
 });
