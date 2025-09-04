@@ -9,7 +9,7 @@ global.BeesCombs = [
   ['argentous', '#3a3a3a', '#d5fdff', 'silver', false],
   ['plumbous', '#3a3a3a', '#39365c', 'lead', false],
   ['stannous', '#3a3a3a', '#ededed', 'tin', false],
-  ['hydrogenous', '#000000', '#4268e3', 'hydrogen', true],
+  ['hydrogenous', '#1b1b1b', '#4268e3', 'hydrogen', true],
 ]
 
 
@@ -18,7 +18,7 @@ StartupEvents.registry('item', register => {
   function RegisterComb(Name, OutlineColor, BodyColor, Resource, IsFluid) {
     register.create(`${Name}_comb`)
       .textureJson({layer0: `kubejs:item/comb/comb`,layer1: `kubejs:item/comb/comb_outline`})
-      .color(0, BodyColor).color(1, OutlineColor)
+      .color(0, BodyColor).color(1, OutlineColor).tag(`forestry:combs`)
     register.create(`${Name}_comb_extract`)
       .textureJson({layer0: `kubejs:item/comb/pulp`,layer1: `kubejs:item/comb/pulp_outline`})
       .color(0, BodyColor).color(1, OutlineColor)
