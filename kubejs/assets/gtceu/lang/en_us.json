@@ -109,6 +109,9 @@
     "block.gtceu.primitive_alloy_smelter": "§8Primitive Alloy Smelter",
     "block.gtceu.primitive_bender": "§8Primitive Bender",
     "block.gtceu.primitive_electric_furnace": "§8Primitive Electric Furnace",
+    "block.gtceu.comb_centrifuge": "Comb Centrifuge",
+    "block.gtceu.heated_comb_centrifuge": "Heated Comb Centrifuge",
+
 
     "gtceu.energizing": "Energizing",
     "gtceu.magmatic_turbine": "Magmatic Processing",
@@ -124,6 +127,8 @@
     "gtceu.decaying": "Decaying",
     "gtceu.irradiation": "Irradiation",
     "gtceu.growth_simulator": "Growth Simulation",
+    "gtceu.comb_centrifuge": "Comb Centrifuging",
+
 
     "block.gtceu.lv_steam_turbine":"§l§cNuh Uh, I Am Disabled!",
     "block.gtceu.mv_steam_turbine":"§l§cNuh Uh, I Am Disabled!",

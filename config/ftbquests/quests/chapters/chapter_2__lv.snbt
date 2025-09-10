@@ -17,7 +17,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["426F8528C4D611A5"]
 			description: ["Yes, i made ULV tier"]
 			id: "35FE18644DAE5F47"
 			rewards: [{
@@ -445,7 +444,6 @@
 				"1E265916D16CF46D"
 				"311DD9BB75792824"
 				"6226B3ADEF0473E6"
-				"426F8528C4D611A5"
 			]
 			id: "5955E1625D920AD9"
 			rewards: [{

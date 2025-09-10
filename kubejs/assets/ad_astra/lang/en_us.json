@@ -1,0 +1,28 @@
+{
+    "planet.ad_astra.earth_orbit": "B-97.E2 Orbit",
+    "planet.ad_astra.glacio": "C-64.E1",
+    "planet.ad_astra.glacio_orbit": "C-64.E1's Orbit",
+    "planet.ad_astra.mars": "B-97.E3",
+    "planet.ad_astra.mars_orbit": "B-97.E3's Orbit",
+    "planet.ad_astra.mercury": "B-97.E1",
+    "planet.ad_astra.mercury_orbit": "B-97.E1's Orbit",
+    "planet.ad_astra.moon": "B-97.E2's Moon",
+    "planet.ad_astra.moon_orbit": "B-97.E2's Moon Orbit",
+    "planet.ad_astra.venus": "B-97.E4",
+    "planet.ad_astra.venus_orbit": "B-97.E4's Orbit",
+    "planet.minecraft.overworld": "B-97.E2",
+
+    "dimension.ad_astra.earth_orbit": "B-97.E2's Orbit",
+    "dimension.ad_astra.glacio": "B-97.E5",
+    "dimension.ad_astra.glacio_orbit": "B-97.E5's Orbit",
+    "dimension.ad_astra.mars": "B-97.E3",
+    "dimension.ad_astra.mars_orbit": "B-97.E3's Orbit",
+    "dimension.ad_astra.mercury": "B-97.E1",
+    "dimension.ad_astra.mercury_orbit": "B-97.E1's Orbit",
+    "dimension.ad_astra.moon": "B-97.E2's Moon",
+    "dimension.ad_astra.moon_orbit": "B-97.E2's Moon Orbit",
+    "dimension.ad_astra.venus": "B-97.E4",
+    "dimension.ad_astra.venus_orbit": "B-97.E4's Orbit",
+    "solar_system.ad_astra.proxima_centauri": "C-64 System",
+    "solar_system.ad_astra.solar_system": "B-97 System"
+}

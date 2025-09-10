@@ -45,6 +45,10 @@
 
     "gtfte.components.heat_capacity": "Heat Capacity: %s§cK§r",
     "gtfte.components.parallels": "Default Parallels: %s§r",
+    "gtfte.components.comb_centrifuge_type": "Comb Centrifuge Type: ",
+
+    "gtfte.components.comb_centrifuge_type_1": "Default",
+    "gtfte.components.comb_centrifuge_type_2": "Heated",
 
     "gtfte.tooltip.etbf": "Has all modifiers of Electric Blast Furnace",
 

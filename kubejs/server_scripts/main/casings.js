@@ -4,7 +4,8 @@ const Casings = [
     ["kubejs:corruption_proof_casing", "titanium_noctium", "titanium_noctium"],
     ["kubejs:radiation_resistant_casing", "radiation_resistant_alloy", "tungsten_steel"],
     ["kubejs:stainless_evaporation_casing", "stainless_steel", "alchemical_bronze"],
-    ["kubejs:etbf_casing", "titanium_tungsten_carbide", "polytetrafluoroethylene"]
+    ["kubejs:etbf_casing", "titanium_tungsten_carbide", "polytetrafluoroethylene"],
+    ["kubejs:wood_casing", "wood", "treated_wood"]
 ]
 
 

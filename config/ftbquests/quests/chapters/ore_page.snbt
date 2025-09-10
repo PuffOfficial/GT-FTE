@@ -22,10 +22,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"59BCA6979DB2C413"
-				"5F842C107460A8C5"
-			]
+			dependencies: ["59BCA6979DB2C413"]
 			icon: "exdeorum:oak_sieve"
 			id: "07F0F599F47CEABC"
 			shape: "hexagon"
@@ -1077,10 +1074,7 @@
 			y: -11.5d
 		}
 		{
-			dependencies: [
-				"5F842C107460A8C5"
-				"209B0BA4814FB70E"
-			]
+			dependencies: ["209B0BA4814FB70E"]
 			icon: "botania:mana_pool"
 			id: "763B4E6EF3C6B7E4"
 			shape: "hexagon"
@@ -1095,10 +1089,7 @@
 			y: -11.5d
 		}
 		{
-			dependencies: [
-				"5F842C107460A8C5"
-				"209B0BA4814FB70E"
-			]
+			dependencies: ["209B0BA4814FB70E"]
 			icon: "gtceu:lv_arc_furnace"
 			id: "15851A069B85F6B3"
 			shape: "hexagon"

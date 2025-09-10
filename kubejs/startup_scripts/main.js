@@ -37,10 +37,14 @@ global.Casings = [
     ["hss_plated_nocturium", "metal", "pickaxe", "HSS-E Plated Nocturium Casing"],
     ["etbf", "metal", "pickaxe", "E.T.B.F. Casing"],
     ["corruption_proof", "metal", "pickaxe", "Corruption-Proof Casing"],
-    ["stainless_evaporation", "metal", "pickaxe", "Stainless Evaporation Casing"]
+    ["stainless_evaporation", "metal", "pickaxe", "Stainless Evaporation Casing"],
+    ["wood", "wood", "axe", "Wood Casing"]
 ]
 
 StartupEvents.registry('item', register => { 
+
+    register.create('sharpened_flint', 'axe').tier('stone')
+
     register.create("stick_fragments").texture("kubejs:item/stick_fragments")
     register.create("simple_knitting_kit").texture("kubejs:item/knitting_kit").maxDamage("10")
     register.create("string_mesh_chunk").texture("kubejs:item/mesh_chunk")

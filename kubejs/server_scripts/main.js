@@ -190,6 +190,7 @@ AE2ItemsToAnnihilate.forEach(item => {
 });
 
 event.remove({ mod: 'sgjourney' })
+event.remove({ mod: 'ad_astra' })
 event.remove({ mod: 'enderio' })
 event.remove({ mod: 'cobblefordays' })
 event.remove({ mod: 'thermal' })

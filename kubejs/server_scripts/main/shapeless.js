@@ -1,11 +1,4 @@
 ServerEvents.recipes(event => {
-event.shapeless('kubejs:stick_fragments', [
-    "minecraft:dirt"
-])
-event.shapeless('minecraft:stick', [
-    'kubejs:stick_fragments',
-    'kubejs:stick_fragments'
-])
 event.shapeless('kubejs:simple_knitting_kit', [
     'minecraft:stick',
     'minecraft:stick'

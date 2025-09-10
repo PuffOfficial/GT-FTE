@@ -17,7 +17,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Hiii! I'm Mike, your guide through this timeline"]
+			description: [
+				"Hiii! I'm Mike, your guide through this timeline"
+				""
+				"&o&8DEV NOTE: If you want to play in peaceful - Feel free to do it, after switching difficulty execute /reload in chat to get new recipes. Or re-enter the world&r&r"
+			]
 			id: "5E77582D4F02E361"
 			rewards: [{
 				id: "590C366B72BB5AB2"
@@ -79,6 +83,11 @@
 		}
 		{
 			dependencies: ["684B8FDD1CE27034"]
+			description: [
+				"In any other difficulty than peaceful - It will require &lstrings&r, acquire first 3 of them and make crook!"
+				""
+				"&8&oYes, you DO need spiders for that. That's the reason why peaceful has different progression&r&r"
+			]
 			id: "1A4DBA2BC454071D"
 			rewards: [{
 				id: "1466BBE3A490A81B"
@@ -136,60 +145,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1A4DBA2BC454071D"]
-			id: "21A7CC844D25D84E"
-			rewards: [{
-				id: "7336877193BD9BCD"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "48A1698206B63407"
-				item: {
-					Count: 1
-					id: "exdeorum:crook"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["21A7CC844D25D84E"]
-			id: "645D3FAA9A5637F1"
-			rewards: [{
-				id: "326557723D6D19F0"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0657B599250F556E"
-				item: "minecraft:oak_sapling"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["7FE5AAE27855C2E0"]
-			id: "798CC88759AC26DC"
-			rewards: [{
-				id: "40B9A5F54E6287A7"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2B56F04F8E79B6F9"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["29D26608B96FC714"]
 			id: "255E2535B560CBBB"
 			rewards: [{
@@ -206,390 +161,54 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["645D3FAA9A5637F1"]
-			id: "5F842C107460A8C5"
-			rewards: [{
-				id: "63B4E713D74FFA61"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			dependencies: ["1A4DBA2BC454071D"]
+			id: "2653E645A6CAF6F7"
 			tasks: [{
-				id: "6B7D377B7B9A212C"
-				item: "exdeorum:oak_sieve"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["645D3FAA9A5637F1"]
-			id: "0716A17054024555"
-			rewards: [{
-				id: "795DF7B902FD5341"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1530657822D942B5"
-				item: "exdeorum:string_mesh"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"0716A17054024555"
-				"798CC88759AC26DC"
-				"5F842C107460A8C5"
-			]
-			description: ["Ores, cool"]
-			id: "39049FEDED63FC5A"
-			rewards: [{
-				id: "5A8F82ADB541B56E"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "53617F4D50D25A85"
-					item: "gtceu:crushed_iron_ore"
-					type: "item"
+				id: "7EE721F9AE8647E0"
+				item: {
+					Count: 1
+					id: "exdeorum:crook"
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					id: "3D8ED32783D03EED"
-					item: "gtceu:crushed_tin_ore"
-					type: "item"
-				}
-				{
-					id: "2FD7088F06697B93"
-					item: "minecraft:flint"
-					type: "item"
-				}
-			]
-			title: "String Mesh Products"
-			x: 6.0d
+				type: "item"
+			}]
+			x: 3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"085E0C05224D287B"
-				"0716A17054024555"
-			]
-			id: "13AE0DE00C832D48"
-			rewards: [{
-				id: "045C989669E75C3A"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			dependencies: ["2653E645A6CAF6F7"]
+			id: "7108651344CB541D"
 			tasks: [{
-				id: "3B6FB528C87041E1"
-				item: "exdeorum:flint_mesh"
+				id: "334CCC250205766E"
+				item: "minecraft:oak_sapling"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"39049FEDED63FC5A"
-				"255E2535B560CBBB"
-			]
-			id: "085E0C05224D287B"
-			rewards: [{
-				id: "2B1E525332ECBA78"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "364E5203A5BA2B5C"
-					item: {
-						Count: 1
-						id: "gtceu:iron_mortar"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7819C777417FCBAA"
-					item: {
-						Count: 1
-						id: "gtceu:iron_hammer"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0011CCCC5CF04B44"
-					item: {
-						Count: 1
-						id: "gtceu:wood_mallet"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 127
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2645A6D8E1CD1FE1"
-					item: {
-						Count: 1
-						id: "gtceu:iron_file"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2030C5BB8089D6FD"
-					item: {
-						Count: 1
-						id: "gtceu:iron_wire_cutter"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "714B38D1086658BD"
-					item: {
-						Count: 1
-						id: "gtceu:iron_saw"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								HarvestIce: 1b
-							}
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "064416304E493E89"
-					item: {
-						Count: 1
-						id: "gtceu:iron_wrench"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								Mode: 2b
-							}
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1E9DD60E71035CCE"
-					item: {
-						Count: 1
-						id: "gtceu:iron_screwdriver"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								MaxDamage: 255
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Basic GregTech Tools"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"13AE0DE00C832D48"
-				"5F842C107460A8C5"
-			]
-			description: ["Only one ore, not that cool!"]
-			id: "1B092444FA10F695"
-			rewards: [{
-				id: "36BDF7BCCD7A88F2"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5049A7EED09FD84B"
-				item: "gtceu:crushed_copper_ore"
-				type: "item"
-			}]
-			title: "Flint Mesh Product"
-			x: 7.5d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["13AE0DE00C832D48"]
-			id: "60B001064238499C"
-			rewards: [{
-				id: "3EF378C51F97D58B"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			dependencies: ["7FE5AAE27855C2E0"]
+			id: "0E7787441C574AB8"
 			tasks: [{
-				id: "2724B3E32AD433BB"
-				item: "exdeorum:iron_mesh"
+				id: "11782CC002459A19"
+				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"60B001064238499C"
-				"5F842C107460A8C5"
-			]
-			description: ["Ores! Cooler than before of course"]
-			id: "3B1F709A5EFE1D73"
-			rewards: [{
-				id: "447217800E2B6C13"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "23E251D6EBE9BD4B"
-					item: "gtceu:crushed_gold_ore"
-					type: "item"
-				}
-				{
-					id: "24D4C95A5EAEFBA1"
-					item: "gtceu:crushed_sphalerite_ore"
-					type: "item"
-				}
-				{
-					id: "42E502CC424764FD"
-					item: "gtceu:raw_redstone"
-					type: "item"
-				}
-			]
-			title: "Iron Mesh Products"
-			x: 9.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["255E2535B560CBBB"]
-			id: "17916E3265B61ADD"
-			rewards: [{
-				id: "59463B8AB86D024F"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			dependencies: ["7FE5AAE27855C2E0"]
+			id: "2292732E595B2FE5"
 			tasks: [{
-				id: "01C024DF89CCC2CD"
-				item: "gtceu:wrought_iron_ingot"
+				id: "1F2791D54FCB7F8D"
+				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"17916E3265B61ADD"
-				"085E0C05224D287B"
-			]
-			id: "1DC4C1F3C6CF8142"
-			rewards: [{
-				id: "5F4E2F0111B6065F"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "6621FFC53A8F0367"
-				item: "gtceu:ulv_machine_casing"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3B1F709A5EFE1D73"]
-			id: "5476E5587982E5E7"
-			rewards: [{
-				id: "78705893BFE4486F"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3199E43D01B65220"
-				item: "gtceu:red_alloy_ingot"
-				type: "item"
-			}]
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["5476E5587982E5E7"]
-			id: "426F8528C4D611A5"
-			rewards: [{
-				id: "64A97AFC4861B54E"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0B031C44ECA4FBD4"
-				item: "gtceu:vacuum_tube"
-				type: "item"
-			}]
-			x: 12.5d
-			y: -2.0d
+			x: 4.0d
+			y: 0.5d
 		}
 	]
 	subtitle: ["Stands for Not-A-Voltage"]

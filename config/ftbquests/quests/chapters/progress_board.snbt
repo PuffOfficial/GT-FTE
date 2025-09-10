@@ -34,12 +34,6 @@
 			y: -8.0d
 		}
 		{
-			id: "4DAF147C7069CAD6"
-			linked_quest: "426F8528C4D611A5"
-			x: 2.0d
-			y: -9.0d
-		}
-		{
 			id: "0D206502CC945371"
 			linked_quest: "7F1A662BC5DD5056"
 			x: 2.0d
@@ -470,7 +464,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["426F8528C4D611A5"]
 			id: "0D5CDA8E8CCEA8C2"
 			tasks: [{
 				id: "76D910F09AF05B6A"

@@ -58,10 +58,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3D4008D7CA276577"
-				"17916E3265B61ADD"
-			]
+			dependencies: ["3D4008D7CA276577"]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "38A950D5E15EB9A7"
 			rewards: [{

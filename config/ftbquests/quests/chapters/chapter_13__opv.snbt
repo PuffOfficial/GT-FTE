@@ -5,7 +5,7 @@
 	group: ""
 	icon: "kubejs:universal_opv_circuit"
 	id: "7352E57BDDD5FD70"
-	order_index: 16
+	order_index: 17
 	quest_links: [ ]
 	quests: [{
 		id: "41A73AECB8D60516"
