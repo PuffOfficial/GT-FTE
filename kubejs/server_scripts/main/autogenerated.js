@@ -54,5 +54,8 @@ ServerEvents.recipes(event => {
             .duration(100)
             .EUt(32);  
     }
-//MARK: 
+//MARK: Bees
+    for (const [name, color] of global.BeesCombs) {
+        
+    }
 });
