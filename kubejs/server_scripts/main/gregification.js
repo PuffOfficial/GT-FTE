@@ -19,8 +19,9 @@ let InputsForDeletion = [
   'gendustry:climate_control_module',
   'gendustry:upgrade_frame',
   'gendustry:elite_upgrade_frame',
-  'gendustry:blank_gene_sampler',
-  'gendustry:blank_genetic_template'
+  'gendustry:blank_gene_sample',
+  'gendustry:blank_genetic_template',
+  'gendustry:industrial_apiary'
 ]
 
 
@@ -286,6 +287,30 @@ event.shaped('gendustry:blank_genetic_template', [
     A: 'gtceu:polyethylene_plate',  
     B: 'gendustry:blank_gene_sample',  
     C: '#gtceu:circuits/mv'    
+  }
+);
+event.shaped('gendustry:upgrade_frame', [
+    'ACA', 
+    'BDB',
+    'EAE'  
+  ], {
+    A: 'gtceu:polyethylene_plate',  
+    B: 'gtceu:smd_diode',  
+    C: '#gtceu:circuits/lv',  
+    D: 'gtceu:carbon_fiber_plate',  
+    E: 'gtceu:steel_ring'
+  }
+);
+event.shaped('gendustry:elite_upgrade_frame', [
+    'ACA', 
+    'BDB',
+    'EAE'  
+  ], {
+    A: 'gtceu:honey_rubber_plate',  
+    B: 'gtceu:smd_diode',  
+    C: '#gtceu:circuits/hv',  
+    D: 'gtceu:carbon_fiber_plate',  
+    E: 'gtceu:stainless_steel_ring'
   }
 );
 })

@@ -1,0 +1,20 @@
+// Compost colors for gcyr. You may add your own colors, change existing ones, or remove colors that aren't needed.
+airlock_door, #7c7f7f
+dyson_construction_drone, #ffffff
+dyson_swarm_satellite, #7a9680
+empty_satellite, #83c9e1
+gps_satellite, #90d3e7
+gps_tracker, #414343
+id_chip, #589b2c
+keycard, #898a89
+laser_satellite, #86bbd2
+ore_finder_satellite, #c5dc86
+photovoltaic_cell, #3a6bff
+prb_underground_mushroom, #7f8e97
+space_boots, #dcdcdc
+space_chestplate, #dcdad4
+space_fabric, #eeead2
+space_helmet, #3e3d3a
+space_leggings, #5c5751
+space_station_package, #dde3da
+space_upgrade_smithing_template, #acacac

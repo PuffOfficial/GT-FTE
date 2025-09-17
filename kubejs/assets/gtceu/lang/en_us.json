@@ -96,6 +96,9 @@
     "item.gtceu.honey_treated_wood_plate": "Honey Treated Wood Plank",
     "item.gtceu.honey_treated_wood_rod": "Honey Treated Wood Stick",
 
+    "material.gtceu.raw_honey_rubber": "Raw Honey Rubber",
+    "material.gtceu.honey_rubber": "Honey Rubber",
+
     "block.gtceu.energizer": "Energizing Chamber",
     "block.gtceu.reconstruction_chamber": "Atomic Reconstruction Chamber",
     "block.gtceu.terrestrial": "Terrestrial Chamber",
