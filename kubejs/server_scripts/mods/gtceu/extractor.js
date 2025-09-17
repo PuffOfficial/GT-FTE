@@ -18,4 +18,32 @@ event.recipes.gtceu.extractor("gtfte:dragons_eye")
         .outputFluids("gtceu:potassium 4")
         .duration(200)
         .EUt(GTValues.VA[GTValues.ULV]);
+//-----Forestry Gregification-----//
+event.remove({ id: 'forestry:squeezer/honey_dew' })
+event.remove({ id: 'forestry:squeezer/honey_block' })
+event.remove({ id: 'forestry:squeezer/sponge_comb' })
+event.remove({ id: 'forestry:squeezer/honey_drop' })
+
+event.recipes.gtceu.extractor("gtfte:gregification/honeydew")
+        .itemInputs("forestry:honeydew")
+        .outputFluids("forestry:honey 100")
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.LV]);
+event.recipes.gtceu.extractor("gtfte:gregification/honey_block")
+        .itemInputs("minecraft:honey_block")
+        .outputFluids("forestry:honey 800")
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.LV]);
+event.recipes.gtceu.extractor("gtfte:gregification/sponge_comb")
+        .itemInputs("forestry:bee_comb_sponge")
+        .chancedOutput("minecraft:sponge", 200, 0)
+        .outputFluids("forestry:honey 100")
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.LV]);
+event.recipes.gtceu.extractor("gtfte:gregification/honey_drop")
+        .itemInputs("forestry:honey_drop")
+        .chancedOutput("forestry:propolis_normal", 500, 0)
+        .outputFluids("forestry:honey 100")
+        .duration(500)
+        .EUt(GTValues.VA[GTValues.LV]);
 })

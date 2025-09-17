@@ -26,6 +26,7 @@ const Replacement = [
   ["botania:gaia_ingot", "gtceu:gaia_steel_ingot"],
 
   ["jetboots:obsidian_infused_gold", "gtceu:obsidian_gold_plate"],
+  ["forestry:sturdy_machine", "gtceu:bronze_machine_casing"],
 
 ]
 

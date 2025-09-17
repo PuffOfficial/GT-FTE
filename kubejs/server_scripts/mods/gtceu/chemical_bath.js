@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+//-----Slurries-----//
 event.recipes.gtceu.chemical_bath("gtfte:gravel_slurry")
         .itemInputs("32x minecraft:gravel")
         .inputFluids("minecraft:water 8000")
@@ -29,4 +30,11 @@ event.recipes.gtceu.chemical_bath("gtfte:netherrack_slurry")
         .outputFluids("gtceu:netherrack_slurry 8000")
         .duration(300)
         .EUt(GTValues.VA[GTValues.MV]);
+//-----Honey Treated Wood-----//
+event.recipes.gtceu.chemical_bath("gtfte:honey_treated_wood_pulp")
+        .itemInputs("gtceu:wood_dust")
+        .inputFluids("forestry:honey 100")
+        .itemOutputs("gtceu:honey_treated_wood_dust")
+        .duration(600)
+        .EUt(GTValues.VA[GTValues.LV]);
 })

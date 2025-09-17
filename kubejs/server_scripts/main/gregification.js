@@ -1,11 +1,39 @@
 
-let InputsForDeletion = ['minecraft:chest','forestry:worktable','minecraft:lightning_rod']
+let InputsForDeletion = [
+  //-----MINECRAFT-----//
+  'minecraft:chest',
+  'minecraft:lightning_rod',
+  //-----FORESTRY-----//
+  'forestry:worktable',
+  'forestry:apiary',
+  'forestry:bee_house',
+  'forestry:alveary_plain',
+  'forestry:impregnated_casing',
+  'forestry:scoop',
+  'forestry:impregnated_frame',
+  'forestry:untreated_frame',
+  //-----FORESTRY-----//
+  'gendustry:receptable',
+  'gendustry:power_module',
+  'gendustry:genetics_processor',
+  'gendustry:climate_control_module',
+  'gendustry:upgrade_frame',
+  'gendustry:elite_upgrade_frame',
+  'gendustry:blank_gene_sampler',
+  'gendustry:blank_genetic_template'
+]
 
 
 ServerEvents.recipes(event => {
 InputsForDeletion.forEach(input =>{
     event.remove({output: input})
 })
+//MARK: Minecraft
+event.recipes.gtceu.assembler('gtfte:chest')
+    .itemInputs('2x gtceu:wood_plate', 'gtceu:iron_ring', 'gtceu:iron_screw')
+    .itemOutputs('minecraft:chest')
+    .duration(400)
+    .EUt(GTValues.VA[GTValues.LV]);
 event.shaped('minecraft:chest', [
     'AAA', 
     'ADA',
@@ -27,19 +55,6 @@ event.shaped('minecraft:lightning_rod', [
     E: 'gtceu:copper_screw',  
   }
 ).damageIngredient([global.tools.AnyHammer, global.tools.AnyScrewdriver]);
-event.shaped('forestry:worktable', [
-    'B C', 
-    'ADA',
-    'EFE'  
-  ], {
-    A: 'gtceu:wood_plate',  
-    B: global.tools.AnyMallet,   
-    C: global.tools.AnySaw,  
-    D: 'minecraft:book',  
-    E: 'gtceu:iron_screw',
-    F: 'minecraft:chest'
-  }
-).damageIngredient([global.tools.AnyMallet, global.tools.AnySaw]);
 // MARK: CobbleForDays
 event.shaped('cobblefordays:tier_1', [
     'ABA', 
@@ -195,9 +210,82 @@ event.shaped('2x ae2:annihilation_core', [
     E: 'gtceu:flawless_fluix_gem',
   }
 );
-event.recipes.gtceu.assembler('gtfte:chest')
-    .itemInputs('2x gtceu:wood_plate', 'gtceu:iron_ring', 'gtceu:iron_screw')
-    .itemOutputs('minecraft:chest')
+
+//MARK: Forestry
+event.shaped('forestry:worktable', [
+    'B C', 
+    'ADA',
+    'EFE'  
+  ], {
+    A: 'gtceu:wood_plate',  
+    B: global.tools.AnyMallet,   
+    C: global.tools.AnySaw,  
+    D: 'minecraft:book',  
+    E: 'gtceu:iron_screw',
+    F: 'minecraft:chest'
+  }
+).damageIngredient([global.tools.AnyMallet, global.tools.AnySaw]);
+event.recipes.gtceu.assembler('gtfte:impregnated_casing')
+    .itemInputs('18x gtceu:treated_wood_plate', 'gtceu:treated_wood_frame', '24x gtceu:steel_screw', '12x gtceu:silicone_rubber_foil')
+    .itemOutputs('forestry:impregnated_casing')
     .duration(400)
     .EUt(GTValues.VA[GTValues.LV]);
+event.shaped('forestry:bee_house', [
+    'CFB', 
+    'AEA',
+    'AAA'  
+  ], {
+    A: 'gtceu:wood_plate',  
+    B: global.tools.AnyMallet,   
+    C: global.tools.AnySaw,  
+    E: 'forestry:impregnated_casing',
+    F: 'gtceu:treated_wood_plate'
+  }
+).damageIngredient([global.tools.AnyMallet, global.tools.AnySaw]);
+event.shaped('forestry:apiary', [
+    'CAB', 
+    'EFE',
+    'GGG'  
+  ], {
+    A: 'gtceu:wood_plate',  
+    B: global.tools.AnyMallet,   
+    C: global.tools.AnySaw,  
+    E: '#forestry:combs',
+    F: 'forestry:impregnated_casing',
+    G: 'gtceu:honey_treated_wood_plate'
+  }
+).damageIngredient([global.tools.AnyMallet, global.tools.AnySaw]);
+event.shaped('forestry:scoop', [
+    'AFA', 
+    'DED',
+    'BAC'  
+  ], {
+    A: 'gtceu:treated_wood_rod',  
+    B: global.tools.AnyMallet,   
+    C: global.tools.AnyScrewdriver,  
+    D: 'gtceu:wrought_iron_ring',  
+    E: 'gtceu:wrought_iron_screw',
+    F: 'exdeorum:string_mesh'
+  }
+).damageIngredient([global.tools.AnyMallet,global.tools.AnyScrewdriver]);
+//MARK: Gendustry
+event.shaped('gendustry:blank_gene_sample', [
+    ' A ', 
+    'ABA',
+    ' A '  
+  ], {
+    A: 'gtceu:polyethylene_foil',  
+    B: 'gtceu:universal_fluid_cell'   
+  }
+);
+event.shaped('gendustry:blank_genetic_template', [
+    'ABA', 
+    'BCB',
+    'ABA'  
+  ], {
+    A: 'gtceu:polyethylene_plate',  
+    B: 'gendustry:blank_gene_sample',  
+    C: '#gtceu:circuits/mv'    
+  }
+);
 })

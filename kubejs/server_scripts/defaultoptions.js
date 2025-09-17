@@ -9,19 +9,18 @@ ServerEvents.loaded(event => {
     console.info("Gamerules set!");
 
 })
-ServerEvents.loaded(event => {
-global.server = Utils.server 
-})
 PlayerEvents.loggedIn(event => {
+    let player = event.player
+
     event.player.tell(["Welcome to ", Text.green("GT:FTE").bold(), ", Pioneer"]); // force recast to string
     event.player.tell(["Report any issues to ", Text.blue("Discord Server")
         .underlined()
         .clickOpenUrl("https://discord.gg/KjzBXsGxBt").hover("P-Corp Server"), "."
     ]);
-
-    if (server.getWorldData().difficulty == 'peaceful') {
-        event.player.tell("§8§oCurrent difficulty is: " + global.worldServer.getWorldData().difficulty.toString().toLowerCase() + ", using peaceful recipes")
+    
+    if (player.level.difficulty == 'peaceful') {
+        player.tell("§8§oCurrent difficulty is: " + player.level.difficulty.toString().toLowerCase() + ", using peaceful recipes")
     } else {
-        event.player.tell("§8§oCurrent difficulty is: " + global.worldServer.getWorldData().difficulty.toString().toLowerCase() + ", using default recipes")
+        player.tell("§8§oCurrent difficulty is: " + player.level.difficulty.toString().toLowerCase() + ", using default recipes")
     }
 })

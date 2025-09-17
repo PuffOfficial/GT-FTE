@@ -44,7 +44,10 @@ global.Casings = [
 StartupEvents.registry('item', register => { 
 
     register.create('sharpened_flint', 'axe').tier('stone')
+    register.create('stone_spade').maxDamage(67)
 
+
+    register.create('stone_stick')
     register.create("stick_fragments").texture("kubejs:item/stick_fragments")
     register.create("simple_knitting_kit").texture("kubejs:item/knitting_kit").maxDamage("10")
     register.create("string_mesh_chunk").texture("kubejs:item/mesh_chunk")

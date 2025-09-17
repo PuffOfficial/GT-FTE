@@ -21,7 +21,6 @@ const $FormattingUtil = Java.loadClass("com.gregtechceu.gtceu.utils.FormattingUt
 const $ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting");
 const $Style = Java.loadClass("net.minecraft.network.chat.Style");
 
-
 //Alchemy Temperature Logic
 function AlchemyOverclock(machine, recipe) {
     if (!(machine instanceof $MetaMachine)) return ModifierFunction.NULL

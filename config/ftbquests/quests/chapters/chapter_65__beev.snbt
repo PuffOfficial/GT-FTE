@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_65__beev"
-	group: ""
+	group: "76ED85C1705485DC"
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -134,19 +134,103 @@
 		}
 	}
 	id: "44B8B6096B935FC0"
-	order_index: 8
+	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "6F3AE778425D12EF"
-		size: 1.25d
-		tasks: [{
-			id: "445D645E43063EA1"
-			title: "Start Questline"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			id: "6F3AE778425D12EF"
+			size: 1.25d
+			tasks: [{
+				id: "445D645E43063EA1"
+				title: "Start Questline"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F3AE778425D12EF"]
+			description: [
+				"After you create Stargate - You get access to the &lother planets&r."
+				"We thought that those planets don't have any life on them, but turns out they have &lbees&r.&n"
+				"&nUse &lscoop&r&n to collect them.&r"
+			]
+			icon: "forestry:beehive_desert"
+			id: "378A5048BE5B88C4"
+			tasks: [
+				{
+					id: "5E7863C775F07645"
+					title: "Hives"
+					type: "checkmark"
+				}
+				{
+					id: "7868DBFE9A91F296"
+					item: {
+						Count: 1
+						id: "forestry:scoop"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["378A5048BE5B88C4"]
+			id: "2EE27B35904962C6"
+			tasks: [{
+				id: "5200ABCC1D88C600"
+				item: "forestry:bee_house"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EE27B35904962C6"]
+			description: [
+				"Apiary requires &lcombs&r, that's the reason why you need &lbee house&r"
+				""
+				"&oBut why would i use it, if i already have &lBee House&r&o?&r"
+				"Because this one can use &lframes&r - Frames give different buffs"
+				""
+				"&lUntreated Frame:&r 80 Durability, 0.9x G.D., 2x Products"
+				"&lImpregnated Frame:&r&r 240 Durability, 0.4x G.D., 2x Products"
+			]
+			id: "56C506CE8EA7C99D"
+			tasks: [{
+				id: "08D844B7B4F3F58E"
+				item: "forestry:apiary"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2EE27B35904962C6"]
+			description: [
+				"If you click \"&lU&r\" on any bee in your inventory, you will see EMI with all bee mutations"
+				""
+				"As you can see - It requires 2 parents: Drone and Princess"
+				""
+				"After successfull breeding, you will get Queen"
+				""
+				"&lRemember: You will get mutation only after end of the cycle&r"
+			]
+			id: "6E538A281FC3E1ED"
+			subtitle: "The hell is that?"
+			tasks: [{
+				id: "3141C5D13BBEFFB4"
+				title: "Bee Breeding"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
 	subtitle: ["Got it? Bee-Voltage"]
-	title: "Chapter 5.5 | BeeV"
+	title: "Bees"
 }

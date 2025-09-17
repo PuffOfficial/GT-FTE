@@ -90,6 +90,11 @@
 
     "material.gtceu.certus_stainless_steel_alloy": "Certus Steel Alloy",
 
+    "item.gtceu.Tiny_honey_treated_wood_dust": "Tiny Pile of Honey Treated Wood Pulp",
+    "item.gtceu.small_honey_treated_wood_dust": "Small Pile of Honey Treated Wood Pulp",
+    "item.gtceu.honey_treated_wood_dust": "Honey Treated Wood Pulp",
+    "item.gtceu.honey_treated_wood_plate": "Honey Treated Wood Plank",
+    "item.gtceu.honey_treated_wood_rod": "Honey Treated Wood Stick",
 
     "block.gtceu.energizer": "Energizing Chamber",
     "block.gtceu.reconstruction_chamber": "Atomic Reconstruction Chamber",

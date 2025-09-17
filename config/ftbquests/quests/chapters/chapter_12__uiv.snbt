@@ -5,7 +5,7 @@
 	group: ""
 	icon: "kubejs:universal_uiv_circuit"
 	id: "46B2F78DD4265A81"
-	order_index: 15
+	order_index: 14
 	quest_links: [ ]
 	quests: [{
 		id: "44151C71388AF5FC"

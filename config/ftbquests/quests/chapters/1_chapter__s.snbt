@@ -20,7 +20,7 @@
 			description: [
 				"Hiii! I'm Mike, your guide through this timeline"
 				""
-				"&o&8DEV NOTE: If you want to play in peaceful - Feel free to do it, after switching difficulty execute /reload in chat to get new recipes. Or re-enter the world&r&r"
+				"&o&8DEV NOTE: If you want to play in peaceful - Feel free to do it, but don't forget about switching PeacefulRecipes to &ltrue&r&o&8, in &lkubejs/server_scripts/main/peaceful_fixes&r&r"
 			]
 			id: "5E77582D4F02E361"
 			rewards: [{
@@ -178,14 +178,17 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2653E645A6CAF6F7"]
+			dependencies: [
+				"2653E645A6CAF6F7"
+				"54517A9958E8664F"
+			]
 			id: "7108651344CB541D"
 			tasks: [{
 				id: "334CCC250205766E"
 				item: "minecraft:oak_sapling"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: -2.0d
 		}
 		{
@@ -209,6 +212,147 @@
 			}]
 			x: 4.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["29D26608B96FC714"]
+			id: "12D7CE33467F1B93"
+			optional: true
+			subtitle: "Peaceful Route"
+			tasks: [{
+				id: "6552C911EAE88D02"
+				item: "kubejs:stone_stick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12D7CE33467F1B93"]
+			id: "54517A9958E8664F"
+			optional: true
+			tasks: [{
+				id: "455E89326BA9E09F"
+				item: {
+					Count: 1
+					id: "kubejs:stone_spade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7108651344CB541D"]
+			id: "4E0086B337787F58"
+			tasks: [{
+				id: "10BDD9152B5F9DCD"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7108651344CB541D"]
+			id: "48E957186CF6F398"
+			subtitle: "Free strings"
+			tasks: [{
+				id: "68CCFB73F5DBCED6"
+				item: "exdeorum:silk_worm"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["48E957186CF6F398"]
+			description: ["&8&oUnlike in &l<0.3 versions&r&o&8, there will be no more mesh tiers!&r&r"]
+			id: "55929EC71AF563BC"
+			tasks: [{
+				id: "30E0CBAF77063E7D"
+				item: "exdeorum:string_mesh"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4E0086B337787F58"]
+			id: "78ABD07B12E91235"
+			tasks: [{
+				id: "621BDB6B49A680DF"
+				item: "exdeorum:oak_sieve"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"78ABD07B12E91235"
+				"55929EC71AF563BC"
+			]
+			id: "49469AD65C6483FC"
+			tasks: [
+				{
+					id: "28B2A98722DAB0C9"
+					item: "gtceu:impure_sphalerite_dust"
+					type: "item"
+				}
+				{
+					id: "494396C7E54824FA"
+					item: "gtceu:impure_redstone_dust"
+					type: "item"
+				}
+				{
+					id: "2CBE6438C28BB5FA"
+					item: "gtceu:impure_cassiterite_sand_dust"
+					type: "item"
+				}
+				{
+					id: "0E8EC04E9950D2AD"
+					item: "gtceu:impure_sulfur_dust"
+					type: "item"
+				}
+			]
+			title: "Impure Dusts"
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"78ABD07B12E91235"
+				"55929EC71AF563BC"
+			]
+			id: "4C20422B3CFB353A"
+			tasks: [
+				{
+					id: "2E6D2F1E04097625"
+					item: "gtceu:crushed_copper_ore"
+					type: "item"
+				}
+				{
+					id: "472D9B6D945349E2"
+					item: "gtceu:crushed_lead_ore"
+					type: "item"
+				}
+				{
+					id: "399DD2C3AC8ABA49"
+					item: "gtceu:crushed_gold_ore"
+					type: "item"
+				}
+				{
+					id: "3DD341AAF541FE0F"
+					item: "gtceu:crushed_iron_ore"
+					type: "item"
+				}
+			]
+			title: "Crushed Ores"
+			x: 7.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Stands for Not-A-Voltage"]
