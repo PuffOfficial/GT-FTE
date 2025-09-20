@@ -22,7 +22,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 			.aisle('#####', '# R #', '#####')
 			.aisle('S###S', '#####', ' ### ')
 			.where('C', Predicates.controller(Predicates.blocks(definition.get())))
-			.where('#', Predicates.blocks("kubejs:wood_casing")
+			.where('#', Predicates.blocks("kubejs:wood_casing").setMinGlobalLimited(20)
 				.or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setPreviewCount(1))
 				.or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setPreviewCount(1))
 				.or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setPreviewCount(1))
