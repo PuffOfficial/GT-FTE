@@ -46,6 +46,8 @@ StartupEvents.registry('item', register => {
     register.create('sharpened_flint', 'axe').tier('stone')
     register.create('stone_spade').maxDamage(67)
 
+    register.create('the_watch_of_times').maxDamage(67)
+
 
     register.create('stone_stick')
     register.create("stick_fragments").texture("kubejs:item/stick_fragments")

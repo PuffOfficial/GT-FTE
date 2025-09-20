@@ -17,6 +17,9 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	subtitle: ["In Development"]
+	subtitle: [
+		"In To The Dark."
+		"In Development"
+	]
 	title: "Chapter 10 | UHV"
 }

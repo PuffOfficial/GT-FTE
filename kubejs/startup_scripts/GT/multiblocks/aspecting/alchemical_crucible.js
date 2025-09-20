@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 		.category('multiblock')
 		.setMaxIOSize(1, 1, 3, 0)
 		.setProgressBar(GuiTextures.PROGRESS_BAR_FUSION, FillDirection.LEFT_TO_RIGHT)
-		.setSound(GTSoundEntries.BATH);
+		.setSound(GTSoundEntries.BATH)
 });
 /*
     let tempLogic = temp => [
@@ -14,7 +14,10 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 */
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 
-	GTRecipeTypes.get("alchemy").addDataInfo((data) => (`Temperature: ${data.getInt("min_temp")}K-${data.getInt("max_temp")}K`))
+	GTRecipeTypes.get("alchemy").addDataInfo((data) => (
+		`Temperature: ${data.getInt("min_temp")}K-${data.getInt("max_temp")}K`
+	))
+	
 	event.create('alchemical_crucible', 'multiblock')
 		.rotationState(RotationState.NON_Y_AXIS)
 		.machine((holder) => new $CoilWorkableElectricMultiblockMachine(holder))

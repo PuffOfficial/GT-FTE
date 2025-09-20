@@ -17,6 +17,9 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	subtitle: ["In Development"]
+	subtitle: [
+		"Awakening."
+		"In Development"
+	]
 	title: "Chapter 12 | UIV"
 }

@@ -1,3 +1,4 @@
+/*
 const $ForestryBeeSpecies = Java.loadClass("forestry.api.apiculture.ForestryBeeSpecies")
 const $ItemHiveFrame = Java.loadClass("forestry.apiculture.items.ItemHiveFrame")
 
@@ -18,6 +19,11 @@ global.BeesCombs = [
   ['oxygenous', '#000000', '#87ebf0', 'oxygen', true, 2, $ForestryBeeSpecies.PHOTOSYNTHETIC, $ForestryBeeSpecies.FOREST],
   ['chlorous', '#000000', '#23533d', 'chlorine', true, 2, $ForestryBeeSpecies.TRICKY, $ForestryBeeSpecies.SINISTER],
 ]
+
+global.OreBeesCombs = [
+  ['tungstate', '#3a3a3a', '#e0ffc4', 'tungstate', false]
+]
+ 
 
 
 
@@ -52,4 +58,4 @@ ForestryEvents.apiculture(apiculture => {
     RegisterBee(Name, Color1, Color2, Resource, IsFluid, CentrifugeType, Bee1, Bee2)
   }
 })
-
+*/

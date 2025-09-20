@@ -17,6 +17,9 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	subtitle: ["In Development"]
+	subtitle: [
+		"To The Infinity And Beyond!"
+		"In Development"
+	]
 	title: "Chapter 13 | UXV"
 }

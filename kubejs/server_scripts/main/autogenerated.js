@@ -54,43 +54,4 @@ ServerEvents.recipes(event => {
             .duration(100)
             .EUt(32);   
     }
-//MARK: Bees
-    for (const CombBeeProperty of global.BeesCombs) {
-        let Name = CombBeeProperty[0];
-            let Resource = CombBeeProperty[3];
-        let IsFluid = CombBeeProperty[4];
-        let CentrifugeType = CombBeeProperty[5];
-
-
-    if (IsFluid == false) {
-        event.recipes.gtceu.comb_centrifuge(`gtfte:${Name}_comb_centrifuge`)
-            .itemInputs(`kubejs:${Name}_comb`)
-            .chancedOutput(`kubejs:${Name}_comb_extract`, 5000, 0)
-            .chancedOutput(`kubejs:${Name}_comb_extract`, 1000, 0)
-            .outputFluids(`gtceu:${Resource} 72`)
-            .addData("centrifuge_type", CentrifugeType)
-            .duration(100)
-            .EUt(512);
-        event.recipes.gtceu.extractor(`gtfte:${Name}_comb_extraction`)
-            .itemInputs(`kubejs:${Name}_comb_extract`)
-            .chancedOutput(`gtceu:${Resource}_dust`, 1000, 0)
-            .outputFluids(`gtceu:${Resource} 72`)
-            .duration(200)
-            .EUt(GTValues.VA[GTValues.LV]);    
-    } else {
-        event.recipes.gtceu.comb_centrifuge(`gtfte:${Name}_comb_centrifuge`)
-            .itemInputs(`kubejs:${Name}_comb`)
-            .chancedOutput(`kubejs:${Name}_comb_extract`, 3500, 0)
-            .chancedOutput(`kubejs:${Name}_comb_extract`, 1000, 0)
-            .outputFluids(`gtceu:${Resource} 250`)
-            .addData("centrifuge_type", CentrifugeType)
-            .duration(100)
-            .EUt(GTValues.VA[GTValues.HV]);   
-        event.recipes.gtceu.extractor(`gtfte:${Name}_comb_extraction`)
-            .itemInputs(`kubejs:${Name}_comb_extract`)
-            .outputFluids(`gtceu:${Resource} 250`)
-            .duration(200)
-            .EUt(GTValues.VA[GTValues.LV]);    
-    }
-}
 });
