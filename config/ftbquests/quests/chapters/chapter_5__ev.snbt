@@ -463,6 +463,7 @@
 		}
 		{
 			dependencies: ["2B9EC00FD667786D"]
+			hide_dependent_lines: true
 			id: "4867BEB512641580"
 			rewards: [{
 				id: "065E01AAB8F80D0C"
@@ -486,6 +487,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			subtitle: "IV...?"
 			tasks: [{
@@ -1140,6 +1142,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			subtitle: "Finally! I can leave this modpa... What? This is not final task?"
 			tasks: [
@@ -1181,6 +1184,118 @@
 			}]
 			x: 10.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2EC2D709ED7B523C"]
+			description: ["Yo, remember Bauxite Line? No...? Then go and make it!"]
+			id: "15EAFB902DDF8166"
+			tasks: [{
+				id: "42EADA022A81BA30"
+				item: "gtceu:crushed_bauxite_ore"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15EAFB902DDF8166"]
+			id: "0AE990414523AF88"
+			tasks: [{
+				id: "72052D198986E28B"
+				item: "gtceu:bauxite_slurry_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7FFAEB0348487242"
+				"0AE990414523AF88"
+			]
+			id: "1CBD4497BCDED218"
+			tasks: [{
+				id: "5AF4A48BCC264EA6"
+				item: "gtceu:cracked_bauxite_slurry_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "7FFAEB0348487242"
+			tasks: [{
+				id: "4B486C9EE7F22BAF"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1CBD4497BCDED218"
+				"4867BEB512641580"
+			]
+			id: "7370D4CD2CA46944"
+			tasks: [{
+				id: "338CBD5A5BA824A0"
+				item: "gtceu:bauxite_slag_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1CBD4497BCDED218"
+				"4867BEB512641580"
+			]
+			id: "4C473AB9006FC9D3"
+			tasks: [{
+				id: "27FE4E7C40D05C34"
+				item: "gtceu:bauxite_sludge_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7370D4CD2CA46944"]
+			id: "6249F061A5D62C0D"
+			shape: "gear"
+			subtitle: "Main goal of the BauxLine"
+			tasks: [{
+				id: "47337CC8537B0C14"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4C473AB9006FC9D3"]
+			id: "7211210695536A99"
+			optional: true
+			tasks: [{
+				id: "450915AFF1DF77E0"
+				item: "gtceu:decalcified_bauxite_sludge_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7211210695536A99"]
+			id: "3FF39BAAA9F7AC27"
+			optional: true
+			tasks: [{
+				id: "757A81CCFEB244BA"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.0d
 		}
 	]
 	subtitle: ["Stargate: GT-7"]

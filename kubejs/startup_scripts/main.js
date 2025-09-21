@@ -38,7 +38,9 @@ global.Casings = [
     ["etbf", "metal", "pickaxe", "E.T.B.F. Casing"],
     ["corruption_proof", "metal", "pickaxe", "Corruption-Proof Casing"],
     ["stainless_evaporation", "metal", "pickaxe", "Stainless Evaporation Casing"],
-    ["wood", "wood", "axe", "Wood Casing"]
+    ["wood", "wood", "axe", "Wood Casing"],
+    ["manasteel_plated_livingrock", "metal", "pickaxe", "Manasteel Plated Livingrock Bricks"],
+    ["terrasteel_plated_livingwood", "wood", "axe", "Terrasteel Plated Livingwood Planks"]
 ]
 
 StartupEvents.registry('item', register => { 

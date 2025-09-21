@@ -43,6 +43,25 @@ event.recipes.gtceu.assembler(`${casing}_assembler`)
         .itemOutputs('gtceu:luv_machine_casing')
         .duration(50)
         .EUt(GTValues.VA[GTValues.LV]);
+//MARK: Special
+//Casings
+event.shaped("2x kubejs:manasteel_plated_livingrock_casing", [
+    'PHP', 
+    'PFP',
+    'PWP'  
+  ], { 
+    F: `botania:livingrock_bricks`,  
+    P: `gtceu:manasteel_plate`,
+    W: '#forge:tools/wrenches',
+    H: '#forge:tools/hammers'
+  }
+).damageIngredient(['#forge:tools/wrenches', '#forge:tools/hammers'])
+//Assembler
+event.recipes.gtceu.assembler(`manasteel_plated_livingrock_casing_assembler`)
+      .itemInputs([`6x gtceu:manasteel_plate`, `botania:livingrock_bricks`]).circuit(6)
+      .itemOutputs(`2x kubejs:manasteel_plated_livingrock_casing`)
+      .duration(50)
+      .EUt(16)
 //Hulls
 event.shaped('gtceu:mv_machine_hull', [
     '   ', 

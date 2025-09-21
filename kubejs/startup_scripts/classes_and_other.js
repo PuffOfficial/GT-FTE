@@ -21,6 +21,8 @@ const $FormattingUtil = Java.loadClass("com.gregtechceu.gtceu.utils.FormattingUt
 const $ChatFormatting = Java.loadClass("net.minecraft.ChatFormatting");
 const $Style = Java.loadClass("net.minecraft.network.chat.Style");
 
+const $GTMemoizer = Java.loadClass("com.gregtechceu.gtceu.utils.memoization.GTMemoizer");
+
 //Alchemy Temperature Logic
 function AlchemyOverclock(machine, recipe) {
     if (!(machine instanceof $MetaMachine)) return ModifierFunction.NULL
@@ -113,3 +115,4 @@ const ionizingCleanroom = new $CleanroomType("ionizing", "gtfte.ionizing_cleanro
 //Custom partAbilities
 const $PartAbility = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.PartAbility");
 const PRIMITIVE_MAINTENANCE = new $PartAbility("primitive_maintenance")
+

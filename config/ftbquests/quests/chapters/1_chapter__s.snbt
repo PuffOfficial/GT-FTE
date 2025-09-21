@@ -20,7 +20,7 @@
 			description: [
 				"Hiii! I'm Mike, your guide through this timeline"
 				""
-				"&o&8DEV NOTE: If you want to play in peaceful - Feel free to do it, but don't forget about switching PeacefulRecipes to &ltrue&r&o&8, in &lkubejs/server_scripts/main/peaceful_fixes&r&r"
+				"&o&8DEV NOTE: If you want to play in peaceful - Feel free to do it, pack &lhas special recipes for it&r"
 			]
 			id: "5E77582D4F02E361"
 			rewards: [{
@@ -228,6 +228,7 @@
 		}
 		{
 			dependencies: ["12D7CE33467F1B93"]
+			description: ["Try &lShift+Right clicking&r grass/dirt with it!"]
 			id: "54517A9958E8664F"
 			optional: true
 			tasks: [{
@@ -353,6 +354,69 @@
 			title: "Crushed Ores"
 			x: 7.5d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4C20422B3CFB353A"
+				"49469AD65C6483FC"
+			]
+			id: "59FE5A35F65990D7"
+			tasks: [{
+				id: "7CDBB8518024F346"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C20422B3CFB353A"]
+			id: "463E7B6B3DAB14BC"
+			tasks: [{
+				id: "1E02AB88416BED87"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C20422B3CFB353A"]
+			id: "0C11A36C1BCD5F23"
+			tasks: [{
+				id: "0307FBBE63849EBE"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0C11A36C1BCD5F23"
+				"59FE5A35F65990D7"
+				"2292732E595B2FE5"
+			]
+			id: "6245C55A807D1DDF"
+			size: 1.25d
+			tasks: [{
+				id: "39FC332816568C9A"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["463E7B6B3DAB14BC"]
+			id: "06BF29E326F5AF1C"
+			tasks: [{
+				id: "11356B7BFB5611D1"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Stands for Not-A-Voltage"]
