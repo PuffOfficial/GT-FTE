@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 		.machine((holder) => new $CoilWorkableElectricMultiblockMachine(holder))
 		.rotationState(RotationState.NON_Y_AXIS)
 		.recipeType(GTRecipeTypes.BLAST_RECIPES)
-		.recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.OC_PERFECT_SUBTICK, (machine, recipe) => GTRecipeModifiers.ebfOverclock(machine, recipe)])
+		.recipeModifiers([GTRecipeModifiers.OC_PERFECT_SUBTICK, (machine, recipe) => GTRecipeModifiers.ebfOverclock(machine, recipe), (machine, recipe) => DefaultParallel(machine, recipe, 8)])
 		.appearanceBlock(() => Block.getBlock("kubejs:etbf_casing"))
 		.pattern(definition => FactoryBlockPattern.start()
 			.aisle('###', 'RRR', 'RRR', 'RRR', '###')

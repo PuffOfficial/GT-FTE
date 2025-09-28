@@ -27,7 +27,7 @@ global.Universal = [
     ["uxv","#fff765"],
     ["opv","#2600ff"]
 ]
-
+let credits = ["diggypt", "phoenixvine", "jurrejelle"]
 let ULVCraftingComponents = ["robot_arm", "conveyor_module", "electric_motor", "electric_pump", "electric_piston"]
 
 global.Casings = [
@@ -85,21 +85,19 @@ ULVCraftingComponents.forEach(Type => {
 })
 for (const [name, tint] of global.Universal){
     register.create(`universal_${name}_circuit`).textureJson({layer0:`kubejs:item/circuits/universal/base`,layer1:'kubejs:item/circuits/universal/overlay'}).color(1, tint)
-    .displayName(Component.translatable(`gtfte.name.universal_circuit`, name.toUpperCase()))
     .tooltip(Component.translatable(`gtfte.tooltip.universal_circuit`, name.toUpperCase()))
     .tag("gtceu:circuits")
     .tag(`gtceu:circuits/${name}`);
 }
 register.create(`gtceu:empty_fuel_rod`).texture(`kubejs:item/fuel/empty`)
 for (const [fuel, tint, display] of global.FuelRods){
-    register.create(`gtceu:${fuel}_fuel_rod`).textureJson({layer0:`kubejs:item/fuel/empty`,layer1:'kubejs:item/fuel/overlay'}).color(1, tint).unstackable().displayName(Component.translatable('gtfte.name.fuel_rod', display))
+    register.create(`gtceu:${fuel}_fuel_rod`).textureJson({layer0:`kubejs:item/fuel/empty`,layer1:'kubejs:item/fuel/overlay'}).color(1, tint).unstackable()
 }
 for (const [name, displayName] of Boules) {
     register.create(`${name}_boule`).texture(`kubejs:item/components/boule/${name}_boule`).tooltip("§7Still Raw Circuit").displayName(`${displayName} Boule`)
     register.create(`${name}_wafer`).texture(`kubejs:item/components/wafer/${name}_wafer`).displayName(`${displayName} Wafer`)
 }
 })
-
 
 StartupEvents.registry('block', event => {
 for (const [Name, SoundType, Tool, Display] of global.Casings){
@@ -152,26 +150,4 @@ for (const [Name, SoundType, Tool, Display] of global.Casings){
         .requiresTool(true)
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('forge:mineable/wrenches')
-// Vent
-    event.create("simple_ventilation", 'gtceu:active')
-        .simple("kubejs:block/active/ventilation/simple_ventilation")
-        .soundType("metal")
-        .displayName("Simple Ventilation")
-        .hardness(2.0)
-        .resistance(2)
-        .requiresTool(true)
-        .tagBlock('minecraft:mineable/pickaxe')
-        .tagBlock('forge:mineable/wrenches')
-
-    event.create('wrought_iron_firebox', 'gtceu:active')
-        .firebox(
-            'kubejs:block/casings/solid_wrought_iron/solid_wrought_iron_casing',
-            'kubejs:block/casings/solid_wrought_iron/firebox',
-            'kubejs:block/casings/solid_wrought_iron/solid_wrought_iron_casing')
-        .displayName('Wrought Iron Firebox')
-        .soundType('metal')
-        .resistance(6).hardness(5)
-        .tagBlock("mineable/pickaxe")
-        .tagBlock("forge:mineable/wrench")
-        .requiresTool(true)
 })

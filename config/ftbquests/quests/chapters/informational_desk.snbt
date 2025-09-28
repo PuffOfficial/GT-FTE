@@ -81,6 +81,20 @@
 			x: 1.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"Thank to:"
+				"&#8bdce3Diggypt_3&r for providing some textures. (Infinity Coil)"
+			]
+			id: "65F80D206E1533B3"
+			tasks: [{
+				id: "2F4F30EA56F54602"
+				title: "Credits/Contributors"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
 	]
 	title: "Informational Desk"
 }

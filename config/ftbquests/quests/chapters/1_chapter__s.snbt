@@ -47,7 +47,10 @@
 		}
 		{
 			dependencies: ["5E77582D4F02E361"]
-			description: ["Don't ask me why there are stick in a dirt"]
+			description: [
+				"Try Shift+Right clicking dirt!"
+				"&8&oDon't ask me why there are stick in a dirt&r&r"
+			]
 			id: "684B8FDD1CE27034"
 			rewards: [{
 				id: "4A1AA2D9F58F81A5"

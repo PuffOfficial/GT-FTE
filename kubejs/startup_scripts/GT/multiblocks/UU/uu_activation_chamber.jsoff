@@ -1,0 +1,35 @@
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
+	event.create('uu_activation')
+		.category('multiblock')
+		.setMaxIOSize(1, 1, 1, 1)
+		.setProgressBar(GuiTextures.PROGRESS_BAR_FUSION, FillDirection.LEFT_TO_RIGHT)
+		.setSound(GTSoundEntries.REPLICATOR);
+});
+
+GTCEuStartupEvents.registry('gtceu:machine', event => {
+
+	event.create('uu_activation_chamber', 'multiblock')
+		.rotationState(RotationState.NON_Y_AXIS)
+		.recipeType('uu_activation')
+        .recipeModifiers([GTRecipeModifiers.OC_PERFECT_SUBTICK])
+		.appearanceBlock(() => Block.getBlock('gtceu:fusion_casing'))
+		.pattern(definition => FactoryBlockPattern.start()
+			.aisle('###', 'GGG', '###')
+			.aisle('#F#', 'GUG', '#R#')
+			.aisle('#C#', 'GGG', '###')
+			.where('C', Predicates.controller(Predicates.blocks(definition.get())))
+			.where('#', Predicates.blocks('gtceu:fusion_casing')
+				.or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.EXPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(1).setPreviewCount(1)))
+            .where('R', Predicates.blocks('gtceu:superconducting_coil'))
+			.where('G', Predicates.blocks('gtceu:fusion_glass'))
+			.where('U', Predicates.blocks('kubejs:uu_activation_cell'))
+			.where('F', Predicates.blocks('gtceu:fusion_coil'))
+			.where(' ', Predicates.any())
+			.build())
+		.workableCasingModel("gtceu:block/casings/fusion/fusion_casing", "gtceu:block/multiblock/fusion_reactor")
+});

@@ -1,0 +1,8 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/coils/copper/block_bloom_ctm"
+    },
+    "shimmer": {
+        "bloom": true
+    }
+}

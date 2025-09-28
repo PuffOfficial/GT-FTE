@@ -5,6 +5,21 @@
     "item.kubejs.ulv_electric_motor": "ULV Electric Motor",
     "item.kubejs.ulv_electric_pump": "ULV Electric Pump",
 
+    "item.kubejs.universal_ulv_circuit": "Universal ULV Circuit",
+    "item.kubejs.universal_lv_circuit": "Universal LV Circuit",
+    "item.kubejs.universal_mv_circuit": "Universal MV Circuit",
+    "item.kubejs.universal_hv_circuit": "Universal HV Circuit",
+    "item.kubejs.universal_ev_circuit": "Universal EV Circuit",
+    "item.kubejs.universal_iv_circuit": "Universal IV Circuit",
+    "item.kubejs.universal_luv_circuit": "Universal LuV Circuit",
+    "item.kubejs.universal_zpm_circuit": "Universal ZPM Circuit",
+    "item.kubejs.universal_uv_circuit": "Universal UV Circuit",
+    "item.kubejs.universal_uhv_circuit": "Universal UHV Circuit",
+    "item.kubejs.universal_uev_circuit": "Universal UEV Circuit",
+    "item.kubejs.universal_uiv_circuit": "Universal UIV Circuit",
+    "item.kubejs.universal_uxv_circuit": "Universal UXV Circuit",
+    "item.kubejs.universal_opv_circuit": "Universal OpV Circuit",
+
     "item.kubejs.ram_mainframe": "RAM Mainframe",
     "item.kubejs.ram_stick": "RAM Stick",
 

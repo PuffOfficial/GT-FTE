@@ -51,19 +51,6 @@ function AlchemyOverclock(machine, recipe) {
     return ModifierFunction.IDENTITY
 }
 //Comb Centrifuge Logic
-function CombCentrifugeLogic(machine, recipe, type) {
-    if (!(machine instanceof $MetaMachine)) return ModifierFunction.NULL
-    if (!(recipe instanceof $GTRecipe)) return ModifierFunction.NULL
-
-   
-        if (!recipe || !recipe.data) {console.log("Looks like data is NULL!"); return ModifierFunction.NULL;}
-        let CentrifugeType = recipe.data.getInt("centrifuge_type")
-
-        if (!(CentrifugeType == type)) {
-            return ModifierFunction.NULL
-        }
-    return ModifierFunction.IDENTITY
-}
 
 //ULV Parallel Logic, but has issue with the programmed circuit recipes <= NEEDS TO BE FIXED (Feel free to you use it)
 function ULVParallel(machine, recipe, parallelAmount) {
@@ -75,8 +62,6 @@ function ULVParallel(machine, recipe, parallelAmount) {
     let eut = recipe.getInputEUt().getTotalEU();
     let parallels = $ParallelLogic.getParallelAmount(machine,recipe,parallelAmount)
     let eutMultiplier = (eut * 0.8888 * parallelAmount <= 32) ? (0.8888 * parallelAmount) : (32.0 / eut)
-
-    if (parallels == (0 || null)) return ModifierFunction.NULL;
 
     console.log(`Running ${recipe.getId()} with ${parallels}/${parallelAmount} parallels, at ${eutMultiplier}x EU multiplier`)
 
@@ -97,8 +82,6 @@ function DefaultParallel(machine, recipe, parallelAmount) {
     if (machine instanceof $IMultiController && machine.isFormed()){
 
     let parallels = $ParallelLogic.getParallelAmount(machine,recipe,parallelAmount)
-
-    if (parallels == (0 || null)) return ModifierFunction.NULL;
 
     console.log(`Running ${recipe.getId()} with ${parallels}/${parallelAmount} parallels`)
 

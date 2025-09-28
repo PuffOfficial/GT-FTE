@@ -72,7 +72,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     RegisterULVSingleblock("macerator", "macerator", "Macerator", "macerator", GTValues.ULV)
     RegisterULVSingleblock("electrolyzer", "electrolyzer", "Electrolyzer", "electrolyzer", GTValues.ULV)
     RegisterULVSingleblock("extruder", "extruder", "Extruder", "extruder", GTValues.ULV)
+    
     RegisterSimpleSingleblock("electric_mana_garden", "mana_garden", "Mana Garden", "mana_garden", [GTValues.HV,GTValues.EV,GTValues.IV,GTValues.LuV,GTValues.ZPM])
+    RegisterSimpleSingleblock("3d_printer", "3d_printing", "3D Printer", "3d_printer", [GTValues.LuV,GTValues.ZPM,GTValues.UV,GTValues.UHV])
 })
 
 GTCEuStartupEvents.registry('gtceu:machine', event => {
@@ -101,6 +103,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .langValue(`Ionizing Module`)
             .rotationState(RotationState.ALL)
             .abilities(PartAbility.MAINTENANCE)
+            .modelProperty($GTMachineModelProperties.IS_FORMED)
             .workableTieredHullModel("kubejs:block/machines/ionizing_module")
         )
 

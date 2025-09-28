@@ -1,0 +1,9 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/coils/infinity/block_ctm"
+    },
+    "animation": {
+        "frametime": 60,
+        "interpolate": true
+   }
+}

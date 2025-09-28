@@ -30,4 +30,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.GENERATE_PLATE)
         .formula("(SiO2)4Fe");
 
+    event.create("naquadah_fused_plastic")
+        .ingot()
+        .color(0x30261d).secondaryColor(0x1f4925).iconSet(GTMaterialIconSet.DULL)
+        .flags(GTMaterialFlags.GENERATE_SMALL_GEAR,GTMaterialFlags.GENERATE_GEAR,GTMaterialFlags.GENERATE_PLATE)
+        .formula("Nq2(C12H10O4)(ZrO2)");
 })

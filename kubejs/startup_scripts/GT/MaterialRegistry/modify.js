@@ -11,4 +11,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     GTMaterials.Polonium.setProperty($PropertyKey.INGOT, new $IngotProperty)
     GTMaterials.Polonium.addFlags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL)
+    GTMaterials.Zirconium.setProperty($PropertyKey.INGOT, new $IngotProperty)
+    GTMaterials.Zirconium.addFlags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_FOIL)
 })  

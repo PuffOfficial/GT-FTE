@@ -1,0 +1,12 @@
+{
+    "ldlib": {
+        "connection": "kubejs:block/coils/manasteel/block_bloom_ctm"
+    },
+    "animation": {
+        "interpolate": true,
+        "frametime": 30
+    },
+    "shimmer": {
+        "bloom": true
+    }
+}
