@@ -23,6 +23,7 @@ const $Style = Java.loadClass("net.minecraft.network.chat.Style");
 
 const $GTMemoizer = Java.loadClass("com.gregtechceu.gtceu.utils.memoization.GTMemoizer");
 
+// MARK: Machine Logic
 //Alchemy Temperature Logic
 function AlchemyOverclock(machine, recipe) {
     if (!(machine instanceof $MetaMachine)) return ModifierFunction.NULL
@@ -49,6 +50,19 @@ function AlchemyOverclock(machine, recipe) {
             }
     }
     return ModifierFunction.IDENTITY
+}
+function ASUOverclock(machine, recipe) {
+    if (!(machine instanceof $MetaMachine)) return ModifierFunction.NULL
+    if (!(recipe instanceof $GTRecipe)) return ModifierFunction.NULL
+
+    if (!(machine instanceof $CoilWorkableElectricMultiblockMachine )) {
+        return $RecipeModifier.nullWrongType($CoilWorkableElectricMultiblockMachine, machine);
+    } else {
+        let durationMultiplier = (machine.getCoilTier() == 0) ? (4.0 / 3.0) : (2.0 / (machine.getCoilTier() + 1));
+        return ModifierFunction.builder()
+            .durationMultiplier(durationMultiplier)
+            .build();
+    }
 }
 //Comb Centrifuge Logic
 

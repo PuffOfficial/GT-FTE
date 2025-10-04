@@ -1,77 +1,77 @@
 const Casings = [
-    ["kubejs:solid_wrought_iron_casing", "wrought_iron", "andesite_alloy"],
-    ["kubejs:hss_plated_nocturium_casing", "hsse", "nocturium"],
-    ["kubejs:corruption_proof_casing", "titanium_noctium", "titanium_noctium"],
-    ["kubejs:radiation_resistant_casing", "radiation_resistant_alloy", "tungsten_steel"],
-    ["kubejs:stainless_evaporation_casing", "stainless_steel", "alchemical_bronze"],
-    ["kubejs:etbf_casing", "titanium_tungsten_carbide", "polytetrafluoroethylene"],
-    ["kubejs:wood_casing", "wood", "treated_wood"]
+  ["kubejs:solid_wrought_iron_casing", "wrought_iron", "andesite_alloy"],
+  ["kubejs:hss_plated_nocturium_casing", "hsse", "nocturium"],
+  ["kubejs:corruption_proof_casing", "titanium_noctium", "titanium_noctium"],
+  ["kubejs:radiation_resistant_casing", "radiation_resistant_alloy", "tungsten_steel"],
+  ["kubejs:stainless_evaporation_casing", "stainless_steel", "alchemical_bronze"],
+  ["kubejs:etbf_casing", "titanium_tungsten_carbide", "polytetrafluoroethylene"],
+  ["kubejs:wood_casing", "wood", "treated_wood"]
 ]
 
 
 
 ServerEvents.recipes(event => {
-for (const [casing, plate, frame] of Casings) {
-//Craftings
-event.shaped(Item.of(casing, 2), [
-    'PHP', 
-    'PFP',
-    'PWP'  
-  ], { 
-    F: `gtceu:${frame}_frame`,  
-    P: `gtceu:${plate}_plate`,
-    W: '#forge:tools/wrenches',
-    H: '#forge:tools/hammers'
-  }
-).damageIngredient(['#forge:tools/wrenches', '#forge:tools/hammers'])
+  for (const [casing, plate, frame] of Casings) {
+    //Craftings
+    event.shaped(Item.of(casing, 2), [
+      'PHP',
+      'PFP',
+      'PWP'
+    ], {
+      F: `gtceu:${frame}_frame`,
+      P: `gtceu:${plate}_plate`,
+      W: '#forge:tools/wrenches',
+      H: '#forge:tools/hammers'
+    }
+    ).damageIngredient(['#forge:tools/wrenches', '#forge:tools/hammers'])
 
-//Assembler
-event.recipes.gtceu.assembler(`${casing}_assembler`)
+    //Assembler
+    event.recipes.gtceu.assembler(`${casing}_assembler`)
       .itemInputs(`6x gtceu:${plate}_plate`, `gtceu:${frame}_frame`).circuit(6)
       .itemOutputs(`2x ${casing}`)
       .duration(50)
       .EUt(16)
-}
-// MARK: Voltage
-//Casings
-    event.recipes.gtceu.assembler('gtfte:luv_machine_casing')
-        .itemInputs([
-            "4x gtceu:double_thaumium_plate", 
-            "4x gtceu:rhodium_plated_palladium_plate"])
-        .circuit(8)
-        .inputFluids("gtceu:machina 250")
-        .itemOutputs('gtceu:luv_machine_casing')
-        .duration(50)
-        .EUt(GTValues.VA[GTValues.LV]);
-//MARK: Special
-//Casings
-event.shaped("2x kubejs:manasteel_plated_livingrock_casing", [
-    'PHP', 
+  }
+  // MARK: Voltage
+  //Casings
+  event.recipes.gtceu.assembler('gtfte:luv_machine_casing')
+    .itemInputs([
+      "4x gtceu:double_thaumium_plate",
+      "4x gtceu:rhodium_plated_palladium_plate"])
+    .circuit(8)
+    .inputFluids("gtceu:machina 250")
+    .itemOutputs('gtceu:luv_machine_casing')
+    .duration(50)
+    .EUt(GTValues.VA[GTValues.LV]);
+  //MARK: Special
+  //Casings
+  event.shaped("2x kubejs:manasteel_plated_livingrock_casing", [
+    'PHP',
     'PFP',
-    'PWP'  
-  ], { 
-    F: `botania:livingrock_bricks`,  
+    'PWP'
+  ], {
+    F: `botania:livingrock_bricks`,
     P: `gtceu:manasteel_plate`,
     W: '#forge:tools/wrenches',
     H: '#forge:tools/hammers'
   }
-).damageIngredient(['#forge:tools/wrenches', '#forge:tools/hammers'])
-//Assembler
-event.recipes.gtceu.assembler(`manasteel_plated_livingrock_casing_assembler`)
-      .itemInputs([`6x gtceu:manasteel_plate`, `botania:livingrock_bricks`]).circuit(6)
-      .itemOutputs(`2x kubejs:manasteel_plated_livingrock_casing`)
-      .duration(50)
-      .EUt(16)
-//Hulls
-event.shaped('gtceu:mv_machine_hull', [
-    '   ', 
+  ).damageIngredient(['#forge:tools/wrenches', '#forge:tools/hammers'])
+  //Assembler
+  event.recipes.gtceu.assembler(`manasteel_plated_livingrock_casing_assembler`)
+    .itemInputs([`6x gtceu:manasteel_plate`, `botania:livingrock_bricks`]).circuit(6)
+    .itemOutputs(`2x kubejs:manasteel_plated_livingrock_casing`)
+    .duration(50)
+    .EUt(16)
+  //Hulls
+  event.shaped('gtceu:mv_machine_hull', [
+    '   ',
     'AFA',
-    'CMC'  
+    'CMC'
   ], {
-    M: 'gtceu:mv_machine_casing',  
-    F: 'gtceu:aluminium_plate', 
+    M: 'gtceu:mv_machine_casing',
+    F: 'gtceu:aluminium_plate',
     C: 'gtceu:copper_single_cable',
     A: 'gtceu:polylactic_acid_plate',
   }
-);
+  );
 })

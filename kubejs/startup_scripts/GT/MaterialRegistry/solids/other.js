@@ -13,7 +13,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .flags(GTMaterialFlags.GENERATE_PLATE)  
     event.create("infinity")
         .ingot()
-        .color(0xffffff).iconSet("infinity")
+        .iconSet("infinity")
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -24,6 +24,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_RING
         )
         .element(GTElements.get("infinity"));
+
     event.create("artificial_amethyst")
         .gem()
         .color(0xc796f6).secondaryColor(0x7a3f7f).iconSet(GTMaterialIconSet.RUBY)

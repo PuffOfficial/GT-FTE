@@ -4,9 +4,9 @@ const ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey")
 
 
 GTCEuServerEvents.oreVeins(event => {
-//CUSTOM
-// MARK: ABYDOS:
-event.add("abydos/tungstate_pyrite", vein => {
+    //CUSTOM
+    // MARK: ABYDOS:
+    event.add("abydos/tungstate_pyrite", vein => {
         vein.weight(15)
         vein.density(0.15)
         vein.clusterSize(30)
@@ -22,7 +22,7 @@ event.add("abydos/tungstate_pyrite", vein => {
         )
     })
 
-event.add("abydos/copper", vein => {
+    event.add("abydos/copper", vein => {
         vein.weight(25)
         vein.density(0.25)
         vein.clusterSize(25)
@@ -39,7 +39,7 @@ event.add("abydos/copper", vein => {
         )
     })
 
-event.add("abydos/iron", vein => {
+    event.add("abydos/iron", vein => {
         vein.weight(30)
         vein.density(0.3)
         vein.clusterSize(15)
@@ -59,7 +59,7 @@ event.add("abydos/iron", vein => {
             .placement("above")
         )
     })
-event.add("abydos/lubricant", vein => {
+    event.add("abydos/lubricant", vein => {
         vein.weight(20)
         vein.density(0.15)
         vein.clusterSize(12)
@@ -75,7 +75,7 @@ event.add("abydos/lubricant", vein => {
             )
         )
     })
-event.add("abydos/coal", vein => {
+    event.add("abydos/coal", vein => {
         vein.weight(40)
         vein.density(0.30)
         vein.clusterSize(43)
@@ -93,7 +93,7 @@ event.add("abydos/coal", vein => {
             .placement("above")
         )
     })
-event.add("abydos/naquadah", vein => {
+    event.add("abydos/naquadah", vein => {
         vein.weight(10)
         vein.density(0.15)
         vein.clusterSize(33)
@@ -109,9 +109,23 @@ event.add("abydos/naquadah", vein => {
             )
         )
     })
+    event.add("abydos/ancient_sand", vein => {
+        vein.weight(1)
+        vein.density(0.15)
+        vein.clusterSize(25)
+        vein.layer("abydos_sand")
+        vein.dimensions("sgjourney:abydos")
+        vein.heightRangeUniform(60, 80)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(6).mat(GTMaterials.Naquadah).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.get("ancient_sand")).size(1, 4))
+            )
+        )
+    })
 
-// MARK: UNITAS:
-event.add("unitas/sheldonite", vein => {
+    // MARK: UNITAS:
+    event.add("unitas/sheldonite", vein => {
         vein.weight(10)
         vein.density(0.30)
         vein.clusterSize(35)
@@ -131,7 +145,7 @@ event.add("unitas/sheldonite", vein => {
             .placement("above")
         )
     })
-event.add("unitas/monazite", vein => {
+    event.add("unitas/monazite", vein => {
         vein.weight(15)
         vein.density(0.20)
         vein.clusterSize(35)
@@ -146,7 +160,7 @@ event.add("unitas/monazite", vein => {
             )
         )
     })
-event.add("unitas/lapis", vein => {
+    event.add("unitas/lapis", vein => {
         vein.weight(15)
         vein.density(0.20)
         vein.clusterSize(35)
@@ -162,8 +176,8 @@ event.add("unitas/lapis", vein => {
             )
         )
     })
-// MARK: CAVUM TENEBRAE:
-event.add("cavum_tenebrae/sombralite", vein => {
+    // MARK: CAVUM TENEBRAE:
+    event.add("cavum_tenebrae/sombralite", vein => {
         vein.weight(15)
         vein.density(0.15)
         vein.clusterSize(25)
@@ -182,7 +196,7 @@ event.add("cavum_tenebrae/sombralite", vein => {
             .placement("above")
         )
     })
-event.add("cavum_tenebrae/pitchblende", vein => {
+    event.add("cavum_tenebrae/pitchblende", vein => {
         vein.weight(24)
         vein.density(0.25)
         vein.clusterSize(45)
@@ -198,8 +212,8 @@ event.add("cavum_tenebrae/pitchblende", vein => {
             )
         )
     })
-// MARK: CHULAK
-event.add("chulak/cassiterite", vein => {
+    // MARK: CHULAK
+    event.add("chulak/cassiterite", vein => {
         vein.weight(24)
         vein.density(0.25)
         vein.clusterSize(45)
@@ -212,7 +226,7 @@ event.add("chulak/cassiterite", vein => {
                 .layer(l => l.weight(2).mat(GTMaterials.CassiteriteSand).size(2, 4))
             )
         )
-})
+    })
 })
 // MARK: BEDROCK FLUIDS:
 GTCEuServerEvents.fluidVeins(event => {

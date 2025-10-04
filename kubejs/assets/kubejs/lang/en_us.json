@@ -56,7 +56,7 @@
     "gtfte.tooltip.ulv_component": "§7Not powerful enough to work as cover...",
 
     "gtfte.tooltip.alchemical_crucible_1": "Cauldron but better",
-    "gtfte.tooltip.alchemical_crucible_2": "For every voltage tier above LV§7, temperature is increased by §r75K.",
+    "gtfte.tooltip.alchemical_crucible_2": "§7For every voltage tier above §rLV§7, temperature is increased by §r75K.",
 
     "gtfte.components.heat_capacity": "Heat Capacity: %s§cK§r",
     "gtfte.components.parallels": "Default Parallels: %s§r",

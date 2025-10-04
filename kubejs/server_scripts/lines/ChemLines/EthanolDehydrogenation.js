@@ -1,14 +1,14 @@
 ServerEvents.recipes(event => {
 event.recipes.gtceu.chemical_reactor("gtfte:vanadium_pentoxide")
-        .itemInputs("4x gtceu:vanadium_dust")
+        .itemInputs("2x gtceu:vanadium_dust")
         .inputFluids("gtceu:oxygen 5000")
-        .itemOutputs("2x gtceu:vanadium_pentoxide_dust")
+        .itemOutputs("7x gtceu:vanadium_pentoxide_dust")
         .duration(300)
         .EUt(2048);
 event.recipes.gtceu.chemical_reactor("gtfte:molybdenum_trioxide")
-        .itemInputs("2x gtceu:molybdenum_dust")
+        .itemInputs("gtceu:molybdenum_dust")
         .inputFluids("gtceu:oxygen 3000")
-        .itemOutputs("2x gtceu:molybdenum_trioxide_dust")
+        .itemOutputs("4x gtceu:molybdenum_trioxide_dust")
         .duration(300)
         .EUt(512);
 

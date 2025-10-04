@@ -63,7 +63,7 @@ event.recipes.gtceu.growth_simulator(`gtfte:${type}_dsc`)
         .perTick(true)
         .inputFluids('minecraft:water 100')
         .duration(600)
-        .EUt(128);
+        .EUt(GTValues.VA[GTValues.MV]);
 };
 for (const [type] of PH2CTrees) {
 event.recipes.gtceu.growth_simulator(`gtfte:${type}_pamhc2`)
@@ -72,6 +72,6 @@ event.recipes.gtceu.growth_simulator(`gtfte:${type}_pamhc2`)
         .perTick(true)
         .inputFluids('minecraft:water 100')
         .duration(600)
-        .EUt(512);
+        .EUt(GTValues.VA[GTValues.HV]);
 };
 })

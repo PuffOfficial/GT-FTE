@@ -5,6 +5,10 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
         .targets('minecraft:stone', '#minecraft:stone_ore_replaceables')
         .dimensions('sgjourney:abydos')
 
+    event.create('abydos_sand')
+        .targets('minecraft:sand', 'minecraft:sandstone')
+        .dimensions('sgjourney:abydos')
+
     event.create('cavum_tenebrae_stone')
         .targets('minecraft:deepslate', '#minecraft:stone_ore_replaceables')
         .dimensions('sgjourney:cavum_tenebrae')

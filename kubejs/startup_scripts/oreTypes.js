@@ -1,13 +1,13 @@
 GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
-    event.create('sandstone', 'ore') // 
-        .stateSupplier(() => Block.getBlock('minecraft:sandstone').defaultBlockState()) // 
-        .baseModelLocation('minecraft:block/sandstone') // 
+    event.create('sandstone', 'ore') 
+        .stateSupplier(() => Block.getBlock('minecraft:sandstone').defaultBlockState()) 
+        .baseModelLocation('minecraft:block/sandstone') 
         .unificationEnabled(true)
         .materialIconType(GTMaterialIconType.ore)
         .generationCondition(ItemGenerationCondition.hasOreProperty)
-    event.create('sulfur_sand', 'ore') // 
-        .stateSupplier(() => Block.getBlock('sgjourney:sulfur_sand').defaultBlockState()) // 
-        .baseModelLocation('sgjourney:block/sulfur_sand') // 
+    event.create('sulfur_sand', 'ore') 
+        .stateSupplier(() => Block.getBlock('sgjourney:sulfur_sand').defaultBlockState()) 
+        .baseModelLocation('sgjourney:block/sulfur_sand') 
         .unificationEnabled(true)
         .materialIconType(GTMaterialIconType.ore)
         .generationCondition(ItemGenerationCondition.hasOreProperty)

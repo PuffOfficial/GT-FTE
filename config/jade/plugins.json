@@ -54,6 +54,9 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "gtmutils": {
+    "pterb_info": true
+  },
   "exdeorum": {
     "infested_leaves": true,
     "barrel": true,

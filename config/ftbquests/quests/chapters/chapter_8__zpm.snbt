@@ -134,6 +134,53 @@
 			x: 0.0d
 			y: -7.5d
 		}
+		{
+			dependencies: ["3CE8DE09CF6B1DD7"]
+			description: ["Yo, remember there was some dimension called \"Abydos\"?"]
+			id: "7F0AE9A6E652BC8D"
+			tasks: [{
+				id: "57607C6A462405F6"
+				item: "gtceu:raw_ancient_sand"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6DBED961CC9E65A3"
+			tasks: [{
+				id: "0AFFF3298EF8F6B3"
+				item: "gtceu:acidic_naquadria_solution_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6DBED961CC9E65A3"
+				"7F0AE9A6E652BC8D"
+			]
+			id: "3DCB506885FD032D"
+			tasks: [{
+				id: "5B9070B06C080EF3"
+				item: "gtceu:ancient_metal_solution_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DCB506885FD032D"]
+			id: "484225FC0E697061"
+			tasks: [{
+				id: "2AC1DE0F8B2347DF"
+				item: "gtceu:ancient_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
 	]
 	subtitle: [
 		"Fusing Unfuseable"

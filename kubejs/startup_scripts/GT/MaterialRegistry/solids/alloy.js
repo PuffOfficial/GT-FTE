@@ -47,4 +47,12 @@ event.create("chromium_molybdenum_steel")
     .flags(GTMaterialFlags.GENERATE_PLATE,GTMaterialFlags.GENERATE_BOLT_SCREW)
     .components("chromium", "molybdenum", "steel")
     .rotorStats(420,100,10,800);
+//Europium-Naquadah Alloy
+event.create("europium_naquadah_alloy")
+    .ingot()
+    .liquid()
+    .blastTemp(7200, "high", GTValues.VA[GTValues.ZPM], 2400)
+    .color(0x20FFFF).secondaryColor(0x111111).iconSet(GTMaterialIconSet.BRIGHT)
+    .flags(GTMaterialFlags.GENERATE_PLATE,GTMaterialFlags.GENERATE_BOLT_SCREW,GTMaterialFlags.GENERATE_GEAR,GTMaterialFlags.GENERATE_SMALL_GEAR,GTMaterialFlags.GENERATE_FRAME,GTMaterialFlags.GENERATE_FOIL,GTMaterialFlags.GENERATE_RING,GTMaterialFlags.GENERATE_ROTOR)
+    .components("europium", "naquadah");
 })

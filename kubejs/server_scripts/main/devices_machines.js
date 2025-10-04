@@ -3,32 +3,32 @@
 
 
 ServerEvents.recipes(event => {
-// ULV COMPONENTS
-event.shaped('kubejs:ulv_electric_motor', [
-    'ABC', 
+  // ULV COMPONENTS
+  event.shaped('kubejs:ulv_electric_motor', [
+    'ABC',
     'BDB',
-    'CBA'  
+    'CBA'
   ], {
     A: global.ULV.Cable("single"),
     B: 'gtceu:lead_single_wire',
     C: 'gtceu:copper_rod',
     D: 'minecraft:redstone',
   }
-);
-event.shaped('kubejs:ulv_conveyor_module', [
-    ' C ', 
+  );
+  event.shaped('kubejs:ulv_conveyor_module', [
+    ' C ',
     'BAB',
-    ' C '  
+    ' C '
   ], {
     A: global.ULV.Cable("single"),
     B: global.ULV.Motor,
     C: 'gtceu:rubber_plate',
   }
-);
-event.shaped('kubejs:ulv_electric_piston', [
-    'EEE', 
+  );
+  event.shaped('kubejs:ulv_electric_piston', [
+    'EEE',
     'ADD',
-    'ABC'  
+    'ABC'
   ], {
     A: global.ULV.Cable("single"),
     B: global.ULV.Motor,
@@ -36,11 +36,11 @@ event.shaped('kubejs:ulv_electric_piston', [
     D: 'gtceu:copper_rod',
     E: 'gtceu:copper_plate',
   }
-);
-event.shaped('kubejs:ulv_robot_arm', [
-    'EEE', 
+  );
+  event.shaped('kubejs:ulv_robot_arm', [
+    'EEE',
     'BDB',
-    'CFD'  
+    'CFD'
   ], {
     B: global.ULV.Motor,
     C: global.ULV.Piston,
@@ -48,11 +48,11 @@ event.shaped('kubejs:ulv_robot_arm', [
     E: global.ULV.Cable("single"),
     F: '#gtceu:circuits/ulv',
   }
-);
-event.shaped('kubejs:ulv_electric_pump', [
-    'EFB', 
+  );
+  event.shaped('kubejs:ulv_electric_pump', [
+    'EFB',
     'GDH',
-    'BCA'  
+    'BCA'
   ], {
     A: global.ULV.Cable("single"),
     B: 'gtceu:rubber_ring',
@@ -63,12 +63,12 @@ event.shaped('kubejs:ulv_electric_pump', [
     G: '#gtceu:tools/crafting_screwdrivers',
     H: '#gtceu:tools/crafting_wrenches',
   }
-);
+  );
 
-event.shaped('gtceu:ulv_extruder', [
-    'DDA', 
+  event.shaped('gtceu:ulv_extruder', [
+    'DDA',
     'CBE',
-    'DDA'  
+    'DDA'
   ], {
     A: global.ULV.Circuit,
     B: global.ULV.Hull,
@@ -76,5 +76,5 @@ event.shaped('gtceu:ulv_extruder', [
     D: global.ULV.Wire("quadruple"),
     E: 'gtceu:copper_normal_fluid_pipe',
   }
-);
+  );
 })

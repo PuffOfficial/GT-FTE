@@ -1,135 +1,135 @@
 ServerEvents.recipes(event => {
-// MARK: Random Crafts
-event.shaped('exdeorum:crook', [
-    'SS ', 
+  // MARK: Random Crafts
+  event.shaped('exdeorum:crook', [
+    'SS ',
     'S  ',
-    '   '  
+    '   '
   ], {
-    S: 'minecraft:stick',  
+    S: 'minecraft:stick',
   }
-);
-event.shaped('exdeorum:flint_mesh', [
-    'CFC', 
+  );
+  event.shaped('exdeorum:flint_mesh', [
+    'CFC',
     'FMF',
-    'CFC'  
+    'CFC'
   ], {
-    M: 'exdeorum:string_mesh',  
-    F: 'gtceu:flint_dust', 
+    M: 'exdeorum:string_mesh',
+    F: 'gtceu:flint_dust',
     C: 'minecraft:string',
   }
-);
-event.shaped('exdeorum:iron_mesh', [
-    'CFC', 
+  );
+  event.shaped('exdeorum:iron_mesh', [
+    'CFC',
     'FMF',
-    'CFC'  
+    'CFC'
   ], {
-    M: 'exdeorum:flint_mesh',  
-    F: 'gtceu:long_iron_rod', 
+    M: 'exdeorum:flint_mesh',
+    F: 'gtceu:long_iron_rod',
     C: 'minecraft:string',
   }
-);
-event.shaped('exdeorum:golden_mesh', [
-    'CFC', 
+  );
+  event.shaped('exdeorum:golden_mesh', [
+    'CFC',
     'FMF',
-    'CFC'  
+    'CFC'
   ], {
-    M: 'exdeorum:iron_mesh',  
-    F: 'gtceu:long_gold_rod', 
+    M: 'exdeorum:iron_mesh',
+    F: 'gtceu:long_gold_rod',
     C: 'minecraft:string',
   }
-);
-// MARK: Roots
-event.shaped('rootsclassic:runic_tablet', [
-    'ADA', 
+  );
+  // MARK: Roots
+  event.shaped('rootsclassic:runic_tablet', [
+    'ADA',
     'BDB',
-    'CAC'  
+    'CAC'
   ], {
-    A: 'gtceu:stone_plate',  
-    B: 'gtceu:fine_verdant_copper_wire', 
+    A: 'gtceu:stone_plate',
+    B: 'gtceu:fine_verdant_copper_wire',
     C: 'gtceu:root_iron_screw',
     D: 'gtceu:double_root_iron_plate',
   }
-);
-event.shaped('rootsclassic:altar', [
-    'BAB', 
+  );
+  event.shaped('rootsclassic:altar', [
+    'BAB',
     'EFE',
-    'CDC'  
+    'CDC'
   ], {
-    A: 'gtceu:dragon_gold_plate',  
-    B: 'gtceu:gold_plate', 
+    A: 'gtceu:dragon_gold_plate',
+    B: 'gtceu:gold_plate',
     C: 'gtceu:double_root_iron_plate',
     D: 'gtceu:verdant_copper_plate',
     E: global.ULV.Circuit,
     F: 'minecraft:chiseled_stone_bricks',
   }
-);
-event.shaped('sgjourney:classic_dhd', [
-    'ABA', 
+  );
+  event.shaped('sgjourney:classic_dhd', [
+    'ABA',
     'DCE',
-    'AAA'  
-  ], {  
-    A: 'gtceu:double_black_steel_plate',  
-    B: global.EV.Circuit,  
-    C: global.EV.Hull,  
-    D: global.EV.Sensor, 
-    E: global.EV.Emitter, 
-  }
-);
-// MARK: Multi blocks
-event.shaped('gtceu:primitive_alloy_smelter', [
-    'ABA', 
-    'BDB',
-    'CBC'  
+    'AAA'
   ], {
-    A: global.ULV.Circuit,  
-    B: global.ULV.Wire('quadruple'), 
+    A: 'gtceu:double_black_steel_plate',
+    B: global.EV.Circuit,
+    C: global.EV.Hull,
+    D: global.EV.Sensor,
+    E: global.EV.Emitter,
+  }
+  );
+  // MARK: Multi blocks
+  event.shaped('gtceu:primitive_alloy_smelter', [
+    'ABA',
+    'BDB',
+    'CBC'
+  ], {
+    A: global.ULV.Circuit,
+    B: global.ULV.Wire('quadruple'),
     C: global.ULV.Cable('single'),
     D: global.ULV.Hull,
   }
-);
-event.shaped('gtceu:primitive_bender', [
-    'AFA', 
+  );
+  event.shaped('gtceu:primitive_bender', [
+    'AFA',
     'BDB',
-    'CEC'  
+    'CEC'
   ], {
-    A: global.ULV.Piston,  
-    B: global.ULV.Circuit, 
+    A: global.ULV.Piston,
+    B: global.ULV.Circuit,
     C: global.ULV.Motor,
     D: global.ULV.Hull,
     E: global.ULV.Cable('single'),
     F: 'gtceu:wrought_iron_plate',
   }
-);
-event.shaped('gtceu:primitive_electric_furnace', [
-    'ADA', 
+  );
+  event.shaped('gtceu:primitive_electric_furnace', [
+    'ADA',
     'DBD',
-    'CDC'  
-  ], { 
-    A: global.ULV.Circuit, 
+    'CDC'
+  ], {
+    A: global.ULV.Circuit,
     B: global.ULV.Hull,
     C: global.ULV.Cable('single'),
     D: global.ULV.Wire('double'),
   }
-);
-// MARK: Gregtech Affliated
-event.shaped('gtceu:zpm_ionizing_module', [
-    'CAC', 
+  );
+  // MARK: Gregtech Affliated
+  event.shaped('gtceu:zpm_ionizing_module', [
+    'CAC',
     'EBD',
-    'CAC'  
-  ], { 
-    A: global.ZPM.Circuit, 
+    'CAC'
+  ], {
+    A: global.ZPM.Circuit,
     B: global.ZPM.Hull,
     C: global.ZPM.Cable('single'),
     D: global.LuV.RobotArm,
     E: global.LuV.Emitter
   }
-);
-event.shaped('gtceu:ulv_primitive_maintenance_hatch', [
-    'GFD', 
+  );
+  event.shaped('gtceu:ulv_primitive_maintenance_hatch', [
+    'GFD',
     'HBE',
-    'CAI'  
-  ], { 
-    A: global.ULV.Circuit, 
+    'CAI'
+  ], {
+    A: global.ULV.Circuit,
     B: global.ULV.Hull,
     C: global.ULV.Cable('single'),
     D: global.tools.AnyWrench,
@@ -139,51 +139,51 @@ event.shaped('gtceu:ulv_primitive_maintenance_hatch', [
     H: 'gtceu:treated_wood_plate',
     I: 'gtceu:copper_small_fluid_pipe',
   }
-).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver, global.tools.AnyWrench, global.tools.AnyWireCutter]);
-// MARK: Crafting Components
-event.shaped('gtceu:empty_fuel_rod', [
-    'BCB', 
+  ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver, global.tools.AnyWrench, global.tools.AnyWireCutter]);
+  // MARK: Crafting Components
+  event.shaped('gtceu:empty_fuel_rod', [
+    'BCB',
     'A A',
-    'BCB'  
+    'BCB'
   ], {
-    A: 'gtceu:silicon_carbide_foil',  
-    B: 'gtceu:silicon_carbide_bolt',  
+    A: 'gtceu:silicon_carbide_foil',
+    B: 'gtceu:silicon_carbide_bolt',
     C: 'gtceu:silicon_carbide_plate'
   }
-);
-event.shaped('gtceu:rubber_plate', [
-    ' B ', 
+  );
+  event.shaped('gtceu:rubber_plate', [
+    ' B ',
     ' A ',
-    ' A '  
+    ' A '
   ], {
-    A: 'gtceu:sticky_resin',  
+    A: 'gtceu:sticky_resin',
     B: '#gtceu:tools/crafting_hammers'
   }
-);
-event.shaped('gtceu:glass_tube', [
-    '   ', 
+  );
+  event.shaped('gtceu:glass_tube', [
+    '   ',
     'AAA',
-    'A A'  
+    'A A'
   ], {
-    A: 'minecraft:glass_pane',  
+    A: 'minecraft:glass_pane',
   }
-);
-event.shaped('gtceu:vacuum_tube', [
-    'A M', 
+  );
+  event.shaped('gtceu:vacuum_tube', [
+    'A M',
     'RBR',
-    'CCC'  
+    'CCC'
   ], {
-    A: '#forge:tools/wrenches',  
-    M: '#forge:tools/mallets',  
-    B: 'gtceu:glass_tube',  
-    R: 'gtceu:red_alloy_bolt',  
+    A: '#forge:tools/wrenches',
+    M: '#forge:tools/mallets',
+    B: 'gtceu:glass_tube',
+    R: 'gtceu:red_alloy_bolt',
     C: 'gtceu:copper_single_wire'
   }
-);
-event.shaped('2x gtceu:resistor', [
-    'ACA', 
+  );
+  event.shaped('2x gtceu:resistor', [
+    'ACA',
     'DBD',
-    ' E '  
+    ' E '
   ], {
     A: 'gtceu:sticky_resin',
     B: 'gtceu:coal_dust',
@@ -191,11 +191,11 @@ event.shaped('2x gtceu:resistor', [
     D: 'minecraft:paper',
     E: 'gtceu:ceramic_plate',
   }
-);
-event.shaped('kubejs:hv_mana_amplifier', [
-    'DFD', 
+  );
+  event.shaped('kubejs:hv_mana_amplifier', [
+    'DFD',
     'ECE',
-    'BAB'  
+    'BAB'
   ], {
     A: global.HV.Hull,
     B: global.HV.Cable("single"),
@@ -204,32 +204,32 @@ event.shaped('kubejs:hv_mana_amplifier', [
     E: 'gtceu:manasteel_rod',
     F: global.EV.Circuit,
   }
-);
-event.shaped('2x kubejs:wrought_iron_firebox', [
-    'BAB', 
+  );
+  event.shaped('2x kubejs:wrought_iron_firebox', [
+    'BAB',
     'ACA',
-    'BAB'  
+    'BAB'
   ], {
     A: 'gtceu:wrought_iron_rod',
     B: 'gtceu:wrought_iron_plate',
     C: 'minecraft:campfire',
   }
-);
-//STARGATE
-event.shaped('kubejs:stargate_coil', [
-    ' BA', 
+  );
+  //STARGATE
+  event.shaped('kubejs:stargate_coil', [
+    ' BA',
     'BCB',
-    'AB '  
+    'AB '
   ], {
     A: global.HV.Coil,
     B: global.EV.Coil,
     C: 'gtceu:small_stargate_alloy_gear',
   }
-);
-event.shaped('kubejs:stargate_chevron', [
-    'DBE', 
+  );
+  event.shaped('kubejs:stargate_chevron', [
+    'DBE',
     'CAC',
-    ' C '  
+    ' C '
   ], {
     A: 'kubejs:stargate_coil',
     B: global.IV.Circuit,
@@ -237,37 +237,37 @@ event.shaped('kubejs:stargate_chevron', [
     D: 'gtceu:red_glass_lens',
     E: 'gtceu:yellow_glass_lens',
   }
-);
-event.shaped('kubejs:stargate_field_generator', [
-    'ABA', 
+  );
+  event.shaped('kubejs:stargate_field_generator', [
+    'ABA',
     'CBC',
-    'ABA'  
+    'ABA'
   ], {
     A: 'gtceu:hv_field_generator',
     B: 'gtceu:double_terrasteel_plate',
     C: 'gtceu:styrene_butadiene_rubber_rod',
   }
-);
-// MARK: Botania
-event.shaped('botania:runic_altar', [
-    'DAD', 
+  );
+  // MARK: Botania
+  event.shaped('botania:runic_altar', [
+    'DAD',
     'CBC',
-    'DAD'  
+    'DAD'
   ], {
     A: 'gtceu:living_steel_plate',
     B: global.IV.Circuit,
     C: 'botania:livingrock_bricks',
     D: 'gtceu:double_manasteel_plate',
   }
-);
-event.shaped('botania:alfheim_portal', [
-    'ABA', 
+  );
+  event.shaped('botania:alfheim_portal', [
+    'ABA',
     'ACA',
-    'ABA'  
+    'ABA'
   ], {
     A: 'botania:livingwood_log',
     B: 'gtceu:terrasteel_plate',
     C: 'kubejs:alfheim_runes',
   }
-);
+  );
 })

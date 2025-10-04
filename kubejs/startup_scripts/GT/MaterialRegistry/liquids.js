@@ -19,4 +19,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .liquid()
         .color(0x4854da).iconSet(GTMaterialIconSet.DULL)
         .components("1x salt_water", "1x rock_salt")
+
+    event.create("purified_water")
+        .liquid()
+        .color(0x4d629f).iconSet(GTMaterialIconSet.FLUID)
+    event.create("95_pure_distilled_water")
+        .liquid()
+        .color(0x5d83f4).iconSet(GTMaterialIconSet.FLUID)
 })

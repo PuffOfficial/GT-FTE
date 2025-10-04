@@ -1,4 +1,4 @@
-global.ULV =(() => {
+global.ULV = (() => {
   const tier = "ulv";
   return {
     Piston: `kubejs:${tier}_electric_piston`,
@@ -14,9 +14,9 @@ global.ULV =(() => {
     Cable: (amount) => `gtceu:red_alloy_${amount}_cable`,
     Wire: (amount) => `gtceu:red_alloy_${amount}_wire`,
     Coil: `gtceu:${tier}_voltage_coil`
-    };
+  };
 })();
-global.LV =(() => {
+global.LV = (() => {
   const tier = "lv";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -34,9 +34,9 @@ global.LV =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
-global.MV =(() => {
+global.MV = (() => {
   const tier = "mv";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -54,9 +54,9 @@ global.MV =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
-global.HV =(() => {
+global.HV = (() => {
   const tier = "hv";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -74,9 +74,9 @@ global.HV =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
-global.EV =(() => {
+global.EV = (() => {
   const tier = "ev";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -94,9 +94,9 @@ global.EV =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
-global.IV =(() => {
+global.IV = (() => {
   const tier = "iv";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -114,9 +114,9 @@ global.IV =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
-global.LuV =(() => {
+global.LuV = (() => {
   const tier = "luv";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -134,9 +134,9 @@ global.LuV =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
-global.ZPM =(() => {
+global.ZPM = (() => {
   const tier = "zpm";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -154,9 +154,9 @@ global.ZPM =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
-global.UV =(() => {
+global.UV = (() => {
   const tier = "uv";
   return {
     Piston: `gtceu:${tier}_electric_piston`,
@@ -174,16 +174,16 @@ global.UV =(() => {
     Coil: `gtceu:${tier}_voltage_coil`,
     Emitter: `gtceu:${tier}_emitter`,
     Sensor: `gtceu:${tier}_sensor`
-    };
+  };
 })();
 
 global.tools = {
-    AnyScrewdriver: '#gtceu:tools/crafting_screwdrivers',
-    AnyWrench: '#gtceu:tools/crafting_wrenches',
-    AnyHammer: '#gtceu:tools/crafting_hammers',
-    AnyWireCutter: '#gtceu:tools/crafting_wire_cutters',
-    AnyCrowbar: '#gtceu:tools/crafting_crowbars',
-    AnyFile: '#gtceu:tools/crafting_files',
-    AnySaw: '#gtceu:tools/crafting_saws',
-    AnyMallet: '#gtceu:tools/crafting_mallets'
+  AnyScrewdriver: '#gtceu:tools/crafting_screwdrivers',
+  AnyWrench: '#gtceu:tools/crafting_wrenches',
+  AnyHammer: '#gtceu:tools/crafting_hammers',
+  AnyWireCutter: '#gtceu:tools/crafting_wire_cutters',
+  AnyCrowbar: '#gtceu:tools/crafting_crowbars',
+  AnyFile: '#gtceu:tools/crafting_files',
+  AnySaw: '#gtceu:tools/crafting_saws',
+  AnyMallet: '#gtceu:tools/crafting_mallets'
 };
