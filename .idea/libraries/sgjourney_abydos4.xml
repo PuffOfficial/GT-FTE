@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="sgjourney_abydos4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/df3d9b69-9a2f-4736-95ec-6c633a65d012/sgjourney_abydos/0EA60-0EA60.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/df3d9b69-9a2f-4736-95ec-6c633a65d012/sgjourney_abydos/0EA5F-0EA60.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/df3d9b69-9a2f-4736-95ec-6c633a65d012/sgjourney_abydos/0EA5F-0EA5F.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/df3d9b69-9a2f-4736-95ec-6c633a65d012/sgjourney_abydos/0EA60-0EA5F.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

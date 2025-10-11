@@ -50,27 +50,10 @@ ServerEvents.tags('item', event => {
 
      event.add('botania:mana_diamond_gems', 'gtceu:mana_gem_gem')
 
-     event.add('gtfte:blood_orb_1', 'bloodmagic:weakbloodorb')
-     event.add('gtfte:blood_orb_1', 'bloodmagic:apprenticebloodorb')
-     event.add('gtfte:blood_orb_1', 'bloodmagic:magicianbloodorb')
-     event.add('gtfte:blood_orb_1', 'bloodmagic:masterbloodorb')
-     event.add('gtfte:blood_orb_1', 'bloodmagic:archmagebloodorb')
-
-     event.add('gtfte:blood_orb_2', 'bloodmagic:apprenticebloodorb')
-     event.add('gtfte:blood_orb_2', 'bloodmagic:magicianbloodorb')
-     event.add('gtfte:blood_orb_2', 'bloodmagic:masterbloodorb')
-     event.add('gtfte:blood_orb_2', 'bloodmagic:archmagebloodorb')
-
-     event.add('gtfte:blood_orb_3', 'bloodmagic:magicianbloodorb')
-     event.add('gtfte:blood_orb_3', 'bloodmagic:masterbloodorb')
-     event.add('gtfte:blood_orb_3', 'bloodmagic:archmagebloodorb')
-
-     event.add('gtfte:blood_orb_4', 'bloodmagic:masterbloodorb')
-     event.add('gtfte:blood_orb_4', 'bloodmagic:archmagebloodorb')
-
-     event.add('gtfte:blood_orb_5', 'bloodmagic:archmagebloodorb')
-
      event.add('forge:gems/amethyst', 'gtceu:artificial_amethyst_gem')
+
+     event.add('gtfte:has_pr_stick',['kubejs:stone_stick', 'minecraft:stick'])
+     event.add('gtfte:has_pr_crook',['kubejs:stone_spade', 'exdeorum:crook'])
 
 })
 ServerEvents.tags('block', event => {

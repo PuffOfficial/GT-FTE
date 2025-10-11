@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="gcyr_overworld_orbit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/f31f2dbd-1c4b-483f-b152-315c0201c534/gcyr_overworld_orbit/0EA60-0EA5F.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/f31f2dbd-1c4b-483f-b152-315c0201c534/gcyr_overworld_orbit/0EA5F-0EA60.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/f31f2dbd-1c4b-483f-b152-315c0201c534/gcyr_overworld_orbit/0EA5F-0EA5F.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/f31f2dbd-1c4b-483f-b152-315c0201c534/gcyr_overworld_orbit/0EA60-0EA60.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

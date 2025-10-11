@@ -1,11 +1,4 @@
 GTCEuStartupEvents.registry("gtceu:material", event => {
-    event.create("void")
-        .gas()
-        .fluid()
-        .dust()
-        .color(0x1b1b1b).secondaryColor(0x767676)
-        .formula("∞")
-    
     event.create("acetaldehyde")
         .fluid()
         .color(0xcbcbcb).iconSet(GTMaterialIconSet.DULL)
@@ -27,7 +20,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .dust()
         .color(0xddd76a).secondaryColor(0x454322).iconSet(GTMaterialIconSet.DULL)
         .formula("MoO3") 
-
+//Airs
     event.create("cavum_tenebrae_air")
         .gas()
         .color(0x391b0f).iconSet(GTMaterialIconSet.DULL)
@@ -44,7 +37,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .gas()
         .color(0x9aee3b).iconSet(GTMaterialIconSet.DULL)
 
-
+//Hermetic line
     event.create("soot")
         .dust()
         .color(0x141414).iconSet(GTMaterialIconSet.DULL)
@@ -65,7 +58,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .fluid()
         .color(0xfffce8).iconSet(GTMaterialIconSet.DULL)
         .formula("C2H5OCl") 
-
+// Polylactic line
     event.create("polylactic_acid")
         .fluid()
         .polymer()
@@ -110,4 +103,5 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .fluid()
         .dust()
         .color(0x8acd53).secondaryColor(0xb8f82f).iconSet(GTMaterialIconSet.DULL);
+
 })  

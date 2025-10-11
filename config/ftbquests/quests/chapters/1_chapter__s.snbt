@@ -47,28 +47,7 @@
 		}
 		{
 			dependencies: ["5E77582D4F02E361"]
-			description: [
-				"Try Shift+Right clicking dirt!"
-				"&8&oDon't ask me why there are stick in a dirt&r&r"
-			]
-			id: "684B8FDD1CE27034"
-			rewards: [{
-				id: "4A1AA2D9F58F81A5"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				count: 2L
-				id: "2D5EFED7BDB01058"
-				item: "kubejs:stick_fragments"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["5E77582D4F02E361"]
-			description: ["Well, it is dirt... Of course it has stones in it! I think."]
+			description: ["Well, it is dirt... Of course it has stones in it! I think. Yea it is as in other skyblock modpacks, just shift+right click the dirt"]
 			id: "6FCB7AAF642B3722"
 			rewards: [{
 				id: "34D5463CD69B66DD"
@@ -85,12 +64,8 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["684B8FDD1CE27034"]
-			description: [
-				"In any other difficulty than peaceful - It will require &lstrings&r, acquire first 3 of them and make crook!"
-				""
-				"&8&oYes, you DO need spiders for that. That's the reason why peaceful has different progression&r&r"
-			]
+			dependencies: ["5E77582D4F02E361"]
+			description: ["If you are on any other difficulty than peaceful - Try shift+right clicking the dirt to get &lstick fragments&r, then, you'll need some strings from spiders."]
 			id: "1A4DBA2BC454071D"
 			rewards: [{
 				id: "1466BBE3A490A81B"
@@ -99,10 +74,17 @@
 			}]
 			tasks: [{
 				id: "57EF220AE2FCF4FF"
-				item: "minecraft:stick"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtfte:has_pr_stick"
+					}
+				}
+				title: "Any #gtfte:has_pr_stick"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -167,24 +149,22 @@
 			dependencies: ["1A4DBA2BC454071D"]
 			id: "2653E645A6CAF6F7"
 			tasks: [{
-				id: "7EE721F9AE8647E0"
+				id: "1A688E87B10EFA03"
 				item: {
 					Count: 1
-					id: "exdeorum:crook"
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
+						value: "gtfte:has_pr_crook"
 					}
 				}
+				title: "Any #gtfte:has_pr_crook"
 				type: "item"
 			}]
 			x: 3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"2653E645A6CAF6F7"
-				"54517A9958E8664F"
-			]
+			dependencies: ["2653E645A6CAF6F7"]
 			id: "7108651344CB541D"
 			tasks: [{
 				id: "334CCC250205766E"
@@ -215,38 +195,6 @@
 			}]
 			x: 4.0d
 			y: 0.5d
-		}
-		{
-			dependencies: ["29D26608B96FC714"]
-			id: "12D7CE33467F1B93"
-			optional: true
-			subtitle: "Peaceful Route"
-			tasks: [{
-				id: "6552C911EAE88D02"
-				item: "kubejs:stone_stick"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["12D7CE33467F1B93"]
-			description: ["Try &lShift+Right clicking&r grass/dirt with it!"]
-			id: "54517A9958E8664F"
-			optional: true
-			tasks: [{
-				id: "455E89326BA9E09F"
-				item: {
-					Count: 1
-					id: "kubejs:stone_spade"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["7108651344CB541D"]
@@ -398,7 +346,7 @@
 			dependencies: [
 				"0C11A36C1BCD5F23"
 				"59FE5A35F65990D7"
-				"2292732E595B2FE5"
+				"512087A7EA8C7EC0"
 			]
 			id: "6245C55A807D1DDF"
 			size: 1.25d
@@ -419,6 +367,28 @@
 				type: "item"
 			}]
 			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["501B22D11EA7FBA2"]
+			id: "512087A7EA8C7EC0"
+			tasks: [{
+				id: "5986F7EE1264FB87"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2292732E595B2FE5"]
+			id: "501B22D11EA7FBA2"
+			tasks: [{
+				id: "19DC4F31E5111D7A"
+				item: "gtceu:quartz_sand_dust"
+				type: "item"
+			}]
+			x: 4.0d
 			y: 2.0d
 		}
 	]

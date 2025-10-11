@@ -147,20 +147,7 @@
 			y: 0.0d
 		}
 		{
-			id: "6DBED961CC9E65A3"
-			tasks: [{
-				id: "0AFFF3298EF8F6B3"
-				item: "gtceu:acidic_naquadria_solution_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"6DBED961CC9E65A3"
-				"7F0AE9A6E652BC8D"
-			]
+			dependencies: ["7F0AE9A6E652BC8D"]
 			id: "3DCB506885FD032D"
 			tasks: [{
 				id: "5B9070B06C080EF3"

@@ -129,6 +129,12 @@
 			x: 6.0d
 			y: -2.0d
 		}
+		{
+			id: "325C15B22181888D"
+			linked_quest: "6245C55A807D1DDF"
+			x: 2.0d
+			y: -9.0d
+		}
 	]
 	quests: [
 		{
@@ -325,7 +331,7 @@
 				item: "gtceu:silicon_wafer"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
@@ -336,8 +342,8 @@
 				item: "gtceu:phosphorus_wafer"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 6.5d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["33F4F7D13F3EB65A"]
@@ -347,8 +353,8 @@
 				item: "gtceu:naquadah_wafer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.5d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1889D13D1DC81C1C"]
@@ -358,8 +364,8 @@
 				item: "gtceu:neutronium_wafer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.5d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["45665F80A0589246"]
@@ -370,7 +376,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["51E390773CAE71A2"]
@@ -380,7 +386,7 @@
 				item: "kubejs:mana_doped_wafer"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 7.5d
 		}
 		{
@@ -390,8 +396,8 @@
 				item: "gtceu:silicon_boule"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			id: "337D46CFC639FE04"
@@ -400,8 +406,8 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.5d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			id: "33F4F7D13F3EB65A"
@@ -410,8 +416,8 @@
 				item: "gtceu:naquadah_boule"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.5d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
 			id: "1889D13D1DC81C1C"
@@ -420,8 +426,8 @@
 				item: "gtceu:neutronium_boule"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.5d
+			x: 0.0d
+			y: 10.5d
 		}
 		{
 			id: "0D54447CBC688C5C"
@@ -464,6 +470,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["6245C55A807D1DDF"]
 			id: "0D5CDA8E8CCEA8C2"
 			tasks: [{
 				id: "76D910F09AF05B6A"
@@ -895,6 +902,394 @@
 			}]
 			x: -1.0d
 			y: -5.0d
+		}
+		{
+			icon: "gtceu:emerald_lens"
+			id: "007C22405EAAD37E"
+			tasks: [{
+				id: "4E50288BA50FCB97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/green"
+					}
+				}
+				title: "Any green lens"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "7FAB19B0A4AABC40"
+			tasks: [{
+				id: "0248BBCCC979EB7B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/cyan"
+					}
+				}
+				title: "Any cyan lens"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "431F15CF467D24F5"
+			tasks: [{
+				id: "75517C9365884898"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/orange"
+					}
+				}
+				title: "Orange lens"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "379ED8EAA59524E2"
+			tasks: [{
+				id: "1B946B7264859083"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/blue"
+					}
+				}
+				title: "Any blue lens"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "6AF27BEB9CCBA251"
+			tasks: [{
+				id: "6F3BE01B7D4F33F8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/light_blue"
+					}
+				}
+				title: "Any light blue lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "012CDFE6EFA92393"
+			tasks: [{
+				id: "7DBD4D8A75EFCCB6"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/red"
+					}
+				}
+				title: "Any red lens"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6C5C6A02F88E1687"]
+			id: "24C43ACB24E05EAE"
+			tasks: [{
+				id: "7122435FC32C4BC9"
+				item: "gtceu:ram_wafer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C5C6A02F88E1687"]
+			id: "4F42346BAF658A00"
+			tasks: [{
+				id: "5ADBE7219F41E33F"
+				item: "gtceu:simple_soc_wafer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C5C6A02F88E1687"]
+			id: "7546114E2E1A2C57"
+			tasks: [{
+				id: "7BB8C2AFD7EFB3D6"
+				item: "gtceu:lpic_wafer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C5C6A02F88E1687"]
+			id: "32564DD28A3CAE5D"
+			tasks: [{
+				id: "237C6816AACEA06D"
+				item: "gtceu:cpu_wafer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C5C6A02F88E1687"]
+			id: "7331E1868782DB90"
+			tasks: [{
+				id: "405526F46AA9607B"
+				item: "gtceu:ulpic_wafer"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6C5C6A02F88E1687"]
+			id: "3735D34EB2CAF295"
+			tasks: [{
+				id: "5535F89A3203AB8F"
+				item: "gtceu:ilc_wafer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			id: "60B876A5E26F83AC"
+			tasks: [{
+				id: "642EBD3886CA99A8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/pink"
+					}
+				}
+				title: "Pink lens"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			id: "7CC7B72D2956EC1B"
+			tasks: [{
+				id: "7B28A73B473A34C4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/gray"
+					}
+				}
+				title: "Gray lens"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			id: "0E48B4324E032E72"
+			tasks: [{
+				id: "168C870E986DF04A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/brown"
+					}
+				}
+				title: "Brown lens"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			id: "5004FD6C72CCD27E"
+			tasks: [{
+				id: "0C36786E077BF63C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/yellow"
+					}
+				}
+				title: "Yellow lens"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"60B876A5E26F83AC"
+				"05A051539E8C1F68"
+			]
+			id: "7E6B33FCBC97735D"
+			subtitle: "Requires Cleanroom"
+			tasks: [{
+				id: "4C5DC24D775AF5B0"
+				item: "gtceu:nor_memory_wafer"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7CC7B72D2956EC1B"
+				"05A051539E8C1F68"
+			]
+			id: "37A8D90FC056B7FC"
+			subtitle: "Requires Cleanroom"
+			tasks: [{
+				id: "7F1140F408C51D42"
+				item: "gtceu:nand_memory_wafer"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"0E48B4324E032E72"
+				"05A051539E8C1F68"
+			]
+			id: "3B4E9E130CFF6246"
+			subtitle: "Requires Cleanroom"
+			tasks: [{
+				id: "08033FB876037EF6"
+				item: "gtceu:mpic_wafer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5004FD6C72CCD27E"
+				"05A051539E8C1F68"
+			]
+			id: "62DD898A8AD2DDF1"
+			subtitle: "Requires Cleanroom"
+			tasks: [{
+				id: "62A3FB313C1FDBDD"
+				item: "gtceu:soc_wafer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			id: "6024EA951CE0A7F3"
+			tasks: [{
+				id: "539BF45FF4F8777C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/purple"
+					}
+				}
+				title: "Purple lens"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6024EA951CE0A7F3"
+				"423B9CB802CE64BC"
+			]
+			id: "11FA432A96A25353"
+			subtitle: "Requires Cleanroom"
+			tasks: [{
+				id: "0D897D26B0339627"
+				item: "gtceu:advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.5d
+		}
+		{
+			id: "3A7EFDE40B11DE8C"
+			tasks: [{
+				id: "748092AAEB40C888"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:lenses/black"
+					}
+				}
+				title: "Purple lens"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1EC07D14BCD227E6"
+				"3A7EFDE40B11DE8C"
+			]
+			id: "454260CEADA75322"
+			subtitle: "Requires Cleanroom"
+			tasks: [{
+				id: "6EC2D5D2B85C789F"
+				item: "gtceu:highly_advanced_soc_wafer"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3B4E9E130CFF6246"]
+			id: "355BE0B6EA96FE5E"
+			subtitle: "Requires Cleanroom"
+			tasks: [{
+				id: "215ADC3EE91DE7E9"
+				item: "gtceu:hpic_wafer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"355BE0B6EA96FE5E"
+				"423B9CB802CE64BC"
+			]
+			id: "57895B6A83C70B17"
+			subtitle: "Requires Ionizing Module"
+			tasks: [{
+				id: "67B73C34C0FD62D0"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.5d
 		}
 	]
 	title: "Progress Board"

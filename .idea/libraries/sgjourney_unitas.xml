@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="sgjourney_unitas">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5E-0EA5E.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5F-0EA5E.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5E-0EA5D.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5F-0EA5D.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5D-0EA60.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5D-0EA5F.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5E-0EA60.zip!/" />
+      <root url="jar://$PROJECT_DIR$/local/ftbchunks/data/be6d1909-6a9d-44ff-92fc-228a11567f11/sgjourney_unitas/0EA5E-0EA5F.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

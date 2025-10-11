@@ -27,6 +27,9 @@ global.Universal = [
     ["uxv","#fff765"],
     ["opv","#2600ff"]
 ]
+let uniqueCircuits = [
+    ['certus', 'ME']
+]
 let credits = ["diggypt", "phoenixvine", "jurrejelle"]
 let ULVCraftingComponents = ["robot_arm", "conveyor_module", "electric_motor", "electric_pump", "electric_piston"]
 
@@ -49,7 +52,6 @@ StartupEvents.registry('item', register => {
     register.create('stone_spade').maxDamage(67)
 
     register.create('the_watch_of_times').maxDamage(67)
-
 
     register.create('stone_stick')
     register.create("stick_fragments").texture("kubejs:item/stick_fragments")
@@ -88,6 +90,12 @@ for (const [name, tint] of global.Universal){
     .tooltip(Component.translatable(`gtfte.tooltip.universal_circuit`, name.toUpperCase()))
     .tag("gtceu:circuits")
     .tag(`gtceu:circuits/${name}`);
+}
+for (const [name, tier] of uniqueCircuits) {
+    register.create(`gtceu:${name}_chip`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/chip`)
+    register.create(`gtceu:basic_${name}_circuit`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/basic`)
+    register.create(`gtceu:good_${name}_circuit`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/good`)
+    register.create(`gtceu:advanced_${name}_circuit`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/advanced`)
 }
 register.create(`gtceu:empty_fuel_rod`).texture(`kubejs:item/fuel/empty`)
 for (const [fuel, tint, display] of global.FuelRods){
