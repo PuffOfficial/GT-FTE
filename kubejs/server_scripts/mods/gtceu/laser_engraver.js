@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+/*
 event.recipes.gtceu.laser_engraver('gtfte:logic')
       .itemInputs(['gtceu:gold_plate']).notConsumable('gtceu:fluix_lens')
       .itemOutputs('ae2:printed_logic_processor')
@@ -19,4 +20,5 @@ event.recipes.gtceu.laser_engraver('gtfte:memory')
       .itemOutputs('ae2:printed_memory_processor')
       .duration(100)
       .EUt(GTValues.VA[GTValues.MV]);
+*/
 })

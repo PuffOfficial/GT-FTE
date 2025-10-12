@@ -4,9 +4,9 @@ ServerEvents.recipes(event => {
 event.recipes.gtceu.chemical_reactor("gtfte:fluix_gem")
         .itemInputs("minecraft:quartz", "gtceu:charged_certus_quartz_gem")
         .inputFluids("gtceu:redstone 144")
-        .itemOutputs("2x gtceu:fluix_gem")
+        .itemOutputs("gtceu:flawless_fluix_gem")
         .duration(200)
-        .EUt(500);
+        .EUt(GTValues.VA[GTValues.MV]);
 //       Fluix Cable
 event.recipes.gtceu.chemical_reactor("gtfte:fluix_cable")
         .itemInputs("ae2:quartz_fiber")

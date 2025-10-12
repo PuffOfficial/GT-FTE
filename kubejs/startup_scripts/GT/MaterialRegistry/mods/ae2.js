@@ -3,7 +3,7 @@ event.create("charged_certus_quartz")
     .gem()
     .color(0xadddfc).secondaryColor(0x507391).iconSet("certus")
     .flags()
-    .formula("(SiO2)*");
+    .formula("SiO2+");
 event.create("fluix")
     .gem()
     .fluid()

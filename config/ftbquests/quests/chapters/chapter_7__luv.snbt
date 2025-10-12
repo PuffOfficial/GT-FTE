@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_7__luv"
-	group: ""
+	group: "5D9BD0266C63FBCF"
 	icon: "kubejs:universal_luv_circuit"
 	id: "1E533AA43C729C94"
 	images: [{
@@ -13,7 +13,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 9
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

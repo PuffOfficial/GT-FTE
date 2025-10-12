@@ -60,9 +60,6 @@ StartupEvents.registry('item', register => {
 
     register.create("p_credit").texture("kubejs:item/p_credit")
 
-    register.create("ae2:printed_memory_processor").texture("kubejs:item/circuits/printed_memory_processor")
-    register.create("ae2:memory_processor").texture("kubejs:item/circuits/memory_processor")
-
     register.create("alfheim_runes").texture("kubejs:item/alfheim_runes").maxStackSize(1)
 
     register.create("ram_mainframe").texture("kubejs:item/components/ram_complex").maxStackSize(4)
@@ -73,8 +70,6 @@ StartupEvents.registry('item', register => {
     register.create("gtceu:cavum_tenebrae_marker").texture("kubejs:item/markers/cavum_tenebrae_marker").displayName("Cavum Tenebrae")
     register.create("gtceu:unitas_marker").texture("kubejs:item/markers/unitas_marker").displayName("Unitas")
     register.create("gtceu:chulak_marker").texture("kubejs:item/markers/chulak_marker").displayName("Chulak")
-
-
 
     register.create("stargate_coil").texture("kubejs:item/stargate/stargate_coil")
     register.create("stargate_chevron").texture("kubejs:item/stargate/stargate_chevron")
@@ -91,12 +86,17 @@ for (const [name, tint] of global.Universal){
     .tag("gtceu:circuits")
     .tag(`gtceu:circuits/${name}`);
 }
-for (const [name, tier] of uniqueCircuits) {
-    register.create(`gtceu:${name}_chip`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/chip`)
-    register.create(`gtceu:basic_${name}_circuit`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/basic`)
-    register.create(`gtceu:good_${name}_circuit`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/good`)
-    register.create(`gtceu:advanced_${name}_circuit`).tooltip(`§gME-Tier Circuit`).texture(`kubejs:item/circuits/progression/${name}/advanced`)
-}
+
+    register.create(`gtceu:certus_chip`).tooltip(`§gCertus-Tier I Circuit`).texture(`kubejs:item/circuits/progression/certus/chip`).tag('gtfte:circuits/me_1')
+    register.create(`gtceu:basic_certus_circuit`).tooltip(`§gCertus-Tier II Circuit`).texture(`kubejs:item/circuits/progression/certus/basic`).tag('gtfte:circuits/me_2')
+    register.create(`gtceu:good_certus_circuit`).tooltip(`§gCertus-Tier III Circuit`).texture(`kubejs:item/circuits/progression/certus/good`).tag('gtfte:circuits/me_3')
+    register.create(`gtceu:advanced_certus_circuit`).tooltip(`§gCertus-Tier IV Circuit`).texture(`kubejs:item/circuits/progression/certus/advanced`).tag('gtfte:circuits/me_4')
+
+    register.create(`gtceu:fluix_chip`).tooltip(`§5Certus-Tier II Circuit`).texture(`kubejs:item/circuits/progression/fluix/chip`).tag('gtfte:circuits/me_2')
+    register.create(`gtceu:basic_fluix_circuit`).tooltip(`§5Certus-Tier III Circuit`).texture(`kubejs:item/circuits/progression/fluix/basic`).tag('gtfte:circuits/me_3')
+    register.create(`gtceu:advanced_fluix_circuit`).tooltip(`§5Certus-Tier IV Circuit`).texture(`kubejs:item/circuits/progression/fluix/advanced`).tag('gtfte:circuits/me_4')
+    register.create(`gtceu:fluix_mainframe`).tooltip(`§5Certus-Tier V Circuit`).texture(`kubejs:item/circuits/progression/fluix/mainframe`).tag('gtfte:circuits/me_5')
+
 register.create(`gtceu:empty_fuel_rod`).texture(`kubejs:item/fuel/empty`)
 for (const [fuel, tint, display] of global.FuelRods){
     register.create(`gtceu:${fuel}_fuel_rod`).textureJson({layer0:`kubejs:item/fuel/empty`,layer1:'kubejs:item/fuel/overlay'}).color(1, tint).unstackable()

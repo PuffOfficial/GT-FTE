@@ -1291,6 +1291,94 @@
 			x: 11.5d
 			y: 9.5d
 		}
+		{
+			dependencies: ["68A4A9E4DF8ACA12"]
+			id: "0288BBD9B1581CA0"
+			tasks: [{
+				id: "7BE6AB65EF8523C7"
+				item: "gtceu:certus_chip"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0288BBD9B1581CA0"]
+			id: "6B1D7A62197D4444"
+			tasks: [{
+				id: "32F7B6D32A92F090"
+				item: "gtceu:basic_certus_circuit"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6B1D7A62197D4444"]
+			id: "4722BBF045861B14"
+			tasks: [{
+				id: "6A90D817754F2E57"
+				item: "gtceu:good_certus_circuit"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4722BBF045861B14"]
+			id: "45A561C81086874D"
+			tasks: [{
+				id: "0B7FA3BDA7753652"
+				item: "gtceu:advanced_certus_circuit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["770C0FCF533A3C0C"]
+			id: "7E17A09916CAC9E7"
+			tasks: [{
+				id: "0BD25794FECFF84A"
+				item: "gtceu:advanced_fluix_circuit"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["797D61F2F8360DD3"]
+			id: "770C0FCF533A3C0C"
+			tasks: [{
+				id: "10EBA70BB5D07077"
+				item: "gtceu:basic_fluix_circuit"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C526CAC19761ABB"]
+			id: "797D61F2F8360DD3"
+			tasks: [{
+				id: "392D2FF45D6A78D4"
+				item: "gtceu:fluix_chip"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E17A09916CAC9E7"]
+			id: "5E2198D384A93CC2"
+			tasks: [{
+				id: "26B0450FB2FD9D4A"
+				item: "gtceu:fluix_mainframe"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -5.0d
+		}
 	]
 	title: "Progress Board"
 }

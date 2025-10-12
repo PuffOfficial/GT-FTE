@@ -17,4 +17,10 @@ event.shaped('gtceu:ulv_polarizer', [
         .itemOutputs('gtceu:magnetic_iron_rod')
         .duration(160)
         .EUt(GTValues.VA[GTValues.ULV]);
+//Charged Certus Quartz
+    event.recipes.gtceu.polarizer('gtfte:charged_certus_quartz')
+        .itemInputs('gtceu:certus_quartz_gem')
+        .itemOutputs('gtceu:charged_certus_quartz_gem')
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.LV]);
 })

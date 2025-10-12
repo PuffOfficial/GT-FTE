@@ -41,5 +41,102 @@ ServerEvents.recipes(event => {
             .duration(600)
             .EUt(GTValues.VA[GTValues.HV]);
       // MARK: AE2
-
+      event.recipes.gtceu.circuit_assembler('gtfte:certus_1')
+            .itemInputs([
+                  'gtceu:resin_printed_circuit_board',
+                  'gtceu:cpu_chip',
+                  '2x gtceu:resistor',
+                  'gtceu:black_steel_plate',
+                  '2x gtceu:charged_certus_quartz_gem',
+                  '4x gtceu:fine_silver_wire'
+            ])
+            .itemOutputs('3x gtceu:certus_chip')
+            .duration(200)
+            .EUt(GTValues.VA[GTValues.LV]);
+      event.recipes.gtceu.circuit_assembler('gtfte:certus_2')
+            .itemInputs([
+                  'gtceu:resin_printed_circuit_board',
+                  'gtceu:simple_soc',
+                  'gtceu:certus_chip',
+                  'gtceu:diode',
+                  '2x gtceu:fine_annealed_copper_wire',
+                  '2x gtceu:silver_bolt'
+            ])
+            .itemOutputs('2x gtceu:basic_certus_circuit')
+            .duration(600)
+            .EUt(GTValues.VA[GTValues.LV]);
+      event.recipes.gtceu.circuit_assembler('gtfte:certus_3')
+            .itemInputs([
+                  'gtceu:phenolic_printed_circuit_board',
+                  'gtceu:basic_certus_circuit',
+                  '2x gtceu:inductor',
+                  '2x gtceu:diode',
+                  '4x gtceu:charged_certus_quartz_gem',
+                  '2x gtceu:chromium_bolt'
+            ])
+            .itemOutputs('2x gtceu:good_certus_circuit')
+            .duration(600)
+            .EUt(GTValues.VA[GTValues.LV]);
+      event.recipes.gtceu.circuit_assembler('gtfte:certus_4')
+            .itemInputs([
+                  'gtceu:plastic_printed_circuit_board',
+                  '2x gtceu:ram_chip',
+                  '2x gtceu:good_certus_circuit',
+                  '2x gtceu:inductor',
+                  '4x gtceu:charged_certus_quartz_gem',
+                  '12x gtceu:fine_gold_wire'
+            ])
+            .itemOutputs('gtceu:advanced_certus_circuit')
+            .duration(600)
+            .EUt(GTValues.VA[GTValues.MV]);
+      event.recipes.gtceu.circuit_assembler('gtfte:fluix_2')
+            .itemInputs([
+                  'gtceu:plastic_printed_circuit_board',
+                  'gtceu:simple_soc',
+                  '4x gtceu:black_steel_foil',
+                  '2x gtceu:polyethylene_foil',
+                  '2x gtceu:fluix_gem',
+                  '2x gtceu:stainless_steel_bolt'
+            ])
+            .itemOutputs('4x gtceu:fluix_chip')
+            .duration(200)
+            .EUt(GTValues.VA[GTValues.MV]);
+      event.recipes.gtceu.circuit_assembler('gtfte:fluix_3')
+            .itemInputs([
+                  'gtceu:cpu_chip',
+                  'gtceu:fluix_chip',
+                  '2x gtceu:fluix_plate',
+                  '4x gtceu:black_steel_foil',
+                  '2x gtceu:sterling_silver_bolt'
+            ])
+            .itemOutputs('2x gtceu:basic_fluix_circuit')
+            .cleanroom(CleanroomType.CLEANROOM)
+            .duration(300)
+            .EUt(GTValues.VA[GTValues.MV]);
+      event.recipes.gtceu.circuit_assembler('gtfte:fluix_4')
+            .itemInputs([
+                  'gtceu:plastic_printed_circuit_board',
+                  'gtceu:soc',
+                  '2x gtceu:smd_capacitor',
+                  'gtceu:smd_transistor',
+                  'gtceu:smd_resistor',
+                  '4x gtceu:stainless_steel_bolt'
+            ])
+            .itemOutputs('2x gtceu:advanced_fluix_circuit')
+            .duration(600)
+            .cleanroom(CleanroomType.CLEANROOM)
+            .EUt(GTValues.VA[GTValues.MV]);
+      event.recipes.gtceu.circuit_assembler('gtfte:fluix_5')
+            .itemInputs([
+                  '4x gtceu:black_steel_frame',
+                  '2x gtceu:advanced_fluix_circuit',
+                  '4x gtceu:smd_inductor',
+                  '4x gtceu:smd_diode',
+                  'gtceu:flawless_fluix_gem',
+                  '16x gtceu:silver_single_wire'
+            ])
+            .itemOutputs('gtceu:fluix_mainframe')
+            .duration(1200)
+            .cleanroom(CleanroomType.CLEANROOM)
+            .EUt(GTValues.VA[GTValues.HV]);
 })
