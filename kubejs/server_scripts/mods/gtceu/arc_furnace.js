@@ -1,18 +1,18 @@
 ServerEvents.recipes(event => {
-//ULV
-event.shaped('gtceu:ulv_arc_furnace', [
-    'CEC', 
-    'BAB',
-    'DDD'  
-  ], {
-    A: global.ULV.Hull,
-    B: global.ULV.Circuit,
-    C: global.ULV.Cable("quadruple"),
-    D: "gtceu:iron_plate",
-    E: "gtceu:coal_dust",
-  }
-);
-//Wrought Iron
+    //ULV
+    event.shaped('gtceu:ulv_arc_furnace', [
+        'CEC',
+        'BAB',
+        'DDD'
+    ], {
+        A: global.ULV.Hull,
+        B: global.ULV.Circuit,
+        C: global.ULV.Cable("quadruple"),
+        D: "gtceu:iron_plate",
+        E: "gtceu:coal_dust",
+    }
+    );
+    //Wrought Iron
     event.recipes.gtceu.arc_furnace('gtfte:wrought_iron')
         .itemInputs('minecraft:iron_ingot')
         .inputFluids('gtceu:oxygen 56')

@@ -1,17 +1,17 @@
 ServerEvents.recipes(event => {
-event.shaped('gtceu:sluice', [
-    'BDC', 
-    'FAF',
-    'EGG'  
-  ], {
-    A: 'gtceu:solid_machine_casing',  
-    B: global.EV.Circuit,  
-    C: global.HV.RobotArm,  
-    D: global.HV.Piston,   
-    E: global.HV.Pump,
-    F: 'exdeorum:iron_mesh',
-    G: 'gtceu:steel_plate'
-  })
+    event.shaped('gtceu:sluice', [
+        'BDC',
+        'FAF',
+        'EGG'
+    ], {
+        A: 'gtceu:solid_machine_casing',
+        B: global.EV.Circuit,
+        C: global.HV.RobotArm,
+        D: global.HV.Piston,
+        E: global.HV.Pump,
+        F: 'exdeorum:iron_mesh',
+        G: 'gtceu:steel_plate'
+    })
     event.recipes.gtceu.sluicing('gtfte:gravel_sluicing')
         .inputFluids('gtceu:gravel_slurry 1000')
         .itemOutputs([
@@ -30,7 +30,7 @@ event.shaped('gtceu:sluice', [
         .itemOutputs([
             '4x gtceu:crushed_diamond_ore',
             '4x gtceu:crushed_emerald_ore',
-            '64x gtceu:crushed_redstone_ore',   
+            '64x gtceu:crushed_redstone_ore',
             '16x gtceu:crushed_magnesite_ore',
             '16x gtceu:crushed_pyrolusite_ore',
             '16x gtceu:crushed_tantalite_ore',

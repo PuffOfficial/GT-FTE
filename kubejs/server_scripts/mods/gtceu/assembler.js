@@ -193,4 +193,16 @@ event.shaped('gtceu:ulv_assembler', [
         .itemOutputs('kubejs:containment_coil')
         .duration(1200)
         .EUt(GTValues.VA[GTValues.IV]);
+// MARK: AE2
+    event.recipes.gtceu.assembler('gtfte:me_controller')
+        .itemInputs([
+            "16x gtceu:black_steel_foil",
+            "4x gtceu:glass_plate",
+            "2x #gtfte:circuits/me_3",
+            "gtceu:mv_machine_hull",
+        ])
+        .inputFluids("gtceu:polyethylene 1296")
+        .itemOutputs("ae2:controller")
+        .duration(2400)
+        .EUt(GTValues.VA[GTValues.MV]);
 })

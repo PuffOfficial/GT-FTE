@@ -77,6 +77,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     RegisterULVSingleblock("macerator", "macerator", "Macerator", "macerator", GTValues.ULV)
     RegisterULVSingleblock("electrolyzer", "electrolyzer", "Electrolyzer", "electrolyzer", GTValues.ULV)
     RegisterULVSingleblock("extruder", "extruder", "Extruder", "extruder", GTValues.ULV)
+    RegisterULVSingleblock("forge_hammer", "forge_hammer", "Forge Hammer", "forge_hammer", GTValues.ULV)
+
 
     RegisterSimpleSingleblock("electric_mana_garden", "mana_garden", "Mana Garden", "mana_garden", [GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM])
     RegisterSimpleSingleblock("3d_printer", "threed_printing", "3D Printer", "3d_printer", [GTValues.LV,GTValues.MV,GTValues.HV,GTValues.EV,GTValues.IV,GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV])

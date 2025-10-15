@@ -3,3 +3,12 @@ type = customizablemenus
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+net.minecraft.client.gui.screens.GenericDirtMessageScreen {
+}
+
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+
+net.minecraft.client.gui.screens.ReceivingLevelScreen {
+}
+

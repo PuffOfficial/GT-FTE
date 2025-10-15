@@ -3,7 +3,7 @@ event.recipes.gtceu.fermenter("gtfte:fermented_biomass")
         .itemInputs("16x minecraft:potato")
         .itemOutputs("12x gtceu:raw_starch_dust")
         .duration(400)
-        .EUt(GTValues.VA[GTValues.LV]);    
+        .EUt(GTValues.VA[GTValues.ULV]);    
 event.recipes.gtceu.macerator("gtfte:starch")
         .itemInputs("2x gtceu:raw_starch_dust")
         .itemOutputs("2x gtceu:starch_dust")
@@ -37,11 +37,11 @@ event.recipes.gtceu.chemical_reactor("gtfte:stannous_octoate")
         .itemOutputs('4x gtceu:stannous_octoate_dust')
         .outputFluids(['minecraft:water 1000'])
         .duration(100)
-        .EUt(GTValues.VA[GTValues.LV]);
+        .EUt(GTValues.VA[GTValues.ULV]);
 event.recipes.gtceu.chemical_reactor("gtfte:polylactic_acid")
         .chancedInput('2x gtceu:stannous_octoate_dust', 100, 0)
         .inputFluids(['gtceu:lactic_acid 1000'])
         .outputFluids('gtceu:polylactic_acid 1296')
         .duration(400)
-        .EUt(GTValues.VA[GTValues.LV]);
+        .EUt(GTValues.VA[GTValues.ULV]);
 })

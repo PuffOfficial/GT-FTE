@@ -184,6 +184,10 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'gtceu:shaped/mv_machine_hull' })
 
+    event.remove({ id: 'gtceu:centrifuge/glowstone_separation' })
+
+    event.remove({ id: 'gtceu:forge_hammer/gravel_to_sand' })
+    event.remove({ id: 'gtceu:forge_hammer/cobblestone_to_gravel' })
 
     AE2ItemsToAnnihilate.forEach(item => {
         event.remove({ output: `ae2:${item}` })

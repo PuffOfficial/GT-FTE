@@ -16,6 +16,7 @@ const string = [
     ["minecraft:dirt", "string", 'minecraft:dark_oak_sapling', 1.0, 0.3],
     ["minecraft:dirt", "string", 'minecraft:cherry_sapling', 1.0, 0.3],
     ["minecraft:dirt", "string", 'gtceu:rubber_sapling', 1.0, 0.05],
+    ["minecraft:dirt", "string", 'minecraft:cactus', 1.0, 0.2],
     //Seeds
     ["minecraft:dirt", "string", 'exdeorum:grass_seeds', 1.0, 0.05],
     ["minecraft:dirt", "string", 'minecraft:potato', 1.0, 0.05],

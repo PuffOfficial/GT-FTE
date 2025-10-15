@@ -135,6 +135,54 @@
 			x: 2.0d
 			y: -9.0d
 		}
+		{
+			id: "1692BD56F5942138"
+			linked_quest: "194B7E065E5DCCD5"
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			id: "4AF400B7066BDB9B"
+			linked_quest: "1B341A56CAAE76AB"
+			x: 17.0d
+			y: -7.0d
+		}
+		{
+			id: "14C8877C33FA0B5F"
+			linked_quest: "22CD1E903B0FACAF"
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			id: "4C113ABC58EFA108"
+			linked_quest: "54A5907626B7895C"
+			x: 19.0d
+			y: -6.0d
+		}
+		{
+			id: "3ADAC382B487AEEB"
+			linked_quest: "012EB06C4AED8692"
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			id: "7638B5A092B0E13F"
+			linked_quest: "39BBC8EB7A637F68"
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			id: "6E67A16BB0361664"
+			linked_quest: "4D7F406F38EDC1F3"
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			id: "70224F08BD8D9DEE"
+			linked_quest: "256C66CD998A36C7"
+			x: 20.0d
+			y: -5.0d
+		}
 	]
 	quests: [
 		{
@@ -477,7 +525,7 @@
 				item: "kubejs:universal_ulv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -9.0d
 		}
 		{
@@ -488,7 +536,7 @@
 				item: "kubejs:universal_lv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -8.0d
 		}
 		{
@@ -499,7 +547,7 @@
 				item: "kubejs:universal_mv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -7.0d
 		}
 		{
@@ -510,7 +558,7 @@
 				item: "kubejs:universal_hv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -6.0d
 		}
 		{
@@ -521,7 +569,7 @@
 				item: "kubejs:universal_ev_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -5.0d
 		}
 		{
@@ -532,7 +580,7 @@
 				item: "kubejs:universal_iv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -4.0d
 		}
 		{
@@ -543,7 +591,7 @@
 				item: "kubejs:universal_luv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -3.0d
 		}
 		{
@@ -554,7 +602,7 @@
 				item: "kubejs:universal_zpm_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -2.0d
 		}
 		{
@@ -565,7 +613,7 @@
 				item: "kubejs:universal_uv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: -1.0d
 		}
 		{
@@ -576,7 +624,7 @@
 				item: "kubejs:universal_uhv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -587,40 +635,40 @@
 				item: "kubejs:universal_uev_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["251131871D033E52"]
+			dependencies: ["4AE238E30A32D63C"]
 			id: "743CD5EFE03558FA"
 			tasks: [{
 				id: "1C74AFA7E6E1DE76"
 				item: "kubejs:universal_uiv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["5E8531EF99AB450B"]
+			dependencies: ["7A77AA3DDB363D1D"]
 			id: "0C231A4B294264EC"
 			tasks: [{
 				id: "1D949BBD28405F1A"
 				item: "kubejs:universal_uxv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["1D88873256067B5A"]
+			dependencies: ["5B55342F7A29C4AC"]
 			id: "390D008FF92E3C52"
 			tasks: [{
 				id: "6B58E316A95F3E9E"
 				item: "kubejs:universal_opv_circuit"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
@@ -808,39 +856,6 @@
 			}]
 			title: "In Development"
 			x: 12.0d
-			y: 4.0d
-		}
-		{
-			id: "251131871D033E52"
-			tasks: [{
-				id: "11A46F676DCB4CCA"
-				item: "minecraft:barrier"
-				type: "item"
-			}]
-			title: "In Development"
-			x: 13.0d
-			y: 2.0d
-		}
-		{
-			id: "5E8531EF99AB450B"
-			tasks: [{
-				id: "499632DC6E6C7B6E"
-				item: "minecraft:barrier"
-				type: "item"
-			}]
-			title: "In Development"
-			x: 13.0d
-			y: 3.0d
-		}
-		{
-			id: "1D88873256067B5A"
-			tasks: [{
-				id: "6270252073299334"
-				item: "minecraft:barrier"
-				type: "item"
-			}]
-			title: "In Development"
-			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -1290,94 +1305,6 @@
 			}]
 			x: 11.5d
 			y: 9.5d
-		}
-		{
-			dependencies: ["68A4A9E4DF8ACA12"]
-			id: "0288BBD9B1581CA0"
-			tasks: [{
-				id: "7BE6AB65EF8523C7"
-				item: "gtceu:certus_chip"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["0288BBD9B1581CA0"]
-			id: "6B1D7A62197D4444"
-			tasks: [{
-				id: "32F7B6D32A92F090"
-				item: "gtceu:basic_certus_circuit"
-				type: "item"
-			}]
-			x: 17.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["6B1D7A62197D4444"]
-			id: "4722BBF045861B14"
-			tasks: [{
-				id: "6A90D817754F2E57"
-				item: "gtceu:good_certus_circuit"
-				type: "item"
-			}]
-			x: 18.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["4722BBF045861B14"]
-			id: "45A561C81086874D"
-			tasks: [{
-				id: "0B7FA3BDA7753652"
-				item: "gtceu:advanced_certus_circuit"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["770C0FCF533A3C0C"]
-			id: "7E17A09916CAC9E7"
-			tasks: [{
-				id: "0BD25794FECFF84A"
-				item: "gtceu:advanced_fluix_circuit"
-				type: "item"
-			}]
-			x: 19.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["797D61F2F8360DD3"]
-			id: "770C0FCF533A3C0C"
-			tasks: [{
-				id: "10EBA70BB5D07077"
-				item: "gtceu:basic_fluix_circuit"
-				type: "item"
-			}]
-			x: 18.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["4C526CAC19761ABB"]
-			id: "797D61F2F8360DD3"
-			tasks: [{
-				id: "392D2FF45D6A78D4"
-				item: "gtceu:fluix_chip"
-				type: "item"
-			}]
-			x: 17.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["7E17A09916CAC9E7"]
-			id: "5E2198D384A93CC2"
-			tasks: [{
-				id: "26B0450FB2FD9D4A"
-				item: "gtceu:fluix_mainframe"
-				type: "item"
-			}]
-			x: 20.0d
-			y: -5.0d
 		}
 	]
 	title: "Progress Board"

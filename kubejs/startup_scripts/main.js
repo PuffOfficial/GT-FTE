@@ -1,7 +1,7 @@
 Platform.mods.kubejs.name = 'GT: Flatter Than Ever'
 Platform.mods.cobblefordays.name = 'GregTech'
 const Boules = [
-   ["nether_imbued","Nether-Imbued"], ["mana_doped","Mana-Doped"]
+    ["nether_imbued", "Nether-Imbued"], ["mana_doped", "Mana-Doped"]
 ]
 global.FuelRods = [
     ["celestite", "#A4C639", Component.translatable("material.gtceu.celestite")],
@@ -12,23 +12,20 @@ global.FuelRods = [
     ["thorium", "#25411b", Component.translatable("material.gtceu.thorium")]
 ]
 global.Universal = [
-    ["ulv","#bdb2a2"],
-    ["lv","#ffa663"],
-    ["mv","#54fcfc"],
-    ["hv","#fca800"],
-    ["ev","#a800a8"],
-    ["iv","#5454fc"],
-    ["luv","#ff9cff"],
-    ["zpm","#fc5454"],
-    ["uv","#00a8a8"],
-    ["uhv","#a80000"],
-    ["uev","#54fc54"],
-    ["uiv","#00a800"],
-    ["uxv","#fff765"],
-    ["opv","#2600ff"]
-]
-let uniqueCircuits = [
-    ['certus', 'ME']
+    ["ulv", "#bdb2a2"],
+    ["lv", "#ffa663"],
+    ["mv", "#54fcfc"],
+    ["hv", "#fca800"],
+    ["ev", "#a800a8"],
+    ["iv", "#5454fc"],
+    ["luv", "#ff9cff"],
+    ["zpm", "#fc5454"],
+    ["uv", "#00a8a8"],
+    ["uhv", "#a80000"],
+    ["uev", "#54fc54"],
+    ["uiv", "#00a800"],
+    ["uxv", "#fff765"],
+    ["opv", "#2600ff"]
 ]
 let credits = ["diggypt", "phoenixvine", "jurrejelle"]
 let ULVCraftingComponents = ["robot_arm", "conveyor_module", "electric_motor", "electric_pump", "electric_piston"]
@@ -46,7 +43,11 @@ global.Casings = [
     ["terrasteel_plated_livingwood", "wood", "axe", "Terrasteel Plated Livingwood Planks"]
 ]
 
-StartupEvents.registry('item', register => { 
+let BuildingBlock = [
+    "invert_bitt"
+]
+
+StartupEvents.registry('item', register => {
 
     register.create('sharpened_flint', 'axe').tier('stone')
     register.create('stone_spade').maxDamage(67)
@@ -77,15 +78,15 @@ StartupEvents.registry('item', register => {
     register.create("stargate_field_generator").texture("kubejs:item/stargate/stargate_field_generator")
     register.create("space_continuum_stabilizer").texture("kubejs:item/stargate/space_continuum_stabilizer").displayName("Space-time Continuum Stabilizer")
 
-ULVCraftingComponents.forEach(Type => {
-    register.create(`ulv_${Type}`).texture(`kubejs:item/components/ulv_`+Type).tooltip(Component.translatable("gtfte.tooltip.ulv_сomponents"))
-})
-for (const [name, tint] of global.Universal){
-    register.create(`universal_${name}_circuit`).textureJson({layer0:`kubejs:item/circuits/universal/base`,layer1:'kubejs:item/circuits/universal/overlay'}).color(1, tint)
-    .tooltip(Component.translatable(`gtfte.tooltip.universal_circuit`, name.toUpperCase()))
-    .tag("gtceu:circuits")
-    .tag(`gtceu:circuits/${name}`);
-}
+    ULVCraftingComponents.forEach(Type => {
+        register.create(`ulv_${Type}`).texture(`kubejs:item/components/ulv_` + Type).tooltip(Component.translatable("gtfte.tooltip.ulv_сomponent"))
+    })
+    for (const [name, tint] of global.Universal) {
+        register.create(`universal_${name}_circuit`).textureJson({ layer0: `kubejs:item/circuits/universal/base`, layer1: 'kubejs:item/circuits/universal/overlay' }).color(1, tint)
+            .tooltip(Component.translatable(`gtfte.tooltip.universal_circuit`, name.toUpperCase()))
+            .tag("gtceu:circuits")
+            .tag(`gtceu:circuits/${name}`);
+    }
 
     register.create(`gtceu:certus_chip`).tooltip(`§gCertus-Tier I Circuit`).texture(`kubejs:item/circuits/progression/certus/chip`).tag('gtfte:circuits/me_1')
     register.create(`gtceu:basic_certus_circuit`).tooltip(`§gCertus-Tier II Circuit`).texture(`kubejs:item/circuits/progression/certus/basic`).tag('gtfte:circuits/me_2')
@@ -97,31 +98,41 @@ for (const [name, tint] of global.Universal){
     register.create(`gtceu:advanced_fluix_circuit`).tooltip(`§5Certus-Tier IV Circuit`).texture(`kubejs:item/circuits/progression/fluix/advanced`).tag('gtfte:circuits/me_4')
     register.create(`gtceu:fluix_mainframe`).tooltip(`§5Certus-Tier V Circuit`).texture(`kubejs:item/circuits/progression/fluix/mainframe`).tag('gtfte:circuits/me_5')
 
-register.create(`gtceu:empty_fuel_rod`).texture(`kubejs:item/fuel/empty`)
-for (const [fuel, tint, display] of global.FuelRods){
-    register.create(`gtceu:${fuel}_fuel_rod`).textureJson({layer0:`kubejs:item/fuel/empty`,layer1:'kubejs:item/fuel/overlay'}).color(1, tint).unstackable()
-}
-for (const [name, displayName] of Boules) {
-    register.create(`${name}_boule`).texture(`kubejs:item/components/boule/${name}_boule`).tooltip("§7Still Raw Circuit").displayName(`${displayName} Boule`)
-    register.create(`${name}_wafer`).texture(`kubejs:item/components/wafer/${name}_wafer`).displayName(`${displayName} Wafer`)
-}
+    register.create(`gtceu:empty_fuel_rod`).texture(`kubejs:item/fuel/empty`)
+    for (const [fuel, tint, display] of global.FuelRods) {
+        register.create(`gtceu:${fuel}_fuel_rod`).textureJson({ layer0: `kubejs:item/fuel/empty`, layer1: 'kubejs:item/fuel/overlay' }).color(1, tint).unstackable()
+    }
+    for (const [name, displayName] of Boules) {
+        register.create(`${name}_boule`).texture(`kubejs:item/components/boule/${name}_boule`).tooltip("§7Still Raw Circuit").displayName(`${displayName} Boule`)
+        register.create(`${name}_wafer`).texture(`kubejs:item/components/wafer/${name}_wafer`).displayName(`${displayName} Wafer`)
+    }
 })
 
 StartupEvents.registry('block', event => {
-for (const [Name, SoundType, Tool, Display] of global.Casings){
-    event.create(`${Name.toLowerCase()}_casing`)
-    .soundType(`${SoundType}`)
-    .textureAll(`kubejs:block/casings/${Name}/${Name}_casing`)
-    .hardness(2)
-    .resistance(0.5)
-    .renderType("cutout")   
-    .notSolid()
-    .requiresTool(false)
-    .tagBlock(`minecraft:mineable/${Tool}`)
-    .tagBlock('forge:mineable/wrenches')
-    .displayName(Display)
-}
-//HV mana amplifier
+    for (const [Name, SoundType, Tool, Display] of global.Casings) {
+        event.create(`${Name.toLowerCase()}_casing`)
+            .soundType(`${SoundType}`)
+            .textureAll(`kubejs:block/casings/${Name}/${Name}_casing`)
+            .hardness(2)
+            .resistance(0.5)
+            .renderType("cutout")
+            .notSolid()
+            .requiresTool(false)
+            .tagBlock(`minecraft:mineable/${Tool}`)
+            .tagBlock('forge:mineable/wrenches')
+            .displayName(Display)
+    }
+    BuildingBlock.forEach(block => {
+        event.create(block)
+            .soundType("stone")
+            .hardness(2.0)
+            .resistance(0.5)
+            .requiresTool(false)
+            .textureAll(`kubejs:block/building/${block}`)
+            .tagBlock('minecraft:mineable/pickaxe')
+            .tagBlock('forge:mineable/wrenches')
+    })
+    //HV mana amplifier
     event.create("hv_mana_amplifier")
         .soundType("stone")
         .displayName("HV Mana Amplifier")
@@ -130,7 +141,7 @@ for (const [Name, SoundType, Tool, Display] of global.Casings){
         .requiresTool(true)
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('forge:mineable/wrenches')
-//EV alchemical construction
+    //EV alchemical construction
     event.create("alchemical_construction")
         .soundType("deepslate")
         .displayName("Alchemical Construction")
@@ -139,7 +150,7 @@ for (const [Name, SoundType, Tool, Display] of global.Casings){
         .requiresTool(true)
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('forge:mineable/wrenches')
-//UHV alchemical construction
+    //UHV alchemical construction
     event.create("awakened_alchemical_construction")
         .soundType("deepslate")
         .displayName("Awakened Alchemical Construction")
@@ -148,7 +159,7 @@ for (const [Name, SoundType, Tool, Display] of global.Casings){
         .requiresTool(true)
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('forge:mineable/wrenches')
-//Fission Reactor Rod
+    //Fission Reactor Rod
     event.create("fission_reactor_rod")
         .textureAll("kubejs:block/active/reactor/fission_reactor_rod")
         .soundType("metal")

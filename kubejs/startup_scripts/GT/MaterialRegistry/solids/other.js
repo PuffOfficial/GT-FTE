@@ -4,6 +4,7 @@ GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
     event.create('pearl').parent('ruby')
     event.create('gaia').parent('metallic')
     event.create('infinity').parent('metallic')
+    event.create('charged').parent('dull')
 })
 
 GTCEuStartupEvents.registry("gtceu:material", event => {
