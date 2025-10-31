@@ -189,6 +189,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:forge_hammer/gravel_to_sand' })
     event.remove({ id: 'gtceu:forge_hammer/cobblestone_to_gravel' })
 
+    event.remove({ id: 'avaritia:compressed_chest' })
+
     AE2ItemsToAnnihilate.forEach(item => {
         event.remove({ output: `ae2:${item}` })
     });

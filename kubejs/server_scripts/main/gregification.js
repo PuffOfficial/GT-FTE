@@ -21,7 +21,9 @@ let InputsForDeletion = [
   'gendustry:elite_upgrade_frame',
   'gendustry:blank_gene_sample',
   'gendustry:blank_genetic_template',
-  'gendustry:industrial_apiary'
+  'gendustry:industrial_apiary',
+  //-----AE2-----//
+  'ae2:blank_pattern',
 ]
 
 
@@ -123,7 +125,40 @@ ServerEvents.recipes(event => {
   }
   ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
   // MARK: AE2
-
+  event.shaped('ae2:drive', [
+    'ACA',
+    'BDB',
+    'ACA'
+  ], {
+    A: 'gtceu:aluminium_plate',
+    B: global.MV.Emitter,
+    C: '#gtfte:circuits/me_2',
+    D: 'gtceu:mv_machine_hull',
+  }
+  );
+  event.shaped('ae2:controller', [
+    'BAB',
+    'CDC',
+    'BAB'
+  ], {
+    A: 'gtceu:fluix_plate',
+    B: 'gtceu:aluminium_plate',
+    C: '#gtfte:circuits/me_3',
+    D: 'gtceu:mv_machine_hull',
+  }
+  );
+    event.shaped('2x ae2:blank_pattern', [
+    'DED',
+    'ECE',
+    'BAB'
+  ], {
+    A: 'gtceu:certus_quartz_plate',
+    B: 'gtceu:polyethylene_plate',
+    C: '#gtfte:circuits/me_1',
+    D: 'ae2:quartz_glass',
+    E: 'gtceu:fine_annealed_copper_wire',
+  }
+  );
   //MARK: Forestry
   event.shaped('forestry:worktable', [
     'B C',

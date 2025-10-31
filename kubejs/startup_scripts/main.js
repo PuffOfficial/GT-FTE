@@ -49,8 +49,7 @@ let BuildingBlock = [
 
 StartupEvents.registry('item', register => {
 
-    register.create('sharpened_flint', 'axe').tier('stone')
-    register.create('stone_spade').maxDamage(67)
+    register.create('stone_spade', 'hoe').tier('stone').maxDamage(67)
 
     register.create('the_watch_of_times').maxDamage(67)
 

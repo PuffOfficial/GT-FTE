@@ -13,7 +13,7 @@ PlayerEvents.loggedIn(event => {
     let player = event.player
 
     event.player.tell(["Welcome to ", Text.green("GT:FTE").bold(), ", Pioneer"]); // force recast to string
-    event.player.tell(["Report any issues to ", Text.blue("Discord Server")
+    event.player.tell(["Found bugs? Join my Discord! ", Text.blue("Discord Server")
         .underlined()
         .clickOpenUrl("https://discord.gg/KjzBXsGxBt").hover("P-Corp Server"), "."
     ]);

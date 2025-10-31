@@ -27,18 +27,10 @@ BlockEvents.rightClicked(event => {
     if (!item.is('kubejs:stone_spade')) return
     if (!player.isShiftKeyDown()) return
     let loot = [
-        "minecraft:oak_sapling",
-        "exdeorum:andesite_pebble",
-        "exdeorum:basalt_pebble",
-        "exdeorum:blackstone_pebble",
-        "exdeorum:diorite_pebble",
-        "exdeorum:granite_pebble",
-        "exdeorum:deepslate_pebble",
-        "kubejs:stick_fragments",
-        "minecraft:flint"
+        "pamhc2crops:cattailseeditem",
     ]
     let random = Math.floor(Math.random() * 2 * loot.length)
-    let dropItem = Item.of(loot[random] ?? "kubejs:stick_fragments")
+    let dropItem = Item.of(loot[random] ?? "minecraft:wheat_seeds")
     block.popItemFromFace(dropItem, facing) 
     player.damageHeldItem(hand, 1)
     player.swing()

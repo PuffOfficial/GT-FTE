@@ -60,32 +60,8 @@
 				item: { Count: 32, id: "exdeorum:stone_pebble" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["5E77582D4F02E361"]
-			description: ["If you are on any other difficulty than peaceful - Try shift+right clicking the dirt to get &lstick fragments&r, then, you'll need some strings from spiders."]
-			id: "1A4DBA2BC454071D"
-			rewards: [{
-				id: "1466BBE3A490A81B"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57EF220AE2FCF4FF"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "gtfte:has_pr_stick"
-					}
-				}
-				title: "Any #gtfte:has_pr_stick"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6FCB7AAF642B3722"]
@@ -101,14 +77,11 @@
 				item: { Count: 8, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"29D26608B96FC714"
-				"1A4DBA2BC454071D"
-			]
+			dependencies: ["7108651344CB541D"]
 			id: "7FE5AAE27855C2E0"
 			rewards: [{
 				id: "17FB8512B9D79FBF"
@@ -126,8 +99,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["29D26608B96FC714"]
@@ -143,36 +116,22 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["1A4DBA2BC454071D"]
-			id: "2653E645A6CAF6F7"
-			tasks: [{
-				id: "1A688E87B10EFA03"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "gtfte:has_pr_crook"
-					}
-				}
-				title: "Any #gtfte:has_pr_crook"
-				type: "item"
-			}]
-			x: 3.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2653E645A6CAF6F7"]
+			dependencies: ["3EC50E20C3A15F93"]
+			description: [
+				"Try breaking some &6dirt&r with crook in a normal run"
+				"Or just shift+right click &2grass&r in peaceful with spade in main hand"
+			]
 			id: "7108651344CB541D"
 			tasks: [{
 				id: "334CCC250205766E"
 				item: "minecraft:oak_sapling"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7FE5AAE27855C2E0"]
@@ -182,8 +141,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7FE5AAE27855C2E0"]
@@ -193,19 +152,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["7108651344CB541D"]
-			id: "4E0086B337787F58"
-			tasks: [{
-				id: "10BDD9152B5F9DCD"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -2.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7108651344CB541D"]
@@ -216,8 +164,8 @@
 				item: "exdeorum:silk_worm"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.5d
+			x: 9.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["48E957186CF6F398"]
@@ -228,24 +176,25 @@
 				item: "exdeorum:string_mesh"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.5d
+			x: 9.5d
+			y: -4.0d
 		}
 		{
-			dependencies: ["4E0086B337787F58"]
+			dependencies: ["7108651344CB541D"]
 			id: "78ABD07B12E91235"
 			tasks: [{
 				id: "621BDB6B49A680DF"
 				item: "exdeorum:oak_sieve"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
 				"78ABD07B12E91235"
 				"55929EC71AF563BC"
+				"2292732E595B2FE5"
 			]
 			id: "49469AD65C6483FC"
 			tasks: [
@@ -271,13 +220,14 @@
 				}
 			]
 			title: "Impure Dusts"
-			x: 8.5d
-			y: -1.0d
+			x: 10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
 				"78ABD07B12E91235"
 				"55929EC71AF563BC"
+				"0E7787441C574AB8"
 			]
 			id: "4C20422B3CFB353A"
 			tasks: [
@@ -303,8 +253,8 @@
 				}
 			]
 			title: "Crushed Ores"
-			x: 7.5d
-			y: -1.0d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -317,8 +267,8 @@
 				item: "gtceu:red_alloy_ingot"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C20422B3CFB353A"]
@@ -328,8 +278,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C20422B3CFB353A"]
@@ -339,8 +289,8 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.5d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -355,8 +305,8 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["463E7B6B3DAB14BC"]
@@ -366,8 +316,8 @@
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["501B22D11EA7FBA2"]
@@ -377,8 +327,8 @@
 				item: "minecraft:glass"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2292732E595B2FE5"]
@@ -388,8 +338,65 @@
 				item: "gtceu:quartz_sand_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29D26608B96FC714"]
+			id: "3A3750F553391CAC"
+			tasks: [{
+				id: "1669007CF37AE001"
+				item: {
+					Count: 1
+					id: "kubejs:stone_spade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A3750F553391CAC"]
+			description: ["Use spade as hoe! Btw it doesn't really require water to grow"]
+			id: "594988D1144CD256"
+			tasks: [{
+				id: "61888C03FBB8804C"
+				item: "pamhc2crops:cattailseeditem"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["594988D1144CD256"]
+			id: "6F289BA7687690A3"
+			tasks: [{
+				id: "18335E52FBF539DE"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6F289BA7687690A3"]
+			id: "3EC50E20C3A15F93"
+			tasks: [{
+				id: "07C0A01F5FEB2F6C"
+				item: {
+					Count: 1
+					id: "exdeorum:crook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
 		}
 	]
 	subtitle: ["Stands for Not-A-Voltage"]

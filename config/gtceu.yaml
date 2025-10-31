@@ -657,6 +657,10 @@ compat:
   # Default: false
   showDimensionTier: false
 
+  # Whether Create compatibility will be available.
+  # Default: true
+  createCompat: true
+
 dev:
   # Debug general events? (will print recipe conficts etc. to server's debug.log)
   # Default: false

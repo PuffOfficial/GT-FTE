@@ -1,0 +1,5 @@
+
+["No More Bats"]
+	#Show particles when making Bats dead.  Default: true
+	showFarticles = true
+

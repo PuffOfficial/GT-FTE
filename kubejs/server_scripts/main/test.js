@@ -1,3 +1,4 @@
+/*
 ServerEvents.recipes(event => {
     event.recipes.gtceu.assembler('gtfte:cleanroom_test_recipe')
         .itemInputs('minecraft:dirt')
@@ -6,3 +7,4 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV])
         .cleanroom(CleanroomType.getByName("ionizing"));
 })
+*/

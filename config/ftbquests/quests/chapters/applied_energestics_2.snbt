@@ -150,7 +150,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			id: "5FE7D073D97FD83B"
@@ -160,7 +160,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			id: "3B2B0B0B1BA8AA20"
@@ -169,8 +169,8 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -2.5d
+			y: 1.0d
 		}
 	]
 	title: "Applied Energestics 2"

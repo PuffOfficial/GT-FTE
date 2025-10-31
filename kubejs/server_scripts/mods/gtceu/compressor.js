@@ -16,4 +16,9 @@ event.recipes.gtceu.compressor('gtfte:air_ingot')
       .itemOutputs('gtceu:small_air_dust')
       .duration(100)    
       .EUt(GTValues.VA[GTValues.EV]);
+event.recipes.gtceu.compressor('gtfte:compressed_chest')
+      .itemInputs('9x minecraft:chest')
+      .itemOutputs('avaritia:compressed_chest')
+      .duration(9600)    
+      .EUt(GTValues.VA[GTValues.LV]);
 })
