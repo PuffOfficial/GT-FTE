@@ -48,7 +48,7 @@ let BuildingBlock = [
 ]
 
 StartupEvents.registry('item', register => {
-
+// MARK: Register (Items)
     register.create('stone_spade', 'hoe').tier('stone').maxDamage(67)
 
     register.create('the_watch_of_times').maxDamage(67)
@@ -108,6 +108,7 @@ StartupEvents.registry('item', register => {
 })
 
 StartupEvents.registry('block', event => {
+// MARK: Register (Blocks)
     for (const [Name, SoundType, Tool, Display] of global.Casings) {
         event.create(`${Name.toLowerCase()}_casing`)
             .soundType(`${SoundType}`)
@@ -168,4 +169,87 @@ StartupEvents.registry('block', event => {
         .requiresTool(true)
         .tagBlock('minecraft:mineable/pickaxe')
         .tagBlock('forge:mineable/wrenches')
+    //-----Active Blocks-----//
+    event.create("simple_ventilation", 'gtceu:active')
+        .simple("kubejs:block/active/ventilation/simple_ventilation")
+        .soundType("metal")
+        .displayName("Simple Ventilation")
+        .hardness(2.0)
+        .resistance(2)
+        .requiresTool(true)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .tagBlock('forge:mineable/wrenches')
+
+    event.create('wrought_iron_firebox', 'gtceu:active')
+        .firebox(
+            'kubejs:block/casings/solid_wrought_iron/solid_wrought_iron_casing',
+            'kubejs:block/casings/solid_wrought_iron/firebox',
+            'kubejs:block/casings/solid_wrought_iron/solid_wrought_iron_casing')
+        .displayName('Wrought Iron Firebox')
+        .soundType('metal')
+        .resistance(6).hardness(5)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("forge:mineable/wrench")
+        .requiresTool(true)
+})
+
+GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
+// MARK: Register (GTM)
+    event.create('sandstone', 'ore')
+        .stateSupplier(() => Block.getBlock('minecraft:sandstone').defaultBlockState())
+        .baseModelLocation('minecraft:block/sandstone')
+        .unificationEnabled(true)
+        .materialIconType(GTMaterialIconType.ore)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)
+        .miningToolTag(`minecraft:mineable/pickaxe`)
+    event.create('sulfur_sand', 'ore')
+        .stateSupplier(() => Block.getBlock('sgjourney:sulfur_sand').defaultBlockState())
+        .baseModelLocation('sgjourney:block/sulfur_sand')
+        .unificationEnabled(true)
+        .materialIconType(GTMaterialIconType.ore)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)
+        .miningToolTag(`minecraft:mineable/shovel`)
+})
+
+const WorldGenLayers = Java.loadClass("com.gregtechceu.gtceu.api.data.worldgen.WorldGenLayers")
+GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
+// MARK: World Gen Layers
+    event.create('abydos_stone')
+        .targets('minecraft:stone', '#minecraft:stone_ore_replaceables')
+        .dimensions('sgjourney:abydos')
+
+    event.create('abydos_sand')
+        .targets('minecraft:sand', 'minecraft:sandstone')
+        .dimensions('sgjourney:abydos')
+
+    event.create('cavum_tenebrae_stone')
+        .targets('minecraft:deepslate', '#minecraft:stone_ore_replaceables')
+        .dimensions('sgjourney:cavum_tenebrae')
+
+    event.create('chulak_stone')
+        .targets('minecraft:stone', '#minecraft:stone_ore_replaceables')
+        .dimensions('sgjourne:chulak')
+
+    event.create('unitas_sand')
+        .targets('sgjourney:sulfur_sand', '#minecraft:stone_ore_replaceables')
+        .dimensions('sgjourney:unitas')
+})
+
+GTCEuStartupEvents.registry("gtceu:dimension_marker", event => {
+// MARK: Dimension Markers
+    event.create("sgjourney:abydos")
+        .iconSupplier(() => Item.of("gtceu:abydos_marker").getItem())
+        .tier(0)
+    event.create("sgjourney:cavum_tenebrae")
+        .iconSupplier(() => Item.of("gtceu:cavum_tenebrae_marker").getItem())
+        .tier(0)
+    event.create("sgjourney:unitas")
+        .iconSupplier(() => Item.of("gtceu:unitas_marker").getItem())
+        .tier(0)
+    event.create("sgjourney:rima")
+        .iconSupplier(() => Item.of("gtceu:rima_marker").getItem())
+        .tier(0)
+    event.create("sgjourney:chulak")
+        .iconSupplier(() => Item.of("gtceu:chulak_marker").getItem())
+        .tier(0)
 })

@@ -17,10 +17,4 @@ PlayerEvents.loggedIn(event => {
         .underlined()
         .clickOpenUrl("https://discord.gg/KjzBXsGxBt").hover("P-Corp Server"), "."
     ]);
-
-    if (player.level.difficulty == 'peaceful') {
-        player.tell("§8§oCurrent difficulty is: " + player.level.difficulty.toString().toLowerCase() + ", using peaceful recipes")
-    } else {
-        player.tell("§8§oCurrent difficulty is: " + player.level.difficulty.toString().toLowerCase() + ", using default recipes")
-    }
 })

@@ -49,14 +49,14 @@ ServerEvents.recipes(event => {
 // MARK: Air processing
         event.recipes.gtceu.extractor("gtfte:nether_air")
                 .itemInputs("gtceu:netherrack_dust")
-                .chancedOutput("gtceu:small_netherrack_dust", 7500, 0)
+                .chancedOutput("gtceu:small_netherrack_dust", 6000, 0)
                 .outputFluids("gtceu:nether_air 200")
-                .duration(200)
+                .duration(60)
                 .EUt(GTValues.VA[GTValues.LV]);
         event.recipes.gtceu.extractor("gtfte:ender_air")
                 .itemInputs("gtceu:endstone_dust")
-                .chancedOutput("gtceu:small_endstone_dust", 7500, 0)
+                .chancedOutput("gtceu:small_endstone_dust", 6000, 0)
                 .outputFluids("gtceu:ender_air 200")
-                .duration(200)
+                .duration(60)
                 .EUt(GTValues.VA[GTValues.LV]);
 })

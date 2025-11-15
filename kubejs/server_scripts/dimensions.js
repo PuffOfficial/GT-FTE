@@ -44,8 +44,3 @@ PlayerEvents.tick(event => {
         player.potionEffects.clear()
     }
 })
-
-CommonAddedEvents.playerChangeDimension(event => {
-    player.tell("puk")
-    IsInDimension = false
-})

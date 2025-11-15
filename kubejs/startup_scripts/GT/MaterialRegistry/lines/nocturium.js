@@ -4,7 +4,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .addOreByproducts(GTMaterials.get('celestite'))
         .color(0x0A0A0A).secondaryColor(0x2E3A87).iconSet(GTMaterialIconSet.METALLIC)
         .formula('?');
-        
+
     event.create("sombralite_byproduct_sludge")
         .dust()
         .liquid()
@@ -25,5 +25,4 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
         .color(0x00f7e5).secondaryColor(0x171717).iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_SMALL_GEAR)
         .element(GTElements.get("nocturium"));
-
 })
