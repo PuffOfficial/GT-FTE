@@ -11,11 +11,6 @@ event.shaped('gtceu:ulv_compressor', [
     D: global.ULV.Piston,
   }
 );
-event.recipes.gtceu.compressor('gtfte:air_ingot')
-      .itemInputs('gtceu:liquid_air_bucket')
-      .itemOutputs('gtceu:small_air_dust')
-      .duration(100)    
-      .EUt(GTValues.VA[GTValues.EV]);
 event.recipes.gtceu.compressor('gtfte:compressed_chest')
       .itemInputs('9x minecraft:chest')
       .itemOutputs('avaritia:compressed_chest')

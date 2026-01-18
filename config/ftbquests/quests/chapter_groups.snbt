@@ -1,6 +1,3 @@
 {
-	chapter_groups: [
-		{ id: "3CDCAEA7D93FEFCB", title: "Additional Chapters" }
-		{ id: "76ED85C1705485DC", title: "Other Chapters" }
-	]
+	chapter_groups: [{ id: "76ED85C1705485DC", title: "Other Chapters" }]
 }

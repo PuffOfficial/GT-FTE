@@ -37,6 +37,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "10063E3DC9F2504D"
 				item: "gtceu:assembly_line"
@@ -371,13 +372,18 @@
 				"52BDC3DA495B2C31"
 				"212AF32F93D5D3F7"
 			]
-			description: ["Cool, isn't it?"]
+			description: [
+				"Cool, isn't it?"
+				""
+				"&8&oThe design is inspired by fission reactor from &lstar technology&r"
+			]
 			id: "751CCA9196F0670D"
 			rewards: [{
 				id: "7C4C2E389C9C6B51"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "FISSION!"
 			tasks: [{
 				id: "65C2FE6C3C47E1DC"
@@ -395,6 +401,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "55456E580A8F8501"
 				item: "gtceu:plutonium_241_fuel_rod"
@@ -411,6 +418,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "7F3F367A5BF42345"
 				item: "gtceu:celestite_fuel_rod"
@@ -756,6 +764,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "0AB8A05C352640C1"
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
@@ -820,6 +829,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "43EFE50399897552"

@@ -95,6 +95,23 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"&lSquare with rounded edges&r - Means it is &amain&r questline"
+				""
+				"&lRhombus (Diamond)&r - Additional quests, not required for progression"
+				""
+				"&lGear&r - Chapter milestone"
+			]
+			id: "0DC1AA7C6E181090"
+			tasks: [{
+				id: "71AF4BDA95D299EB"
+				title: "Quest Shape Info"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
 	]
 	title: "Informational Desk"
 }

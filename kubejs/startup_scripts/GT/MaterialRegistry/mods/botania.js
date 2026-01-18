@@ -1,7 +1,7 @@
-GTCEuStartupEvents.registry("gtceu:material", event => {
-    event.create("manasteel")
+GTCEuStartupEvents.registry(`gtceu:material`, event => {
+    event.create(`manasteel`)
         .ingot()
-        .color(0x8cb6ff).secondaryColor(0x3962d7).iconSet("metallic")
+        .color(0x8cb6ff).secondaryColor(0x3962d7).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("ᛗ3Ni(AuAgCu3)Fe3")
+        .formula(`ᛗ3Ni(AuAgCu3)Fe3`)
         .toolStats(new ToolProperty(4.0, 3.5, 2000, 3, [
             GTToolType.PICKAXE,
             GTToolType.AXE,
@@ -26,9 +26,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTToolType.FILE,
             GTToolType.SCREWDRIVER
         ]))
-    event.create("galvanized_manasteel")
+    event.create(`galvanized_manasteel`)
         .ingot()
-        .color(0x137dbd).secondaryColor(0x0d537e).iconSet("metallic")
+        .color(0x3a63da).secondaryColor(0x160539).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -43,10 +43,10 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
         .cableProperties(512, 2, 0, true)
-        .formula("ᛗ3Ni(AuAgCu3)Fe3");
-    event.create("elementium")
+        .formula(`ᛗ3Ni(AuAgCu3)Fe3`);
+    event.create(`elementium`)
         .ingot()
-        .color(0xc342a6).secondaryColor(0x791890).iconSet("metallic")
+        .color(0xc342a6).secondaryColor(0x791890).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -60,7 +60,7 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("ᛗEl")
+        .formula(`ᛗEl`)
         .toolStats(new ToolProperty(4.0, 3.5, 16000, 3, [
             GTToolType.PICKAXE,
             GTToolType.AXE,
@@ -71,9 +71,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTToolType.FILE,
             GTToolType.SCREWDRIVER
         ]))
-    event.create("annealed_elementium")
+    event.create(`annealed_elementium`)
         .ingot()
-        .color(0xdd51be).secondaryColor(0xa32cbe).iconSet("metallic")
+        .color(0xdd51be).secondaryColor(0xa32cbe).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -87,11 +87,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("El")
+        .formula(`El`)
         .cableProperties(2048, 2, 0, true)
- event.create("gaia_steel")
+ event.create(`gaia_steel`)
         .ingot()
-        .color(0xffffff).secondaryColor(0x000000).iconSet("gaia")
+        .color(0xffffff).secondaryColor(0x000000).iconSet(`gaia`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -105,9 +105,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_BOLT_SCREW
         );
 
-    event.create("terrasteel")
+    event.create(`terrasteel`)
         .ingot()
-        .color(0x96ff8c).secondaryColor(0x39d749).iconSet("metallic")
+        .color(0x6ae862).secondaryColor(0x043c1c).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -121,28 +121,28 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("⏚")
+        .formula(`⏚`)
         .toolStats(new ToolProperty(4.0, 3.5, 4200, 4, [GTToolType.DRILL_LV,GTToolType.DRILL_MV,GTToolType.DRILL_HV,GTToolType.DRILL_EV,GTToolType.DRILL_IV,GTToolType.WRENCH_LV,GTToolType.WRENCH_HV,GTToolType.WRENCH_IV,GTToolType.WIRE_CUTTER_LV,GTToolType.WIRE_CUTTER_HV]))
-    event.create("mana_gem")
+    event.create(`mana_gem`)
         .gem()
-        .color(0x8cb6ff).secondaryColor(0x3962d7).iconSet("fine")
-        .formula("ᛗC")
-    event.create("mana_pearl")
+        .color(0x3a63da).secondaryColor(0x160539).iconSet(`fine`)
+        .formula(`ᛗC`)
+    event.create(`mana_pearl`)
         .gem()
-        .color(0x8cb6ff).secondaryColor(0x3962d7).iconSet("pearl")
-        .formula("ᛗBeK4N5")
-    event.create("mana")
+        .color(0x3a63da).secondaryColor(0x160539).iconSet(`pearl`)
+        .formula(`ᛗBeK4N5`)
+    event.create(`mana`)
         .dust()
-        .color(0x8cb6ff).secondaryColor(0x3962d7).iconSet("rough")
-        .formula("ᛗ")
+        .color(0x3a63da).secondaryColor(0x160539).iconSet(`rough`)
+        .formula(`ᛗ`)
 
-    event.create('livingrock')
+    event.create(`livingrock`)
         .color(0xd7d7c8)
         .iconSet(GTMaterialIconSet.ROUGH)
         .flags(
             GTMaterialFlags.GENERATE_PLATE
         )
-    event.create('livingwood')
+    event.create(`livingwood`)
         .color(0x34140c)
         .iconSet(GTMaterialIconSet.WOOD)
         .flags(

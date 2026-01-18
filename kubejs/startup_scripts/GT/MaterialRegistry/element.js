@@ -1,75 +1,75 @@
-GTCEuStartupEvents.registry("gtceu:element", event => {
-    event.create("infinity")
+GTCEuStartupEvents.registry(`gtceu:element`, event => {
+    event.create(`infinity`)
         .protons(999)
         .neutrons(999)
-        .symbol("∞");
+        .symbol(`∞`);
 //Botania Line
-    event.create("mana")
+    event.create(`mana`)
         .protons(34)
         .neutrons(3)
-        .symbol("ᛗ");
-    event.create("draconium")
-        .protons(175)
-        .neutrons(235)
-        .symbol("‡");
-    event.create("elementium")
+        .symbol(`ᛗ`);
+    event.create(`elementium`)
         .protons(123)
         .neutrons(321)
-        .symbol("El");
+        .symbol(`El`);
 //Nocturium  Line
-    event.create("nocturium")
+    event.create(`nocturium`)
         .protons(157)
         .neutrons(394)
-        .symbol("Nc");
+        .symbol(`Nc`);
 //Fission Line
-    event.create("celestite")
+    event.create(`celestite`)
         .protons(94)
         .neutrons(144)
-        .symbol("Pu-244");
-    event.create("uranium_236")
+        .symbol(`Pu-244`);
+    event.create(`uranium_236`)
         .protons(92)
         .neutrons(236)
-        .symbol("U-236");
-    event.create("polonium_210")
+        .symbol(`U-236`);
+    event.create(`polonium_210`)
         .protons(84)
         .neutrons(210)
-        .symbol("Po-210");  
-    event.create("bismuth_210")
+        .symbol(`Po-210`);  
+    event.create(`bismuth_210`)
         .protons(94)
         .neutrons(209)
-        .symbol("Bi-210");
-    event.create("beryllium_4")
+        .symbol(`Bi-210`);
+    event.create(`beryllium_4`)
         .protons(4)
         .neutrons(4)
-        .symbol("Be-4");
+        .symbol(`Be-4`);
 //Aspect
-    event.create("aqua")
+    event.create(`aqua`)
         .protons(80)
         .neutrons(76)
-        .symbol("Aq");
-    event.create("terra")
+        .symbol(`Aq`);
+    event.create(`terra`)
         .protons(80)
         .neutrons(76)
-        .symbol("Ea");
-    event.create("ignis")
+        .symbol(`Ea`);
+    event.create(`ignis`)
         .protons(80)
         .neutrons(76)
-        .symbol("Fr");
-    event.create("aer")
+        .symbol(`Fr`);
+    event.create(`aer`)
         .protons(80)
         .neutrons(76)
-        .symbol("Ae");
+        .symbol(`Ae`);
 //Bedrock Line
-    event.create("bedrock")
-        .protons(999)
-        .neutrons(999)
-        .symbol("Bc");
-    event.create("lesser_bedrock")
-        .protons(215)
-        .neutrons(365)
-        .symbol("Bc-365");
-    event.create("greater_bedrock")
-        .protons(215)
-        .neutrons(366)
-        .symbol("Bc-366");
+    event.create(`draconium`)
+        .protons(255)
+        .neutrons(78)
+        .symbol(`Bm-255`);
+    event.create(`awakened_draconium`)
+        .protons(256)
+        .neutrons(78)
+        .symbol(`Dm-256`);
+    event.create(`chaotic_draconium`)
+        .protons(257)
+        .neutrons(78)
+        .symbol(`Dm-257`);
+    event.create(`infinity_draconium`)
+        .protons(258)
+        .neutrons(78)
+        .symbol(`Dm-258`);
 })

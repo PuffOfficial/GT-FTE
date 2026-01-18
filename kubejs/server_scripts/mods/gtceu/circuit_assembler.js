@@ -1,30 +1,4 @@
 ServerEvents.recipes(event => {
-      event.recipes.gtceu.circuit_assembler('gtfte:1k_component')
-            .itemInputs(['2x ae2:logic_processor', '4x gtceu:certus_quartz_plate', global.LV.CircuitMulti(1), '2x ae2:quartz_glass', 'ae2:memory_processor'])
-            .itemOutputs('2x ae2:cell_component_1k')
-            .duration(200)
-            .EUt(GTValues.VA[GTValues.MV]);
-      event.recipes.gtceu.circuit_assembler('gtfte:4k_component')
-            .itemInputs(['2x ae2:logic_processor', '4x gtceu:certus_quartz_plate', global.MV.CircuitMulti(1), '4x ae2:quartz_glass', '2x ae2:cell_component_1k', 'ae2:memory_processor'])
-            .itemOutputs('2x ae2:cell_component_4k')
-            .duration(200)
-            .EUt(GTValues.VA[GTValues.MV]);
-      event.recipes.gtceu.circuit_assembler('gtfte:16k_component')
-            .itemInputs(['2x ae2:logic_processor', '4x gtceu:certus_quartz_plate', global.HV.CircuitMulti(1), '8x ae2:quartz_glass', '2x ae2:cell_component_4k', 'ae2:memory_processor'])
-            .itemOutputs('2x ae2:cell_component_16k')
-            .duration(200)
-            .EUt(GTValues.VA[GTValues.MV]);
-      event.recipes.gtceu.circuit_assembler('gtfte:64k_component')
-            .itemInputs(['4x ae2:logic_processor', '8x gtceu:certus_quartz_plate', global.EV.CircuitMulti(1), '16x ae2:quartz_glass', '2x ae2:cell_component_16k', 'ae2:memory_processor'])
-            .itemOutputs('2x ae2:cell_component_64k')
-            .duration(200)
-            .EUt(GTValues.VA[GTValues.MV]);
-      event.recipes.gtceu.circuit_assembler('gtfte:256k_component')
-            .itemInputs(['8x ae2:logic_processor', '16x gtceu:certus_quartz_plate', global.IV.CircuitMulti(1), '32x ae2:quartz_glass', '2x ae2:cell_component_64k', 'ae2:memory_processor'])
-            .itemOutputs('2x ae2:cell_component_256k')
-            .duration(200)
-            .EUt(GTValues.VA[GTValues.MV]);
-
       event.recipes.gtceu.circuit_assembler('gtfte:stargate_computation_mainframe')
             .itemInputs(['16x gtceu:terrasteel_frame', global.IV.CircuitMulti(4), '64x gtceu:styrene_butadiene_rubber_ring', 'kubejs:ram_mainframe', '4x gtceu:ev_sensor', '4x gtceu:ev_emitter'])
             .itemOutputs('kubejs:stargate_computation_mainframe')

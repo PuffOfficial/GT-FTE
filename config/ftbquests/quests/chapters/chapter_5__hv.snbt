@@ -19,7 +19,7 @@
 		{
 			dependencies: [
 				"037DB579F5E7A700"
-				"1F261EC63F00BEE0"
+				"7BB3829EDCF68E6E"
 			]
 			id: "71814F73D267D242"
 			rewards: [{
@@ -191,6 +191,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "54D31F21FC76FECA"
@@ -203,7 +204,6 @@
 		{
 			dependencies: [
 				"4F268C87B28D547D"
-				"1F261EC63F00BEE0"
 				"179925835028C313"
 			]
 			id: "598D4307DC8D28DF"
@@ -212,6 +212,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "7566851212BD165B"
@@ -224,9 +225,9 @@
 		{
 			dependencies: ["598D4307DC8D28DF"]
 			description: [
-				"Better automate polyethylene early, because it will be required really often in HV and EV"
+				"Better automate polyethylene early, because it will be required really often in &6HV&r and &dEV&r"
 				""
-				"Like right now! You need to make a simple cleanroom"
+				"Like right now! You need to make a cleanroom"
 			]
 			id: "5AD2C7ADF2D02146"
 			rewards: [{
@@ -234,6 +235,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "7C34EB792BF5881C"
@@ -241,19 +243,12 @@
 					type: "item"
 				}
 				{
-					count: 75L
-					id: "3A56A6FBE5BD8002"
-					item: { Count: 75, id: "gtceu:plascrete" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "530F5AA8740CA5C2"
-					item: { Count: 8, id: "gtceu:filter_casing" }
+					id: "5DF0D98D25382370"
+					item: "gtceu:filter_casing"
 					type: "item"
 				}
 			]
-			title: "3x3 Cleanroom"
+			title: "Cleanroom"
 			x: 3.0d
 			y: -3.0d
 		}
@@ -265,6 +260,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			subtitle: "Another one?"
 			tasks: [{
 				id: "0B9FEF2DF2E058F1"
@@ -403,22 +399,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["1EE6B11EE6E3AA8D"]
-			id: "44D6F0BC09E682EC"
-			rewards: [{
-				id: "20BBF84AF78AD6EA"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "04927274A1836ED1"
-				item: "gtceu:hv_reconstruction_chamber"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["341F5E87D65F4FDD"]
 			description: ["Throw lead dust in to the mana pool with mana, and you will get ilmenite!"]
 			id: "0CE7A33CE4104011"
@@ -495,6 +475,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "2688E95BFCB398C3"
@@ -561,6 +542,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "16A1B1C30D3537F3"
 				title: "AE2"
@@ -612,6 +594,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "7FAC49B38EE7CA46"
 				item: "gtceu:nether_imbued_lava_bucket"

@@ -35,6 +35,7 @@ ServerEvents.tags('item', event => {
      event.removeAllTagsFrom('thermal:bronze_ingot')
      event.removeAllTagsFrom('thermal:bronze_plate')
 
+     event.add('gtfte:anything', Ingredient.all.itemIds)
 
      event.add('botania:terrasteel_ingots', 'gtceu:terrasteel_ingot')
      event.add('botania:elementium_ingots', 'gtceu:elementium_ingot')
@@ -54,6 +55,8 @@ ServerEvents.tags('item', event => {
 
      event.add('gtfte:has_pr_stick',['kubejs:stone_stick', 'minecraft:stick'])
      event.add('gtfte:has_pr_crook',['kubejs:stone_spade', 'exdeorum:crook'])
+
+     event.add('gtfte:simulation_data',['kubejs:zombie_data','kubejs:skeleton_data','kubejs:enderman_data','kubejs:creeper_data','kubejs:blaze_data','kubejs:spider_data'])
 
 })
 ServerEvents.tags('block', event => {

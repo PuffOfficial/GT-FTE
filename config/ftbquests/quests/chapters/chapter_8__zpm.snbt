@@ -135,38 +135,115 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["3CE8DE09CF6B1DD7"]
-			description: ["Yo, remember there was some dimension called \"Abydos\"?"]
-			id: "7F0AE9A6E652BC8D"
+			dependencies: ["1ECCCECBE241A6B2"]
+			id: "30D651E27E494C96"
 			tasks: [{
-				id: "57607C6A462405F6"
-				item: "gtceu:raw_ancient_sand"
+				id: "4A4B3E1A644EAEA8"
+				item: "gtceu:trinium_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["7F0AE9A6E652BC8D"]
-			id: "3DCB506885FD032D"
-			tasks: [{
-				id: "5B9070B06C080EF3"
-				item: "gtceu:ancient_metal_solution_bucket"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
+			dependencies: ["34200949BA7F72DC"]
+			description: ["You probably expected computers only in late ZPM-early UV, but as you see, you need them now!"]
+			id: "425D8A14B797AFEE"
+			shape: "gear"
+			tasks: [
+				{
+					id: "7050B9C3F7F6FC50"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "73A89A203FAB2541"
+					item: "gtceu:computer_casing"
+					type: "item"
+				}
+			]
+			title: "Crucial computer parts"
+			x: -3.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["3DCB506885FD032D"]
-			id: "484225FC0E697061"
+			dependencies: ["425D8A14B797AFEE"]
+			id: "3ECF098957D9E770"
 			tasks: [{
-				id: "2AC1DE0F8B2347DF"
-				item: "gtceu:ancient_metal_mixture_dust"
+				id: "7E98F79BD635B264"
+				item: "gtceu:matter_fabricator"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["425D8A14B797AFEE"]
+			id: "3A3ED9D3B035489C"
+			subtitle: "HNN on low budget"
+			tasks: [{
+				id: "2D997F7D1157BF43"
+				item: "gtceu:simulation_array"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["69CB6727D18F1428"]
+			id: "23F381193CF1E60E"
+			shape: "gear"
+			tasks: [{
+				id: "6B4533F707EE12BE"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "gtfte:simulation_data"
+					}
+				}
+				title: "Any #gtfte:simulation_data"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["425D8A14B797AFEE"]
+			id: "69CB6727D18F1428"
+			tasks: [{
+				id: "189403B5D2508866"
+				item: "gtceu:research_station"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3ECF098957D9E770"]
+			id: "3EED55816778E695"
+			tasks: [{
+				id: "2D447E2C4FCAC71C"
+				item: "gtceu:uu_matter_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"23F381193CF1E60E"
+				"3EED55816778E695"
+				"3A3ED9D3B035489C"
+			]
+			id: "6BDAF73BDECEF105"
+			tasks: [{
+				id: "1333BDAAA75E634E"
+				item: "enderio:xp_juice_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
 		}
 	]
 	subtitle: [

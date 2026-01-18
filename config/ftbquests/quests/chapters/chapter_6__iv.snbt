@@ -36,8 +36,8 @@
 	quests: [
 		{
 			dependencies: [
-				"4F340A1CE2CEBE5D"
 				"3C77E5AB51BB570B"
+				"3865EDCA5B62A8E5"
 			]
 			description: ["There will be MUCH more magic"]
 			id: "2494CE22E5E552E4"
@@ -750,6 +750,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			tasks: [
 				{
@@ -950,6 +951,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "42F325F90B5AD450"
 				item: "gtceu:radiation_resistant_alloy_ingot"
@@ -1112,6 +1114,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "3D76BD43B245D6C0"
 				item: "gtceu:large_arc_smelter"
@@ -1387,6 +1390,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				count: 16L
 				id: "71312A19FA31CFED"
@@ -1436,48 +1440,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2C9EA21BB34FF410"]
-			id: "3218947A631C4627"
-			rewards: [{
-				id: "50AE7B1BE642D8C6"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3F99363F84030764"
-				item: "kubejs:hss_plated_nocturium_casing"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"3218947A631C4627"
-				"335D4354759A3B80"
-			]
-			id: "35A1D9D61BDC19FB"
-			rewards: [{
-				id: "0C07C2B616CC954C"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 1.0d
-			subtitle: "The hell is this"
-			tasks: [{
-				id: "36717EA67E6D94A0"
-				item: "gtceu:star_forge"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"35A1D9D61BDC19FB"
-				"5077D1735799F657"
-			]
+			dependencies: ["5077D1735799F657"]
 			id: "4B808659905090CE"
 			rewards: [{
 				id: "6D31D962D70593CD"
@@ -1774,6 +1737,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "3223EC7A080D2A1E"
 				item: "gtceu:gaia_steel_ingot"
@@ -2090,6 +2054,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			subtitle: "Not That Cool LuV Circuit"
 			tasks: [{

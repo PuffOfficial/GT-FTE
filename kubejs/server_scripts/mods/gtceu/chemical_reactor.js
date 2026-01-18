@@ -59,10 +59,4 @@ event.recipes.gtceu.chemical_reactor("gtfte:uhpic_wafer")
         .duration(1200)
         .cleanroom(CleanroomType.getByName("ionizing"))
         .EUt(GTValues.VA[GTValues.LuV]);
-//Honey Rubber
-event.recipes.gtceu.chemical_reactor('gtfte:honey_rubber')
-        .itemInputs(['9x gtceu:raw_honey_rubber_dust','3x gtceu:sulfur_dust'])
-        .outputFluids([`gtceu:honey_rubber 1296`])
-        .duration(200)
-        .EUt(GTValues.VA[GTValues.LV]);
 })

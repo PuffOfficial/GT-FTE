@@ -51,7 +51,6 @@ function AlchemyOverclock(machine, recipe) {
     }
     return ModifierFunction.IDENTITY
 }
-//Comb Centrifuge Logic
 
 //ULV Parallel Logic, but has issue with the programmed circuit recipes <= NEEDS TO BE FIXED (Feel free to you use it)
 function ULVParallel(machine, recipe, parallelAmount) {

@@ -1,0 +1,17 @@
+// Compost colors for unstabletools. You may add your own colors, change existing ones, or remove colors that aren't needed.
+division_sign, #dcdcdc
+inactive_division_sign, #dcdcdc
+stable_division_sign, #dcdcdc
+unstable_axe, #ffffff
+unstable_boots, #ffffff
+unstable_bow, #ffffff
+unstable_chestplate, #ffffff
+unstable_fishing_rod, #ffffff
+unstable_helmet, #ffffff
+unstable_hoe, #ffffff
+unstable_ingot, #ffffff
+unstable_leggings, #ffffff
+unstable_pickaxe, #ffffff
+unstable_shears, #ffffff
+unstable_shovel, #ffffff
+unstable_sword, #ffffff

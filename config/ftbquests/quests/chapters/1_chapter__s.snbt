@@ -71,6 +71,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				count: 8L
 				id: "743833AC9733EB30"
@@ -88,6 +89,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "672F97BEB0197F22"
 				item: {
@@ -110,6 +112,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "480667BFE9586245"
 				item: "minecraft:furnace"
@@ -125,6 +128,7 @@
 				"Or just shift+right click &2grass&r in peaceful with spade in main hand"
 			]
 			id: "7108651344CB541D"
+			shape: "gear"
 			tasks: [{
 				id: "334CCC250205766E"
 				item: "minecraft:oak_sapling"
@@ -299,6 +303,7 @@
 				"512087A7EA8C7EC0"
 			]
 			id: "6245C55A807D1DDF"
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "39FC332816568C9A"
@@ -343,6 +348,7 @@
 		}
 		{
 			dependencies: ["29D26608B96FC714"]
+			description: ["Try Shift+Right Clicking grass or dirt."]
 			id: "3A3750F553391CAC"
 			tasks: [{
 				id: "1669007CF37AE001"

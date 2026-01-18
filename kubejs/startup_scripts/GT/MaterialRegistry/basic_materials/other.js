@@ -1,20 +1,21 @@
 // Priority: 999
-GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
-    event.create('ceramic').parent('dull')
-    event.create('pearl').parent('ruby')
-    event.create('gaia').parent('metallic')
-    event.create('infinity').parent('metallic')
-    event.create('charged').parent('dull')
+GTCEuStartupEvents.registry(`gtceu:material_icon_set`, event => {
+    event.create(`ceramic`).parent(`dull`)
+    event.create(`pearl`).parent(`ruby`)
+    event.create(`gaia`).parent(`metallic`)
+    event.create(`infinity`).parent(`metallic`)
+    event.create(`charged`).parent(`dull`)
+    event.create(`primal`).parent(`ruby`)
 })
 
-GTCEuStartupEvents.registry("gtceu:material", event => {
-    event.create("ceramic")
+GTCEuStartupEvents.registry(`gtceu:material`, event => {
+    event.create(`ceramic`)
         .ingot()
-        .color(0x9b6045).secondaryColor(0x83513c).iconSet("ceramic")
+        .color(0x9b6045).secondaryColor(0x83513c).iconSet(`ceramic`)
         .flags(GTMaterialFlags.GENERATE_PLATE)
-    event.create("infinity")
+    event.create(`infinity`)
         .ingot()
-        .iconSet("infinity")
+        .iconSet(`infinity`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -24,17 +25,39 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_BOLT_SCREW,
             GTMaterialFlags.GENERATE_RING
         )
-        .element(GTElements.get("infinity"));
+        .element(GTElements.get(`infinity`));
 
-    event.create("artificial_amethyst")
+    event.create(`artificial_amethyst`)
         .gem()
         .color(0xc796f6).secondaryColor(0x7a3f7f).iconSet(GTMaterialIconSet.RUBY)
         .flags(GTMaterialFlags.GENERATE_PLATE)
-        .formula("(SiO2)4Fe");
+        .formula(`(SiO2)4Fe`);
 
-    event.create("naquadah_fused_plastic")
+    event.create(`hafnium_carbonitride`)
         .ingot()
         .color(0x30261d).secondaryColor(0x1f4925).iconSet(GTMaterialIconSet.DULL)
         .flags(GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_PLATE)
-        .formula("Nq2(C12H10O4)(ZrO2)");
+        .formula(`HyCN`);
+    
+    event.create(`scrap`)
+        .gem()
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0x482c23).secondaryColor(0x152710).iconSet(GTMaterialIconSet.LIGNITE);
+
+    event.create(`pyrotheum`)
+        .dust()
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0xfed14b).secondaryColor(0xfe874b).iconSet(`primal`);
+    event.create(`cryotheum`)
+        .dust()
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0xb6e7ff).secondaryColor(0x59b4e2).iconSet(`primal`);
+    event.create(`aerotheum`)
+        .dust()
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0xffed89).secondaryColor(0xe1dca0).iconSet(`primal`);
+    event.create(`petrotheum`)
+        .dust()
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0x362e2c).secondaryColor(0x333333).iconSet(`primal`);
 })

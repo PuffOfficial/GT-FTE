@@ -44,6 +44,7 @@
 		{
 			dependencies: ["74E4A7EA06264A37"]
 			id: "2573BB3C8659FC67"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "78B12C6799378CE1"
@@ -64,6 +65,7 @@
 			dependencies: ["5643E6BFF3514DA4"]
 			description: ["Free power out of &6lava&r! Automate it through Ex Deorum"]
 			id: "24D1D45E50705728"
+			shape: "diamond"
 			size: 1.25d
 			tasks: [{
 				id: "1961BC8F92C6E6C7"
@@ -76,6 +78,7 @@
 		{
 			dependencies: ["2573BB3C8659FC67"]
 			id: "5643E6BFF3514DA4"
+			shape: "diamond"
 			tasks: [{
 				id: "22FE0AB8438779A2"
 				item: "gtceu:lv_magmatic_dynamo"
@@ -87,6 +90,7 @@
 		{
 			dependencies: ["74E4A7EA06264A37"]
 			id: "2509450198728111"
+			shape: "gear"
 			tasks: [{
 				id: "7F910DDB4504FC0F"
 				item: "gtceu:lv_machine_hull"
@@ -224,6 +228,7 @@
 				"5955E1625D920AD9"
 			]
 			id: "7F1A662BC5DD5056"
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "4A85D69F71E3D923"
@@ -351,6 +356,7 @@
 				"205438A3BCBB794E"
 			]
 			id: "623A17C3B9F530E3"
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "5C17DB0A83E5C8E9"
@@ -464,7 +470,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -483,6 +489,7 @@
 		{
 			dependencies: ["4A8DF8E168EA488A"]
 			id: "79B3225C4417161E"
+			shape: "gear"
 			tasks: [{
 				id: "4C43B65E3B3D8742"
 				item: "gtceu:polylactic_acid_plate"

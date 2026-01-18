@@ -470,6 +470,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "01A92903F61238B1"
 				item: "gtceu:large_chemical_reactor"
@@ -579,7 +580,7 @@
 			description: [
 				"Why won't we use normal terrestrial plates? I don't know, P-Corp disabled them for &osome&r reason"
 				""
-				"&8P.S. They were totally not bugged&r"
+				"&8P.S. They were bugged&r"
 			]
 			id: "7D0766AFFB500CCC"
 			rewards: [{
@@ -595,31 +596,33 @@
 					type: "item"
 				}
 				{
-					count: 36L
-					id: "6252D5C089DEB943"
-					item: { Count: 36, id: "gtceu:tempered_glass" }
-					type: "item"
-				}
-				{
-					count: 20L
-					id: "6A7510498423737A"
-					item: { Count: 20, id: "gtceu:manasteel_frame" }
-					type: "item"
-				}
-				{
-					count: 6L
-					id: "1AECF93D8C360B49"
-					item: { Count: 6, id: "gtceu:stainless_steel_gearbox" }
-					type: "item"
-				}
-				{
+					count: 5L
 					id: "0F2B955F933FC364"
 					item: "kubejs:manasteel_coil"
 					type: "item"
 				}
 				{
-					id: "48C10C87B8770042"
-					item: "kubejs:hv_mana_amplifier"
+					count: 8L
+					id: "382AD1340B277075"
+					item: { Count: 8, id: "chipped:ancient_gold_block" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "6DD6DC3188921EC2"
+					item: { Count: 15, id: "kubejs:manasteel_plated_livingrock_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "276551E0DB53999E"
+					item: "botania:mana_pylon"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B199C243D5F435B"
+					item: { Count: 4, id: "botania:livingrock_bricks_slab" }
 					type: "item"
 				}
 			]
@@ -710,6 +713,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "2DD1AF89B852EA8A"
@@ -792,6 +796,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "704B144E345A1F37"
 				item: "gtceu:lpg_bucket"
@@ -808,6 +813,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2AFB4D1E99677059"
 				item: "manafluid:mana_bucket"
@@ -828,6 +834,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "31BC397B0E3C6F42"
 				item: "gtceu:mana_fused_lpg_bucket"
@@ -844,6 +851,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [
 				{
 					id: "0DF441548F72A083"
@@ -872,6 +880,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "470E08FD535286C6"
 				item: "gtceu:hv_electric_mana_garden"
@@ -976,22 +985,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["6EA41DEEEC04B684"]
-			id: "204AD55237D91ACC"
-			rewards: [{
-				id: "51B1231C3D475FCA"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5523A9834488308D"
-				item: "gtceu:tungsten_steel_dust"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 6.5d
-		}
-		{
 			dependencies: ["3C77E5AB51BB570B"]
 			id: "1FEB3ECD07296880"
 			rewards: [{
@@ -1006,23 +999,6 @@
 			}]
 			x: 1.5d
 			y: -7.0d
-		}
-		{
-			dependencies: ["204AD55237D91ACC"]
-			id: "4F340A1CE2CEBE5D"
-			rewards: [{
-				id: "59495A0F66AC3049"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "1E487AFFFAEB94B0"
-				item: "gtceu:iv_machine_casing"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 8.0d
 		}
 		{
 			dependencies: ["64274F8F54EE8894"]
@@ -1299,6 +1275,19 @@
 			}]
 			x: -2.5d
 			y: -10.0d
+		}
+		{
+			dependencies: ["6EA41DEEEC04B684"]
+			id: "3865EDCA5B62A8E5"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "1426B6C4BA18D053"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Stargate: GT-7"]

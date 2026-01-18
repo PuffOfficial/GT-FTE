@@ -51,7 +51,6 @@ event.shaped('gtceu:ulv_assembler', [
         .itemOutputs('4x gtceu:resistor')
         .duration(150)
         .EUt(GTValues.VA[GTValues.LV]);
-    
     event.recipes.gtceu.assembler('gtfte:resistor_type3')
         .itemInputs('2x gtceu:coal_dust', '4x gtceu:fine_copper_wire')
         .inputFluids('gtceu:glue 100')
@@ -71,22 +70,23 @@ event.shaped('gtceu:ulv_assembler', [
         .duration(200)
         .EUt(GTValues.VA[GTValues.MV]);
 // MARK: Coils
-    event.recipes.gtceu.assembler('gtfte:red_alloy_coil')
-        .itemInputs('8x gtceu:red_alloy_double_wire', '8x gtceu:steel_foil')
-        .itemOutputs('kubejs:red_alloy_coil')
-        .duration(200)
-        .EUt(GTValues.VA[GTValues.LV]);
     event.recipes.gtceu.assembler('gtfte:manasteel_coil')
         .itemInputs('8x gtceu:galvanized_manasteel_double_wire', '8x gtceu:stainless_steel_foil')
         .itemOutputs('kubejs:manasteel_coil')
         .duration(200)
         .EUt(GTValues.VA[GTValues.HV]);
-// MARK: Coils
     event.recipes.gtceu.assembler('gtfte:copper_coil')
         .itemInputs('8x gtceu:copper_double_wire', '8x gtceu:steel_foil')
         .inputFluids('gtceu:tin_alloy 144')
         .itemOutputs('kubejs:copper_coil')
         .duration(200)
+        .EUt(GTValues.VA[GTValues.LV]);
+// MARK: Other
+    event.recipes.gtceu.assembler('gtfte:scrap_box')
+        .itemInputs('3x gtceu:scrap_gem', '2x minecraft:paper')
+        .inputFluids('gtceu:glue 20')
+        .itemOutputs('gtceu:scrap_box')
+        .duration(600)
         .EUt(GTValues.VA[GTValues.LV]);
 // MARK: Botania
     event.recipes.gtceu.assembler('gtfte:petal_apothecary')

@@ -129,10 +129,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3D4008D7CA276577"
-				"4E19A7686399FB89"
-			]
+			dependencies: ["3D4008D7CA276577"]
 			icon: "gtceu:stainless_steel_ingot"
 			id: "4E472D79CEA6DFC1"
 			rewards: [{
@@ -179,10 +176,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"3D4008D7CA276577"
-				"204AD55237D91ACC"
-			]
+			dependencies: ["3D4008D7CA276577"]
 			icon: "gtceu:tungsten_steel_ingot"
 			id: "7CB22472E0A86F9A"
 			rewards: [{

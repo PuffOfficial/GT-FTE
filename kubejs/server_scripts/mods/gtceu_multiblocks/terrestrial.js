@@ -16,5 +16,4 @@ ServerEvents.recipes(event => {
     .inputFluids('manafluid:mana 10000')
     .itemOutputs('gtceu:terrasteel_ingot')
     .duration(1200)
-    .EUt(2048)
 })

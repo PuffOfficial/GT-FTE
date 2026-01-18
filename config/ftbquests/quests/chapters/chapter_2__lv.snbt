@@ -82,6 +82,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "7DC84387F82247F9"
 				item: "gtceu:ulv_machine_hull"
@@ -148,7 +149,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "Not cheaper rubber"
+			subtitle: "Probably cheaper rubber?"
 			tasks: [{
 				id: "16C235160EB8A559"
 				item: "gtceu:ulv_extractor"
@@ -383,6 +384,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "71FBF44822292CED"
 				item: "gtceu:steel_ingot"
@@ -453,6 +455,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "3A19C9A65564C29F"
@@ -589,7 +592,7 @@
 			]
 			title: "Verdant Copper"
 			x: 6.0d
-			y: -3.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7CD8A8BF79B0C7B7"]
@@ -623,40 +626,10 @@
 			]
 			title: "Root Iron"
 			x: 6.0d
-			y: -4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"1710510F5855B4C6"
-				"7CD8A8BF79B0C7B7"
-			]
-			description: ["By putting ender pearls in to extractor, you can get 4 milibuckets of potassium, and dragon's eye"]
-			icon: "gtceu:dragon_gold_ingot"
-			id: "20DC23256B7FD46E"
-			rewards: [{
-				id: "73EBEDCED2E3384E"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "376A2CB82E78175D"
-					item: "rootsclassic:dragons_eye"
-					type: "item"
-				}
-				{
-					id: "68BB07AEFCD91C8D"
-					item: "gtceu:dragon_gold_ingot"
-					type: "item"
-				}
-			]
-			title: "Dragon Gold"
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"20DC23256B7FD46E"
 				"12BC49D2BB967B94"
 				"4A08A3ECB0190812"
 			]
@@ -666,6 +639,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [
 				{
 					id: "20BEC376165886D7"
@@ -767,6 +741,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0DC127BF58276167"
 				item: "gtceu:primitive_electric_furnace"
@@ -783,6 +758,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "76B10CDCA2ED2D0F"
 				item: "forestry:worktable"
@@ -844,6 +820,7 @@
 		{
 			dependencies: ["43E6A51234A307E8"]
 			id: "572F7C8EA97556B7"
+			shape: "diamond"
 			tasks: [{
 				id: "58450B592B8EE953"
 				item: "gtceu:primitive_bender"

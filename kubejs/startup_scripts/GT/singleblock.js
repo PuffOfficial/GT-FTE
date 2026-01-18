@@ -43,16 +43,27 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.COMPRESSOR)
 
+    event.create('recycling')
+        .category('singleblock')
+        .setEUIO('in')
+        .setMaxIOSize(1, 1, 0, 0)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_RECYCLER, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.COMPRESSOR)
+
+    event.create('replication')
+        .category('singleblock')
+        .setEUIO('in')
+        .setMaxIOSize(3, 4, 1, 2)
+        .setProgressBar(GuiTextures.PROGRESS_BAR_REPLICATOR, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.ARC)
+
 })
 //CUSTOM MACHINES
-
-
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     function RegisterSimpleSingleblock(ID, RecipeType, DisplayName, HullModel, Tiers) {
         event.create(ID, 'simple')
             .tiers(Tiers)
             .definition((tier, builder) => builder
-                .langValue(GTValues.VLVH[tier] + ` ${DisplayName}`)
                 .recipeTypes(RecipeType)
                 .workableTieredHullModel(`gtceu:block/machines/${HullModel}`)
             );
@@ -82,20 +93,19 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 
     RegisterSimpleSingleblock("electric_mana_garden", "mana_garden", "Mana Garden", "mana_garden", [GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM])
     RegisterSimpleSingleblock("3d_printer", "threed_printing", "3D Printer", "3d_printer", [GTValues.LV,GTValues.MV,GTValues.HV,GTValues.EV,GTValues.IV,GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV])
+    RegisterSimpleSingleblock("recycler", "recycling", "Recycler", "recycler", [GTValues.LV,GTValues.MV,GTValues.HV,GTValues.EV,GTValues.IV,GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV])
 })
-
+    
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create("hydrokinetic_dynamo", 'generator')
         .tiers(GTValues.ULV)
         .definition((tier, builder) => builder
-            .langValue(GTValues.VLVH[tier] + ` Hydrokinetic Dynamo`)
             .recipeTypes("hydrokinetic_dynamo")
             .workableTieredHullModel(`gtceu:block/machines/water_wheel`)
         );
     event.create("magmatic_dynamo", 'generator')
         .tiers([GTValues.LV, GTValues.MV, GTValues.HV])
         .definition((tier, builder) => builder
-            .langValue(GTValues.VLVH[tier] + ` Magmatic Dynamo`)
             .recipeTypes("magmatic_dynamo")
             .workableTieredHullModel(`gtceu:block/machines/magmatic_dynamo`)
         );

@@ -19,7 +19,7 @@
 	/**
 	 * Where EMI should pull stacks from to populate the index.
 	 */
-	index-source: creative;
+	index-source: creative-plus-registered;
 
 	/**
 	 * Which sidebar should be searched using the search bar.
@@ -156,7 +156,7 @@
 	/**
 	 * Whether recipes should have a button to take a screenshot of the recipe.
 	 */
-	recipe-screenshot-button: false;
+	recipe-screenshot-button: true;
 
 	/**
 	 * The GUI scale at which recipe screenshots are saved. Use 0 to use the current
@@ -430,7 +430,7 @@
 	/**
 	 * Copies the hovered recipe's ID to the clipboard
 	 */
-	copy-recipe-id: "key.keyboard.unknown";
+	copy-recipe-id: "key.keyboard.apostrophe";
 
 	/**
 	 * In edit mode, hide the hovered stack

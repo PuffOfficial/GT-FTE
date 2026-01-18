@@ -52,6 +52,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "7C9F704395CEF080"
 				item: "gtceu:mv_machine_hull"
@@ -303,6 +304,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "1FD0FE462A68AF28"
 				item: "gtceu:silicon_ingot"
@@ -726,43 +728,6 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"69CF9FC12EF42C7B"
-				"2C9F3A9B75752104"
-				"2B80D5A58340C3E8"
-			]
-			id: "4E19A7686399FB89"
-			rewards: [{
-				id: "1E5DBA86AF7A38BB"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "63B8378EA5216063"
-				item: "gtceu:stainless_steel_dust"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["4E19A7686399FB89"]
-			id: "1F261EC63F00BEE0"
-			rewards: [{
-				id: "13132E0DDBD9E5DF"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			size: 1.25d
-			tasks: [{
-				id: "6FEE7E281C74830D"
-				item: "gtceu:hv_machine_casing"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -12.5d
-		}
-		{
 			dependencies: ["7F4C6CCBD315351F"]
 			id: "14B6BFDF16837E05"
 			rewards: [{
@@ -805,6 +770,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "48135FE4CD287D50"
 				item: "gtceu:polyethylene_plate"
@@ -812,41 +778,6 @@
 			}]
 			x: 2.5d
 			y: -10.5d
-		}
-		{
-			dependencies: ["1F67E822AB370A93"]
-			description: ["I think i cooked with those textures"]
-			id: "2AA0D4FB9A6AE157"
-			rewards: [{
-				id: "40FD3FD86F203EDD"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "00075CD3314B5C57"
-					item: "ae2:logic_processor"
-					type: "item"
-				}
-				{
-					id: "4557A1B939EBE124"
-					item: "ae2:calculation_processor"
-					type: "item"
-				}
-				{
-					id: "7C381723CC87038E"
-					item: "ae2:engineering_processor"
-					type: "item"
-				}
-				{
-					id: "55BE33DFC0A956C0"
-					item: "ae2:memory_processor"
-					type: "item"
-				}
-			]
-			title: "AE2 Processors"
-			x: 1.5d
-			y: -14.0d
 		}
 		{
 			dependencies: ["61E6610AC9E80C1C"]
@@ -890,6 +821,7 @@
 		{
 			dependencies: ["14B6BFDF16837E05"]
 			id: "037DB579F5E7A700"
+			shape: "gear"
 			size: 1.25d
 			tasks: [{
 				id: "292C3AC21F5ED140"
@@ -898,6 +830,22 @@
 			}]
 			x: 0.0d
 			y: -12.5d
+		}
+		{
+			dependencies: [
+				"69CF9FC12EF42C7B"
+				"2B80D5A58340C3E8"
+			]
+			id: "7BB3829EDCF68E6E"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "6F613877445FB711"
+				item: "gtceu:stainless_steel_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
 		}
 	]
 	subtitle: ["Mana \\&\\ Electricity "]

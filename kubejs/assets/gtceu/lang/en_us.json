@@ -107,11 +107,18 @@
     "material.gtceu.mana_fused_lpg": "Mana-Fused LPG",
     "material.gtceu.nether_imbued_lava": "Nether-Imbued Lava",
 
+    "material.gtceu.pyrotheum": "Pyrotheum",
+    "material.gtceu.cryotheum": "Cryotheum",
+    "material.gtceu.aerotheum": "Aerotheum",
+    "material.gtceu.petrotheum": "Petrotheum",
+
+    "material.gtceu.scrap": "Scrap",
+
     "multiblocks": "<---MULTIBLOCKS--->",
 
     "block.gtceu.energizer": "Energizing Chamber",
     "block.gtceu.reconstruction_chamber": "Atomic Reconstruction Chamber",
-    "block.gtceu.terrestrial": "Terrestrial Chamber",
+    "block.gtceu.terrestrial": "Terrestrial Plate",
     "block.gtceu.sluice": "Sluice",
     "block.gtceu.primitive_electric_blast_furnace": "Primitive Electric Blast Furnace",
     "block.gtceu.steam_bender": "Steam Bender",
@@ -120,7 +127,7 @@
     "block.gtceu.etbf": "Extreme Temperature Blast Furnace",
     "block.gtceu.alchemical_crucible": "Alchemical Crucible",
     "block.gtceu.aspect_collector": "Aspect Collector",
-    "block.gtceu.fission_reactor": "C-High Flux Fission Reactor",
+    "block.gtceu.fission_reactor": "Fission Turbine",
     "block.gtceu.decay_chamber": "Decay Simulation Chamber",
     "block.gtceu.irradiation_chamber": "Irradiation Chamber",
     "block.gtceu.daycycle_simulation_chamber": "Daycycle Simulation Chamber",

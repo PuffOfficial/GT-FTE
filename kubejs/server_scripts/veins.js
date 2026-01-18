@@ -4,6 +4,7 @@ const ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey")
 
 
 GTCEuServerEvents.oreVeins(event => {
+    event.removeAll()
     //CUSTOM
     // MARK: ABYDOS:
     event.add("abydos/tungstate_pyrite", vein => {
@@ -48,7 +49,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.heightRangeUniform(10, 50)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(2).mat(GTMaterials.Goethite).size(1, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Goethite).size(1, 2))
                 .layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(1, 2))
                 .layer(l => l.weight(1).mat(GTMaterials.Hematite).size(1, 3))
                 .layer(l => l.weight(1).mat(GTMaterials.Malachite).size(1, 2))
@@ -104,22 +105,8 @@ GTCEuServerEvents.oreVeins(event => {
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(4).mat(GTMaterials.Naquadah).size(1, 4))
                 .layer(l => l.weight(1).mat(GTMaterials.Naquadah).size(1, 2))
-                .layer(l => l.weight(6).mat(GTMaterials.Naquadah).size(1, 1))
+                .layer(l => l.weight(6).mat(GTMaterials.Naquadah).size(1, 2))
                 .layer(l => l.weight(2).mat(GTMaterials.Plutonium239).size(1, 2))
-            )
-        )
-    })
-    event.add("abydos/ancient_sand", vein => {
-        vein.weight(1)
-        vein.density(0.15)
-        vein.clusterSize(25)
-        vein.layer("abydos_sand")
-        vein.dimensions("sgjourney:abydos")
-        vein.heightRangeUniform(60, 80)
-        vein.layeredVeinGenerator(generator => generator
-            .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(6).mat(GTMaterials.Naquadah).size(1, 1))
-                .layer(l => l.weight(2).mat(GTMaterials.get("ancient_sand")).size(1, 4))
             )
         )
     })
@@ -155,7 +142,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).mat(GTMaterials.Bastnasite).size(1, 3))
-                .layer(l => l.weight(2).mat(GTMaterials.Monazite).size(2, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Monazite).size(1, 2))
                 .layer(l => l.weight(1).mat(GTMaterials.Neodymium).size(1, 2))
             )
         )
@@ -170,7 +157,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).mat(GTMaterials.Lazurite).size(1, 3))
-                .layer(l => l.weight(2).mat(GTMaterials.Sodalite).size(2, 1))
+                .layer(l => l.weight(2).mat(GTMaterials.Sodalite).size(1, 2))
                 .layer(l => l.weight(1).mat(GTMaterials.Lapis).size(1, 2))
                 .layer(l => l.weight(1).mat(GTMaterials.Calcite).size(1, 2))
             )

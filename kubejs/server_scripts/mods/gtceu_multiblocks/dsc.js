@@ -1,11 +1,11 @@
 const MinecraftTrees = [
-        ['spruce', 'minecraft:air'],
+        ['spruce', 'minecraft:spruce_leaves'],
         ['oak', 'minecraft:apple'],
-        ['birch', 'minecraft:air'],
+        ['birch', 'minecraft:birch_leaves'],
         ['jungle', 'minecraft:vine'],
-        ['acacia', 'minecraft:air'],
+        ['acacia', 'minecraft:acacia_leaves'],
         ['dark_oak', 'minecraft:apple'],
-        ['cherry', 'minecraft:air']
+        ['cherry', 'minecraft:cherry_leaves']
 ]
 const PH2CTrees = [
         ['avocado'],

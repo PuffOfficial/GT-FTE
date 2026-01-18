@@ -135,54 +135,6 @@
 			x: 2.0d
 			y: -9.0d
 		}
-		{
-			id: "1692BD56F5942138"
-			linked_quest: "194B7E065E5DCCD5"
-			x: 16.0d
-			y: -7.0d
-		}
-		{
-			id: "4AF400B7066BDB9B"
-			linked_quest: "1B341A56CAAE76AB"
-			x: 17.0d
-			y: -7.0d
-		}
-		{
-			id: "14C8877C33FA0B5F"
-			linked_quest: "22CD1E903B0FACAF"
-			x: 18.0d
-			y: -7.0d
-		}
-		{
-			id: "4C113ABC58EFA108"
-			linked_quest: "54A5907626B7895C"
-			x: 19.0d
-			y: -6.0d
-		}
-		{
-			id: "3ADAC382B487AEEB"
-			linked_quest: "012EB06C4AED8692"
-			x: 17.0d
-			y: -6.0d
-		}
-		{
-			id: "7638B5A092B0E13F"
-			linked_quest: "39BBC8EB7A637F68"
-			x: 18.0d
-			y: -6.0d
-		}
-		{
-			id: "6E67A16BB0361664"
-			linked_quest: "4D7F406F38EDC1F3"
-			x: 19.0d
-			y: -5.0d
-		}
-		{
-			id: "70224F08BD8D9DEE"
-			linked_quest: "256C66CD998A36C7"
-			x: 20.0d
-			y: -5.0d
-		}
 	]
 	quests: [
 		{

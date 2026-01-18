@@ -1,37 +1,37 @@
-GTCEuStartupEvents.registry("gtceu:material", event => {
-    event.create("uranium_236")
+GTCEuStartupEvents.registry(`gtceu:material`, event => {
+    event.create(`uranium_236`)
         .ingot()
         .liquid()
         .color(0x42c639).secondaryColor(0x254117).iconSet(GTMaterialIconSet.RADIOACTIVE)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE)
         .radioactiveHazard(1)
-        .element(GTElements.get("uranium_236"));
-    event.create("polonium_210")
+        .element(GTElements.get(`uranium_236`));
+    event.create(`polonium_210`)
         .ingot()
         .liquid()
         .color(0x39aac6).secondaryColor(0x8ab9d8).iconSet(GTMaterialIconSet.RADIOACTIVE)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE)
         .radioactiveHazard(2)
-        .element(GTElements.get("polonium_210"));
-    event.create("bismuth_210")
+        .element(GTElements.get(`polonium_210`));
+    event.create(`bismuth_210`)
         .ingot()
         .liquid()
         .color(0x5ed095).secondaryColor(0x5c819a).iconSet(GTMaterialIconSet.RADIOACTIVE)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE)
         .radioactiveHazard(3)
-        .element(GTElements.get("bismuth_210"));
-    event.create("beryllium_4")
+        .element(GTElements.get(`bismuth_210`));
+    event.create(`beryllium_4`)
         .ingot()
         .liquid()
         .color(0x2da85c).secondaryColor(0x224e77).iconSet(GTMaterialIconSet.BRIGHT)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_FINE_WIRE)
         .radioactiveHazard(1)
-        .element(GTElements.get("beryllium_4"));
-    event.create("celestite")
+        .element(GTElements.get(`beryllium_4`));
+    event.create(`celestite`)
         .ingot()
         .liquid()
         .color(0xA4C639).secondaryColor(0x254117).iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_SMALL_GEAR)
         .radioactiveHazard(3)
-        .element(GTElements.get("celestite"));
+        .element(GTElements.get(`celestite`));
 })

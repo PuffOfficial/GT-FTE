@@ -149,6 +149,7 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'botania:mana_infusion/manasteel_block' })
     event.remove({ id: 'botania:mana_infusion/manasteel' })
+    event.remove({ id: 'botania:alfheim_portal' })
 
     event.remove({ id: 'ae2:inscriber/calculation_processor_print' })
     event.remove({ id: 'ae2:inscriber/engineering_processor_print' })
@@ -312,11 +313,10 @@ ServerEvents.recipes(event => {
     }
     );
     event.shaped('rootsclassic:altar', [
-        'BAB',
+        'BBB',
         'EFE',
         'CDC'
     ], {
-        A: 'gtceu:dragon_gold_plate',
         B: 'gtceu:gold_plate',
         C: 'gtceu:double_root_iron_plate',
         D: 'gtceu:verdant_copper_plate',
@@ -604,4 +604,4 @@ ServerEvents.recipes(event => {
         E: 'gtceu:copper_normal_fluid_pipe',
     }
     );
-})
+});

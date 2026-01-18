@@ -1,8 +1,5 @@
 type = customizablemenus
 
-net.minecraft.client.gui.screens.TitleScreen {
-}
-
 net.minecraft.client.gui.screens.GenericDirtMessageScreen {
 }
 
@@ -16,5 +13,8 @@ net.minecraft.client.gui.screens.ProgressScreen {
 }
 
 net.minecraft.client.gui.screens.ConnectScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
 }
 

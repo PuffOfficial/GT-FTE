@@ -1,7 +1,7 @@
-GTCEuStartupEvents.registry("gtceu:material", event => {
-    event.create("alchemical_bronze")
+GTCEuStartupEvents.registry(`gtceu:material`, event => {
+    event.create(`alchemical_bronze`)
         .ingot()
-        .color(0xe6ab7d).secondaryColor(0x6a3d39).iconSet("bright")
+        .color(0xe6ab7d).secondaryColor(0x6a3d39).iconSet(`bright`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -15,9 +15,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         );
-    event.create("thaumium")
+    event.create(`thaumium`)
         .ingot()
-        .color(0x7d6694).secondaryColor(0x4c2f69).iconSet("bright")
+        .color(0x7d6694).secondaryColor(0x4c2f69).iconSet(`bright`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -32,9 +32,9 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_BOLT_SCREW,
             GTMaterialFlags.GENERATE_ROUND
         );
-    event.create("void_metal")
+    event.create(`void_metal`)
         .ingot()
-        .color(0x2f1d40).secondaryColor(0x000000).iconSet("metallic")
+        .color(0x2f1d40).secondaryColor(0x000000).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,

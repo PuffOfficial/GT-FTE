@@ -1,7 +1,7 @@
-GTCEuStartupEvents.registry("gtceu:material", event => {
-    event.create("root_iron")
+GTCEuStartupEvents.registry(`gtceu:material`, event => {
+    event.create(`root_iron`)
         .ingot()
-        .color(0xa98c54).secondaryColor(0x2f2718).iconSet("metallic")
+        .color(0xa98c54).secondaryColor(0x2f2718).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -15,11 +15,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("Fe(C6H10O5)2")
+        .formula(`Fe(C6H10O5)2`)
 
-    event.create("verdant_copper")
+    event.create(`verdant_copper`)
         .ingot()
-        .color(0x7eea73).secondaryColor(0x244120).iconSet("bright")
+        .color(0x7eea73).secondaryColor(0x244120).iconSet(`bright`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -33,11 +33,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("Cu(C6H10O5)2")
+        .formula(`Cu(C6H10O5)2`)
 
-    event.create("dragon_gold")
+    event.create(`dragon_gold`)
         .ingot()
-        .color(0x724472).secondaryColor(0x412741).iconSet("shiny")
+        .color(0x724472).secondaryColor(0x412741).iconSet(`shiny`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -51,11 +51,11 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("Au(C6H10O5)2")
+        .formula(`Au(C6H10O5)2`)
 
-    event.create("living_steel")
+    event.create(`living_steel`)
         .ingot()
-        .color(0x244120).secondaryColor(0x3d3d3d).iconSet("metallic")
+        .color(0x244120).secondaryColor(0x3d3d3d).iconSet(`metallic`)
         .flags(
             GTMaterialFlags.GENERATE_PLATE,
             GTMaterialFlags.GENERATE_ROD,
@@ -69,5 +69,5 @@ GTCEuStartupEvents.registry("gtceu:material", event => {
             GTMaterialFlags.GENERATE_SPRING,
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
-        .formula("Fe")
+        .formula(`Fe`)
 })
