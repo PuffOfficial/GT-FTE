@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
     .addData("min_temp", 3000)
     .addData("max_temp", 6000)
     .duration(320)
-    .EUt(2048);
+    .EUt(GTValues.VA[GTValues.EV]);
   event.recipes.gtceu.alchemy('gtfte:alchemical_bronze')
     .itemInputs('gtceu:black_bronze_ingot')
     .inputFluids(['gtceu:praecantatio 50', 'gtceu:vitreus 20'])
@@ -26,5 +26,5 @@ ServerEvents.recipes(event => {
     .addData("min_temp", 700)
     .addData("max_temp", 1300)
     .duration(320)
-    .EUt(512);
+    .EUt(GTValues.VA[GTValues.HV]);
 })

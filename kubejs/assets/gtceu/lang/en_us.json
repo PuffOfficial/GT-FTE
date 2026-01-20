@@ -6,14 +6,14 @@
     "material.gtceu.fluix": "Fluix",
     "material.gtceu.charged_certus_quartz": "Charged Certus Quartz",
     "material.gtceu.ceramic": "Ceramic",
-    "material.gtceu.void": "§l§kVOID§r",
     "material.gtceu.stargate_alloy": "Stargate Alloy",
     "material.gtceu.arcane": "Arcane",
     "material.gtceu.solar_grade_silicon": "S-Grade Silicon",
     "material.gtceu.radiation_resistant_alloy": "Radiation Resistant Alloy",
     "material.gtceu.artificial_amethyst": "Artificial Amethyst",
+    "material.gtceu.unbreakium": "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable",
 
-    "material.gtceu.infinity": "<rainb>Infinity</rainb>",
+    "material.gtceu.infinity": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb>",
 
     "material.gtceu.thaumium": "Thaumium",
     "material.gtceu.alchemical_bronze": "Alchemical Bronze",
@@ -135,6 +135,7 @@
     "block.gtceu.primitive_bender": "§8Primitive Bender",
     "block.gtceu.primitive_electric_furnace": "§8Primitive Electric Furnace",
     "block.gtceu.evaporation_plant": "Evaporation Plant",
+    "block.gtceu.dtpebf": "Dimensionally Transcendent Primitive Electric Blast Furnace",
 
     "block.gtceu.asu": "Advanced Sifting Unit",
 

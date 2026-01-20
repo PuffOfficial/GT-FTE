@@ -6,24 +6,24 @@ ServerEvents.recipes(event => {
             .inputFluids([`gtceu:${component1} 1000`, `gtceu:${component2} 1000`])
             .outputFluids(`gtceu:${name} 1000`)
             .duration(600)
-            .EUt(GTValues.VA[GTValues.HV]);
+            .EUt(GTValues.VA[GTValues.MV]);
         event.recipes.gtceu.chemical_reactor(`gtfte:aspect_${name}_2`).circuit(2)
             .inputFluids([`gtceu:${component1} 10`, `gtceu:${component2} 10`])
             .outputFluids(`gtceu:${name} 10`)
             .duration(6)
-            .EUt(GTValues.VA[GTValues.HV]);
+            .EUt(GTValues.VA[GTValues.MV]);
 
         event.recipes.gtceu.autoclave(`gtfte:crystalized_${name}`)
             .inputFluids([`gtceu:${name} 250`])
             .itemInputs('gtceu:nether_quartz_dust')
             .itemOutputs(`gtceu:crystallized_${name}_gem`)
             .duration(200)
-            .EUt(GTValues.VA[GTValues.EV]);
+            .EUt(GTValues.VA[GTValues.HV]);
         event.recipes.gtceu.extractor(`gtfte:${name}_from_crystal`)
             .itemInputs(`gtceu:crystallized_${name}_gem`)
             .outputFluids(`gtceu:${name} 250`)
             .duration(200)
-            .EUt(GTValues.VA[GTValues.EV]);
+            .EUt(GTValues.VA[GTValues.HV]);
     }
     simpleAspects.forEach(aspect => {
         event.recipes.gtceu.autoclave(`gtfte:crystalized_${aspect}`)
@@ -31,12 +31,12 @@ ServerEvents.recipes(event => {
             .itemInputs('gtceu:nether_quartz_dust')
             .itemOutputs(`gtceu:crystallized_${aspect}_gem`)
             .duration(200)
-            .EUt(GTValues.VA[GTValues.EV]);
+            .EUt(GTValues.VA[GTValues.HV]);
         event.recipes.gtceu.extractor(`gtfte:${aspect}_from_crystal`)
             .itemInputs(`gtceu:crystallized_${aspect}_gem`)
             .outputFluids(`gtceu:${aspect} 250`)
             .duration(200)
-            .EUt(GTValues.VA[GTValues.EV]);
+            .EUt(GTValues.VA[GTValues.HV]);
     })
     //MARK: Fuel Rods
     for (const [name, color] of global.FuelRods) {

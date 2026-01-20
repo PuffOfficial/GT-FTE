@@ -64,11 +64,13 @@
 		{
 			dependencies: ["205438A3BCBB794E"]
 			id: "196F79BFC24BA44A"
+			optional: true
 			rewards: [{
 				id: "593EC395972C5053"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "308FFE49C7772F81"
 				item: "gtceu:mv_magmatic_dynamo"
@@ -219,6 +221,8 @@
 				"ALSO, you get silicon, lithium and sodium as byproduct"
 			]
 			id: "0FA061E0F24EC6FD"
+			optional: true
+			shape: "diamond"
 			tasks: [
 				{
 					id: "3ABAE83FB5F76334"

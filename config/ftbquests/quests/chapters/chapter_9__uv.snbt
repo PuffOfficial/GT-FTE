@@ -8,6 +8,10 @@
 	order_index: 10
 	quest_links: [ ]
 	quests: [{
+		dependencies: [
+			"783489E114E89E0A"
+			"00BFC9DC67C56E5B"
+		]
 		id: "03BF5FF67AED96DB"
 		tasks: [{
 			id: "0E93E9676003EABC"

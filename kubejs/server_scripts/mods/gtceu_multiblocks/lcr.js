@@ -4,5 +4,5 @@ ServerEvents.recipes(event => {
                 .inputFluids('gtceu:sulfuric_acid 125')
                 .itemOutputs('gtceu:fiber_reinforced_circuit_board')
                 .duration(500)
-                .EUt(32);
+                .EUt(GTValues.VA[GTValues.LV]);
 })

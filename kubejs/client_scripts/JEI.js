@@ -10,13 +10,13 @@ let BotaniaItemsToAnnihilate = ["manasteel_ingot", "manasteel_block", "mana_pear
 JEIEvents.hideItems(event => {
     event.hide('create:andesite_alloy')
 
-AE2ItemsToAnnihilate.forEach(item => {
-    event.hide(`ae2:${item}`)
-})
-CreateItemsToAnnihilate.forEach(item => {
-    event.hide(`create:${item}`)
-})
-BotaniaItemsToAnnihilate.forEach(item => {
-    event.hide(`botania:${item}`)
-})
+    AE2ItemsToAnnihilate.forEach(item => {
+        event.hide(`ae2:${item}`)
+    })
+    CreateItemsToAnnihilate.forEach(item => {
+        event.hide(`create:${item}`)
+    })
+    BotaniaItemsToAnnihilate.forEach(item => {
+        event.hide(`botania:${item}`)
+    })
 })

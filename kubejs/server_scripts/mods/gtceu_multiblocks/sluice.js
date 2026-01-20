@@ -24,7 +24,7 @@ ServerEvents.recipes(event => {
             '16x gtceu:crushed_nickel_ore'
         ])
         .duration(100)
-        .EUt(128);
+        .EUt(GTValues.VA[GTValues.MV]);
     event.recipes.gtceu.sluicing('gtfte:sand_sluicing')
         .inputFluids('gtceu:sand_slurry 1000')
         .itemOutputs([
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
             '8x gtceu:crushed_fluorite_ore',
         ])
         .duration(100)
-        .EUt(128);
+        .EUt(GTValues.VA[GTValues.MV]);
     event.recipes.gtceu.sluicing('gtfte:netherrack_sluicing')
         .inputFluids('gtceu:netherrack_slurry 1000')
         .itemOutputs([
@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
             '16x gtceu:crushed_tricalcium_phosphate_ore'
         ])
         .duration(100)
-        .EUt(128);
+        .EUt(GTValues.VA[GTValues.MV]);
     event.recipes.gtceu.sluicing('gtfte:endstone_sluicing')
         .inputFluids('gtceu:endstone_slurry 1000')
         .itemOutputs([
@@ -64,5 +64,5 @@ ServerEvents.recipes(event => {
             '4x gtceu:crushed_pitchblende_ore'
         ])
         .duration(100)
-        .EUt(128);
+        .EUt(GTValues.VA[GTValues.MV]);
 })

@@ -2,6 +2,9 @@
   "framedblocks": {
     "framed_item_frame": true
   },
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -65,6 +68,11 @@
     "barrel": true,
     "crucible": true,
     "sieve": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
   },
   "avaritia": {
     "extreme_smithing": true,

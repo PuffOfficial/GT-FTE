@@ -21,6 +21,7 @@
   "cookingforblockheads:preservation_chamber": null,
   "cookingforblockheads:sink": null,
   "cookingforblockheads:toaster": null,
+  "enderchests:hud": null,
   "exdeorum:barrel": null,
   "exdeorum:crucible": null,
   "exdeorum:infested_leaves": null,
@@ -100,5 +101,6 @@
   "minecraft:total_enchantment_power": null,
   "minecraft:villager_profession": null,
   "minecraft:waxed": null,
-  "minecraft:zombie_villager": null
+  "minecraft:zombie_villager": null,
+  "shetiphiancore:hud": null
 }

@@ -255,6 +255,7 @@
 		{
 			dependencies: ["71814F73D267D242"]
 			id: "502B5497A3E3E498"
+			optional: true
 			rewards: [{
 				id: "64DBCEA86DA17C61"
 				item: "kubejs:p_credit"
@@ -537,6 +538,7 @@
 			dependencies: ["598D4307DC8D28DF"]
 			description: ["From now on, you have access to AE2!"]
 			id: "4CD59D003B155136"
+			optional: true
 			rewards: [{
 				id: "47C9ECC4D3311E4E"
 				item: "kubejs:p_credit"
@@ -589,6 +591,7 @@
 		{
 			dependencies: ["71814F73D267D242"]
 			id: "21DBBB1DC070219B"
+			optional: true
 			rewards: [{
 				id: "2F5A28F6692076F7"
 				item: "kubejs:p_credit"

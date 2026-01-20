@@ -15,7 +15,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 
 	GTRecipeTypes.get("alchemy").addDataInfo((data) => (
-		`Temperature: ${data.getInt("min_temp")}K-${data.getInt("max_temp")}K`
+		`Temperature: <grad from=#5fff54 to=#d0e864 hue uni>${data.getInt("min_temp")}</grad>K-<grad from=#ff8254 to=#9e1818 hue sp=5.0 uni><shake a=0.5 f=3>${data.getInt("max_temp")}</shake></grad>K`
 	))
 	
 	event.create('alchemical_crucible', 'multiblock')

@@ -3,5 +3,5 @@ ServerEvents.recipes(event => {
                 .circuit(1)
                 .itemOutputs('enderio:grains_of_infinity')
                 .duration(100)
-                .EUt(2048);
+                .EUt(GTValues.VA[GTValues.EV]);
 })

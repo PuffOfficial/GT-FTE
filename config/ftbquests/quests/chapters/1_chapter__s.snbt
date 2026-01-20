@@ -89,7 +89,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "square"
 			tasks: [{
 				id: "672F97BEB0197F22"
 				item: {
@@ -107,6 +107,7 @@
 		{
 			dependencies: ["29D26608B96FC714"]
 			id: "255E2535B560CBBB"
+			optional: true
 			rewards: [{
 				id: "2ACBEC554ED51C56"
 				item: "kubejs:p_credit"

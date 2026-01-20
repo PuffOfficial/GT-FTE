@@ -97,7 +97,7 @@
 		}
 		{
 			description: [
-				"&lSquare with rounded edges&r - Means it is &amain&r questline"
+				"&lSquare&r - Means it is &amain&r questline"
 				""
 				"&lRhombus (Diamond)&r - Additional quests, not required for progression"
 				""
@@ -109,8 +109,8 @@
 				title: "Quest Shape Info"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: 0.0d
+			y: 1.5d
 		}
 	]
 	title: "Informational Desk"

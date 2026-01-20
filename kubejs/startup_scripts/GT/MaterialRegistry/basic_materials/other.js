@@ -6,6 +6,8 @@ GTCEuStartupEvents.registry(`gtceu:material_icon_set`, event => {
     event.create(`infinity`).parent(`metallic`)
     event.create(`charged`).parent(`dull`)
     event.create(`primal`).parent(`ruby`)
+
+    event.create(`unobtanium`).parent(`metallic`)
 })
 
 GTCEuStartupEvents.registry(`gtceu:material`, event => {
@@ -38,7 +40,7 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
         .color(0x30261d).secondaryColor(0x1f4925).iconSet(GTMaterialIconSet.DULL)
         .flags(GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_PLATE)
         .formula(`HyCN`);
-    
+
     event.create(`scrap`)
         .gem()
         .flags(GTMaterialFlags.NO_UNIFICATION)
@@ -60,4 +62,20 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
         .dust()
         .flags(GTMaterialFlags.NO_UNIFICATION)
         .color(0x362e2c).secondaryColor(0x333333).iconSet(`primal`);
+
+    event.create('unbreakium')
+        .ingot()
+        .color(0x744a92).secondaryColor(0x000000).iconSet(GTMaterialIconSet.DULL)
+        .toolStats(
+            ToolProperty.Builder.of(1.8, 1.7, 65000, 3,
+                [
+                    GTToolType.WRENCH,
+                    GTToolType.WIRE_CUTTER,
+                    GTToolType.SCREWDRIVER,
+                    GTToolType.CROWBAR
+                ]
+            )
+            .unbreakable()
+            .build()
+        ) 
 })

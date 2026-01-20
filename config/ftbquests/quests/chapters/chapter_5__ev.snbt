@@ -791,6 +791,7 @@
 		{
 			dependencies: ["59F45C4BBE628C6B"]
 			id: "43C41B646EEA0323"
+			optional: true
 			rewards: [{
 				id: "178C936114FDE576"
 				item: "kubejs:p_credit"
@@ -808,6 +809,7 @@
 		{
 			dependencies: ["5A780CBD0408CA5A"]
 			id: "7634EFE4202B16DB"
+			optional: true
 			rewards: [{
 				id: "65B65024810B752A"
 				item: "kubejs:p_credit"
@@ -829,6 +831,7 @@
 			]
 			description: ["Extremely powerfull version of LPG! Burns for 15 seconds"]
 			id: "251C59F90E509D29"
+			optional: true
 			rewards: [{
 				id: "2E291FD55B6A7E1A"
 				item: "kubejs:p_credit"
@@ -846,6 +849,7 @@
 		{
 			dependencies: ["251C59F90E509D29"]
 			id: "0ECD64F2F9E59538"
+			optional: true
 			rewards: [{
 				id: "440A1C6E5E9F668A"
 				item: "kubejs:p_credit"
@@ -875,6 +879,7 @@
 		{
 			description: [""]
 			id: "5A780CBD0408CA5A"
+			optional: true
 			rewards: [{
 				id: "28256358A3861B36"
 				item: "kubejs:p_credit"

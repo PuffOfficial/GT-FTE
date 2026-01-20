@@ -26,6 +26,9 @@ let InputsForDeletion = [
   'ae2:blank_pattern',
 ]
 
+let ModsToUnify = [
+    `forestry`,
+]
 
 ServerEvents.recipes(event => {
   InputsForDeletion.forEach(input => {
@@ -147,7 +150,7 @@ ServerEvents.recipes(event => {
     D: 'gtceu:mv_machine_hull',
   }
   );
-    event.shaped('2x ae2:blank_pattern', [
+  event.shaped('2x ae2:blank_pattern', [
     'DED',
     'ECE',
     'BAB'

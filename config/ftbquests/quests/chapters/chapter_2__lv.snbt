@@ -736,6 +736,7 @@
 		{
 			dependencies: ["35FE18644DAE5F47"]
 			id: "59814AF3A03C3488"
+			optional: true
 			rewards: [{
 				id: "36022EAB3863B834"
 				item: "kubejs:p_credit"
@@ -753,6 +754,7 @@
 		{
 			dependencies: ["35FE18644DAE5F47"]
 			id: "45DF71A04C9F1943"
+			optional: true
 			rewards: [{
 				id: "06558313DCADC5C2"
 				item: "kubejs:p_credit"
@@ -820,6 +822,7 @@
 		{
 			dependencies: ["43E6A51234A307E8"]
 			id: "572F7C8EA97556B7"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "58450B592B8EE953"

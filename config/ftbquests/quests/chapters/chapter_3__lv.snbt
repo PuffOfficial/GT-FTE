@@ -44,6 +44,7 @@
 		{
 			dependencies: ["74E4A7EA06264A37"]
 			id: "2573BB3C8659FC67"
+			optional: true
 			shape: "diamond"
 			tasks: [
 				{
@@ -65,6 +66,7 @@
 			dependencies: ["5643E6BFF3514DA4"]
 			description: ["Free power out of &6lava&r! Automate it through Ex Deorum"]
 			id: "24D1D45E50705728"
+			optional: true
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -78,6 +80,7 @@
 		{
 			dependencies: ["2573BB3C8659FC67"]
 			id: "5643E6BFF3514DA4"
+			optional: true
 			shape: "diamond"
 			tasks: [{
 				id: "22FE0AB8438779A2"

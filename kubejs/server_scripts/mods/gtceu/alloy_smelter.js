@@ -20,4 +20,9 @@ ServerEvents.recipes(event => {
             .itemOutputs(`ae2:quartz_glass`)
             .duration(200)
             .EUt(GTValues.VA[GTValues.MV]);
+      event.recipes.gtceu.alloy_smelter(`gtfte:unstable_ingot`)
+            .itemInputs([`gtceu:flawless_diamond_gem`, `2x gtceu:steel_ingot`])
+            .itemOutputs(`unstabletools:unstable_ingot`)
+            .duration(200)
+            .EUt(GTValues.VA[GTValues.MV]);
 })

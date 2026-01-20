@@ -14,21 +14,21 @@ ServerEvents.recipes(event => {
                 .itemInputs(['gtceu:wrought_iron_ingot', 'gtceu:coke_gem'])
                 .itemOutputs('gtceu:steel_ingot')
                 .duration(600)
-                .EUt(30);
+                .EUt(GTValues.VA[GTValues.LV]);
         event.recipes.gtceu.pebf('gtfte:steel_from_coal')
                 .itemInputs(['gtceu:wrought_iron_ingot', 'minecraft:coal'])
                 .itemOutputs('gtceu:steel_ingot')
                 .duration(1200)
-                .EUt(30);
+                .EUt(GTValues.VA[GTValues.LV]);
         event.recipes.gtceu.pebf('gtfte:ceramic_plate')
                 .notConsumable('gtceu:plate_casting_mold')
                 .itemInputs('2x gtceu:ceramic_ingot')
                 .itemOutputs('gtceu:ceramic_plate')
                 .duration(360)
-                .EUt(7);
+                .EUt(GTValues.VA[GTValues.ULV]);
         event.recipes.gtceu.pebf('gtfte:graphite')
                 .itemInputs('2x gtceu:raw_coal')
                 .itemOutputs('gtceu:raw_graphite')
                 .duration(600)
-                .EUt(30);
+                .EUt(GTValues.VA[GTValues.LV]);
 })

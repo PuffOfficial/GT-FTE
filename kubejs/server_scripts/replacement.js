@@ -1,14 +1,4 @@
 const Replacement = [
-  ["create:andesite_alloy", "gtceu:andesite_alloy_ingot"],
-  ["create:copper_sheet", "gtceu:copper_plate"],
-  ["create:iron_sheet", "gtceu:iron_plate"],
-  ["create:golden_sheet", "gtceu:gold_plate"],
-  ["create:brass_sheet", "gtceu:brass_plate"],
-  ["create:zinc_nugget", "gtceu:zinc_nugget"],
-  ["create:zinc_ingot", "gtceu:zinc_ingot"],
-  ["create:brass_nugget", "gtceu:brass_nugget"],
-  ["create:brass_ingot", "gtceu:brass_ingot"],
-
   ["ae2:fluix_dust", "gtceu:fluix_dust"],
   ["ae2:fluix_crystal", "gtceu:fluix_gem"],
   ["ae2:fluix_block", "gtceu:fluix_block"],
@@ -27,6 +17,7 @@ const Replacement = [
 
   ["jetboots:obsidian_infused_gold", "gtceu:obsidian_gold_plate"],
   ["forestry:sturdy_machine", "gtceu:bronze_machine_casing"],
+  
 
 ]
 

@@ -349,6 +349,104 @@
 			x: -1.0d
 			y: -3.5d
 		}
+		{
+			icon: "gtceu:unbreakium_ingot"
+			id: "1885BAC158AC7294"
+			rewards: [
+				{
+					id: "3B0A77574C0141E7"
+					item: {
+						Count: 1
+						id: "gtceu:unbreakium_wire_cutter"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 3
+								MaxDamage: 64999
+								ToolSpeed: 5.8f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36742652FC230043"
+					item: {
+						Count: 1
+						id: "gtceu:unbreakium_screwdriver"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								MaxDamage: 64999
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F8BED073EC8CB73"
+					item: {
+						Count: 1
+						id: "gtceu:unbreakium_crowbar"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 3
+								MaxDamage: 64999
+								ToolSpeed: 5.8f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "518085C88F48B009"
+					item: {
+						Count: 1
+						id: "gtceu:unbreakium_wrench"
+						tag: {
+							Damage: 0
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+							}
+							GT.Tool: {
+								DefaultEnchantments: [ ]
+								HarvestLevel: 3
+								MaxDamage: 64999
+								ToolSpeed: 5.8f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A81A04635D9B4B5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable </grad></neon>Tools"
+			x: 1.0d
+			y: -3.5d
+		}
 	]
 	title: "ShOp!!!"
 }

@@ -36,6 +36,7 @@
 		{
 			id: "0D206502CC945371"
 			linked_quest: "7F1A662BC5DD5056"
+			shape: "gear"
 			x: 2.0d
 			y: -7.0d
 		}
@@ -54,6 +55,7 @@
 		{
 			id: "389A965A2CE4AFAB"
 			linked_quest: "037DB579F5E7A700"
+			shape: "gear"
 			x: 3.0d
 			y: -6.0d
 		}
@@ -78,6 +80,7 @@
 		{
 			id: "04B9B0CAC252010D"
 			linked_quest: "3C77E5AB51BB570B"
+			shape: "gear"
 			x: 4.0d
 			y: -4.0d
 		}
@@ -102,6 +105,7 @@
 		{
 			id: "6ACCF693954887FC"
 			linked_quest: "7DED8C385C0AB146"
+			shape: "gear"
 			x: 5.0d
 			y: -3.0d
 		}
@@ -126,6 +130,7 @@
 		{
 			id: "3ACECA79175611B5"
 			linked_quest: "40CE0F5F9F40386E"
+			shape: "gear"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -134,6 +139,31 @@
 			linked_quest: "6245C55A807D1DDF"
 			x: 2.0d
 			y: -9.0d
+		}
+		{
+			id: "252B7F13F3D487A5"
+			linked_quest: "783489E114E89E0A"
+			shape: "gear"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "1B097D631D529CEB"
+			linked_quest: "76625B3FB0F94FC3"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			id: "57A75FE80967F91D"
+			linked_quest: "7B0710E1F3A2C697"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			id: "507D677BA1430E70"
+			linked_quest: "737039E23558B072"
+			x: 7.0d
+			y: -4.0d
 		}
 	]
 	quests: [
@@ -146,49 +176,6 @@
 			}]
 			x: 0.0d
 			y: -8.0d
-		}
-		{
-			id: "2F89B3C636BB98FB"
-			tasks: [{
-				id: "5C4A7ADEFF410E00"
-				item: "gtceu:crystal_processor"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["2F89B3C636BB98FB"]
-			id: "5C73E4AC4B098EAD"
-			tasks: [{
-				id: "512BE5022206F4EA"
-				item: "gtceu:crystal_processor_assembly"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["5C73E4AC4B098EAD"]
-			id: "557AB3D9D4D9EE6A"
-			tasks: [{
-				id: "0A951682E91D37A4"
-				item: "gtceu:crystal_processor_computer"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["557AB3D9D4D9EE6A"]
-			id: "4640096EC1A2B00C"
-			tasks: [{
-				id: "60E111CC0DFD1073"
-				item: "gtceu:crystal_processor_mainframe"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
 		}
 		{
 			id: "0A50DC9AC67F81D1"
@@ -525,7 +512,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["2F89B3C636BB98FB"]
+			dependencies: ["737039E23558B072"]
 			id: "371A6853F488B041"
 			tasks: [{
 				id: "4A8B6500144D2561"

@@ -89,11 +89,19 @@
 		{
 			dependencies: ["1ECCCECBE241A6B2"]
 			id: "34200949BA7F72DC"
-			tasks: [{
-				id: "219AD6293F975AEC"
-				item: "gtceu:naquadah_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "219AD6293F975AEC"
+					item: "gtceu:naquadah_ingot"
+					type: "item"
+				}
+				{
+					id: "3F4AE60699627066"
+					item: "gtceu:enriched_naquadah_ingot"
+					type: "item"
+				}
+			]
+			title: "Naquadah Ingots"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -131,19 +139,21 @@
 				item: "gtceu:europium_bucket"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["1ECCCECBE241A6B2"]
+			description: [""]
 			id: "30D651E27E494C96"
+			subtitle: "Even I got confused while was trying to understand trinium line"
 			tasks: [{
 				id: "4A4B3E1A644EAEA8"
 				item: "gtceu:trinium_dust"
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["34200949BA7F72DC"]
@@ -164,86 +174,293 @@
 			]
 			title: "Crucial computer parts"
 			x: -3.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["425D8A14B797AFEE"]
-			id: "3ECF098957D9E770"
-			tasks: [{
-				id: "7E98F79BD635B264"
-				item: "gtceu:matter_fabricator"
-				type: "item"
-			}]
-			x: -2.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["425D8A14B797AFEE"]
-			id: "3A3ED9D3B035489C"
-			subtitle: "HNN on low budget"
-			tasks: [{
-				id: "2D997F7D1157BF43"
-				item: "gtceu:simulation_array"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["69CB6727D18F1428"]
-			id: "23F381193CF1E60E"
-			shape: "gear"
-			tasks: [{
-				id: "6B4533F707EE12BE"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "gtfte:simulation_data"
-					}
-				}
-				title: "Any #gtfte:simulation_data"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["425D8A14B797AFEE"]
+			dependencies: [
+				"425D8A14B797AFEE"
+				"30D651E27E494C96"
+			]
+			hide_dependent_lines: true
 			id: "69CB6727D18F1428"
+			shape: "square"
 			tasks: [{
 				id: "189403B5D2508866"
 				item: "gtceu:research_station"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["3ECF098957D9E770"]
-			id: "3EED55816778E695"
+			dependencies: ["3CE8DE09CF6B1DD7"]
+			description: [
+				"As you can see... They require any <grad from=#80ff5d to=#bfff1e hue uni>XP in fluid state</grad>!"
+				"There are two ways to obtain it... You can choose any."
+			]
+			id: "3932A2E2D5329356"
+			tasks: [
+				{
+					id: "15D5191F56A7DA98"
+					item: "gtceu:petrotheum_dust"
+					type: "item"
+				}
+				{
+					id: "762745DF81E575AD"
+					item: "gtceu:aerotheum_dust"
+					type: "item"
+				}
+				{
+					id: "69E8C280103146E6"
+					item: "gtceu:cryotheum_dust"
+					type: "item"
+				}
+				{
+					id: "3DD699FE3D8372A8"
+					item: "gtceu:pyrotheum_dust"
+					type: "item"
+				}
+			]
+			title: "\"Thermal\" blends"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7526A264778255DD"]
+			id: "6EE3E412D9EDFA1A"
+			optional: true
+			shape: "diamond"
 			tasks: [{
-				id: "2D447E2C4FCAC71C"
-				item: "gtceu:uu_matter_bucket"
+				id: "65BC2F9E7E5CD3C9"
+				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
-				"23F381193CF1E60E"
-				"3EED55816778E695"
-				"3A3ED9D3B035489C"
+				"7526A264778255DD"
+				"2988324920ADB2DE"
+				"783489E114E89E0A"
+				"47AED7517445C2A3"
+				"76AB0638D102BE8E"
+				"69CB6727D18F1428"
+				"0AEC2DAA337593AE"
 			]
-			id: "6BDAF73BDECEF105"
+			id: "1D9A561D8570E9A6"
+			shape: "gear"
+			size: 1.0d
+			subtitle: "Heh, even more expensive!"
 			tasks: [{
-				id: "1333BDAAA75E634E"
-				item: "enderio:xp_juice_bucket"
+				id: "6E0517C289F78464"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["31D55B7E3A7F55E2"]
+			id: "2988324920ADB2DE"
+			subtitle: "Superconductor!"
+			tasks: [{
+				id: "6EE4D3EFB58F8B47"
+				item: "gtceu:uranium_rhodium_dinaquadide_ingot"
 				type: "item"
 			}]
 			x: -5.0d
-			y: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D9A561D8570E9A6"]
+			id: "704875E0FF9B9215"
+			tasks: [{
+				id: "47253240E776AA6C"
+				item: "gtceu:tritanium_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34200949BA7F72DC"]
+			id: "31D55B7E3A7F55E2"
+			tasks: [{
+				count: 16L
+				id: "2C16F1258DA76459"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76625B3FB0F94FC3"]
+			id: "783489E114E89E0A"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "24843194BF476B6B"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7B0710E1F3A2C697"]
+			id: "76625B3FB0F94FC3"
+			tasks: [{
+				id: "7E446279850603BA"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["737039E23558B072"]
+			id: "7B0710E1F3A2C697"
+			tasks: [{
+				id: "14A897687252AAA1"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22B408BFD8FF7BB1"]
+			id: "737039E23558B072"
+			tasks: [{
+				id: "26A7FD4E0759F3F5"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"31D55B7E3A7F55E2"
+				"7BEB21845333978B"
+			]
+			id: "22B408BFD8FF7BB1"
+			tasks: [{
+				id: "1A9453D630A595A1"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FC7A0456BE14F12"]
+			id: "47AED7517445C2A3"
+			tasks: [{
+				id: "461793B108342F7B"
+				item: "gtceu:fusion_coil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1D9A561D8570E9A6"]
+			id: "0891137BCE775070"
+			tasks: [{
+				id: "05168257804EADE2"
+				item: "gtceu:darmstadtium_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["704875E0FF9B9215"]
+			id: "55EE2448840B3092"
+			shape: "gear"
+			tasks: [{
+				id: "5451541F2F76E3FE"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["31D55B7E3A7F55E2"]
+			id: "76AB0638D102BE8E"
+			tasks: [{
+				id: "69CD9CBCD098CB5C"
+				item: "gtceu:naquadria_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7526A264778255DD"]
+			id: "60417E74EF5C4E63"
+			tasks: [{
+				id: "5450768FD7F1439C"
+				item: "gtceu:lutetium_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1D9A561D8570E9A6"
+				"60417E74EF5C4E63"
+			]
+			id: "7BC6B092524AB31A"
+			tasks: [{
+				id: "3B7925DFB4763CB5"
+				item: "gtceu:americium_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BC6B092524AB31A"]
+			id: "5E02EC8E3CCB22D3"
+			shape: "gear"
+			tasks: [{
+				id: "4AA229A984E5F393"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0891137BCE775070"]
+			id: "00BFC9DC67C56E5B"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "386A1E6F4DC65698"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["425D8A14B797AFEE"]
+			hide_dependent_lines: true
+			id: "0AEC2DAA337593AE"
+			tasks: [{
+				id: "1C92E58F08AA98BC"
+				item: "gtceu:high_performance_computation_array"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
 		}
 	]
 	subtitle: [

@@ -946,6 +946,7 @@
 		{
 			dependencies: ["19BB74452230CD2E"]
 			id: "30ADB913F5204F1B"
+			optional: true
 			rewards: [{
 				id: "1FB077C4469A6D45"
 				item: "kubejs:p_credit"
@@ -1109,6 +1110,7 @@
 		{
 			dependencies: ["1DFB5DEE7734995B"]
 			id: "638EBC2FCAF8DA70"
+			optional: true
 			rewards: [{
 				id: "4CAC059103A0E65C"
 				item: "kubejs:p_credit"

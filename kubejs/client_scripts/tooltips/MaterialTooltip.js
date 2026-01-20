@@ -7,7 +7,7 @@ const Flags = ((material) => {
     plate: [`gtceu:${material}_plate`, Component.translatable("gtfte.tagprefix.plate", "")],
     rod: [`gtceu:${material}_rod`, Component.translatable("gtfte.tagprefix.rod", "")],
     screw: [`gtceu:${material}_screw`, Component.translatable("gtfte.tagprefix.screw", "")],
-    bolt: [`gtceu:${material}_bolt`, Component.translatable("tagprefix.bolt", "")],
+    bolt: [`gtceu:${material}_bolt`, Component.translatable("gtfte.tagprefix.bolt", "")],
     double_plate: [`gtceu:double_${material}_plate`, Component.translatable("gtfte.tagprefix.double_plate", "")],
     gear: [`gtceu:${material}_gear`, Component.translatable("gtfte.tagprefix.gear", "")],
     small_gear: [`gtceu:small_${material}_gear`, Component.translatable("gtfte.tagprefix.small_gear", "")],

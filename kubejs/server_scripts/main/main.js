@@ -91,12 +91,12 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'gtceu:alloy_smelter/silver_ingot_and_electrotine_dust_into_blue_alloy' })
     event.remove({ id: 'gtceu:arc_furnace/glass_from_sand' })
 
+    event.remove({ id: 'forestry:sturdy_machine' })
+
     event.remove({ output: 'ae2:certus_quartz_dust' })
     event.remove({ output: 'ae2:certus_quartz_crystal' })
     event.remove({ output: 'ae2:charged_certus_quartz_crystal' })
     event.remove({ output: 'gtceu:vacuum_tube' })
-    event.remove({ output: 'create:brass_hand' })
-    event.remove({ output: 'create:deployer' })
     event.remove({ output: 'gtceu:magnetic_iron_rod' })
     event.remove({ output: 'gtceu:steel_ingot' })
     event.remove({ output: 'gtceu:resistor' })
@@ -202,6 +202,12 @@ ServerEvents.recipes(event => {
     event.remove({ mod: 'thermal' })
     event.remove({ type: 'exdeorum:sieve' })
     event.remove({ type: 'exdeorum:compressed_sieve' })
+
+    event.remove({ output: 'unstabletools:unstable_ingot'})
+    event.remove({ output: 'unstabletools:unstable_helmet'})
+    event.remove({ output: 'unstabletools:unstable_chestplate'})
+    event.remove({ output: 'unstabletools:unstable_leggings'})
+    event.remove({ output: 'unstabletools:unstable_boots'})
 
     AE2ItemsToAnnihilate.forEach(item => {
         event.remove({ output: `ae2:${item}` })
