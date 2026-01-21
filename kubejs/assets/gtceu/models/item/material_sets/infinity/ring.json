@@ -2,5 +2,12 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "gtceu:item/material_sets/infinity/ring"
+  },
+  "loader": "avaritia:halo",
+  "halo": {
+    "texture": "#halo",
+    "color": -16777216,
+    "size": 10,
+    "pulse": true
   }
 }

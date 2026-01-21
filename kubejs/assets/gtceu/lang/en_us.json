@@ -87,6 +87,16 @@
     "material.gtceu.starch": "Starch",
     "material.gtceu.raw_starch": "Raw Starch",
 
+    "material.gtceu.chemical_waste": "Chemical Waste",
+    "material.gtceu.activation_mixture": "Activation Mixture",
+    "material.gtceu.activated_light_fuel": "Activated Light Fuel",
+    "material.gtceu.activated_heavy_fuel": "Activated Heavy Fuel",
+    "material.gtceu.reactive_aliphatic_base": "Reactive Aliphatic Base",
+    "material.gtceu.reactive_aromatic_base": "Reactive Aromatic Base",
+    "material.gtceu.unstable_thermal_solvent": "Unstable Thermal Solvent",
+    "material.gtceu.conditioned_thermal_solvent": "Conditioned Thermal Solvent",
+    "material.gtceu.thermal_solvent": "Thermal Solvent",
+
     "material.gtceu.acetaldehyde": "Acetaldehyde",
     "material.gtceu.maleic_anhydride": "Maleic Anhydride",
     "material.gtceu.diethyl_succinate": "Diethyl Succinate",
@@ -107,10 +117,15 @@
     "material.gtceu.mana_fused_lpg": "Mana-Fused LPG",
     "material.gtceu.nether_imbued_lava": "Nether-Imbued Lava",
 
-    "material.gtceu.pyrotheum": "Pyrotheum",
-    "material.gtceu.cryotheum": "Cryotheum",
-    "material.gtceu.aerotheum": "Aerotheum",
-    "material.gtceu.petrotheum": "Petrotheum",
+    "material.gtceu.pyrotheum": "<grad from=#ff8742 to=#ffbd42 hue uni>Pyrotheum</grad>",
+    "material.gtceu.cryotheum": "<grad from=#54d7ff to=#5496ff hue uni>Cryotheum</grad>",
+    "material.gtceu.aerotheum": "<grad from=#a8a04a to=#fff694 hue uni>Aerotheum</grad>",
+    "material.gtceu.petrotheum": "<grad from=#261e1b to=#2e2e2e hue uni>Petrotheum</grad>",
+
+    "material.gtceu.blazing_pyrotheum": "<grad from=#ff8742 to=#ffbd42 hue uni>Blazing Pyrotheum</grad>",
+    "material.gtceu.gelid_cryotheum": "<grad from=#54d7ff to=#5496ff hue uni>Gelid Cryotheum</grad>",
+    "material.gtceu.zypherean_aerotheum": "<grad from=#a8a04a to=#fff694 hue uni>Zypherean Aerotheum</grad>",
+    "material.gtceu.tectonic_petrotheum": "<grad from=#261e1b to=#2e2e2e hue uni>Tectonic Petrotheum</grad>",
 
     "material.gtceu.scrap": "Scrap",
 

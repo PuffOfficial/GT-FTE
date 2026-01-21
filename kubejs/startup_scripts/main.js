@@ -17,7 +17,9 @@ global.FuelRods = [
     [`uranium`, `#1d891d`, Component.translatable(`material.gtceu.uranium`)],
     [`uranium_235`, `#42df42`, Component.translatable(`material.gtceu.uranium_235`)],
     [`uranium_236`, `#04a604`, Component.translatable(`material.gtceu.uranium_236`)],
-    [`thorium`, `#25411b`, Component.translatable(`material.gtceu.thorium`)]
+    [`thorium`, `#25411b`, Component.translatable(`material.gtceu.thorium`)],
+
+    [`naquadria`, `#68c868`, Component.translatable(`material.gtceu.naquadria`)]
 ]
 global.Universal = [
     [`ulv`, `#bdb2a2`],

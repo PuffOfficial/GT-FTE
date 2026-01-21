@@ -59,4 +59,25 @@ ServerEvents.recipes(event => {
                 .outputFluids(`gtceu:ender_air 200`)
                 .duration(60)
                 .EUt(GTValues.VA[GTValues.LV]);
+// MARK: Thermal blends
+        event.recipes.gtceu.extractor(`gtfte:cryotheum_extracting`)
+                .itemInputs(`gtceu:cryotheum_dust`)
+                .outputFluids(`gtceu:gelid_cryotheum 250`)
+                .duration(100)
+                .EUt(GTValues.VA[GTValues.LV]);
+        event.recipes.gtceu.extractor(`gtfte:pyrotheum_extracting`)
+                .itemInputs(`gtceu:pyrotheum_dust`)
+                .outputFluids(`gtceu:blazing_pyrotheum 250`)
+                .duration(100)
+                .EUt(GTValues.VA[GTValues.LV]);
+        event.recipes.gtceu.extractor(`gtfte:aerotheum_extracting`)
+                .itemInputs(`gtceu:aerotheum_dust`)
+                .outputFluids(`gtceu:zypherean_aerotheum 250`)
+                .duration(100)
+                .EUt(GTValues.VA[GTValues.LV]);
+        event.recipes.gtceu.extractor(`gtfte:petrotheum_extracting`)
+                .itemInputs(`gtceu:petrotheum_dust`)
+                .outputFluids(`gtceu:tectonic_petrotheum 250`)
+                .duration(100)
+                .EUt(GTValues.VA[GTValues.LV]);
 })

@@ -84,7 +84,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1ECCCECBE241A6B2"]
@@ -139,7 +139,7 @@
 				item: "gtceu:europium_bucket"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -7.5d
 		}
 		{
@@ -199,6 +199,8 @@
 				"There are two ways to obtain it... You can choose any."
 			]
 			id: "3932A2E2D5329356"
+			optional: true
+			shape: "diamond"
 			tasks: [
 				{
 					id: "15D5191F56A7DA98"
@@ -243,7 +245,6 @@
 				"7526A264778255DD"
 				"2988324920ADB2DE"
 				"783489E114E89E0A"
-				"47AED7517445C2A3"
 				"76AB0638D102BE8E"
 				"69CB6727D18F1428"
 				"0AEC2DAA337593AE"
@@ -284,7 +285,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["34200949BA7F72DC"]
+			dependencies: ["7CF2F3D38893F8CB"]
 			id: "31D55B7E3A7F55E2"
 			tasks: [{
 				count: 16L
@@ -296,7 +297,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["76625B3FB0F94FC3"]
+			dependencies: [
+				"76625B3FB0F94FC3"
+				"69CB6727D18F1428"
+			]
 			id: "783489E114E89E0A"
 			shape: "gear"
 			size: 1.25d
@@ -356,17 +360,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2FC7A0456BE14F12"]
-			id: "47AED7517445C2A3"
-			tasks: [{
-				id: "461793B108342F7B"
-				item: "gtceu:fusion_coil"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -9.0d
-		}
-		{
 			dependencies: ["1D9A561D8570E9A6"]
 			id: "0891137BCE775070"
 			tasks: [{
@@ -378,7 +371,10 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["704875E0FF9B9215"]
+			dependencies: [
+				"704875E0FF9B9215"
+				"79D088629FD0E513"
+			]
 			id: "55EE2448840B3092"
 			shape: "gear"
 			tasks: [{
@@ -408,7 +404,7 @@
 				item: "gtceu:lutetium_bucket"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: -7.5d
 		}
 		{
@@ -461,6 +457,76 @@
 			}]
 			x: -3.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["3932A2E2D5329356"]
+			description: [""]
+			id: "20D202BF7BCD770C"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "20740CBD42D7F7FF"
+					item: "gtceu:zypherean_aerotheum_bucket"
+					type: "item"
+				}
+				{
+					id: "672060C44BFC386A"
+					item: "gtceu:blazing_pyrotheum_bucket"
+					type: "item"
+				}
+				{
+					id: "2C38DCA6A503FC9B"
+					item: "gtceu:tectonic_petrotheum_bucket"
+					type: "item"
+				}
+				{
+					id: "6B9052612BF70AB4"
+					item: "gtceu:gelid_cryotheum_bucket"
+					type: "item"
+				}
+			]
+			title: "\"Thermal\" liquids"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7526A264778255DD"]
+			id: "79D088629FD0E513"
+			shape: "square"
+			tasks: [{
+				id: "264322646DD00A45"
+				item: "gtceu:duranium_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34200949BA7F72DC"]
+			id: "7CF2F3D38893F8CB"
+			tasks: [{
+				count: 16L
+				id: "404D47F2F7519143"
+				item: { Count: 16, id: "gtceu:naquadah_coil_block" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76AB0638D102BE8E"]
+			description: ["One of the BEST energy sources! Can be even better with cryotheum"]
+			id: "5DFAB300962CC372"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "7790F6585B001C11"
+				item: "gtceu:naquadria_fuel_rod"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
 		}
 	]
 	subtitle: [

@@ -1,6 +1,13 @@
 {
-  "parent": "item/handheld",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "gtceu:item/material_sets/infinity/screw"
+  },
+  "loader": "avaritia:halo",
+  "halo": {
+    "texture": "#halo",
+    "color": -16777216,
+    "size": 10,
+    "pulse": true
   }
 }

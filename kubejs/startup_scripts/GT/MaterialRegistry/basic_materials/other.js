@@ -63,7 +63,24 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
         .flags(GTMaterialFlags.NO_UNIFICATION)
         .color(0x362e2c).secondaryColor(0x333333).iconSet(`primal`);
 
-    event.create('unbreakium')
+    event.create(`blazing_pyrotheum`)
+        .liquid(2000)
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0xffdb6d).iconSet(`primal`);
+    event.create(`gelid_cryotheum`)
+        .liquid(0)
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0x99ddff).iconSet(`primal`);
+    event.create(`zypherean_aerotheum`)
+        .gas()
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0xe1dca0).iconSet(`primal`);
+    event.create(`tectonic_petrotheum`)
+        .liquid()
+        .flags(GTMaterialFlags.NO_UNIFICATION)
+        .color(0x3b2f28).iconSet(`primal`);
+
+    event.create(`unbreakium`)
         .ingot()
         .color(0x744a92).secondaryColor(0x000000).iconSet(GTMaterialIconSet.DULL)
         .toolStats(
@@ -78,4 +95,16 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
             .unbreakable()
             .build()
         ) 
+})
+
+GTCEuStartupEvents.materialModification(event => {
+    TagPrefix.ingot.setIgnored(GTMaterialRegistry.getMaterial(`infinity`))
+    TagPrefix.nugget.setIgnored(GTMaterialRegistry.getMaterial(`infinity`))
+    TagPrefix.block.setIgnored(GTMaterialRegistry.getMaterial(`infinity`))
+})
+
+StartupEvents.postInit(event => {
+    TagPrefix.ingot.setIgnored(GTMaterialRegistry.getMaterial(`infinity`), `avaritia:infinity_ingot`)
+    TagPrefix.nugget.setIgnored(GTMaterialRegistry.getMaterial(`infinity`), `avaritia:infinity_nugget`)
+    TagPrefix.block.setIgnored(GTMaterialRegistry.getMaterial(`infinity`), `avaritia:infinity`)
 })

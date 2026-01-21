@@ -882,7 +882,8 @@
 		{
 			dependencies: ["52BDC3DA495B2C31"]
 			id: "7BEB21845333978B"
-			shape: "square"
+			optional: true
+			shape: "diamond"
 			tasks: [{
 				id: "5098B52E01D8B240"
 				item: "gtceu:crystal_cpu"

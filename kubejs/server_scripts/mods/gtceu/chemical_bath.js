@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-//-----Slurries-----//
+        //-----Slurries-----//
         event.recipes.gtceu.chemical_bath(`gtfte:gravel_slurry`)
                 .itemInputs(`32x minecraft:gravel`)
                 .inputFluids(`minecraft:water 8000`)
@@ -30,14 +30,14 @@ ServerEvents.recipes(event => {
                 .outputFluids(`gtceu:netherrack_slurry 8000`)
                 .duration(300)
                 .EUt(GTValues.VA[GTValues.MV]);
-//-----Glowstone-----//
+        //-----Glowstone-----//
         event.recipes.gtceu.chemical_bath(`gtfte:glowstone`)
                 .itemInputs(`gtceu:sulfur_dust`)
                 .inputFluids(`gtceu:redstone 144`)
                 .itemOutputs(`2x minecraft:glowstone_dust`)
                 .duration(200)
                 .EUt(GTValues.VA[GTValues.ULV]);
-//-----Essences-----//
+        //-----Essences-----//
         event.recipes.gtceu.chemical_bath(`gtfte:cryotheum`)
                 .itemInputs(`3x gtceu:ice_dust`)
                 .inputFluids(`#forge:experience 500`)
@@ -62,4 +62,30 @@ ServerEvents.recipes(event => {
                 .itemOutputs(`gtceu:petrotheum_dust`)
                 .duration(200)
                 .EUt(GTValues.VA[GTValues.MV]);
+
+        event.recipes.gtceu.chemical_bath(`gtfte:gelid_cryotheum_through_solvent`)
+                .itemInputs(`gtceu:cryotheum_dust`)
+                .inputFluids(`gtceu:thermal_solvent 250`)
+                .outputFluids(`gtceu:gelid_cryotheum 1000`)
+                .duration(200)
+                .EUt(GTValues.VA[GTValues.LV]);
+        event.recipes.gtceu.chemical_bath(`gtfte:blazing_pyrotheum_through_solvent`)
+                .itemInputs(`gtceu:pyrotheum_dust`)
+                .inputFluids(`gtceu:thermal_solvent 250`)
+                .outputFluids(`gtceu:blazing_pyrotheum 1000`)
+                .duration(200)
+                .EUt(GTValues.VA[GTValues.LV]);
+        event.recipes.gtceu.chemical_bath(`gtfte:tectonic_petrotheum_through_solvent`)
+                .itemInputs(`gtceu:petrotheum_dust`)
+                .inputFluids(`gtceu:thermal_solvent 250`)
+                .outputFluids(`gtceu:tectonic_petrotheum 1000`)
+                .duration(200)
+                .EUt(GTValues.VA[GTValues.LV]);
+        event.recipes.gtceu.chemical_bath(`gtfte:zypherean_aerotheum_through_solvent`)
+                .itemInputs(`gtceu:aerotheum_dust`)
+                .inputFluids(`gtceu:thermal_solvent 250`)
+                .outputFluids(`gtceu:zypherean_aerotheum 1000`)
+                .duration(200)
+                .EUt(GTValues.VA[GTValues.LV]);
+
 })
