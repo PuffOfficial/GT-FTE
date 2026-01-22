@@ -2,7 +2,7 @@
 #Client settings
 [client]
 	#Is all jetboots muffled without the upgrade
-	muffledBoots = false
+	muffledBoots = true
 	#Is the battery hud icon visible
 	batteryIconVisible = true
 	#Battery hud icon x positive in percentage
