@@ -92,8 +92,8 @@ ServerEvents.recipes(event => {
                   `gtceu:plastic_printed_circuit_board`,
                   `gtceu:soc`,
                   `2x gtceu:smd_capacitor`,
-                  `gtceu:smd_transistor`,
-                  `gtceu:smd_resistor`,
+                  `2x gtceu:basic_fluix_circuit`,
+                  `gtceu:flawless_fluix_gem`,
                   `4x gtceu:stainless_steel_bolt`
             ])
             .itemOutputs(`2x gtceu:advanced_fluix_circuit`)
@@ -106,11 +106,69 @@ ServerEvents.recipes(event => {
                   `2x gtceu:advanced_fluix_circuit`,
                   `4x gtceu:smd_inductor`,
                   `4x gtceu:smd_diode`,
-                  `gtceu:flawless_fluix_gem`,
+                  `gtceu:exquisite_fluix_gem`,
                   `16x gtceu:silver_single_wire`
             ])
             .itemOutputs(`gtceu:fluix_mainframe`)
             .duration(1200)
             .cleanroom(CleanroomType.CLEANROOM)
             .EUt(GTValues.VA[GTValues.HV]);
+// MARK: AE2 Storage Components
+      event.recipes.gtceu.circuit_assembler(`gtfte:1k_me_component`)
+            .itemInputs([
+                  `2x gtceu:black_steel_plate`,
+                  `2x gtceu:certus_quartz_plate`,
+                  `#gtfte:circuits/me_1`,
+                  `4x gtceu:fine_silver_wire`,
+                  `2x gtceu:ram_chip`
+            ])
+            .itemOutputs(`ae2:cell_component_1k`)
+            .duration(200)
+            .EUt(GTValues.VA[GTValues.LV]);
+      event.recipes.gtceu.circuit_assembler(`gtfte:4k_me_component`)
+            .itemInputs([
+                  `2x gtceu:black_steel_plate`,
+                  `2x ae2:cell_component_1k`,
+                  `#gtfte:circuits/me_2`,
+                  `4x gtceu:fine_silver_wire`,
+                  `2x gtceu:ram_chip`
+            ])
+            .itemOutputs(`ae2:cell_component_4k`)
+            .duration(200)
+            .EUt(GTValues.VA[GTValues.LV]);
+      event.recipes.gtceu.circuit_assembler(`gtfte:16k_me_component`)
+            .itemInputs([
+                  `2x gtceu:black_steel_plate`,
+                  `2x ae2:cell_component_4k`,
+                  `#gtfte:circuits/me_3`,
+                  `4x gtceu:fine_silver_wire`,
+                  `2x gtceu:ram_chip`
+            ])
+            .itemOutputs(`ae2:cell_component_16k`)
+            .duration(200)
+            .EUt(GTValues.VA[GTValues.MV]);
+      event.recipes.gtceu.circuit_assembler(`gtfte:64k_me_component`)
+            .itemInputs([
+                  `2x gtceu:black_steel_plate`,
+                  `2x ae2:cell_component_16k`,
+                  `#gtfte:circuits/me_4`,
+                  `4x gtceu:fine_silver_wire`,
+                  `2x gtceu:ram_chip`
+            ])
+            .itemOutputs(`ae2:cell_component_64k`)
+            .duration(200)
+            .cleanroom(CleanroomType.CLEANROOM)
+            .EUt(GTValues.VA[GTValues.HV]);
+      event.recipes.gtceu.circuit_assembler(`gtfte:256k_me_component`)
+            .itemInputs([
+                  `2x gtceu:stainless_steel_plate`,
+                  `2x ae2:cell_component_64k`,
+                  `#gtfte:circuits/me_4`,
+                  `4x gtceu:fine_silver_wire`,
+                  `2x gtceu:ram_chip`
+            ])
+            .itemOutputs(`ae2:cell_component_256k`)
+            .duration(200)
+            .cleanroom(CleanroomType.CLEANROOM)
+            .EUt(GTValues.VA[GTValues.EV]);
 })

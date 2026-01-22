@@ -4,7 +4,8 @@ ServerEvents.recipes(event => {
 event.recipes.gtceu.chemical_reactor(`gtfte:fluix_gem`)
         .itemInputs(`minecraft:quartz`, `gtceu:charged_certus_quartz_gem`)
         .inputFluids(`gtceu:redstone 144`)
-        .itemOutputs(`gtceu:flawless_fluix_gem`)
+        .chancedOutput(`4x gtceu:chipped_fluix_gem`, 9000, 0)
+        .chancedOutput(`2x gtceu:flawed_fluix_gem`, 1500, 0)
         .duration(200)
         .EUt(GTValues.VA[GTValues.MV]);
 //       Fluix Cable

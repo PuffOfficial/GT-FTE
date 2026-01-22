@@ -2,7 +2,7 @@ recipes:
   # Whether to generate Flawed and Chipped Gems for materials and recipes involving them.
   # Useful for mods like TerraFirmaCraft.
   # Default: false
-  generateLowQualityGems: false
+  generateLowQualityGems: true
 
   # Whether to remove Block/Ingot compression and decompression in the Crafting Table.
   # Default: true
@@ -175,7 +175,7 @@ worldgen:
 machines:
   # Whether to require a Wrench, Wirecutter, or other GregTech tools to break machines, casings, wires, and more.
   # Default: true
-  requireGTToolsForBlocks: false
+  requireGTToolsForBlocks: true
 
   # Whether machines explode in rainy weather or when placed next to certain terrain, such as fire or lava
   # Default: false
@@ -271,7 +271,7 @@ machines:
 
   # Makes nearly every GCYM Multiblock require blocks which set their maximum voltages.
   # Default: false
-  enableTieredCasings: false
+  enableTieredCasings: true
 
   # Minimum distance between Long Distance Item Pipe Endpoints
   # Default: 50

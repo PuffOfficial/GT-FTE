@@ -529,9 +529,6 @@
 			y: -4.5d
 		}
 	]
-	subtitle: [
-		"Fusing Unfuseable"
-		"In Development"
-	]
+	subtitle: ["Fusing Unfuseable"]
 	title: "Chapter 8 | ZPM"
 }
