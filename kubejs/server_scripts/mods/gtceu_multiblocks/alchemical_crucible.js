@@ -27,4 +27,12 @@ ServerEvents.recipes(event => {
     .addData("max_temp", 1300)
     .duration(320)
     .EUt(GTValues.VA[GTValues.HV]);
+  event.recipes.gtceu.alchemy('gtfte:void_metal')
+    .itemInputs('gtceu:tungsten_carbide_ingot')
+    .inputFluids(['gtceu:vitium 50', 'gtceu:tenebrae 150'])
+    .itemOutputs('gtceu:void_metal_ingot')
+    .addData("min_temp", 3000)
+    .addData("max_temp", 4200)
+    .duration(600)
+    .EUt(GTValues.VA[GTValues.HV]);
 })

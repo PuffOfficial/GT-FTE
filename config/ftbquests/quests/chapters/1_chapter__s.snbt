@@ -317,6 +317,8 @@
 		{
 			dependencies: ["463E7B6B3DAB14BC"]
 			id: "06BF29E326F5AF1C"
+			optional: true
+			shape: "gear"
 			tasks: [{
 				id: "11356B7BFB5611D1"
 				item: "gtceu:wrought_iron_ingot"
@@ -407,5 +409,5 @@
 		}
 	]
 	subtitle: ["Stands for Not-A-Voltage"]
-	title: "Chapter 0 | NAV"
+	title: "Chapter 0 | NaV"
 }

@@ -214,6 +214,65 @@ GTCEuServerEvents.oreVeins(event => {
             )
         )
     })
+    event.add("chulak/rock_salt", vein => {
+        vein.weight(10)
+        vein.density(0.15)
+        vein.clusterSize(60)
+        vein.layer("chulak_stone")
+        vein.dimensions("sgjourney:chulak")
+        vein.heightRangeUniform(100, 180)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).mat(GTMaterials.RockSalt).size(1, 7))
+                .layer(l => l.weight(2).mat(GTMaterials.Salt).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.TricalciumPhosphate).size(2, 4))
+            )
+        )
+    })
+    event.add("chulak/barite", vein => {
+        vein.weight(20)
+        vein.density(0.30)
+        vein.clusterSize(20)
+        vein.layer("chulak_stone")
+        vein.dimensions("sgjourney:chulak")
+        vein.heightRangeUniform(20, 90)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).mat(GTMaterials.Barite).size(1, 7))
+                .layer(l => l.weight(2).mat(GTMaterials.Iron).size(2, 4))
+            )
+        )
+    })
+    event.add("chulak/quartz", vein => {
+        vein.weight(10)
+        vein.density(0.60)
+        vein.clusterSize(60)
+        vein.layer("chulak_stone")
+        vein.dimensions("sgjourney:chulak")
+        vein.heightRangeUniform(20, 80)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).mat(GTMaterials.CertusQuartz).size(1, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.Quartzite).size(1, 5))
+                .layer(l => l.weight(2).mat(GTMaterials.NetherQuartz).size(3, 8))
+            )
+        )
+    })
+    event.add("chulak/lepidolite", vein => {
+        vein.weight(10)
+        vein.density(0.60)
+        vein.clusterSize(60)
+        vein.layer("chulak_stone")
+        vein.dimensions("sgjourney:chulak")
+        vein.heightRangeUniform(70, 95)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(2).mat(GTMaterials.Lepidolite).size(1, 3))
+                .layer(l => l.weight(2).mat(GTMaterials.Spodumene).size(1, 5))
+                .layer(l => l.weight(2).mat(GTMaterials.Pollucite).size(3, 8))
+            )
+        )
+    })
 })
 // MARK: BEDROCK FLUIDS:
 GTCEuServerEvents.fluidVeins(event => {

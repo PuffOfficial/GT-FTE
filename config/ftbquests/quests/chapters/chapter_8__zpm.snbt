@@ -287,6 +287,7 @@
 		{
 			dependencies: ["7CF2F3D38893F8CB"]
 			id: "31D55B7E3A7F55E2"
+			subtitle: "Yet again."
 			tasks: [{
 				count: 16L
 				id: "2C16F1258DA76459"
@@ -516,7 +517,7 @@
 		}
 		{
 			dependencies: ["76AB0638D102BE8E"]
-			description: ["One of the BEST energy sources! Can be even better with cryotheum"]
+			description: ["One of the BEST fuel rods! Can be even better with gelid cryotheum"]
 			id: "5DFAB300962CC372"
 			optional: true
 			shape: "diamond"
@@ -526,7 +527,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -4.5d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Fusing Unfuseable"]

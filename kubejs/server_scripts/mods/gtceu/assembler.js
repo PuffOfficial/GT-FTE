@@ -193,6 +193,36 @@ event.shaped(`gtceu:ulv_assembler`, [
         .itemOutputs(`kubejs:containment_coil`)
         .duration(1200)
         .EUt(GTValues.VA[GTValues.IV]);
-// MARK: AE2
+// MARK: Flux Networks
+    event.recipes.gtceu.assembler(`gtfte:flux_core`)
+        .itemInputs([
+            `4x fluxnetworks:flux_dust`, 
+            `2x gtceu:flux_fused_naquadah_gear`,
+            `minecraft:ender_eye`])
+        .inputFluids(`gtceu:sensus 250`)
+        .itemOutputs(`2x fluxnetworks:flux_core`)
+        .duration(1200)
+        .EUt(GTValues.VA[GTValues.HV]);
+
+    event.recipes.gtceu.assembler(`gtfte:flux_plug`).circuit(1)
+        .itemInputs([
+            `4x fluxnetworks:flux_core`, 
+            `16x gtceu:flux_fused_naquadah_gear`,
+            `gtceu:flux_fused_naquadah_rotor`,
+            `#gtceu:circuits/luv`])
+        .inputFluids(`gtceu:sensus 250`)
+        .itemOutputs(`2x fluxnetworks:flux_plug`)
+        .duration(1200)
+        .EUt(GTValues.VA[GTValues.HV]);
+    event.recipes.gtceu.assembler(`gtfte:flux_point`).circuit(2)
+        .itemInputs([
+            `4x fluxnetworks:flux_core`, 
+            `16x gtceu:flux_fused_naquadah_gear`,
+            `gtceu:flux_fused_naquadah_rotor`,
+            `#gtceu:circuits/luv`])
+        .inputFluids(`gtceu:sensus 250`)
+        .itemOutputs(`2x fluxnetworks:flux_point`)
+        .duration(1200)
+        .EUt(GTValues.VA[GTValues.HV]);
 
 })

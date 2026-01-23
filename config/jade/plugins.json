@@ -63,16 +63,17 @@
     "enlarged_me_stocking_bus_info": true,
     "pterb_info": true
   },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
   "exdeorum": {
     "infested_leaves": true,
     "barrel": true,
     "crucible": true,
     "sieve": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
   },
   "avaritia": {
     "extreme_smithing": true,
@@ -111,14 +112,6 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "cookingforblockheads": {
-    "fridge": true,
-    "oven": true,
-    "sink": true,
-    "preservation_chamber": true,
-    "milk_jar": true,
-    "toaster": true
-  },
   "balm": {
     "jade": true
   },
@@ -133,5 +126,18 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "cookingforblockheads": {
+    "fridge": true,
+    "oven": true,
+    "sink": true,
+    "preservation_chamber": true,
+    "milk_jar": true,
+    "toaster": true
   }
 }

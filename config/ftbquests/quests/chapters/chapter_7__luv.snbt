@@ -398,6 +398,7 @@
 		{
 			dependencies: ["751CCA9196F0670D"]
 			id: "7CA1C9BB087430CA"
+			optional: true
 			rewards: [{
 				id: "43DAEB5DD656A634"
 				item: "kubejs:p_credit"
@@ -415,6 +416,7 @@
 		{
 			dependencies: ["751CCA9196F0670D"]
 			id: "108D189C132B3069"
+			optional: true
 			rewards: [{
 				id: "1019B0930652096F"
 				item: "kubejs:p_credit"
@@ -750,6 +752,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Yummy"
 			tasks: [{
 				id: "767EA2080BC4B789"
 				item: "gtceu:uranium_236_ingot"
@@ -891,6 +894,41 @@
 			}]
 			x: 3.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["52BDC3DA495B2C31"]
+			id: "27EF1738A55C2D73"
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "28D4B5A147AC2145"
+					item: {
+						Count: 1
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CC4405BB1B45952"
+					item: {
+						Count: 1
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ender Storage"
+			x: 0.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["The Power Of Atom"]

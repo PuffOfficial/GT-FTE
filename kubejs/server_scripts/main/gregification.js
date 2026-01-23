@@ -264,4 +264,27 @@ ServerEvents.recipes(event => {
     F: `minecraft:chest`
   }
   ).damageIngredient([global.tools.AnyMallet, global.tools.AnySaw]);
+  //MARK: Ender Storage
+  event.shaped(`enderchests:ender_chest`, [
+    `CBC`,
+    `ADA`,
+    `CAC`
+  ], {
+    A: `gtceu:void_metal_plate`,
+    B: `minecraft:ender_eye`,
+    C: `minecraft:blaze_rod`,
+    D: `gtceu:lv_super_chest`,
+  }
+  );
+  event.shaped(`endertanks:ender_tank`, [
+    `CBC`,
+    `ADA`,
+    `CAC`
+  ], {
+    A: `gtceu:void_metal_plate`,
+    B: `minecraft:ender_eye`,
+    C: `minecraft:blaze_rod`,
+    D: `gtceu:lv_super_tank`,
+  }
+  );
 })

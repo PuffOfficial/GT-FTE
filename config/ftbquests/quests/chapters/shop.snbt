@@ -439,6 +439,7 @@
 				}
 			]
 			tasks: [{
+				count: 16L
 				id: "2A81A04635D9B4B5"
 				item: "kubejs:p_credit"
 				type: "item"

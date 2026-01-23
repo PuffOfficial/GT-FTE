@@ -11,35 +11,20 @@
     "material.gtceu.solar_grade_silicon": "S-Grade Silicon",
     "material.gtceu.radiation_resistant_alloy": "Radiation Resistant Alloy",
     "material.gtceu.artificial_amethyst": "Artificial Amethyst",
+    "material.gtceu.flux_fused_naquadah": "Flux Fused Naquadah",
     "material.gtceu.unbreakium": "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable",
 
     "material.gtceu.infinity": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb>",
 
     "material.gtceu.thaumium": "Thaumium",
     "material.gtceu.alchemical_bronze": "Alchemical Bronze",
+    "material.gtceu.void_metal": "Void Metal",
 
     "material.gtceu.sombralite": "Sombralite",
     "material.gtceu.nocturium": "Nocturium",
     "material.gtceu.nocturium_dioxide": "Nocturium Dioxide",
     "material.gtceu.celestite": "Celestite",
     "material.gtceu.tenebron": "Tenebron",
-
-    "item.gtceu.ancient_sand_dust": "Ancient Sand",
-    "item.gtceu.tiny_ancient_sand_dust": "Tiny Pile of Ancient Sand",
-    "item.gtceu.small_ancient_sand_dust": "Small Pile of Ancient Sand",
-    "item.gtceu.pure_ancient_sand_dust": "Purified Ancient Sand",
-    "item.gtceu.impure_ancient_sand_dust": "Impure Ancient Sand",
-    "item.gtceu.raw_ancient_sand": "Solid Ancient Sand",
-    "item.gtceu.crushed_ancient_sand": "Crushed Ancient Sand",
-
-    "item.gtceu.ancient_metal_mixture_dust": "Ancient Metal Mixture",
-    "item.gtceu.tiny_ancient_metal_mixture_dust": "Tiny Pile of Ancient Metal Mixture",
-    "item.gtceu.small_ancient_metal_mixture_dust": "Small Pile of Ancient Metal Mixture",
-
-    "material.gtceu.pharaonium": "Pharaonium",
-    "material.gtceu.ancient_sand": "Ancient Sand",
-    "material.gtceu.ancient_metal_mixture": "Ancient Metal Mixture",
-    "material.gtceu.ancient_metal_solution": "Ancient Metal Solution",
 
     "material.gtceu.sombralite_byproduct_sludge": "Sombralite Byproduct Sludge",
     "material.gtceu.plutonium_sludge": "Plutonium Sludge",
@@ -151,6 +136,7 @@
     "block.gtceu.primitive_electric_furnace": "§8Primitive Electric Furnace",
     "block.gtceu.evaporation_plant": "Evaporation Plant",
     "block.gtceu.dtpebf": "Dimensionally Transcendent Primitive Electric Blast Furnace",
+    "block.gtceu.stargate_example": "Stargate Example",
 
     "block.gtceu.asu": "Advanced Sifting Unit",
 
@@ -195,7 +181,11 @@
     "gtceu.jei.ore_vein.cavum_tenebrae/pitchblende": "Pitchblende Vein",
     "gtceu.jei.ore_vein.cavum_tenebrae/sombralite": "Sombralite Vein",
     "gtceu.jei.ore_vein.cavum_tenebrae/chulak": "Cassiterite Vein",
-
+    "gtceu.jei.ore_vein.chulak/cassiterite": "Cassiterite Vein",
+    "gtceu.jei.ore_vein.chulak/lepidolite": "Lepidolite Vein",
+    "gtceu.jei.ore_vein.chulak/barite": "Barite Vein",
+    "gtceu.jei.ore_vein.chulak/rock_salt": "Rock Salt Vein",
+    "gtceu.jei.ore_vein.chulak/quartz": "Quartz Mix Vein",
 
     "material.gtceu.cavum_tenebrae_air": "Cavum Tenebrae Air",
     "material.gtceu.rima_air": "Rima Air",

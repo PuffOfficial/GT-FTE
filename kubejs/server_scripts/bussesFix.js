@@ -1,4 +1,4 @@
-let HatchTiers = ["ulv", "lv"]
+let HatchTiers = ["ulv"]
 const HatchType = [
     ["hatch", "minecraft:glass"],
     ["bus", "minecraft:chest"]

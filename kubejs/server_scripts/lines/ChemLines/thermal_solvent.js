@@ -37,17 +37,17 @@ ServerEvents.recipes(event => {
         .inputFluids(`gtceu:reactive_aromatic_base 1000`, `gtceu:reactive_aliphatic_base 1000`)
         .outputFluids(`gtceu:unstable_thermal_solvent 2000`)
         .duration(20)
-        .EUt(GTValues.VA[GTValues.ZPM]);
+        .EUt(GTValues.VA[GTValues.EV]);
 
     event.recipes.gtceu.vacuum_freezer(`gtfte:conditioned_thermal_solvent`)
         .inputFluids(`gtceu:unstable_thermal_solvent 1000`)
         .outputFluids(`gtceu:conditioned_thermal_solvent 1000`)
         .duration(200)
-        .EUt(GTValues.VA[GTValues.EV]);
+        .EUt(GTValues.VA[GTValues.HV]);
 
     event.recipes.gtceu.chemical_reactor(`gtfte:thermal_solvent`)
         .inputFluids(`gtceu:conditioned_thermal_solvent 1000`)
         .outputFluids(`gtceu:thermal_solvent 1000`)
         .duration(200)
-        .EUt(GTValues.VA[GTValues.HV]);
+        .EUt(GTValues.VA[GTValues.MV]);
 })

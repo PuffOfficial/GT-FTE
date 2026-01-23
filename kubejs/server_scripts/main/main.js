@@ -206,6 +206,14 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: `avaritia:compressed_chest` })
 
+    event.remove({ id: `enderchests:ender_chest` })
+    event.remove({ id: `endertanks:tank` })
+
+    event.remove({ id: `fluxnetworks:fluxblock` })
+    event.remove({ id: `fluxnetworks:fluxcore` })
+    event.remove({ id: `fluxnetworks:fluxplug` })
+    event.remove({ id: `fluxnetworks:fluxpoint` })
+
     event.remove({ mod: `sgjourney` })
     event.remove({ mod: `ad_astra` })
     event.remove({ mod: `enderio` })

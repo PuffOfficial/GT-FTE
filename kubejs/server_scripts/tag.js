@@ -1,16 +1,5 @@
 ServerEvents.tags('item', event => {
-     event.removeAllTagsFrom('ae2:certus_quartz_crystal')
-     event.removeAllTagsFrom('ae2:charged_certus_quartz_crystal')
-     event.removeAllTagsFrom('ae2:certus_quartz_dust')
-     event.removeAllTagsFrom('ae2:fluix_dust')
-     event.removeAllTagsFrom('create:zinc_ingot')
-     event.removeAllTagsFrom('create:zinc_nugget')
-     event.removeAllTagsFrom('create:brass_ingot')
-     event.removeAllTagsFrom('create:brass_nugget')
-     event.removeAllTagsFrom('create:brass_sheet')
-     event.removeAllTagsFrom('create:copper_sheet')
-     event.removeAllTagsFrom('bigreactors:graphite_dust')
-     event.removeAllTagsFrom('botania:mana_diamond')
+
 
      event.removeAllTagsFrom('botania:elementium_block')
      event.removeAllTagsFrom('botania:terrasteel_block')

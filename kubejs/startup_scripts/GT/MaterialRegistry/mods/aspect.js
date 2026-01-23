@@ -14,7 +14,7 @@ global.ComplicatedAspects = [
     [`victus`, `aqua`, `terra`, 0xd10005],
     [`vitreus`, `ordo`, `terra`, 0x7cfffe],
 //Tier 2
-    [`bestia`, `ordo`, `victus`, 0x9c630a],
+    [`bestia`, `motus`, `victus`, 0x9c630a],
     [`fames`, `vacuos`, `victus`, 0x9b0101],
     [`herba`, `terra`, `victus`, 0x288f0a],
     [`iter`, `motus`, `terra`, 0xd75d58],

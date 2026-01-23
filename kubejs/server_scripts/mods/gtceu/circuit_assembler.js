@@ -163,7 +163,20 @@ ServerEvents.recipes(event => {
             .itemInputs([
                   `2x gtceu:stainless_steel_plate`,
                   `2x ae2:cell_component_64k`,
-                  `#gtfte:circuits/me_4`,
+                  `#gtfte:circuits/me_5`,
+                  `4x gtceu:fine_silver_wire`,
+                  `2x gtceu:ram_chip`
+            ])
+            .itemOutputs(`ae2:cell_component_256k`)
+            .duration(200)
+            .cleanroom(CleanroomType.CLEANROOM)
+            .EUt(GTValues.VA[GTValues.EV]);
+// MARK: Flux Networks
+      event.recipes.gtceu.circuit_assembler(`gtfte:flux_core`)
+            .itemInputs([
+                  `2x gtceu:stainless_steel_plate`,
+                  `2x ae2:cell_component_64k`,
+                  `#gtfte:circuits/me_5`,
                   `4x gtceu:fine_silver_wire`,
                   `2x gtceu:ram_chip`
             ])
