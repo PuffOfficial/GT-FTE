@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_11__uev"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_uev_circuit"
 	id: "3C9E98A29D64F642"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [{
 		id: "52C88D2738AB265C"

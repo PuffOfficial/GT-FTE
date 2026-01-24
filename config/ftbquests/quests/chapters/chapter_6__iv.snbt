@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_6__iv"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_iv_circuit"
 	id: "00E9F74BD5C11D43"
 	images: [
@@ -31,7 +31,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -41,6 +41,23 @@
 			]
 			description: ["There will be MUCH more magic"]
 			id: "2494CE22E5E552E4"
+			rewards: [{
+				id: "3F50566CD0C362DD"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "gtfte:tungsten_steel"
+							id: "trofers:trophy"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
 			size: 1.25d
 			subtitle: "IV!!!!"
 			tasks: [{
@@ -1442,7 +1459,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5077D1735799F657"]
 			id: "4B808659905090CE"
 			rewards: [{
 				id: "6D31D962D70593CD"

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_9__uv"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_uv_circuit"
 	id: "013934991C3E7A50"
 	images: [{
@@ -13,7 +13,7 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [{
 		dependencies: [
@@ -21,6 +21,23 @@
 			"00BFC9DC67C56E5B"
 		]
 		id: "03BF5FF67AED96DB"
+		rewards: [{
+			id: "6F8FF2EE2859D878"
+			item: {
+				Count: 1
+				id: "trofers:large_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "gtfte:darmstadtium"
+						id: "trofers:trophy"
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+					}
+				}
+			}
+			type: "item"
+		}]
 		tasks: [{
 			id: "0E93E9676003EABC"
 			title: "Start Questline"

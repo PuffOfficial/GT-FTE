@@ -241,7 +241,7 @@ GTCEuStartupEvents.registry(`gtceu:world_gen_layer`, event => {
 
     event.create(`chulak_stone`)
         .targets(`minecraft:stone`, `#minecraft:stone_ore_replaceables`)
-        .dimensions(`sgjourne:chulak`)
+        .dimensions(`sgjourney:chulak`)
 
     event.create(`unitas_sand`)
         .targets(`sgjourney:sulfur_sand`, `#minecraft:stone_ore_replaceables`)

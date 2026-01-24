@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1_chapter__s"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: {
 		Count: 1
 		id: "trofers:large_pillar"
@@ -13,7 +13,7 @@
 		}
 	}
 	id: "1062069A833B5AF2"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

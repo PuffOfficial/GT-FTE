@@ -243,6 +243,10 @@ ServerEvents.recipes(event => {
         `minecraft:stick`,
         `minecraft:stick`
     ])
+    event.shapeless(`kubejs:stone_spade`, [
+        `minecraft:cobblestone`,
+        `exdeorum:stone_pebble`
+    ])
     event.shapeless(`kubejs:string_mesh_chunk`, [
         `minecraft:string`,
         `minecraft:string`,

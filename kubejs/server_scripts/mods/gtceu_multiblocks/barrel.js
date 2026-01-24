@@ -26,6 +26,11 @@ ServerEvents.recipes(event => {
                 .inputFluids(`exdeorum:witch_water 1000`)
                 .itemOutputs(`minecraft:soul_sand`)
                 .duration(10);
+        event.recipes.gtceu.barrel(`gtfte:wither_rose`)
+                .itemInputs(`minecraft:poppy`)
+                .inputFluids(`exdeorum:witch_water 1000`)
+                .itemOutputs(`minecraft:wither_rose`)
+                .duration(1200);
 
         event.recipes.gtceu.barrel(`gtfte:slime`)
                 .itemInputs(`minecraft:milk_bucket`)

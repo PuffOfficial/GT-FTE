@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_expansion__1"
+	group: "501FA23C11A1069A"
+	icon: "gtceu:advanced_power_thruster"
+	id: "2B6BDA8740B10DA0"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/gcym/atomic_casing"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["This chapter is optional, and is not required for future progression"]
+		id: "7145EC9713BF2CA8"
+		tasks: [{
+			id: "4E2EA4DC52FE2BBC"
+			title: "Start Questline"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Space Expansion"
+}

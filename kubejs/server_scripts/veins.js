@@ -206,7 +206,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(45)
         vein.layer("chulak_stone")
         vein.dimensions("sgjourney:chulak")
-        vein.heightRangeUniform(60, 180)
+        vein.heightRangeUniform(20, 30)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).mat(GTMaterials.Cassiterite).size(1, 3))
@@ -220,7 +220,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(60)
         vein.layer("chulak_stone")
         vein.dimensions("sgjourney:chulak")
-        vein.heightRangeUniform(100, 180)
+        vein.heightRangeUniform(10, 50)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).mat(GTMaterials.RockSalt).size(1, 7))
@@ -235,7 +235,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20)
         vein.layer("chulak_stone")
         vein.dimensions("sgjourney:chulak")
-        vein.heightRangeUniform(20, 90)
+        vein.heightRangeUniform(20, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).mat(GTMaterials.Barite).size(1, 7))
@@ -249,7 +249,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(60)
         vein.layer("chulak_stone")
         vein.dimensions("sgjourney:chulak")
-        vein.heightRangeUniform(20, 80)
+        vein.heightRangeUniform(20, 35)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).mat(GTMaterials.CertusQuartz).size(1, 3))
@@ -264,7 +264,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(60)
         vein.layer("chulak_stone")
         vein.dimensions("sgjourney:chulak")
-        vein.heightRangeUniform(70, 95)
+        vein.heightRangeUniform(20, 25)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(2).mat(GTMaterials.Lepidolite).size(1, 3))

@@ -205,10 +205,10 @@ ServerEvents.recipes(event => {
     `CEB`,
     `DA `
   ], {
-    A: `ae2:black_steel_plate`,
-    B: `ae2:certus_quartz_plate`,
-    C: `ae2:gold_plate`,
-    D: `ae2:fine_silver_wire`,
+    A: `gtceu:black_steel_plate`,
+    B: `gtceu:certus_quartz_plate`,
+    C: `gtceu:gold_plate`,
+    D: `gtceu:fine_silver_wire`,
     E: `#gtfte:circuits/me_2`,
   }
   );
@@ -217,10 +217,10 @@ ServerEvents.recipes(event => {
     `BEC`,
     `DA `
   ], {
-    A: `ae2:black_steel_plate`,
-    B: `ae2:certus_quartz_plate`,
-    C: `ae2:diamond_plate`,
-    D: `ae2:fine_silver_wire`,
+    A: `gtceu:black_steel_plate`,
+    B: `gtceu:certus_quartz_plate`,
+    C: `gtceu:diamond_plate`,
+    D: `gtceu:fine_silver_wire`,
     E: `#gtfte:circuits/me_2`,
   }
   );

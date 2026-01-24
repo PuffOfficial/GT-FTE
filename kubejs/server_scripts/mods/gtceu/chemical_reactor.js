@@ -60,4 +60,20 @@ event.recipes.gtceu.chemical_reactor(`gtfte:uhpic_wafer`)
         .duration(1200)
         .cleanroom(CleanroomType.getByName(`ionizing`))
         .EUt(GTValues.VA[GTValues.LuV]);
+//Wither Skulls
+event.recipes.gtceu.chemical_reactor(`gtfte:wither_skull`)
+        .itemInputs(`minecraft:skeleton_skull`)
+        .notConsumable(`minecraft:wither_rose`)
+        .itemOutputs(`minecraft:wither_skeleton_skull`)
+        .duration(1200)
+        .cleanroom(CleanroomType.CLEANROOM)
+        .EUt(GTValues.VA[GTValues.HV]);
+//Nether Stars
+event.recipes.gtceu.chemical_reactor(`gtfte:nether_star`)
+        .itemInputs([`3x minecraft:wither_skeleton_skull`, `16x minecraft:soul_sand`])
+        .inputFluids([`gtceu:rocket_fuel 1000`, `gtceu:nether_air 16000`])
+        .itemOutputs(`minecraft:nether_star`)
+        .duration(9600)
+        .cleanroom(CleanroomType.CLEANROOM)
+        .EUt(GTValues.VA[GTValues.EV]);
 })

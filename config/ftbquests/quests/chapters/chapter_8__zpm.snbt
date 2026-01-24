@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_8__zpm"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_zpm_circuit"
 	id: "2C26E7F5B92EE51E"
 	images: [{
@@ -13,12 +13,29 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["40CE0F5F9F40386E"]
 			id: "3CE8DE09CF6B1DD7"
+			rewards: [{
+				id: "39A812D7B9185545"
+				item: {
+					Count: 1
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "gtfte:naquadah_alloy"
+							id: "trofers:trophy"
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B6DB21EEE4BF4A8"
 				title: "Start Questline"

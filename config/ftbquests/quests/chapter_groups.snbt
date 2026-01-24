@@ -1,3 +1,7 @@
 {
-	chapter_groups: [{ id: "76ED85C1705485DC", title: "Other Chapters" }]
+	chapter_groups: [
+		{ id: "7D7D730D2E28CCD3", title: "Main Progression" }
+		{ id: "501FA23C11A1069A", title: "Side Progression" }
+		{ id: "76ED85C1705485DC", title: "Other Chapters" }
+	]
 }

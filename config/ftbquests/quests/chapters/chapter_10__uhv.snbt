@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_10__uhv"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_uhv_circuit"
 	id: "7202288CD8932143"
-	order_index: 11
+	order_index: 10
 	quest_links: [ ]
 	quests: [{
 		id: "78EC87A570370111"

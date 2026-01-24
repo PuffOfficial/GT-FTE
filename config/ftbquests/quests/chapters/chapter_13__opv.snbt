@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_13__opv"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_opv_circuit"
 	id: "7352E57BDDD5FD70"
-	order_index: 15
+	order_index: 14
 	quest_links: [ ]
 	quests: [{
 		id: "41A73AECB8D60516"

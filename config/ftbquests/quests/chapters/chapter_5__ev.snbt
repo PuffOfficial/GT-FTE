@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_5__ev"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_ev_circuit"
 	id: "6C67AEF67B9305B7"
 	images: [
@@ -33,7 +33,7 @@
 			y: 0.1d
 		}
 	]
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1158,11 +1158,39 @@
 		{
 			dependencies: ["17F721F6D4B53924"]
 			id: "21006FCD6F81BA4E"
-			rewards: [{
-				id: "2A970807AC77A3DD"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2A970807AC77A3DD"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74511B531B64AE15"
+					item: {
+						Count: 1
+						id: "sgjourney:advanced_transfer_crystal"
+						tag: {
+							TransferLimit: 5000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "545F5134BCC7CAAC"
+					item: "sgjourney:large_control_crystal"
+					type: "item"
+				}
+				{
+					id: "6A08E8AED32331E3"
+					item: {
+						Count: 1
+						id: "sgjourney:advanced_energy_crystal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Don't forget to power this thing!"
 			tasks: [{
 				id: "7C4332E09E9C322C"

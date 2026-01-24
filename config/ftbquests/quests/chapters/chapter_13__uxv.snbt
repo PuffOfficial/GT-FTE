@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_13__uxv"
-	group: ""
+	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_uxv_circuit"
 	id: "5043133A78F284F8"
-	order_index: 14
+	order_index: 13
 	quest_links: [ ]
 	quests: [{
 		id: "2734786AEE2BB607"
