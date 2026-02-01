@@ -1,0 +1,84 @@
+{
+    "item.kubejs.ulv_electric_piston": "ULV電動ピストン",
+    "item.kubejs.ulv_robot_arm": "ULVロボットアーム",
+    "item.kubejs.ulv_conveyor_module": "ULVコンベアーモジュール",
+    "item.kubejs.ulv_electric_motor": "ULV電動モーター",
+    "item.kubejs.ulv_electric_pump": "ULV電動ポンプ",
+
+    "item.kubejs.universal_ulv_circuit": "ユニバーサルULV回路",
+    "item.kubejs.universal_lv_circuit": "ユニバーサルLV回路",
+    "item.kubejs.universal_mv_circuit": "ユニバーサルMV回路",
+    "item.kubejs.universal_hv_circuit": "ユニバーサルHV回路",
+    "item.kubejs.universal_ev_circuit": "ユニバーサルEV回路",
+    "item.kubejs.universal_iv_circuit": "ユニバーサルIV回路",
+    "item.kubejs.universal_luv_circuit": "ユニバーサルLuV回路",
+    "item.kubejs.universal_zpm_circuit": "ユニバーサルZPM回路",
+    "item.kubejs.universal_uv_circuit": "ユニバーサルUV回路",
+    "item.kubejs.universal_uhv_circuit": "ユニバーサルUHV回路",
+    "item.kubejs.universal_uev_circuit": "ユニバーサルUEV回路",
+    "item.kubejs.universal_uiv_circuit": "ユニバーサルUIV回路",
+    "item.kubejs.universal_uxv_circuit": "ユニバーサルUXV回路",
+    "item.kubejs.universal_opv_circuit": "ユニバーサルOpV回路",
+
+    "item.kubejs.ram_mainframe": "RAMメインフレーム",
+    "item.kubejs.ram_stick": "RAMスティック",
+
+    "item.kubejs.stick_fragments": "棒の破片",
+    "item.kubejs.simple_knitting_kit": "編み棒",
+    "item.kubejs.string_mesh_chunk": "編まれた糸",
+
+    "item.kubejs.p_credit": "Pコイン",
+
+    "item.kubejs.alfheim_runes": "エルヴンルーン",
+
+    "gtfte.cavum_tenebrae": "§o§7この惑星の大気は有害みたい... 何らかの防護服を着た方がいいんじゃない?",
+    "gtfte.unitas": "§o§7深呼吸してみると... これは硫黄の匂い...?",
+    "gtfte.rima": "§o§7深呼吸してみると、自分に影響は... なさそう?",
+    "gtfte.chulak": "§o§7深呼吸してみると、自分に影響は... なさそう?",
+    "gtfte.abydos": "§o§7深呼吸してみると... すっごい熱い!",
+    "gtfte.dizzy": "§o§7めまいがする...",
+    "gtfte.overworld": "§o§7旅を終えて、あなたは安堵を感じた。",
+
+    "gtfte.tooltip.material.infinity": "<rainb>この宇宙で最も高密度な%s<rainb>。</rainb>",
+
+    "gtfte.name.universal_circuit": "%sユニバーサル回路",
+    "gtfte.tooltip.universal_circuit": "%s§7電気の力を感じる...!",
+
+    "gtfte.name.fuel_rod": "燃料棒 (%s)",
+
+    "gtfte.name.primitive_maintenance_hatch": "初歩的なメンテナンスハッチ",
+    "gtfte.name.ionizing_module": "イオン化モジュール",
+    "gtfte.tooltip.bedrock_crusher": "大型採掘機じゃないよ",
+    "gtfte.tooltip.energizer": "大型充電機じゃないよ!",
+    "gtfte.tooltip.daycycle_simulation_chamber": "※この中に人を閉じ込めても急速成長はしません",
+
+    "gtfte.tooltip.primitive": "エネルギーハッチは§8ULV§rにのみ対応。",
+    "gtfte.tooltip.ulv_component": "§7カバーとして使えるほどのパワーはない...",
+
+    "gtfte.tooltip.alchemical_crucible_1": "大釜の上位互換",
+    "gtfte.tooltip.alchemical_crucible_2": "LV§7より高ければ、電圧ごとに§r75K§7ずつ温度が上昇します。.",
+
+    "gtfte.components.heat_capacity": "熱容量: %s§cK§r",
+    "gtfte.components.parallels": "デフォルトの並列処理数: %s§r",
+
+    "gtfte.tooltip.etbf": "工業用電気炉と同じ追加性能を持つ",
+
+    "gtfte.tooltip.defaultParallel": "デフォルトの並列処理数:§5 %s §r",
+
+    "gtfte.ionizing_cleanroom": "§5イオン化モジュール",
+
+    "gtfte.tagprefix.ingot": "インゴット",
+    "gtfte.tagprefix.plate": "プレート",
+    "gtfte.tagprefix.tiny_dust": "極小の粉",
+    "gtfte.tagprefix.small_dust": "小さな粉",
+    "gtfte.tagprefix.dust": "粉",
+    "gtfte.tagprefix.double_plate": "二重プレート",
+    "gtfte.tagprefix.gear": "歯車",
+    "gtfte.tagprefix.small_gear": "小さな歯車",
+    "gtfte.tagprefix.nugget": "塊",
+    "gtfte.tagprefix.ring": "リング",
+    "gtfte.tagprefix.bolt": "ボルト",
+    "gtfte.tagprefix.screw": "スクリュー",
+    "gtfte.tagprefix.rod": "棒"
+
+}
