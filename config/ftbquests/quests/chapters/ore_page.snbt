@@ -128,7 +128,7 @@
 			id: "1D807128562EF508"
 			tasks: [{
 				id: "48C557817A48599C"
-				item: "minecraft:coal"
+				item: "gtceu:raw_coal"
 				type: "item"
 			}]
 			x: -1.5d
@@ -222,7 +222,7 @@
 			id: "72588E8F13F03A42"
 			tasks: [{
 				id: "7800CB69EC59E9C8"
-				item: "minecraft:coal"
+				item: "gtceu:raw_coal"
 				type: "item"
 			}]
 			x: -5.0d
