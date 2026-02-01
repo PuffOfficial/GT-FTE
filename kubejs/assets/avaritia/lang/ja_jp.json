@@ -1,0 +1,6 @@
+{
+    "item.avaritia.infinity_ingot": "<neon p=8 r=2 a=0.15><rainb>インフィニティ</rainb></neon>§fインゴット§r",
+    "item.avaritia.infinity_nugget": "<neon p=8 r=2 a=0.15><rainb>インフィニティ</rainb></neon>§f塊§r",
+    "item.avaritia.infinity_catalyst": "<neon p=8 r=2 a=0.15><rainb>インフィニティ</rainb></neon>§fカタリスト§r",
+    "block.avaritia.infinity": "<neon p=8 r=2 a=0.15><rainb>インフィニティ</rainb></neon>§fブロック"
+}
