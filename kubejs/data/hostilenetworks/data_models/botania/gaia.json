@@ -1,0 +1,26 @@
+{
+    "entity": "botania:doppleganger",
+    "name": "entity.botania.doppleganger",
+    "name_color": "#001a1a1a",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 4096,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.blaze",
+    "fabricator_drops": [{
+            "item": "botania:life_essence",
+            "count": 2
+        },
+        {
+            "item": "botania:gaia_head",
+            "count": 1
+        }
+    ]
+}

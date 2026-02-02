@@ -24,6 +24,11 @@ let InputsForDeletion = [
   `gendustry:industrial_apiary`,
   //-----AE2-----//
   `ae2:blank_pattern`,
+  //-----HNN-----//
+  `hostilenetworks:blank_data_model`,
+  `hostilenetworks:deep_learner`,
+  `hostilenetworks:loot_fabricator`,
+  `hostilenetworks:sim_chamber`
 ]
 
 let ModsToUnify = [
@@ -34,6 +39,7 @@ ServerEvents.recipes(event => {
   InputsForDeletion.forEach(input => {
     event.remove({ output: input })
   })
+
   //MARK: Minecraft
   event.recipes.gtceu.assembler(`gtfte:chest`)
     .itemInputs(`2x gtceu:wood_plate`, `gtceu:iron_ring`, `gtceu:iron_screw`)
