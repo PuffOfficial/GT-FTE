@@ -95,6 +95,7 @@ function DefaultParallel(machine, recipe, parallelAmount) {
 //Custom Cleanrooms types
 const $CleanroomType = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.CleanroomType")
 const ionizingCleanroom = new $CleanroomType("ionizing", "gtfte.ionizing_cleanroom")
+const spaceModule = new $CleanroomType("space_module", "gtfte.space_module")
 //Custom partAbilities
 const $PartAbility = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.PartAbility");
 const PRIMITIVE_MAINTENANCE = new $PartAbility("primitive_maintenance")

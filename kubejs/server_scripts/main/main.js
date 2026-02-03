@@ -38,6 +38,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: `gtceu:extractor/raw_rubber_from_log` })
     event.remove({ id: `gtceu:extractor/raw_rubber_from_sapling` })
 
+    event.remove({ id: `gtceu:sifter/gravel_sifting` })
+
     event.remove({ id: `botania:terra_plate/terrasteel_ingot` })
     event.remove({ id: `botania:pure_daisy/livingrock` })
 

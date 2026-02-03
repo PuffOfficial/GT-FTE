@@ -23,6 +23,7 @@ ServerEvents.recipes(event => {
         [`wither_skeleton`, `minecraft:wither_skeleton_skull`, `4x hostilenetworks:nether_prediction`, true],
         [`zombie`, `minecraft:rotten_flesh`, `4x hostilenetworks:overworld_prediction`, false],
         [`botania/gaia`, `botania:life_essence`, `4x hostilenetworks:end_prediction`, true],
+        [`sheep`, `#minecraft:wool`, `4x hostilenetworks:overworld_prediction`, true],
     ]
 
     dataModelData.forEach(modeldata => {
