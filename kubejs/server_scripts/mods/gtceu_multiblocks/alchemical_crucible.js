@@ -1,36 +1,36 @@
 ServerEvents.recipes(event => {
-  event.shaped('gtceu:alchemical_crucible', [
-    'CDC',
-    'ABA',
-    'AEA'
+  event.shaped(`gtceu:alchemical_crucible`, [
+    `CDC`,
+    `ABA`,
+    `AEA`
   ], {
-    A: global.IV.Cable('single'),
-    B: 'gtceu:iv_chemical_reactor',
-    C: 'gtceu:polybenzimidazole_huge_fluid_pipe',
-    D: 'gtceu:osmiridium_rotor',
+    A: global.IV.Cable(`single`),
+    B: `gtceu:iv_chemical_reactor`,
+    C: `gtceu:polybenzimidazole_huge_fluid_pipe`,
+    D: `gtceu:osmiridium_rotor`,
     E: global.IV.Pump,
   }
   )
-  event.recipes.gtceu.alchemy('gtfte:thaumium_ingot')
-    .itemInputs('gtceu:hsss_ingot')
-    .inputFluids(['gtceu:praecantatio 100', 'gtceu:metallum 50'])
-    .itemOutputs('gtceu:thaumium_ingot')
+  event.recipes.gtceu.alchemy(`gtfte:thaumium_ingot`)
+    .itemInputs(`gtceu:hsss_ingot`)
+    .inputFluids([`gtceu:praecantatio 100`, `gtceu:metallum 50`])
+    .itemOutputs(`gtceu:thaumium_ingot`)
     .addData("min_temp", 3000)
     .addData("max_temp", 6000)
     .duration(320)
     .EUt(GTValues.VA[GTValues.EV]);
-  event.recipes.gtceu.alchemy('gtfte:alchemical_bronze')
-    .itemInputs('gtceu:black_bronze_ingot')
-    .inputFluids(['gtceu:praecantatio 50', 'gtceu:vitreus 20'])
-    .itemOutputs('gtceu:alchemical_bronze_ingot')
+  event.recipes.gtceu.alchemy(`gtfte:alchemical_bronze`)
+    .itemInputs(`gtceu:black_bronze_ingot`)
+    .inputFluids([`gtceu:praecantatio 50`, `gtceu:vitreus 20`])
+    .itemOutputs(`gtceu:alchemical_bronze_ingot`)
     .addData("min_temp", 700)
     .addData("max_temp", 1300)
     .duration(320)
     .EUt(GTValues.VA[GTValues.HV]);
-  event.recipes.gtceu.alchemy('gtfte:void_metal')
-    .itemInputs('gtceu:tungsten_carbide_ingot')
-    .inputFluids(['gtceu:vitium 50', 'gtceu:tenebrae 150'])
-    .itemOutputs('gtceu:void_metal_ingot')
+  event.recipes.gtceu.alchemy(`gtfte:void_metal`)
+    .itemInputs(`gtceu:tungsten_carbide_ingot`)
+    .inputFluids([`gtceu:vitium 50`, `gtceu:tenebrae 150`])
+    .itemOutputs(`gtceu:void_metal_ingot`)
     .addData("min_temp", 3000)
     .addData("max_temp", 4200)
     .duration(600)

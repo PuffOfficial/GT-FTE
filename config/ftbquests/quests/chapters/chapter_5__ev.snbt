@@ -604,10 +604,7 @@
 				{
 					count: 8L
 					id: "382AD1340B277075"
-					item: {
-						Count: 8
-						id: "chipped:ancient_gold_block"
-					}
+					item: "somemoreblocks:cut_gold"
 					type: "item"
 				}
 				{

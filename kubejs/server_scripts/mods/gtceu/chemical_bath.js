@@ -88,4 +88,11 @@ ServerEvents.recipes(event => {
                 .duration(200)
                 .EUt(GTValues.VA[GTValues.LV]);
 
+        event.recipes.gtceu.chemical_bath(`gtfte:prediction_matrix`)
+                .itemInputs(`botania:mana_glass`)
+                .inputFluids(`gtceu:uu_matter 1`)
+                .itemOutputs(`3x hostilenetworks:prediction_matrix`)
+                .duration(300)
+                .EUt(GTValues.VA[GTValues.LV]);
+
 })

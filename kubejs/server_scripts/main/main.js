@@ -219,6 +219,8 @@ ServerEvents.recipes(event => {
     event.remove({ id: `forestry:gear_bronze` })
     event.remove({ id: `forestry:gear_tin` })
 
+    event.remove({ id: `hostilenetworks:prediction_matrix` })   
+
     event.remove({ mod: `sgjourney` })
     event.remove({ mod: `ad_astra` })
     event.remove({ mod: `enderio` })
