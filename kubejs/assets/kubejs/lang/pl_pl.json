@@ -1,0 +1,83 @@
+{
+    "item.kubejs.ulv_electric_piston": "ULV Elektryczny Piston",
+    "item.kubejs.ulv_robot_arm": "ULV Ręka Robota",
+    "item.kubejs.ulv_conveyor_module": "ULV Moduł Przenoszenia",
+    "item.kubejs.ulv_electric_motor": "ULV Elektryczny Silnik",
+    "item.kubejs.ulv_electric_pump": "ULV Elektryczna Pompa",
+
+    "item.kubejs.universal_ulv_circuit": "Uniwersalny ULV Circuit",
+    "item.kubejs.universal_lv_circuit": "Uniwersalny LV Circuit",
+    "item.kubejs.universal_mv_circuit": "Uniwersalny MV Circuit",
+    "item.kubejs.universal_hv_circuit": "Uniwersalny HV Circuit",
+    "item.kubejs.universal_ev_circuit": "Uniwersalny EV Circuit",
+    "item.kubejs.universal_iv_circuit": "Uniwersalny IV Circuit",
+    "item.kubejs.universal_luv_circuit": "Uniwersalny LuV Circuit",
+    "item.kubejs.universal_zpm_circuit": "Uniwersalny ZPM Circuit",
+    "item.kubejs.universal_uv_circuit": "Uniwersalny UV Circuit",
+    "item.kubejs.universal_uhv_circuit": "Uniwersalny UHV Circuit",
+    "item.kubejs.universal_uev_circuit": "Uniwersalny UEV Circuit",
+    "item.kubejs.universal_uiv_circuit": "Uniwersalny UIV Circuit",
+    "item.kubejs.universal_uxv_circuit": "Uniwersalny UXV Circuit",
+    "item.kubejs.universal_opv_circuit": "Uniwersalny OpV Circuit",
+
+    "item.kubejs.ram_mainframe": "RAM Mainframe",
+    "item.kubejs.ram_stick": "Kostka RAMu",
+
+    "item.kubejs.stick_fragments": "Kawałki Patyka",
+    "item.kubejs.simple_knitting_kit": "Podstawowy zestaw do niciowania",
+    "item.kubejs.string_mesh_chunk": "Kawałek siatki z nici",
+
+    "item.kubejs.p_credit": "P-Punkty",
+
+    "item.kubejs.alfheim_runes": "Ruiny alfheim'a",
+
+    "gtfte.cavum_tenebrae": "§o§7Czuć ze atfosmera tej planety jest toksyczna... Może powinieneś użyć jakiś ochronny strój?",
+    "gtfte.unitas": "§o§7Bierzesz głęboki oddech... I czujesz zapach siarki...?",
+    "gtfte.rima": "§o§7Bierzesz głęboki oddech i czujesz się całkowicie... Normalnie?",
+    "gtfte.chulak": "§o§7Bierzesz głęboki oddech i czujesz się całkowicie... Normalnie?",
+    "gtfte.abydos": "§o§7Robisz głęboki oddech... Tu jest gorąco!",
+    "gtfte.dizzy": "§o§7Żle sie czuje...",
+    "gtfte.overworld": "§o§7Po podróży czujesz ulgę.",
+
+    "gtfte.tooltip.material.infinity": "<rainb>Najgęstszy materiał w całym wszechświecie, jako %s<rainb>.</rainb>",
+
+    "gtfte.name.universal_circuit": "%s Uniwersalny Circuit",
+    "gtfte.tooltip.universal_circuit": "§7Czujesz Moc z %s!",
+
+    "gtfte.name.fuel_rod": "Pręd Paliwa (%s)",
+
+    "gtfte.name.primitive_maintenance_hatch": "Prymitywna Klapka Serwisowa",
+    "gtfte.name.ionizing_module": "Moduł jonizujący",
+    "gtfte.tooltip.bedrock_crusher": "Nie duża koparka",
+    "gtfte.tooltip.energizer": "Nie turbo ładowarka!",
+    "gtfte.tooltip.daycycle_simulation_chamber": "Symulator życia, ale dla roślin",
+
+    "gtfte.tooltip.primitive": "Wspiera tylko §8ULV§r klapy energi.",
+    "gtfte.tooltip.ulv_component": "§7Nie wystarczająco mocny, żeby dzialać jako pokrywka...",
+
+    "gtfte.tooltip.alchemical_crucible_1": "Kocioł ale lepszy",
+    "gtfte.tooltip.alchemical_crucible_2": "§7Dla każdego poziomu napięcia powyżej §rLV§7, temperatura podnosi sie o §r75K§7.",
+
+    "gtfte.components.heat_capacity": "Pojemność ciepła: %s§cK§r",
+    "gtfte.components.parallels": "domyślne podobieństwa: %s§r",
+
+    "gtfte.tooltip.etbf": "Ma wszystkie modifikatory E.B.F",
+
+    "gtfte.tooltip.defaultParallel": "Ma domyślne podobieństwa:§5 %s §r",
+
+    "gtfte.ionizing_cleanroom": "§5Moduł jonizujący",
+
+    "gtfte.tagprefix.ingot": "Sztabka",
+    "gtfte.tagprefix.plate": "Płyta",
+    "gtfte.tagprefix.tiny_dust": "mała kupa kurzu",
+    "gtfte.tagprefix.small_dust": "mały stos kurzu",
+    "gtfte.tagprefix.dust": "kurz",
+    "gtfte.tagprefix.double_plate": "podwójna płyta",
+    "gtfte.tagprefix.gear": "zębatka",
+    "gtfte.tagprefix.small_gear": "mała zębatka",
+    "gtfte.tagprefix.nugget": "kawałek metalu",
+    "gtfte.tagprefix.ring": "pierścień",
+    "gtfte.tagprefix.bolt": "śrubka",
+    "gtfte.tagprefix.screw": "śruba",
+    "gtfte.tagprefix.rod": "pręt"
+}
