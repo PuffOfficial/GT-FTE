@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gtceu:item/material_sets/eternal_matrix/ingot",
+    "halo": "avaritia:misc/halo"
+  },
+  "loader": "avaritia:halo_cosmic",
+  "halo": {
+    "texture": "#halo",
+    "color": -16777216,
+    "size": 6,
+    "pulse": false
+  },
+  "cosmic": {
+    "mask": "gtceu:item/material_sets/eternal_matrix/ingot_mask"
+  }
+}

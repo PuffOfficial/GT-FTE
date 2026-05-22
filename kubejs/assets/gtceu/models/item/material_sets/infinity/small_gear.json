@@ -1,7 +1,7 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "gtceu:item/material_sets/infinity/gear",
+    "layer0": "gtceu:item/material_sets/infinity/gear_small",
     "halo": "avaritia:misc/halo"
   },
   "loader": "avaritia:halo",

@@ -15,19 +15,6 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
         .ingot()
         .color(0x9b6045).secondaryColor(0x83513c).iconSet(`ceramic`)
         .flags(GTMaterialFlags.GENERATE_PLATE)
-    event.create(`infinity`)
-        .ingot()
-        .iconSet(`infinity`)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE,
-            GTMaterialFlags.GENERATE_ROD,
-            GTMaterialFlags.GENERATE_GEAR,
-            GTMaterialFlags.GENERATE_FRAME,
-            GTMaterialFlags.GENERATE_SMALL_GEAR,
-            GTMaterialFlags.GENERATE_BOLT_SCREW,
-            GTMaterialFlags.GENERATE_RING
-        )
-        .element(GTElements.get(`infinity`));
 
     event.create(`artificial_amethyst`)
         .gem()
@@ -95,16 +82,4 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
             .unbreakable()
             .build()
         ) 
-})
-
-GTCEuStartupEvents.materialModification(event => {
-    TagPrefix.ingot.setIgnored(GTMaterialRegistry.getMaterial(`infinity`))
-    TagPrefix.nugget.setIgnored(GTMaterialRegistry.getMaterial(`infinity`))
-    TagPrefix.block.setIgnored(GTMaterialRegistry.getMaterial(`infinity`))
-})
-
-StartupEvents.postInit(event => {
-    TagPrefix.ingot.setIgnored(GTMaterialRegistry.getMaterial(`infinity`), `avaritia:infinity_ingot`)
-    TagPrefix.nugget.setIgnored(GTMaterialRegistry.getMaterial(`infinity`), `avaritia:infinity_nugget`)
-    TagPrefix.block.setIgnored(GTMaterialRegistry.getMaterial(`infinity`), `avaritia:infinity`)
 })
