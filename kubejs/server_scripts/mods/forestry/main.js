@@ -7,7 +7,7 @@ const TubeTypes = [
     [`diamond`, `gtceu:diamond_rod`],
     [`obsidian`, `gtceu:obsidian_dust`],
     [`blaze`, `minecraft:blaze_rod`],
-    [`apatite`, `gtceu:apatite_rod`],
+    [`apatite`, `gtceu:apatite_gem`],
     [`lapis`, `gtceu:lapis_rod`],
     [`emerald`, `gtceu:emerald_rod`]
 ]

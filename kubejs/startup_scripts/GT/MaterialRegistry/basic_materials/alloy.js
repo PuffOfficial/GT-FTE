@@ -47,18 +47,23 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_BOLT_SCREW)
         .components(`chromium`, `molybdenum`, `steel`)
         .rotorStats(420, 100, 10, 800);
-    //Europium-Naquadah Alloy
+    //White Steel
     event.create(`white_steel`)
         .ingot()
         .blastTemp(3600, `high`, GTValues.VA[GTValues.HV], 500)
         .color(0xffffff).secondaryColor(0x262932).iconSet(GTMaterialIconSet.METALLIC)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_RING)
         .components(`3x antimony`, `2x stainless_steel`, `2x silver`);
-    //Europium-Naquadah Alloy
+    //Flux Fused Naquadahg
     event.create(`flux_fused_naquadah`)
         .ingot()
         .blastTemp(7200, `high`, GTValues.VA[GTValues.LuV], 2400)
         .color(0x373737).secondaryColor(0x111111).iconSet(GTMaterialIconSet.BRIGHT)
         .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_BOLT_SCREW, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FOIL, GTMaterialFlags.GENERATE_RING, GTMaterialFlags.GENERATE_ROTOR)
         .components(`naquadah`);
+    //HSS-U
+    event.create(`hssu`)
+        .ingot()
+        .color(0x940f8d).secondaryColor(0x37062f).iconSet(GTMaterialIconSet.METALLIC)
+        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_FOIL);
 })

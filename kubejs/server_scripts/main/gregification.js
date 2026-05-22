@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:copper_rod`,
     E: `gtceu:copper_screw`,
   }
-  ).damageIngredient([global.tools.AnyHammer, global.tools.AnyScrewdriver]);
+  )
   // MARK: CobbleForDays
   event.shaped(`cobblefordays:tier_1`, [
     `ABA`,
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
   }
-  ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
+  ).replaceIngredient(`minecraft:water_bucket`, `minecraft:bucket`).replaceIngredient(`minecraft:lava_bucket`, `minecraft:bucket`)
   event.shaped(`cobblefordays:tier_2`, [
     `ABA`,
     `FDE`,
@@ -93,7 +93,7 @@ ServerEvents.recipes(event => {
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
   }
-  ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
+  )
   event.shaped(`cobblefordays:tier_3`, [
     `ABA`,
     `FDE`,
@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
   }
-  ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
+  )
   event.shaped(`cobblefordays:tier_4`, [
     `ABA`,
     `FDE`,
@@ -119,7 +119,7 @@ ServerEvents.recipes(event => {
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
   }
-  ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
+  )
   event.shaped(`cobblefordays:tier_5`, [
     `ABA`,
     `FDE`,
@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
   }
-  ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver]);
+  )
   // MARK: AE2
   event.shaped(`ae2:drive`, [
     `ACA`,
@@ -269,7 +269,7 @@ ServerEvents.recipes(event => {
     E: `gtceu:iron_screw`,
     F: `minecraft:chest`
   }
-  ).damageIngredient([global.tools.AnyMallet, global.tools.AnySaw]);
+  )
   //MARK: Ender Storage
   event.shaped(`enderchests:ender_chest`, [
     `CBC`,

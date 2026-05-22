@@ -262,19 +262,19 @@ ServerEvents.recipes(event => {
     event.shapeless(`6x gtceu:wood_plate`, [
         `#minecraft:oak_logs`,
         `#forge:tools/saws`
-    ]).damageIngredient(`#forge:tools/saws`)
+    ])
     event.shapeless(`gtceu:treated_wood_plate`, [
         `gtceu:treated_wood_planks`,
         `#forge:tools/saws`
-    ]).damageIngredient(`#forge:tools/saws`)
+    ])
     event.shapeless(`gtceu:andesite_dust`, [
         `minecraft:andesite`,
         `#forge:tools/mortars`
-    ]).damageIngredient(`#forge:tools/mortars`)
+    ])
     event.shapeless(`gtceu:raw_rubber_dust`, [
         `gtceu:sticky_resin`,
         `#forge:tools/mortars`
-    ]).damageIngredient(`#forge:tools/mortars`)
+    ])
 
     event.shapeless(`gtceu:programmed_circuit`, [
         `#gtceu:circuits`,
@@ -439,7 +439,7 @@ ServerEvents.recipes(event => {
         H: `gtceu:treated_wood_plate`,
         I: `gtceu:copper_small_fluid_pipe`,
     }
-    ).damageIngredient([global.tools.AnyMallet, global.tools.AnyScrewdriver, global.tools.AnyWrench, global.tools.AnyWireCutter]);
+    )
 // MARK: Crafting Components
     event.shaped(`gtceu:empty_fuel_rod`, [
         `BCB`,

@@ -22,10 +22,6 @@ const Replacement = [
   [`ae2:engineering_processor`, `#gtfte:circuits/me_3`],
   [`ae2:calculation_processor`, `#gtfte:circuits/me_3`],
 
-  [`forestry:gear_tin`, `gtceu:wrought_iron_gear`],
-  [`forestry:gear_copper`, `gtceu:copper_gear`],
-  [`forestry:gear_bronze`, `gtceu:bronze_gear`],
-
   [`fluxnetworks:flux_block`, `gtceu:flux_fused_naquadah_plate`],
 
 ]
