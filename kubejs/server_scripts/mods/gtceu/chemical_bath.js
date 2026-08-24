@@ -87,19 +87,4 @@ ServerEvents.recipes(event => {
                 .outputFluids(`gtceu:zypherean_aerotheum 1000`)
                 .duration(200)
                 .EUt(GTValues.VA[GTValues.LV]);
-
-        event.recipes.gtceu.chemical_bath(`gtfte:prediction_matrix`)
-                .itemInputs(`botania:mana_glass`)
-                .inputFluids(`gtceu:uu_matter 1`)
-                .itemOutputs(`3x hostilenetworks:prediction_matrix`)
-                .duration(300)
-                .EUt(GTValues.VA[GTValues.LV]);
-
-        event.recipes.gtceu.chemical_bath(`gtfte:hssu_ingot`)
-                .itemInputs(`gtceu:hsss_ingot`)
-                .inputFluids(`gtceu:uu_matter 100`)
-                .itemOutputs(`gtceu:hssu_ingot`)
-                .duration(2400)
-                .EUt(GTValues.VA[GTValues.EV]);
-
 })

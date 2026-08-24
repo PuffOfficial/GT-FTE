@@ -67,6 +67,9 @@ StartupEvents.registry(`item`, register => {
     register.create(`simple_knitting_kit`).texture(`kubejs:item/knitting_kit`).maxDamage(`10`)
     register.create(`string_mesh_chunk`).texture(`kubejs:item/mesh_chunk`)
 
+    register.create(`compressed_porcelain_clay`).texture(`kubejs:item/compressed_porcelain_clay`)
+    register.create(`porcelain_brick`).texture(`kubejs:item/porcelain_brick`)
+
     register.create(`p_credit`).texture(`kubejs:item/p_credit`)
 
     register.create(`alfheim_runes`).texture(`kubejs:item/alfheim_runes`).maxStackSize(1)
@@ -172,13 +175,12 @@ StartupEvents.registry(`block`, event => {
         .requiresTool(true)
         .tagBlock(`minecraft:mineable/pickaxe`)
         .tagBlock(`forge:mineable/wrenches`)
-    //Fission Reactor Rod
-    event.create(`fission_reactor_rod`, `gtceu:active`)
-        .bloom(`kubejs:block/active/reactor/block`)
-        .soundType(`metal`)
-        .displayName(`Fission Reactor Rod`)
+    //Porcelain Bricks
+    event.create(`porcelain_bricks`)
+        .soundType(`stone`)
+        .displayName(`Porcelain Bricks`)
         .hardness(4.0)
-        .resistance(2)
+        .resistance(1)
         .requiresTool(true)
         .tagBlock(`minecraft:mineable/pickaxe`)
         .tagBlock(`forge:mineable/wrenches`)
@@ -204,6 +206,16 @@ StartupEvents.registry(`block`, event => {
         .tagBlock(`mineable/pickaxe`)
         .tagBlock(`forge:mineable/wrench`)
         .requiresTool(true)
+    //Fission Reactor Rod
+    event.create(`fission_reactor_rod`, `gtceu:active`)
+        .bloom(`kubejs:block/active/reactor/block`)
+        .soundType(`metal`)
+        .displayName(`Fission Reactor Rod`)
+        .hardness(4.0)
+        .resistance(2)
+        .requiresTool(true)
+        .tagBlock(`minecraft:mineable/pickaxe`)
+        .tagBlock(`forge:mineable/wrenches`)
 })
 
 GTCEuStartupEvents.registry(`gtceu:tag_prefix`, event => {

@@ -3,15 +3,7 @@
 	default_quest_shape: ""
 	filename: "1_chapter__s"
 	group: "7D7D730D2E28CCD3"
-	icon: {
-		Count: 1
-		id: "trofers:large_pillar"
-		tag: {
-			BlockEntityTag: {
-				Trophy: "gtfte:plank"
-			}
-		}
-	}
+	icon: "gtceu:wood_plate"
 	id: "1062069A833B5AF2"
 	order_index: 0
 	quest_links: [ ]
@@ -201,6 +193,7 @@
 				"55929EC71AF563BC"
 				"2292732E595B2FE5"
 			]
+			description: ["Throw them in to cauldron with &9water&r to wash them"]
 			id: "49469AD65C6483FC"
 			tasks: [
 				{
@@ -234,6 +227,7 @@
 				"55929EC71AF563BC"
 				"0E7787441C574AB8"
 			]
+			description: ["Same as the dusts, throw in to cauldron with &9water&r to purify them"]
 			id: "4C20422B3CFB353A"
 			tasks: [
 				{

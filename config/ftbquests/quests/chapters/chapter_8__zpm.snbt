@@ -46,7 +46,10 @@
 		}
 		{
 			dependencies: ["3CE8DE09CF6B1DD7"]
-			description: ["Get ready to make processing line for it"]
+			description: [
+				"Get ready to make processing line for it"
+				"OHHH, forgot that Naquadah spawns in Abydos"
+			]
 			id: "1ECCCECBE241A6B2"
 			tasks: [{
 				id: "70A1588D588DF878"

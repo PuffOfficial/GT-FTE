@@ -331,7 +331,7 @@
 			dependencies: ["7654D71BC20B336A"]
 			description: [
 				"First machine with our, own logic! Every recipe requires certain temperature as EBF does."
-				"BUT! They also have temperature limit! That means if temperature is above the limit - Machine won't works"
+				"BUT! They also have temperature limit! That means if temperature is above the limit - Machine won't work"
 			]
 			id: "52BDC3DA495B2C31"
 			rewards: [{

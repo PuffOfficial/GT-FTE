@@ -241,6 +241,7 @@ ServerEvents.recipes(event => {
 // MARK: Smelting
     //-----Furnace-----//
     event.smelting(`gtceu:wrought_iron_ingot`, `minecraft:iron_ingot`)
+    event.smelting(`kubejs:porcelain_brick`, `kubejs:compressed_porcelain_clay`)
     // Campfire
     event.campfireCooking(`minecraft:glass`, `gtceu:glass_dust`)
     event.campfireCooking(`minecraft:slime_ball`, `gtceu:sticky_resin`)
@@ -339,6 +340,15 @@ ServerEvents.recipes(event => {
         C: `minecraft:string`,
     }
     );
+    event.shaped(`2x kubejs:porcelain_bricks`, [
+        `BBB`,
+        `BCB`,
+        `BBB`
+    ], {
+        B: `kubejs:porcelain_brick`,
+        C: `gtceu:concrete_bucket`,
+    }
+    ).replaceIngredient(`gtceu:concrete_bucket`, `minecraft:bucket`);
 // MARK: Roots
     event.shaped(`rootsclassic:runic_tablet`, [
         `ADA`,

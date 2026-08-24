@@ -224,14 +224,11 @@ ServerEvents.recipes(event => {
         .itemOutputs(`2x fluxnetworks:flux_point`)
         .duration(1200)
         .EUt(GTValues.VA[GTValues.HV]);
-    //MARK: NHH
-    event.recipes.gtceu.assembler(`gtfte:blank_data_model`)
+    event.recipes.gtceu.assembler(`gtfte:porcelain_bricks`)
         .itemInputs([
-            global.IV.Circuit,
-            `4x gtceu:silicone_rubber_plate`,
-            `gtceu:gaia_steel_plate`])
-        .inputFluids(`gtceu:uu_matter 250`)
-        .itemOutputs(`hostilenetworks:blank_data_model`)
-        .duration(1200)
-        .EUt(GTValues.VA[GTValues.IV]);
+            `4x kubejs:porcelain_brick`,])
+        .inputFluids(`gtceu:concrete 500`)
+        .itemOutputs(`kubejs:porcelain_bricks`)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ULV]);
 })

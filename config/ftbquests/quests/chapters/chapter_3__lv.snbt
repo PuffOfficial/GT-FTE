@@ -43,55 +43,6 @@
 		}
 		{
 			dependencies: ["74E4A7EA06264A37"]
-			id: "2573BB3C8659FC67"
-			optional: true
-			shape: "diamond"
-			tasks: [
-				{
-					id: "78B12C6799378CE1"
-					item: "exdeorum:porcelain_crucible"
-					type: "item"
-				}
-				{
-					id: "08DDBDFF4D30D54F"
-					item: "minecraft:lightning_rod"
-					type: "item"
-				}
-			]
-			title: "Lava Production"
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5643E6BFF3514DA4"]
-			description: ["Free power out of &6lava&r! Automate it through Ex Deorum"]
-			id: "24D1D45E50705728"
-			optional: true
-			shape: "diamond"
-			size: 1.25d
-			tasks: [{
-				id: "1961BC8F92C6E6C7"
-				title: "Early Power Generation"
-				type: "checkmark"
-			}]
-			x: 3.75d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2573BB3C8659FC67"]
-			id: "5643E6BFF3514DA4"
-			optional: true
-			shape: "diamond"
-			tasks: [{
-				id: "22FE0AB8438779A2"
-				item: "gtceu:lv_magmatic_dynamo"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["74E4A7EA06264A37"]
 			id: "2509450198728111"
 			shape: "gear"
 			tasks: [{
@@ -493,6 +444,7 @@
 			dependencies: ["4A8DF8E168EA488A"]
 			id: "79B3225C4417161E"
 			shape: "gear"
+			subtitle: "I have NO IDEA how that works"
 			tasks: [{
 				id: "4C43B65E3B3D8742"
 				item: "gtceu:polylactic_acid_plate"

@@ -11,4 +11,10 @@ ServerEvents.recipes(event => {
         .itemOutputs(`36x forestry:fertilizer_compound`)
         .duration(300)
         .EUt(GTValues.VA[GTValues.LV]);
+
+    event.recipes.gtceu.mixer(`gtfte:porcelain_clay`)
+        .itemInputs([`gtceu:calcium_dust`, `2x minecraft:clay_ball`])
+        .itemOutputs(`2x exdeorum:porcelain_clay_ball`)
+        .duration(100)
+        .EUt(GTValues.VA[GTValues.ULV]);
 })

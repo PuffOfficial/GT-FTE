@@ -56,7 +56,6 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setMaxIOSize(3, 4, 1, 2)
         .setProgressBar(GuiTextures.PROGRESS_BAR_REPLICATOR, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC)
-
 })
 //CUSTOM MACHINES
 GTCEuStartupEvents.registry('gtceu:machine', event => {
