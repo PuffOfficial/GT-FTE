@@ -247,6 +247,7 @@ ServerEvents.recipes(event => {
     event.campfireCooking(`minecraft:slime_ball`, `gtceu:sticky_resin`);
     // MARK: Crafting table
     //-----Shapeless-----//
+
     event.shapeless(`kubejs:simple_knitting_kit`, [
         `minecraft:stick`,
         `minecraft:stick`
@@ -278,6 +279,10 @@ ServerEvents.recipes(event => {
     ]);
     event.shapeless(`gtceu:programmed_circuit`, [
         `#gtceu:circuits`,
+    ]);
+    // MARK: DELETE LATER
+    event.shapeless(`gtceu:lv_ventilation`, [
+        `kubejs:simple_ventilation`
     ]);
     event.shapeless(`exdeorum:string_mesh`, [
         `kubejs:string_mesh_chunk`,

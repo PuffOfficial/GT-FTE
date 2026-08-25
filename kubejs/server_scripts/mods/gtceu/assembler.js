@@ -63,10 +63,10 @@ ServerEvents.recipes(event => {
         .itemOutputs(`6x gtceu:resistor`)
         .duration(150)
         .EUt(GTValues.VA[GTValues.LV]);
-    // MARK: Casing      
-    event.recipes.gtceu.assembler(`gtfte:simple_vent`)
-        .itemInputs(`4x gtceu:steel_plate`, `2x gtceu:iron_rotor`, `gtceu:steel_frame`, `gtceu:mv_electric_motor`)
-        .itemOutputs(`kubejs:simple_ventilation`)
+    // MARK: Multiblocks   
+    event.recipes.gtceu.assembler(`gtfte:ventilation`)
+        .itemInputs(`4x gtceu:steel_plate`, `2x gtceu:iron_rotor`, `gtceu:lv_machine_hull`, `gtceu:mv_electric_motor`)
+        .itemOutputs(`gtceu:lv_ventilation`)
         .duration(200)
         .EUt(GTValues.VA[GTValues.MV]);
     // MARK: Coils
@@ -145,7 +145,7 @@ ServerEvents.recipes(event => {
         .itemOutputs(`2x sgjourney:classic_stargate_ring_block`)
         .duration(1200)
         .EUt(GTValues.VA[GTValues.EV]);
-    // MARK: ENDER IO CONDUITS
+    // MARK: Ender IO Conduits
     event.recipes.gtceu.assembler(`gtfte:fluid_conduit`)
         .itemInputs([
             `2x gtceu:polyvinyl_chloride_plate`,
