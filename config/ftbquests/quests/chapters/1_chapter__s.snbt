@@ -310,6 +310,7 @@
 			id: "6245C55A807D1DDF"
 			shape: "gear"
 			size: 1.25d
+			subtitle: "No, it can't run doom"
 			tasks: [{
 				id: "39FC332816568C9A"
 				item: "gtceu:vacuum_tube"

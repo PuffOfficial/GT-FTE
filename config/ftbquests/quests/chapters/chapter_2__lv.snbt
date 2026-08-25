@@ -460,6 +460,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Maybe this one is capable of running Doom"
 			tasks: [{
 				id: "3A19C9A65564C29F"
 				item: "gtceu:basic_electronic_circuit"

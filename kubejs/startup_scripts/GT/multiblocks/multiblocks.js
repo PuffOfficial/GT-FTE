@@ -96,7 +96,7 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 				.or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
 				.or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(1).setPreviewCount(1)))
 			.where(`R`, Predicates.blocks(`gtceu:tempered_glass`))
-			.where(`V`, Predicates.blocks(`kubejs:simple_ventilation`))
+			.where(`V`, Predicates.blocks('gtceu:lv_ventilation'))
 			.where(`G`, Predicates.blocks(`minecraft:grass_block`)
 				.or(Predicates.blocks(`minecraft:dirt`)))
 			.where(`S`, Predicates.blocks(`minecraft:oak_sapling`))

@@ -1,6 +1,8 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "shop"
 	group: "76ED85C1705485DC"
 	icon: "kubejs:p_credit"
@@ -9,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["&lInteresting fact:&r Even if you enable Wandering Traders through gamerules, they will be disabled by default on next world launch"]
+			description: ["&lFun fact:&r Even if you enable Wandering Traders through gamerules, they will be disabled by default on next world launch"]
 			hide_dependent_lines: true
 			id: "3D4008D7CA276577"
 			subtitle: "Very original"
@@ -340,9 +342,9 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 8L
 				id: "462D9189F9185424"
-				item: { Count: 16, id: "kubejs:p_credit" }
+				item: "kubejs:p_credit"
 				type: "item"
 			}]
 			title: "Hive Kit"
@@ -350,6 +352,11 @@
 			y: -3.5d
 		}
 		{
+			description: [
+				"&oUnbreakable&r set of tools! Why would you need them? Uhhh, idk."
+				""
+				"&8&oPickaxe, axe and shovel are &lnot&r &8&oincluded in to \"Unbreakable™ Tools\" pack.&r"
+			]
 			icon: "gtceu:unbreakium_ingot"
 			id: "1885BAC158AC7294"
 			rewards: [
@@ -440,12 +447,12 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 48L
 				id: "2A81A04635D9B4B5"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			title: "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable </grad></neon>Tools"
+			title: "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable™ </grad></neon>Tools"
 			x: 1.0d
 			y: -3.5d
 		}

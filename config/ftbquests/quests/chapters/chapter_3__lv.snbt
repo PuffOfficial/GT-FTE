@@ -184,6 +184,7 @@
 			id: "7F1A662BC5DD5056"
 			shape: "gear"
 			size: 1.25d
+			subtitle: "This one gotta room Doom"
 			tasks: [{
 				id: "4A85D69F71E3D923"
 				item: "gtceu:good_electronic_circuit"

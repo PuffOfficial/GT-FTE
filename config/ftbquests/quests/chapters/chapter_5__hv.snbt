@@ -193,6 +193,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Alright this joke is getting teddious"
 			tasks: [{
 				id: "54D31F21FC76FECA"
 				item: "gtceu:micro_processor_computer"
@@ -366,7 +367,7 @@
 		}
 		{
 			dependencies: ["71814F73D267D242"]
-			description: ["You know how to get potassium already"]
+			description: [""]
 			hide_dependency_lines: true
 			id: "717AF3256B50EAED"
 			rewards: [{
@@ -374,7 +375,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "Kris, get the banana"
+			subtitle: "Kris, get the banana."
 			tasks: [{
 				id: "18498FE48967C1D7"
 				item: "gtceu:sodium_potassium_bucket"
@@ -478,6 +479,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Blue"
 			tasks: [{
 				id: "2688E95BFCB398C3"
 				item: "gtceu:titanium_ingot"
@@ -598,6 +600,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Cool lava"
 			tasks: [{
 				id: "7FAC49B38EE7CA46"
 				item: "gtceu:nether_imbued_lava_bucket"

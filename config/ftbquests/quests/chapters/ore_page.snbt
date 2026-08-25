@@ -87,7 +87,7 @@
 				item: "gtceu:crushed_lead_ore"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -4.0d
 		}
 		{
@@ -109,7 +109,7 @@
 				item: "gtceu:crushed_gold_ore"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: -4.0d
 		}
 		{
@@ -175,17 +175,6 @@
 		}
 		{
 			dependencies: ["6C0EFE14B0A63EB0"]
-			id: "08E32E8A6A871CF2"
-			tasks: [{
-				id: "0762DA362A47132A"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6C0EFE14B0A63EB0"]
 			id: "2AD63E3F3088E6DA"
 			tasks: [{
 				id: "1F6C08927E6D3660"
@@ -194,61 +183,6 @@
 			}]
 			x: -6.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["08E32E8A6A871CF2"]
-			id: "514DC5B13B2612F6"
-			tasks: [{
-				id: "64F35B98BB2C8B98"
-				item: "gtceu:crushed_copper_ore"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["08E32E8A6A871CF2"]
-			id: "060A35ED9F9CA81A"
-			tasks: [{
-				id: "6282E3D77DB4C856"
-				item: "gtceu:crushed_iron_ore"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["08E32E8A6A871CF2"]
-			id: "72588E8F13F03A42"
-			tasks: [{
-				id: "7800CB69EC59E9C8"
-				item: "gtceu:raw_coal"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["08E32E8A6A871CF2"]
-			id: "1D28A4B0AC25AF29"
-			tasks: [{
-				id: "5F604514A834C9FB"
-				item: "gtceu:crushed_lead_ore"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["08E32E8A6A871CF2"]
-			id: "4987B2C8CD0A0E3B"
-			tasks: [{
-				id: "2C8B824D6BB4F8A2"
-				item: "gtceu:crushed_gold_ore"
-				type: "item"
-			}]
-			x: -6.0d
-			y: -4.0d
 		}
 		{
 			dependencies: ["2AD63E3F3088E6DA"]
@@ -1264,17 +1198,6 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["08E32E8A6A871CF2"]
-			id: "07DF15FB050A718E"
-			tasks: [{
-				id: "0F729D0B9772DD2A"
-				item: "gtceu:raw_sapphire"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -4.0d
-		}
-		{
 			dependencies: ["48D4535C841A3925"]
 			id: "07B670A560057BF2"
 			tasks: [
@@ -1362,6 +1285,17 @@
 			]
 			x: 8.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["298E81B1D1441788"]
+			id: "611E5A3C852EB9FA"
+			tasks: [{
+				id: "56F492BA94CC211D"
+				item: "gtceu:crushed_sphalerite_ore"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
 		}
 	]
 	title: "Processing Page"

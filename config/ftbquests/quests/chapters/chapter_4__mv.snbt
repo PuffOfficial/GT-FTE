@@ -827,6 +827,7 @@
 			id: "037DB579F5E7A700"
 			shape: "gear"
 			size: 1.25d
+			subtitle: "It for SURE has to run Doom now, right?"
 			tasks: [{
 				id: "292C3AC21F5ED140"
 				item: "gtceu:advanced_integrated_circuit"
@@ -843,6 +844,7 @@
 			id: "7BB3829EDCF68E6E"
 			shape: "gear"
 			size: 1.25d
+			subtitle: "For some reason, mine now has stains >:("
 			tasks: [{
 				id: "6F613877445FB711"
 				item: "gtceu:stainless_steel_ingot"

@@ -135,4 +135,16 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .rotationState(RotationState.ALL)
             .workableTieredHullModel("kubejs:block/machines/primitive_maintenance")
         )
+    event.create("ventilation", "custom")
+        .machine((holder, tier) => {
+            return new $MaintenanceHatchPartMachine(holder, false)
+        })
+        .tiers(GTValues.LV)
+        .definition((tier, builder) => builder
+            .langValue(`Ventilation`)
+            .modelProperty($GTMachineModelProperties.IS_FORMED)
+            .modelProperty($GTMachineModelProperties.IS_TAPED)
+            .rotationState(RotationState.ALL)
+            .workableTieredHullModel("kubejs:block/machines/ventilation")
+        )
 })  
