@@ -747,6 +747,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Buggy, just in case."
 			tasks: [{
 				id: "0DC127BF58276167"
 				item: "gtceu:primitive_electric_furnace"

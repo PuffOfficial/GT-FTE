@@ -1245,6 +1245,92 @@
 			x: 11.5d
 			y: 9.5d
 		}
+		{
+			id: "4AD4E17C9CB817CA"
+			tasks: [{
+				id: "23D31EA9ED3A6793"
+				item: "gtceu:certus_chip"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4AD4E17C9CB817CA"]
+			id: "6C9001333F4891B7"
+			tasks: [{
+				id: "5F27597B3B15B24C"
+				item: "gtceu:basic_certus_circuit"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6C9001333F4891B7"]
+			id: "3569A5853D2A4E0D"
+			tasks: [{
+				id: "7A77A37BC990AD7D"
+				item: "gtceu:good_certus_circuit"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3569A5853D2A4E0D"]
+			id: "494D2753415E3D4B"
+			tasks: [{
+				id: "7C3E781E10736441"
+				item: "gtceu:advanced_certus_circuit"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			id: "104B787B394EAEAE"
+			tasks: [{
+				id: "2A2002013CEA73BD"
+				item: "gtceu:fluix_chip"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["104B787B394EAEAE"]
+			id: "78A23650D17AC344"
+			tasks: [{
+				id: "6B41A4FB3E8BF834"
+				item: "gtceu:basic_fluix_circuit"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["78A23650D17AC344"]
+			id: "29EAE25F1E4AD3EE"
+			tasks: [{
+				id: "04802C2F5BCB216A"
+				item: "gtceu:advanced_fluix_circuit"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["29EAE25F1E4AD3EE"]
+			id: "6AFA5DB852997A58"
+			tasks: [{
+				id: "6B61B3F99C3EC62A"
+				item: "gtceu:fluix_mainframe"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -5.0d
+		}
 	]
 	title: "Progress Board"
 }
