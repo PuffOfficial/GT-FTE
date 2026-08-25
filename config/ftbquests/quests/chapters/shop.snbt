@@ -142,7 +142,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 6L
 				id: "333175EE49E9D6DD"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -167,7 +167,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 16L
+				count: 8L
 				id: "0D20250B6A857F9D"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -189,7 +189,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 24L
+				count: 10L
 				id: "2C6BE8A8ECD441FB"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -206,15 +206,23 @@
 			]
 			icon: "gtceu:rhodium_plated_palladium_ingot"
 			id: "1CFC648BB6164224"
-			rewards: [{
-				count: 16
-				id: "619973F7201C4EFC"
-				item: "gtceu:rhodium_plated_palladium_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "619973F7201C4EFC"
+					item: "gtceu:rhodium_plated_palladium_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "471BB19F542C6B2A"
+					item: "gtceu:thaumium_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
-				count: 32L
+				count: 12L
 				id: "504C6C5057424321"
 				item: "kubejs:p_credit"
 				type: "item"
