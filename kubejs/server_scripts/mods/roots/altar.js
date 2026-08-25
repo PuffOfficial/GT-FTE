@@ -65,5 +65,5 @@ event.custom({
     "item": "gtceu:living_steel_ingot",
     "count": 8
   }
-})
-})
+});
+});

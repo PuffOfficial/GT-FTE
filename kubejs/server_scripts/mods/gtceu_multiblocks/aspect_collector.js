@@ -9,8 +9,7 @@ event.shaped(`gtceu:aspect_collector`, [
     C: "gtceu:robust_machine_casing", 
     D: global.IV.Pump, 
     E: "gtceu:osmiridium_rotor", 
-  }
-)
+  });
 event.recipes.gtceu.aspect_collecting(`gtfte:overworld`).circuit(1)
       .dimension("minecraft:overworld")
       .outputFluids([`gtceu:ordo 10`, `gtceu:aqua 5`])

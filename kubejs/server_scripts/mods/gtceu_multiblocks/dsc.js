@@ -74,4 +74,4 @@ ServerEvents.recipes(event => {
                         .duration(600)
                         .EUt(GTValues.VA[GTValues.HV]);
         };
-})
+});

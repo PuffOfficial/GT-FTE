@@ -123,7 +123,7 @@
     "block.gtceu.primitive_electric_blast_furnace": "Primitive Electric Blast Furnace",
     "block.gtceu.steam_bender": "Steam Bender",
     "block.gtceu.large_barrel": "Industrial-Size Treated Wood Barrel",
-    "block.gtceu.star_forge": "Star Forge",
+    "block.gtceu.large_crucible": "Industrial-Size Porcelain Crucible",
     "block.gtceu.etbf": "Extreme Temperature Blast Furnace",
     "block.gtceu.alchemical_crucible": "Alchemical Crucible",
     "block.gtceu.aspect_collector": "Aspect Collector",
@@ -143,9 +143,8 @@
     "recipe_types": "<---RECIPE TYPES--->",
 
     "gtceu.energizing": "Energizing",
-    "gtceu.magmatic_turbine": "Magmatic Processing",
+    "gtceu.magmatic_dynamo": "Magmatic Dynamo",
     "gtceu.sieving": "Sieving",
-    "gtceu.reconstructing": "Atomic Reconstruction",
     "gtceu.pebf": "P.E.B.F.",
     "gtceu.sluicing": "Sluicing",
     "gtceu.terrestrial": "Terrestrial Infusion",
@@ -159,6 +158,8 @@
     "gtceu.comb_centrifuge": "Comb Centrifuging",
     "gtceu.advanced_filtering": "Advanced Filtering",
     "gtceu.evaporation": "Evaporation",
+    "gtceu.recycling": "Recycling",
+    "gtceu.melting": "Melting",
 
     "tooltips": "<---TOOLTIPS--->",
 

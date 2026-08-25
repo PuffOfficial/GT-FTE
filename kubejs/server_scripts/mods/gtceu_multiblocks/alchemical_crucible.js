@@ -9,8 +9,7 @@ ServerEvents.recipes(event => {
     C: `gtceu:polybenzimidazole_huge_fluid_pipe`,
     D: `gtceu:osmiridium_rotor`,
     E: global.IV.Pump,
-  }
-  )
+  });
   event.recipes.gtceu.alchemy(`gtfte:thaumium_ingot`)
     .itemInputs(`gtceu:hsss_ingot`)
     .inputFluids([`gtceu:praecantatio 100`, `gtceu:metallum 50`])

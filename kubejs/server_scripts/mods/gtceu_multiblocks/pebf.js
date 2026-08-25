@@ -31,4 +31,4 @@ ServerEvents.recipes(event => {
                 .itemOutputs(`gtceu:raw_graphite`)
                 .duration(600)
                 .EUt(GTValues.VA[GTValues.LV]);
-})
+});

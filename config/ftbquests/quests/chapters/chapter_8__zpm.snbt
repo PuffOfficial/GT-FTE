@@ -98,6 +98,7 @@
 		{
 			dependencies: ["34200949BA7F72DC"]
 			id: "03AA099719DF13E8"
+			subtitle: "Why is it so long and why does it requires 16 blocks of silicon??"
 			tasks: [{
 				id: "655C4DD068C449CE"
 				item: "gtceu:naquadah_boule"
@@ -420,6 +421,7 @@
 		}
 		{
 			dependencies: ["31D55B7E3A7F55E2"]
+			description: ["Hey uhh, maybe it's time to make hazmat? "]
 			id: "76AB0638D102BE8E"
 			tasks: [{
 				id: "69CD9CBCD098CB5C"

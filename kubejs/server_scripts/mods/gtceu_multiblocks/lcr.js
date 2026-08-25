@@ -11,4 +11,4 @@ ServerEvents.recipes(event => {
                 .itemOutputs(`2x gtceu:fluix_gem`)
                 .duration(100)
                 .EUt(GTValues.VA[GTValues.MV]);
-})
+});

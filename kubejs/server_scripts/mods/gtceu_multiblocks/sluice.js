@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         E: global.HV.Pump,
         F: `exdeorum:iron_mesh`,
         G: `gtceu:steel_plate`
-    })
+    });
     event.recipes.gtceu.sluicing(`gtfte:gravel_sluicing`)
         .inputFluids(`gtceu:gravel_slurry 1000`)
         .itemOutputs([
@@ -65,4 +65,4 @@ ServerEvents.recipes(event => {
         ])
         .duration(100)
         .EUt(GTValues.VA[GTValues.MV]);
-})
+});

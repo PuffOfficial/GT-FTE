@@ -5,4 +5,4 @@ ServerEvents.recipes(event => {
                 .duration(320)
                 .EUt(GTValues.VA[GTValues.LV])
                 .blastFurnaceTemp(430);
-})
+});

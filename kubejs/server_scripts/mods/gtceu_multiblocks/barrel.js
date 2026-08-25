@@ -8,8 +8,7 @@ ServerEvents.recipes(event => {
                 B: `gtceu:treated_wood_frame`,
                 C: `gtceu:treated_wood_plate`,
                 D: `gtceu:treated_wood_large_fluid_pipe`,
-        }
-        )
+        });
         event.recipes.gtceu.barrel(`gtfte:clay`)
                 .itemInputs(`exdeorum:dust`)
                 .inputFluids(`minecraft:water 1000`)

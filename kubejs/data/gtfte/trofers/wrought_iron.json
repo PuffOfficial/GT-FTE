@@ -1,10 +1,10 @@
 {
     "name": "ULV Chapter",
     "tooltip": [
-        "Welcome to the ULV chaper!"
+        "Welcome to the ULV Chapter!"
     ],
     "item": {
-        "item": "gtceu:wrought_iron_gear",
+        "item": "gtceu:wrought_iron_ingot",
         "count": 1
     },
     "display": {
