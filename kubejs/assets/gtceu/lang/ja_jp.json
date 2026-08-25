@@ -14,7 +14,7 @@
     "material.gtceu.flux_fused_naquadah": "フルーシュナクアダ",
     "material.gtceu.unbreakium": "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>不可壊合金",
 
-    "material.gtceu.infinity": "<neon p=8 r=2 a=0.15><rainb>インフィニティ</rainb>",
+    "material.gtceu.infinity": "<neon p=8 r=2 a=0.15><rainb>インフィニティ</rainb></neon>",
 
     "material.gtceu.thaumium": "魔導金属",
     "material.gtceu.alchemical_bronze": "錬金ブロンズ",

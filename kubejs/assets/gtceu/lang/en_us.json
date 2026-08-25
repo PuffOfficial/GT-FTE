@@ -14,7 +14,7 @@
     "material.gtceu.flux_fused_naquadah": "Flux Fused Naquadah",
     "material.gtceu.unbreakium": "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable",
 
-    "material.gtceu.infinity": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb>",
+    "material.gtceu.infinity": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon>",
 
     "material.gtceu.thaumium": "Thaumium",
     "material.gtceu.alchemical_bronze": "Alchemical Bronze",
