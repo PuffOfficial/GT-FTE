@@ -40,7 +40,7 @@
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
       "default": {
-        "textOverride": "Playing on {server.motd.raw}"
+        "textOverride": "Building factory on {server.motd.raw}"
       }
     },
     "pingRateInterval": 5,
@@ -48,19 +48,19 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "In the Main Menu"
+      "textOverride": "Waiting for deployment."
     },
     "loadingData": {
-      "textOverride": "Loading..."
+      "textOverride": "In transit..."
     },
     "lanData": {
-      "textOverride": "Playing on a LAN Server"
+      "textOverride": "Building factory with friends."
     },
     "singleplayerData": {
-      "textOverride": "Playing Singleplayer"
+      "textOverride": "Building factory by themselves."
     },
     "realmData": {
-      "textOverride": "Playing on {server.motd.raw}"
+      "textOverride": "Who the hell uses realms??"
     }
   },
   "advancedSettings": {
@@ -113,7 +113,7 @@
   "displaySettings": {
     "presenceData": {
       "enabled": true,
-      "useAsMain": false,
+      "useAsMain": true,
       "isInstance": false,
       "activityType": 0,
       "statusDisplayType": 0,
@@ -122,13 +122,13 @@
       "detailsUrl": "",
       "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
       "gameStateUrl": "",
-      "appName": "",
-      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
-      "largeImageText": "{getFirst(menu.message, dimension.message)}",
-      "largeImageUrl": "",
+      "appName": "GT: Flatter Than Ever",
+      "largeImageKey": "logo_alt",
+      "largeImageText": "Available only on CurseForge",
+      "largeImageUrl": "https://www.curseforge.com/minecraft/modpacks/gt-fte",
       "smallImageKey": "gtlogo",
-      "smallImageText": "Made by puff_official on CurseForge",
-      "smallImageUrl": "",
+      "smallImageText": "Made by puff_official",
+      "smallImageUrl": "https://discord.gg/KjzBXsGxBt",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {}
