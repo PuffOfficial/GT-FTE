@@ -37,6 +37,7 @@ const string = [
     ["minecraft:sand", "string", "gtceu:impure_redstone_dust", 4.0, 0.3],
     ["minecraft:sand", "string", "gtceu:impure_sulfur_dust", 2.0, 0.3],
     ["minecraft:gravel", "string", "gtceu:crushed_lead_ore", 2.0, 0.3],
+    ["minecraft:gravel", "string", "gtceu:crushed_sphalerite_ore", 1.0, 0.1],
 ]
 
 ServerEvents.recipes(event => {

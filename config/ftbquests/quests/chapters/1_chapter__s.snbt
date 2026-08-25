@@ -117,8 +117,8 @@
 		{
 			dependencies: ["3EC50E20C3A15F93"]
 			description: [
-				"Try breaking some &6dirt&r with crook in a normal run"
-				"Or just shift+right click &2grass&r in peaceful with spade in main hand"
+				"Try breaking some &6dirt&r with a crook in a hand."
+				"&8&oP.S. FTB ultimine is installed.&r"
 			]
 			id: "7108651344CB541D"
 			shape: "gear"
@@ -154,6 +154,10 @@
 		}
 		{
 			dependencies: ["7108651344CB541D"]
+			description: [
+				"Alright, this one should be obvious, right?"
+				"&8&oBreak some leaves with a crook, duh.&r"
+			]
 			id: "48E957186CF6F398"
 			subtitle: "Free strings"
 			tasks: [{
@@ -229,6 +233,7 @@
 			]
 			description: ["Same as the dusts, throw in to cauldron with &9water&r to purify them"]
 			id: "4C20422B3CFB353A"
+			subtitle: "Dusty."
 			tasks: [
 				{
 					id: "2E6D2F1E04097625"
@@ -248,6 +253,11 @@
 				{
 					id: "3DD341AAF541FE0F"
 					item: "gtceu:crushed_iron_ore"
+					type: "item"
+				}
+				{
+					id: "7C1AB7162B5A9E46"
+					item: "gtceu:crushed_sphalerite_ore"
 					type: "item"
 				}
 			]
@@ -363,7 +373,11 @@
 		}
 		{
 			dependencies: ["3A3750F553391CAC"]
-			description: ["Use spade as hoe! Btw it doesn't really require water to grow"]
+			description: [
+				"&8&oThere was a lot on confusions since I added this, so here's an explanation:&r&r"
+				"1. To acquire seeds, you need to &lShift+RMB&r on &agrass&r."
+				"2. You don't need water for it to grow."
+			]
 			id: "594988D1144CD256"
 			tasks: [{
 				id: "61888C03FBB8804C"
@@ -376,11 +390,20 @@
 		{
 			dependencies: ["594988D1144CD256"]
 			id: "6F289BA7687690A3"
-			tasks: [{
-				id: "18335E52FBF539DE"
-				item: "minecraft:stick"
-				type: "item"
-			}]
+			subtitle: "The mistake in quest title is supposed to be here."
+			tasks: [
+				{
+					id: "0DF7261F821BDDC7"
+					item: "pamhc2crops:cattailitem"
+					type: "item"
+				}
+				{
+					id: "2DD69206F7601854"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "Stickz"
 			x: 3.0d
 			y: -5.5d
 		}

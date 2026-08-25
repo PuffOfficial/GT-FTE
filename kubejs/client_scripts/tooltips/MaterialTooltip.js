@@ -26,7 +26,7 @@ for (const [Material, firstEdit, SecondEdit] of MaterialTooltips) {
         let f = flag;
         let p = prefix;
         Tooltip.addAdvanced(f, (item, advanced, text) => {
-            console.log(flag, prefix)
+            console.log(f, p)
             text.add(1, Text.of(Component.translatable(`gtfte.tooltip.material.${Material}`, Text.of(`${firstEdit}${p.getString().toLowerCase()}${SecondEdit}`))))
         })
     };

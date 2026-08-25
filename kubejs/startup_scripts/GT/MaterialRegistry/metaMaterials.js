@@ -16,6 +16,7 @@ const MaterialTypeList = [
 // Hello you fellow code digger! Welcome to so called "Meta materials" that I made to fix my issue with shaders on items, feel free to use, but PLEASE mention puff_official as a contributor and GTFTE as an inspiration.
 function GenerateMetaMaterialJSON(IconSet, Name, Material) {
     console.log(`Generating meta material for ${Material}`);
+
     GTCEuStartupEvents.registry(`gtceu:material`, event => {
         event.create(Material)
             .ingot()
@@ -51,11 +52,11 @@ function GenerateMetaMaterialJSON(IconSet, Name, Material) {
     ItemEvents.modification(event => {
         for (const [MaterialType, MaterialPrefix, PrefixTranslation] of MaterialTypeList) {
             event.modify(`gtceu:${Material}_${MaterialType}`, item => {
-                item.nameKey = Component.translatable(PrefixTranslation, Text.of(Component.translatable(Name).getString())).getString();
+                item.nameKey = Component.translatable(PrefixTranslation, Component.translatable(Name)).getString();
             });
         };
     });
 };
 
 GenerateMetaMaterialJSON(`infinity`, `material.gtceu.infinity`, `infinity`)
-GenerateMetaMaterialJSON(`eternal_matrix`, `material.gtceu.eternal_matrix`, `eternal_matrix`)
+//GenerateMetaMaterialJSON(`eternal_matrix`, `material.gtceu.eternal_matrix`, `eternal_matrix`)

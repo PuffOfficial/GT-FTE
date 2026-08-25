@@ -10,18 +10,15 @@
 		{
 			description: [
 				"Good morning, pioneer of P-Corp."
-				"You are not first pioneer in this timeline, you are №&k192."
-				"As you were sent there without instructions, you will be guided by... *Insert drums there* Mike!"
+				"You are not first pioneer in this sector, to be more accurate, you are №&k192."
 				""
-				"&8 Btw, he is a bit of &obum&r"
-				""
-				"That's all from us, Mike is waiting for you!"
+				"Don't worry, you won't have to contact them, good if you're introvert."
 			]
 			id: "34FC2C897C2194C0"
 			size: 1.25d
 			tasks: [{
 				id: "34A944361F5241A5"
-				title: "Your Guide - Mike!"
+				title: "Alright ig."
 				type: "checkmark"
 			}]
 			x: 0.0d

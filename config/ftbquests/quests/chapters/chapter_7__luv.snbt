@@ -360,6 +360,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "You'll need a LOT of it, trust."
 			tasks: [{
 				id: "185FD4C2A905D5B7"
 				item: "gtceu:thaumium_ingot"
@@ -413,7 +414,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["751CCA9196F0670D"]
+			dependencies: ["108D189C132B3069"]
 			id: "7CA1C9BB087430CA"
 			optional: true
 			rewards: [{
@@ -427,8 +428,8 @@
 				item: "gtceu:plutonium_241_fuel_rod"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.5d
+			x: 2.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["751CCA9196F0670D"]
@@ -445,8 +446,8 @@
 				item: "gtceu:celestite_fuel_rod"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -10.5d
+			x: 2.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["1070C7B62A4BD14A"]
@@ -835,6 +836,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Cool LuV circuit."
 			tasks: [{
 				id: "29F2DF5562B879CB"
 				item: "gtceu:quantum_processor_computer"

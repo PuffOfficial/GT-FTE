@@ -986,6 +986,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Who's this guy?"
 			tasks: [{
 				id: "1D6CADA15A802BE4"
 				item: "gtceu:raw_sombralite"
@@ -1002,6 +1003,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Powering (Artificial) Intelligence!"
 			tasks: [
 				{
 					id: "2E5CCA4262BBA67A"

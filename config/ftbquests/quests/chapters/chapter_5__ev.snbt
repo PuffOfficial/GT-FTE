@@ -896,13 +896,14 @@
 		}
 		{
 			dependencies: ["17F721F6D4B53924"]
-			description: ["Yay, tungsten!"]
+			description: [""]
 			id: "7A4012F357AAEDAE"
 			rewards: [{
 				id: "1DF7CE6661971ED6"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Yay, tungsten!"
 			tasks: [
 				{
 					id: "0B364A6078C6D962"

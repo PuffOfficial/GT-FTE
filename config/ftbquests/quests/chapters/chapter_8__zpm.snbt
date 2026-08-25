@@ -48,7 +48,7 @@
 			dependencies: ["3CE8DE09CF6B1DD7"]
 			description: [
 				"Get ready to make processing line for it"
-				"OHHH, forgot that Naquadah spawns in Abydos"
+				"OHHH &8&ochuckle&r&r, right, forgot that Naquadah spawns only in Abydos"
 			]
 			id: "1ECCCECBE241A6B2"
 			tasks: [{
@@ -109,6 +109,7 @@
 		{
 			dependencies: ["1ECCCECBE241A6B2"]
 			id: "34200949BA7F72DC"
+			subtitle: "Hold on, why isn't stargate made out of it??"
 			tasks: [
 				{
 					id: "219AD6293F975AEC"
@@ -141,6 +142,13 @@
 		}
 		{
 			dependencies: ["34200949BA7F72DC"]
+			description: [
+				"I introduce to you... *Drums*"
+				""
+				"Custom \"Cleanroom\" hatches! I like to call 'em modules cuz it sounds cool."
+				""
+				"Anyways, they work like standard cleanroom hatches, giving a state to a machine. (In this case - \"&5Ionized&r\")"
+			]
 			id: "0DDD507C01683704"
 			subtitle: "The hell is \"Ionizined\"?"
 			tasks: [{
@@ -154,6 +162,7 @@
 		{
 			dependencies: ["7526A264778255DD"]
 			id: "2FC7A0456BE14F12"
+			subtitle: "What Europe has to do with this?"
 			tasks: [{
 				id: "2F552C2C30B38018"
 				item: "gtceu:europium_bucket"
@@ -325,6 +334,7 @@
 			id: "783489E114E89E0A"
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Painful, isn't it?"
 			tasks: [{
 				id: "24843194BF476B6B"
 				item: "gtceu:crystal_processor_mainframe"
@@ -347,6 +357,7 @@
 		{
 			dependencies: ["737039E23558B072"]
 			id: "7B0710E1F3A2C697"
+			subtitle: "Really cool LuV circuit."
 			tasks: [{
 				id: "14A897687252AAA1"
 				item: "gtceu:crystal_processor_assembly"
@@ -372,6 +383,7 @@
 				"7BEB21845333978B"
 			]
 			id: "22B408BFD8FF7BB1"
+			subtitle: "Test of Patience"
 			tasks: [{
 				id: "1A9453D630A595A1"
 				item: "gtceu:crystal_soc"
@@ -434,6 +446,7 @@
 				"60417E74EF5C4E63"
 			]
 			id: "7BC6B092524AB31A"
+			subtitle: "Same question with America."
 			tasks: [{
 				id: "3B7925DFB4763CB5"
 				item: "gtceu:americium_bucket"
@@ -459,6 +472,7 @@
 			id: "00BFC9DC67C56E5B"
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Who's this random metal :skull:"
 			tasks: [{
 				id: "386A1E6F4DC65698"
 				item: "gtceu:darmstadtium_ingot"
