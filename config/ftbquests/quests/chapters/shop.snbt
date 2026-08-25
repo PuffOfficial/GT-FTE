@@ -227,7 +227,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			title: "Rhodium-Plated Palladium"
+			title: "Rhodium-Plated Palladium and Thaumium"
 			x: -4.0d
 			y: -1.5d
 		}
@@ -247,7 +247,7 @@
 			}]
 			tasks: [{
 				consume_items: true
-				count: 40L
+				count: 14L
 				id: "20E41E5123FC8F5D"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -455,7 +455,7 @@
 			]
 			tasks: [{
 				consume_items: true
-				count: 48L
+				count: 32L
 				id: "2A81A04635D9B4B5"
 				item: "kubejs:p_credit"
 				type: "item"
