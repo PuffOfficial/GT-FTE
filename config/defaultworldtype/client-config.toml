@@ -11,5 +11,5 @@
 	#Disables the preset selection button in the world selection screen.
 	disable-button = false
 	#The list of world types which should be available in the world selection screen. If empty, all world types are available.
-	allowed-world-types = []
+	allowed-world-types = ["minecraft:flat"]
 
