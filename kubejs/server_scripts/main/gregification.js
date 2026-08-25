@@ -53,8 +53,7 @@ ServerEvents.recipes(event => {
   ], {
     A: `gtceu:wood_plate`,
     D: `gtceu:iron_ring`
-  }
-  );
+  });
   event.shaped(`minecraft:lightning_rod`, [
     `BAE`,
     ` DC`,
@@ -65,8 +64,7 @@ ServerEvents.recipes(event => {
     C: global.tools.AnyScrewdriver,
     D: `gtceu:copper_rod`,
     E: `gtceu:copper_screw`,
-  }
-  )
+  });
   // MARK: CobbleForDays
   event.shaped(`cobblefordays:tier_1`, [
     `ABA`,
@@ -79,8 +77,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:wrought_iron_ring`,
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
-  }
-  ).replaceIngredient(`minecraft:water_bucket`, `minecraft:bucket`).replaceIngredient(`minecraft:lava_bucket`, `minecraft:bucket`)
+  }).replaceIngredient(`minecraft:water_bucket`, `minecraft:bucket`).replaceIngredient(`minecraft:lava_bucket`, `minecraft:bucket`);
   event.shaped(`cobblefordays:tier_2`, [
     `ABA`,
     `FDE`,
@@ -92,8 +89,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:steel_ring`,
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
-  }
-  )
+  });
   event.shaped(`cobblefordays:tier_3`, [
     `ABA`,
     `FDE`,
@@ -105,8 +101,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:aluminium_ring`,
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
-  }
-  )
+  });
   event.shaped(`cobblefordays:tier_4`, [
     `ABA`,
     `FDE`,
@@ -118,8 +113,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:stainless_steel_ring`,
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
-  }
-  )
+  });
   event.shaped(`cobblefordays:tier_5`, [
     `ABA`,
     `FDE`,
@@ -131,8 +125,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:titanium_ring`,
     E: `minecraft:water_bucket`,
     F: `minecraft:lava_bucket`
-  }
-  )
+  });
   // MARK: AE2
   event.shaped(`ae2:drive`, [
     `ACA`,
@@ -143,8 +136,7 @@ ServerEvents.recipes(event => {
     B: global.MV.Emitter,
     C: `#gtfte:circuits/me_2`,
     D: `gtceu:mv_machine_hull`,
-  }
-  );
+  });
   event.shaped(`ae2:controller`, [
     `BAB`,
     `CDC`,
@@ -154,8 +146,7 @@ ServerEvents.recipes(event => {
     B: `gtceu:aluminium_plate`,
     C: `#gtfte:circuits/me_3`,
     D: `gtceu:mv_machine_hull`,
-  }
-  );
+  });
   event.shaped(`2x ae2:blank_pattern`, [
     `DED`,
     `ECE`,
@@ -166,8 +157,7 @@ ServerEvents.recipes(event => {
     C: `#gtfte:circuits/me_1`,
     D: `ae2:quartz_glass`,
     E: `gtceu:fine_annealed_copper_wire`,
-  }
-  );
+  });
   event.shaped(`ae2:pattern_provider`, [
     `DCD`,
     `ABF`,
@@ -179,8 +169,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:black_steel_plate`,
     E: `gtceu:platinum_plate`,
     F: `ae2:annihilation_core`,
-  }
-  );
+  });
   event.shaped(`ae2:interface`, [
     `DCD`,
     `ABF`,
@@ -192,8 +181,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:black_steel_plate`,
     E: `gtceu:certus_quartz_plate`,
     F: `ae2:annihilation_core`,
-  }
-  );
+  });
   event.shaped(`ae2:molecular_assembler`, [
     `DCD`,
     `ABA`,
@@ -204,9 +192,8 @@ ServerEvents.recipes(event => {
     C: `#gtfte:circuits/me_4`,
     D: `gtceu:black_steel_plate`,
     E: `gtceu:mv_robot_arm`,
-  }
-  );
-  event.shaped(`ae2:formation_core`, [
+  });
+  event.shaped(`2x ae2:formation_core`, [
     ` AD`,
     `CEB`,
     `DA `
@@ -216,9 +203,8 @@ ServerEvents.recipes(event => {
     C: `gtceu:gold_plate`,
     D: `gtceu:fine_silver_wire`,
     E: `#gtfte:circuits/me_2`,
-  }
-  );
-  event.shaped(`ae2:annihilation_core`, [
+  });
+  event.shaped(`2x ae2:annihilation_core`, [
     ` AD`,
     `BEC`,
     `DA `
@@ -228,8 +214,7 @@ ServerEvents.recipes(event => {
     C: `gtceu:diamond_plate`,
     D: `gtceu:fine_silver_wire`,
     E: `#gtfte:circuits/me_2`,
-  }
-  );
+  });
   event.shaped(`2x ae2:item_cell_housing`, [
     `FEF`,
     `CDC`,
@@ -241,8 +226,7 @@ ServerEvents.recipes(event => {
     D: `gtceu:fine_silver_wire`,
     E: `gtceu:redstone_plate`,
     F: `ae2:quartz_glass`,
-  }
-  );
+  });
   event.shaped(`2x ae2:fluid_cell_housing`, [
     `FEF`,
     `CDC`,
@@ -254,8 +238,17 @@ ServerEvents.recipes(event => {
     D: `gtceu:fine_silver_wire`,
     E: `gtceu:redstone_plate`,
     F: `ae2:quartz_glass`,
-  }
-  );
+  });
+  event.shaped(`ae2:crafting_unit`, [
+    `AEA`,
+    `DFD`,
+    `AEA`
+  ], {
+    A: `gtceu:aluminium_plate`,
+    D: `gtceu:fine_silver_wire`,
+    E: `ae2:fluix_glass_cable`,
+    F: `gtceu:lv_machine_hull`,
+  });
   //MARK: Forestry
   event.shaped(`forestry:worktable`, [
     `B C`,
@@ -268,8 +261,7 @@ ServerEvents.recipes(event => {
     D: `minecraft:book`,
     E: `gtceu:iron_screw`,
     F: `minecraft:chest`
-  }
-  )
+  });
   //MARK: Ender Storage
   event.shaped(`enderchests:ender_chest`, [
     `CBC`,
@@ -280,8 +272,7 @@ ServerEvents.recipes(event => {
     B: `minecraft:ender_eye`,
     C: `minecraft:blaze_rod`,
     D: `gtceu:lv_super_chest`,
-  }
-  );
+  });
   event.shaped(`endertanks:ender_tank`, [
     `CBC`,
     `ADA`,
@@ -291,6 +282,5 @@ ServerEvents.recipes(event => {
     B: `minecraft:ender_eye`,
     C: `minecraft:blaze_rod`,
     D: `gtceu:lv_super_tank`,
-  }
-  );
+  });
 })
