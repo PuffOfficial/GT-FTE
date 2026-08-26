@@ -1,0 +1,12 @@
+{
+	icon: "kubejs:mana_bundle"
+	id: "612F555EA12BC305"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "botania:black_lotus" }
+		{ item: "botania:blacker_lotus", weight: 0.75f }
+		{ item: "manafluid:mana_bucket", weight: 0.25f }
+	]
+	title: "Mana Pack"
+}

@@ -763,6 +763,7 @@
 			dependencies: ["3ABF877686942630"]
 			id: "1DFB5DEE7734995B"
 			rewards: [{
+				count: 2
 				id: "0997D5390DFB4DC0"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -970,6 +971,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "It looks damn good."
 			tasks: [{
 				id: "42F325F90B5AD450"
 				item: "gtceu:radiation_resistant_alloy_ingot"
@@ -1407,6 +1409,7 @@
 			dependencies: ["0C506B2DB993ABCA"]
 			id: "14905693E270A5CA"
 			rewards: [{
+				count: 2
 				id: "7095FE1FC0F6ECD4"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -1649,10 +1652,12 @@
 			]
 			id: "41AD9524EFFBC8F4"
 			rewards: [{
+				count: 2
 				id: "7777C948F5FF327B"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Yay, Cool rubber"
 			tasks: [{
 				id: "2D3ED5C47DBC810F"
@@ -1753,11 +1758,13 @@
 			dependencies: ["7DE65C3E8F1A7680"]
 			id: "1FF6EE8F4B3A8FDA"
 			rewards: [{
+				count: 2
 				id: "48972D6C044BE0BA"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
 			shape: "gear"
+			subtitle: "ZAMN I cooked with that texture"
 			tasks: [{
 				id: "3223EC7A080D2A1E"
 				item: "gtceu:gaia_steel_ingot"
@@ -2070,6 +2077,7 @@
 			]
 			id: "7DED8C385C0AB146"
 			rewards: [{
+				count: 4
 				id: "5E1B31B820EC905D"
 				item: "kubejs:p_credit"
 				type: "item"

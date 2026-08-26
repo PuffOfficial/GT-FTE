@@ -383,6 +383,7 @@
 			dependencies: ["0BB20AF10BC7E7EE"]
 			id: "66242176308D56AE"
 			rewards: [{
+				count: 2
 				id: "7C57B9134C8068F8"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -454,6 +455,7 @@
 			]
 			id: "5955E1625D920AD9"
 			rewards: [{
+				count: 4
 				id: "4FF10FCF45CF3E2B"
 				item: "kubejs:p_credit"
 				type: "item"

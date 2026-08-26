@@ -42,7 +42,7 @@
 			description: ["Well, it is dirt... Of course it has stones in it! I think. Yea it is as in other skyblock modpacks, just shift+right click the dirt"]
 			id: "6FCB7AAF642B3722"
 			rewards: [{
-				id: "34D5463CD69B66DD"
+				id: "2894698B8DB27DE8"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
@@ -76,11 +76,18 @@
 		{
 			dependencies: ["7108651344CB541D"]
 			id: "7FE5AAE27855C2E0"
-			rewards: [{
-				id: "17FB8512B9D79FBF"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "17FB8512B9D79FBF"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+				{
+					id: "1BBACF476B965DB9"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "672F97BEB0197F22"
@@ -100,11 +107,18 @@
 			dependencies: ["29D26608B96FC714"]
 			id: "255E2535B560CBBB"
 			optional: true
-			rewards: [{
-				id: "2ACBEC554ED51C56"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "2ACBEC554ED51C56"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+				{
+					id: "21B18E02EE4B9FAD"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "480667BFE9586245"
@@ -121,6 +135,11 @@
 				"&8&oP.S. FTB ultimine is installed, it will help you a lot.&r"
 			]
 			id: "7108651344CB541D"
+			rewards: [{
+				id: "2FB7BA7E83226432"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "334CCC250205766E"
@@ -133,6 +152,11 @@
 		{
 			dependencies: ["7FE5AAE27855C2E0"]
 			id: "0E7787441C574AB8"
+			rewards: [{
+				id: "5D925474DEB65DC6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "11782CC002459A19"
 				item: "minecraft:gravel"
@@ -144,6 +168,11 @@
 		{
 			dependencies: ["7FE5AAE27855C2E0"]
 			id: "2292732E595B2FE5"
+			rewards: [{
+				id: "35927E24F397C702"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F2791D54FCB7F8D"
 				item: "minecraft:sand"
@@ -159,6 +188,11 @@
 				"&8&oBreak some leaves with a crook, duh.&r"
 			]
 			id: "48E957186CF6F398"
+			rewards: [{
+				id: "1BC3C65C72AE61A6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Free strings"
 			tasks: [{
 				id: "68CCFB73F5DBCED6"
@@ -172,6 +206,11 @@
 			dependencies: ["48E957186CF6F398"]
 			description: ["&8&oUnlike in &l<0.3 versions&r&o&8, there will be no more mesh tiers!&r&r"]
 			id: "55929EC71AF563BC"
+			rewards: [{
+				id: "392B3EEACBB0D6D9"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "30E0CBAF77063E7D"
 				item: "exdeorum:string_mesh"
@@ -183,6 +222,11 @@
 		{
 			dependencies: ["7108651344CB541D"]
 			id: "78ABD07B12E91235"
+			rewards: [{
+				id: "4B94494FDE2869E9"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "621BDB6B49A680DF"
 				item: "exdeorum:oak_sieve"
@@ -199,6 +243,11 @@
 			]
 			description: ["Throw them in to cauldron with &9water&r to wash them"]
 			id: "49469AD65C6483FC"
+			rewards: [{
+				id: "10E33799336B0EB5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "28B2A98722DAB0C9"
@@ -233,6 +282,11 @@
 			]
 			description: ["Same as the dusts, throw in to cauldron with &9water&r to purify them"]
 			id: "4C20422B3CFB353A"
+			rewards: [{
+				id: "64DDD720CC31B952"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Dusty."
 			tasks: [
 				{
@@ -271,6 +325,11 @@
 				"49469AD65C6483FC"
 			]
 			id: "59FE5A35F65990D7"
+			rewards: [{
+				id: "5217045BFA4DD191"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CDBB8518024F346"
 				item: "gtceu:red_alloy_ingot"
@@ -282,6 +341,11 @@
 		{
 			dependencies: ["4C20422B3CFB353A"]
 			id: "463E7B6B3DAB14BC"
+			rewards: [{
+				id: "76774170BFDC5C47"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E02AB88416BED87"
 				item: "minecraft:iron_ingot"
@@ -293,6 +357,11 @@
 		{
 			dependencies: ["4C20422B3CFB353A"]
 			id: "0C11A36C1BCD5F23"
+			rewards: [{
+				id: "75C19F1BC154814A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0307FBBE63849EBE"
 				item: "minecraft:copper_ingot"
@@ -308,6 +377,12 @@
 				"512087A7EA8C7EC0"
 			]
 			id: "6245C55A807D1DDF"
+			rewards: [{
+				count: 4
+				id: "0B7F776CD737D2F4"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "No, it can't run doom"
@@ -323,6 +398,11 @@
 			dependencies: ["463E7B6B3DAB14BC"]
 			id: "06BF29E326F5AF1C"
 			optional: true
+			rewards: [{
+				id: "66A52B1281FD78C7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "11356B7BFB5611D1"
@@ -335,6 +415,11 @@
 		{
 			dependencies: ["501B22D11EA7FBA2"]
 			id: "512087A7EA8C7EC0"
+			rewards: [{
+				id: "346DDE5944CAA3DD"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5986F7EE1264FB87"
 				item: "minecraft:glass"
@@ -346,6 +431,11 @@
 		{
 			dependencies: ["2292732E595B2FE5"]
 			id: "501B22D11EA7FBA2"
+			rewards: [{
+				id: "6EB7B6EADD19795C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "19DC4F31E5111D7A"
 				item: "gtceu:quartz_sand_dust"
@@ -358,6 +448,11 @@
 			dependencies: ["29D26608B96FC714"]
 			description: ["Try Shift+Right Clicking grass or dirt."]
 			id: "3A3750F553391CAC"
+			rewards: [{
+				id: "3DFA334E2348532F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1669007CF37AE001"
 				item: {
@@ -380,6 +475,11 @@
 				"2. You don't need water for it to grow."
 			]
 			id: "594988D1144CD256"
+			rewards: [{
+				id: "783B94D20DA3C2BB"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "61888C03FBB8804C"
 				item: "pamhc2crops:cattailseeditem"
@@ -391,6 +491,11 @@
 		{
 			dependencies: ["594988D1144CD256"]
 			id: "6F289BA7687690A3"
+			rewards: [{
+				id: "0C11B19F2BB8EDAA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "The mistake in quest title is supposed to be here."
 			tasks: [
 				{
@@ -411,6 +516,11 @@
 		{
 			dependencies: ["6F289BA7687690A3"]
 			id: "3EC50E20C3A15F93"
+			rewards: [{
+				id: "484FC32CAA33FD30"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07C0A01F5FEB2F6C"
 				item: {

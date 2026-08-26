@@ -487,6 +487,7 @@
 			description: ["Yes, it is IV circuit, but please, make quests below it before going to it!"]
 			id: "3C77E5AB51BB570B"
 			rewards: [{
+				count: 4
 				id: "54B7891DAD4D2334"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -705,16 +706,18 @@
 		}
 		{
 			dependencies: ["6603C309FF8A52F1"]
-			description: ["EV ENERGY HATCH!!!"]
+			description: [""]
 			hide_dependent_lines: true
 			id: "6EA73A265956C2AF"
 			rewards: [{
+				count: 2
 				id: "48BBDC4ED50C112A"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "I... NEED... MORE... POWER..."
 			tasks: [{
 				id: "2DD1AF89B852EA8A"
 				item: "gtceu:ev_energy_input_hatch"
@@ -1123,6 +1126,7 @@
 			]
 			id: "17F721F6D4B53924"
 			rewards: [{
+				count: 8
 				id: "255AF44F09CF4B8E"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -1203,6 +1207,11 @@
 			dependencies: ["2EC2D709ED7B523C"]
 			description: ["Yo, remember Bauxite Line? No...? Then go and make it!"]
 			id: "15EAFB902DDF8166"
+			rewards: [{
+				id: "7E1C6E93A8AD5B40"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "42EADA022A81BA30"
 				item: "gtceu:crushed_bauxite_ore"
@@ -1214,6 +1223,11 @@
 		{
 			dependencies: ["15EAFB902DDF8166"]
 			id: "0AE990414523AF88"
+			rewards: [{
+				id: "493DB6FF1C935250"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72052D198986E28B"
 				item: "gtceu:bauxite_slurry_bucket"
@@ -1228,6 +1242,11 @@
 				"0AE990414523AF88"
 			]
 			id: "1CBD4497BCDED218"
+			rewards: [{
+				id: "365942F7D9DFA493"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AF4A48BCC264EA6"
 				item: "gtceu:cracked_bauxite_slurry_bucket"
@@ -1238,6 +1257,11 @@
 		}
 		{
 			id: "7FFAEB0348487242"
+			rewards: [{
+				id: "3FA4F671D86365E7"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B486C9EE7F22BAF"
 				item: "gtceu:cracker"
@@ -1252,6 +1276,11 @@
 				"4867BEB512641580"
 			]
 			id: "7370D4CD2CA46944"
+			rewards: [{
+				id: "33864ABCD5A71A28"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "338CBD5A5BA824A0"
 				item: "gtceu:bauxite_slag_dust"
@@ -1266,6 +1295,11 @@
 				"4867BEB512641580"
 			]
 			id: "4C473AB9006FC9D3"
+			rewards: [{
+				id: "0226510F509C3D1E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27FE4E7C40D05C34"
 				item: "gtceu:bauxite_sludge_bucket"
@@ -1277,6 +1311,11 @@
 		{
 			dependencies: ["7370D4CD2CA46944"]
 			id: "6249F061A5D62C0D"
+			rewards: [{
+				id: "23050FAC3297615B"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "Main goal of the BauxLine"
 			tasks: [{
@@ -1291,6 +1330,11 @@
 			dependencies: ["4C473AB9006FC9D3"]
 			id: "7211210695536A99"
 			optional: true
+			rewards: [{
+				id: "111773DBCCEBB708"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "450915AFF1DF77E0"
 				item: "gtceu:decalcified_bauxite_sludge_bucket"
@@ -1303,6 +1347,11 @@
 			dependencies: ["7211210695536A99"]
 			id: "3FF39BAAA9F7AC27"
 			optional: true
+			rewards: [{
+				id: "602B644E83022690"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "757A81CCFEB244BA"
 				item: "gtceu:rutile_dust"
@@ -1314,6 +1363,12 @@
 		{
 			dependencies: ["6EA41DEEEC04B684"]
 			id: "3865EDCA5B62A8E5"
+			rewards: [{
+				count: 2
+				id: "429BD2B12553A516"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			tasks: [{

@@ -51,6 +51,11 @@
 				"OHHH &8&ochuckle&r&r, right, forgot that Naquadah spawns only in Abydos"
 			]
 			id: "1ECCCECBE241A6B2"
+			rewards: [{
+				id: "6895D4F8F2204731"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "70A1588D588DF878"
 				item: "gtceu:raw_naquadah"
@@ -62,6 +67,11 @@
 		{
 			dependencies: ["3CE8DE09CF6B1DD7"]
 			id: "7EB1C6FE21C73AF4"
+			rewards: [{
+				id: "49D1FC1B4C8DAD64"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C5568D11FF4F492"
 				item: "gtceu:luv_energy_input_hatch"
@@ -76,6 +86,11 @@
 				"0DDD507C01683704"
 			]
 			id: "6006FBD9134A213A"
+			rewards: [{
+				id: "7D760BF1304A95A0"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "757C99F4CBB03C70"
 				item: "gtceu:uhpic_wafer"
@@ -87,6 +102,11 @@
 		{
 			dependencies: ["6006FBD9134A213A"]
 			id: "07943D376BEF96C5"
+			rewards: [{
+				id: "4421486636542EBC"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "214AE732D0B3350F"
 				item: "gtceu:uhpic_chip"
@@ -98,6 +118,11 @@
 		{
 			dependencies: ["34200949BA7F72DC"]
 			id: "03AA099719DF13E8"
+			rewards: [{
+				id: "0A264842D3644555"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Why is it so long and why does it requires 16 blocks of silicon??"
 			tasks: [{
 				id: "655C4DD068C449CE"
@@ -110,6 +135,11 @@
 		{
 			dependencies: ["1ECCCECBE241A6B2"]
 			id: "34200949BA7F72DC"
+			rewards: [{
+				id: "21B2FFD809821905"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Hold on, why isn't stargate made out of it??"
 			tasks: [
 				{
@@ -130,6 +160,12 @@
 		{
 			dependencies: ["07943D376BEF96C5"]
 			id: "7526A264778255DD"
+			rewards: [{
+				count: 4
+				id: "62B1F19390E6E2DE"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "Mechanic overused by too many packs"
@@ -151,6 +187,11 @@
 				"Anyways, they work like standard cleanroom hatches, giving a state to a machine. (In this case - \"&5Ionized&r\")"
 			]
 			id: "0DDD507C01683704"
+			rewards: [{
+				id: "6541AB27BA947B34"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "The hell is \"Ionizined\"?"
 			tasks: [{
 				id: "7539B917376F2C8C"
@@ -163,6 +204,11 @@
 		{
 			dependencies: ["7526A264778255DD"]
 			id: "2FC7A0456BE14F12"
+			rewards: [{
+				id: "5FCCB85794262EBE"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "What Europe has to do with this?"
 			tasks: [{
 				id: "2F552C2C30B38018"
@@ -176,6 +222,11 @@
 			dependencies: ["1ECCCECBE241A6B2"]
 			description: ["&o&8P.S. Look for Trinium Sulfide instead.&r"]
 			id: "30D651E27E494C96"
+			rewards: [{
+				id: "7E072B00D7E3FFB3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Even I got confused while was trying to understand trinium line"
 			tasks: [{
 				id: "4A4B3E1A644EAEA8"
@@ -189,6 +240,11 @@
 			dependencies: ["34200949BA7F72DC"]
 			description: [""]
 			id: "425D8A14B797AFEE"
+			rewards: [{
+				id: "7A7BE0DF7FECE7FD"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -213,6 +269,11 @@
 			]
 			hide_dependent_lines: true
 			id: "69CB6727D18F1428"
+			rewards: [{
+				id: "72DB2CD4D6504D9A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "189403B5D2508866"
@@ -230,6 +291,11 @@
 			]
 			id: "3932A2E2D5329356"
 			optional: true
+			rewards: [{
+				id: "6243154ACD061911"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -262,6 +328,11 @@
 			description: [""]
 			id: "6EE3E412D9EDFA1A"
 			optional: true
+			rewards: [{
+				id: "70771BF1E88EB900"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "65BC2F9E7E5CD3C9"
@@ -281,6 +352,12 @@
 				"0AEC2DAA337593AE"
 			]
 			id: "1D9A561D8570E9A6"
+			rewards: [{
+				count: 2
+				id: "7317639BC3C66375"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.0d
 			subtitle: "Expensive, isn't it?"
@@ -295,6 +372,11 @@
 		{
 			dependencies: ["31D55B7E3A7F55E2"]
 			id: "2988324920ADB2DE"
+			rewards: [{
+				id: "3B068325BCF8C987"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Superconductor!"
 			tasks: [{
 				id: "6EE4D3EFB58F8B47"
@@ -307,6 +389,11 @@
 		{
 			dependencies: ["1D9A561D8570E9A6"]
 			id: "704875E0FF9B9215"
+			rewards: [{
+				id: "7287432BF4596BF6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47253240E776AA6C"
 				item: "gtceu:tritanium_bucket"
@@ -318,6 +405,11 @@
 		{
 			dependencies: ["7CF2F3D38893F8CB"]
 			id: "31D55B7E3A7F55E2"
+			rewards: [{
+				id: "6A0564C9CF890E09"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Yet again."
 			tasks: [{
 				count: 16L
@@ -334,6 +426,12 @@
 				"69CB6727D18F1428"
 			]
 			id: "783489E114E89E0A"
+			rewards: [{
+				count: 4
+				id: "251415A97408792A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "Painful, isn't it?"
@@ -348,6 +446,11 @@
 		{
 			dependencies: ["7B0710E1F3A2C697"]
 			id: "76625B3FB0F94FC3"
+			rewards: [{
+				id: "0F1D33A3F3EDAE78"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E446279850603BA"
 				item: "gtceu:crystal_processor_computer"
@@ -359,6 +462,11 @@
 		{
 			dependencies: ["737039E23558B072"]
 			id: "7B0710E1F3A2C697"
+			rewards: [{
+				id: "09E3BDF57771B07C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Really cool LuV circuit."
 			tasks: [{
 				id: "14A897687252AAA1"
@@ -371,6 +479,11 @@
 		{
 			dependencies: ["22B408BFD8FF7BB1"]
 			id: "737039E23558B072"
+			rewards: [{
+				id: "679033097F3223D1"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "26A7FD4E0759F3F5"
 				item: "gtceu:crystal_processor"
@@ -385,6 +498,11 @@
 				"7BEB21845333978B"
 			]
 			id: "22B408BFD8FF7BB1"
+			rewards: [{
+				id: "0E1D64CF36744B4D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Test of Patience"
 			tasks: [{
 				id: "1A9453D630A595A1"
@@ -397,6 +515,11 @@
 		{
 			dependencies: ["1D9A561D8570E9A6"]
 			id: "0891137BCE775070"
+			rewards: [{
+				id: "62F05748DDA8D9AF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05168257804EADE2"
 				item: "gtceu:darmstadtium_bucket"
@@ -411,6 +534,12 @@
 				"79D088629FD0E513"
 			]
 			id: "55EE2448840B3092"
+			rewards: [{
+				count: 2
+				id: "35A5370E9C664573"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5451541F2F76E3FE"
@@ -424,6 +553,11 @@
 			dependencies: ["31D55B7E3A7F55E2"]
 			description: ["Hey uhh, maybe it's time to make hazmat? "]
 			id: "76AB0638D102BE8E"
+			rewards: [{
+				id: "6026690BDF11DFFE"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "69CD9CBCD098CB5C"
 				item: "gtceu:naquadria_ingot"
@@ -435,6 +569,11 @@
 		{
 			dependencies: ["7526A264778255DD"]
 			id: "60417E74EF5C4E63"
+			rewards: [{
+				id: "3BD8973B47137B38"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5450768FD7F1439C"
 				item: "gtceu:lutetium_bucket"
@@ -449,6 +588,11 @@
 				"60417E74EF5C4E63"
 			]
 			id: "7BC6B092524AB31A"
+			rewards: [{
+				id: "2E966F43FCA0AC39"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Same question with America."
 			tasks: [{
 				id: "3B7925DFB4763CB5"
@@ -461,6 +605,12 @@
 		{
 			dependencies: ["7BC6B092524AB31A"]
 			id: "5E02EC8E3CCB22D3"
+			rewards: [{
+				count: 2
+				id: "54A21EEF8EE012CD"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "4AA229A984E5F393"
@@ -473,6 +623,12 @@
 		{
 			dependencies: ["0891137BCE775070"]
 			id: "00BFC9DC67C56E5B"
+			rewards: [{
+				count: 2
+				id: "5DB72304F1F8B175"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "Who's this random metal :skull:"
@@ -488,6 +644,11 @@
 			dependencies: ["425D8A14B797AFEE"]
 			hide_dependent_lines: true
 			id: "0AEC2DAA337593AE"
+			rewards: [{
+				id: "54378277DA8EF616"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1C92E58F08AA98BC"
 				item: "gtceu:high_performance_computation_array"
@@ -501,6 +662,11 @@
 			description: [""]
 			id: "20D202BF7BCD770C"
 			optional: true
+			rewards: [{
+				id: "2595F7452838A64F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -531,6 +697,11 @@
 		{
 			dependencies: ["7526A264778255DD"]
 			id: "79D088629FD0E513"
+			rewards: [{
+				id: "3F2D1FE0131F94D8"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "264322646DD00A45"
@@ -543,6 +714,11 @@
 		{
 			dependencies: ["34200949BA7F72DC"]
 			id: "7CF2F3D38893F8CB"
+			rewards: [{
+				id: "116D1AAF18D345E5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				count: 16L
 				id: "404D47F2F7519143"
@@ -557,6 +733,11 @@
 			description: ["One of the BEST fuel rods! Can be even better with gelid cryotheum"]
 			id: "5DFAB300962CC372"
 			optional: true
+			rewards: [{
+				id: "104E3914A03CC926"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7790F6585B001C11"

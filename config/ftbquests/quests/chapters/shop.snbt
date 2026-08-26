@@ -16,7 +16,7 @@
 			id: "3D4008D7CA276577"
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Very original"
+			subtitle: "Very original, and still empty."
 			tasks: [{
 				consume_items: false
 				id: "527FACAAAB069E86"
@@ -58,8 +58,8 @@
 				type: "item"
 			}]
 			title: "Jet Boots"
-			x: -1.0d
-			y: -2.0d
+			x: 1.0d
+			y: -0.5d
 		}
 		{
 			can_repeat: true
@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["3D4008D7CA276577"]
-			icon: "kubejs:beehive_pack_bundle"
+			icon: "forestry:beehive_desert"
 			id: "77CA6E70791D3D44"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -291,6 +291,7 @@
 				title: "Bee hive of your choice"
 				type: "choice"
 			}]
+			subtitle: "Forestry Beehives"
 			tasks: [{
 				consume_items: true
 				count: 2L
@@ -299,7 +300,7 @@
 				type: "item"
 			}]
 			title: "Hive Bundle"
-			x: -1.0d
+			x: -2.5d
 			y: -3.5d
 		}
 		{
@@ -415,7 +416,7 @@
 		}
 		{
 			dependencies: ["3D4008D7CA276577"]
-			icon: "kubejs:sapling_bundle"
+			icon: "minecraft:oak_sapling"
 			id: "75987B33F8967818"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -425,6 +426,7 @@
 				title: "Sapling of your choice"
 				type: "choice"
 			}]
+			subtitle: "Vanilla Saplings"
 			tasks: [{
 				consume_items: true
 				id: "7F2A18B6203EF5FB"
@@ -432,8 +434,221 @@
 				type: "item"
 			}]
 			title: "Sapling Bundle"
-			x: -3.0d
+			x: -1.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["3D4008D7CA276577"]
+			icon: "botania:white_mystical_flower"
+			id: "4E1B653A2D88F218"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14AEAD76C646A9E9"
+				table_id: 2295802050421364873L
+				title: "Mystical Flower of your choice"
+				type: "choice"
+			}]
+			subtitle: "Botania Mystical Flowers"
+			tasks: [{
+				id: "7D09A3CB3EC63413"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Botanist Bundle"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D4008D7CA276577"]
+			icon: "botania:blacker_lotus"
+			id: "37F9C492ABA175EE"
+			rewards: [{
+				id: "05E527BF0645B34A"
+				table_id: 7002909810503697157L
+				title: "Random Black Lotus"
+				type: "random"
+			}]
+			subtitle: "Quick sources of mana"
+			tasks: [{
+				count: 2L
+				id: "062D96B5CF35F2F8"
+				item: { Count: 2, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Mana Bundle"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6245C55A807D1DDF"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:vacuum_tube"
+			id: "4A735726AFE15AF1"
+			rewards: [{
+				id: "4B46F8F825AD1A25"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2204DCD7B08001E8"
+				item: { Count: 2, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Vacuum Tube"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"5955E1625D920AD9"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "20234C5C411328B9"
+			rewards: [{
+				id: "045EC9867879C0A3"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1EC4A8B324FD80C4"
+				item: { Count: 4, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Basic Electronic Circuit"
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7F1A662BC5DD5056"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:good_electronic_circuit"
+			id: "212F5A14A2A699C2"
+			rewards: [{
+				id: "627B842C377BE501"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "15CDBC7ABF618B91"
+				item: { Count: 6, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Good Electronic Circuit"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"037DB579F5E7A700"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "7D475BE793FAB3EF"
+			rewards: [{
+				id: "48BF5B980EDF3612"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "6AC738483A849B67"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Advanced Integrated Circuit"
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3480AC8317E8A5F5"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:micro_processor_computer"
+			id: "06CE344E8C16298F"
+			tasks: [{
+				count: 10L
+				id: "2933C8074C705CF9"
+				item: { Count: 10, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Microprocessor Supercomputer"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3C77E5AB51BB570B"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:micro_processor_mainframe"
+			id: "05A8F542E0E6802E"
+			rewards: [{
+				id: "6CD2EB964B75080B"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 12L
+				id: "60956AACD811C4E8"
+				item: { Count: 12, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Microprocessor Mainframe"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7DED8C385C0AB146"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:nano_processor_mainframe"
+			id: "71E226A65AC0FFE8"
+			rewards: [{
+				id: "6EB1A9EC6CD7131C"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 14L
+				id: "6697F261381EBCE5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Nanoprocessor Mainframe"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"40CE0F5F9F40386E"
+				"3D4008D7CA276577"
+			]
+			icon: "gtceu:quantum_processor_mainframe"
+			id: "4AD50B46B0C439FD"
+			rewards: [{
+				id: "76B7B1DB104D5D0B"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7184FC8B17C266F0"
+				item: { Count: 16, id: "kubejs:p_credit" }
+				type: "item"
+			}]
+			title: "Quantum Processor Mainframe"
+			x: 0.5d
+			y: -6.5d
 		}
 	]
 	title: "ShOp!!!"

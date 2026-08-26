@@ -1,0 +1,24 @@
+{
+	icon: "kubejs:botanist_bundle"
+	id: "1FDC53CD19FA9889"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 2, item: "botania:white_mystical_flower" }
+		{ count: 2, item: "botania:light_gray_mystical_flower" }
+		{ count: 2, item: "botania:gray_mystical_flower" }
+		{ count: 2, item: "botania:black_mystical_flower" }
+		{ count: 2, item: "botania:brown_mystical_flower" }
+		{ count: 2, item: "botania:red_mystical_flower" }
+		{ count: 2, item: "botania:orange_mystical_flower" }
+		{ count: 2, item: "botania:yellow_mystical_flower" }
+		{ count: 2, item: "botania:lime_mystical_flower" }
+		{ count: 2, item: "botania:green_mystical_flower" }
+		{ count: 2, item: "botania:cyan_mystical_flower" }
+		{ count: 2, item: "botania:light_blue_mystical_flower" }
+		{ count: 2, item: "botania:blue_mystical_flower" }
+		{ count: 2, item: "botania:purple_mystical_flower" }
+		{ count: 2, item: "botania:magenta_mystical_flower" }
+	]
+	title: "Mystical Flower Pack"
+}

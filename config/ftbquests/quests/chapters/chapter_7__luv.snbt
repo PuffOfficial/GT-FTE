@@ -50,6 +50,7 @@
 			dependencies: ["1070C7B62A4BD14A"]
 			id: "2079AEDE63F03E70"
 			rewards: [{
+				count: 2
 				id: "61A7420E5AAEEA95"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -399,6 +400,7 @@
 			]
 			id: "751CCA9196F0670D"
 			rewards: [{
+				count: 2
 				id: "7C4C2E389C9C6B51"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -783,11 +785,13 @@
 			dependencies: ["6BD8D17D9A2F4762"]
 			id: "4CBB26DE40261010"
 			rewards: [{
+				count: 2
 				id: "1AF399B666D02469"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
 			shape: "gear"
+			subtitle: "Why is it covered in uranium?"
 			tasks: [{
 				id: "0AB8A05C352640C1"
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
@@ -849,6 +853,7 @@
 			dependencies: ["7BC987DC56492A03"]
 			id: "40CE0F5F9F40386E"
 			rewards: [{
+				count: 4
 				id: "0F33108738BF9EFA"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -866,11 +871,13 @@
 		{
 			dependencies: ["40CE0F5F9F40386E"]
 			id: "43BC0088B32BBA36"
+			optional: true
 			rewards: [{
 				id: "23292C1256BA7FB1"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "710853F1177CF64D"
 				item: "gtceu:luv_circuit_assembler"
@@ -884,6 +891,11 @@
 			description: ["You could buy them btw"]
 			id: "57C848991FEA804C"
 			optional: true
+			rewards: [{
+				id: "0BB9FEC0A056E896"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Creative Flight"
 			tasks: [{
@@ -919,6 +931,7 @@
 			id: "27EF1738A55C2D73"
 			optional: true
 			shape: "diamond"
+			subtitle: "Coolz storage"
 			tasks: [
 				{
 					id: "28D4B5A147AC2145"

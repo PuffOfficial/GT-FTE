@@ -1098,7 +1098,9 @@
 				"Ores that you see on the right - Can be looped using mana from botania."
 				"Put 1 ore dust in to pool, and it will give you 1 raw ore, macerate it, smelt it, macerate it, and you will get double ores!"
 			]
+			icon: "botania:crafting_halo"
 			id: "2FD5B628430C61E9"
+			subtitle: "What...?"
 			tasks: [{
 				id: "28DC9859D1F67785"
 				title: "Loopable ores"
@@ -1167,6 +1169,7 @@
 			id: "4FDC2C1AAC509843"
 			shape: "hexagon"
 			size: 1.25d
+			subtitle: "I got NO idea how this works."
 			tasks: [{
 				id: "7ACE5E03E04C3600"
 				item: "kubejs:hv_mana_amplifier"
@@ -1178,6 +1181,7 @@
 		{
 			dependencies: ["4FDC2C1AAC509843"]
 			id: "62991BBCB4377E3F"
+			subtitle: "Why."
 			tasks: [{
 				id: "130B6384FA36B3AB"
 				item: "gtceu:raw_lapis"
@@ -1189,6 +1193,7 @@
 		{
 			dependencies: ["4FDC2C1AAC509843"]
 			id: "00BE543D51A451FE"
+			subtitle: "And HOW?"
 			tasks: [{
 				id: "6A877CBBE6E52CA5"
 				item: "gtceu:ilmenite_dust"

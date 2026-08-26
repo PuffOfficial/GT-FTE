@@ -734,11 +734,18 @@
 		{
 			dependencies: ["7F4C6CCBD315351F"]
 			id: "14B6BFDF16837E05"
-			rewards: [{
-				id: "3D80EEF0EACA5B0E"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3D80EEF0EACA5B0E"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+				{
+					id: "2521D5A3974DB81B"
+					item: "kubejs:p_credit"
+					type: "item"
+				}
+			]
 			subtitle: "Cheap MV Circuit"
 			tasks: [{
 				id: "1BF80C67CBA83622"
@@ -770,6 +777,7 @@
 			dependencies: ["6EFDE93231F38611"]
 			id: "4F268C87B28D547D"
 			rewards: [{
+				count: 2
 				id: "1214FA6D3C2D25FE"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -814,6 +822,11 @@
 		{
 			dependencies: ["6367C44119272592"]
 			id: "7F4C6CCBD315351F"
+			rewards: [{
+				id: "7D89BE161B4E171C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D01133763BF19DD"
 				item: "gtceu:basic_integrated_circuit"
@@ -825,6 +838,12 @@
 		{
 			dependencies: ["14B6BFDF16837E05"]
 			id: "037DB579F5E7A700"
+			rewards: [{
+				count: 4
+				id: "44FBCFA2D0E1D664"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "It for SURE has to run Doom now, right?"
@@ -842,6 +861,12 @@
 				"2B80D5A58340C3E8"
 			]
 			id: "7BB3829EDCF68E6E"
+			rewards: [{
+				count: 2
+				id: "5B25A4602A139EDB"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "For some reason, mine now has stains >:("

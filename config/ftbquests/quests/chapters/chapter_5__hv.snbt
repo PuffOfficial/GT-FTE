@@ -187,6 +187,7 @@
 			]
 			id: "3480AC8317E8A5F5"
 			rewards: [{
+				count: 4
 				id: "66566B87D35C8776"
 				item: "kubejs:p_credit"
 				type: "item"
@@ -473,13 +474,14 @@
 			]
 			id: "727935C408FBEDBD"
 			rewards: [{
+				count: 2
 				id: "1E48D751F3B0697B"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Blue"
+			subtitle: "Blu 2 (Joke)"
 			tasks: [{
 				id: "2688E95BFCB398C3"
 				item: "gtceu:titanium_ingot"

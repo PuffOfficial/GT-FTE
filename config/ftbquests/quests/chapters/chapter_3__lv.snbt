@@ -44,6 +44,11 @@
 		{
 			dependencies: ["74E4A7EA06264A37"]
 			id: "2509450198728111"
+			rewards: [{
+				id: "0EC4F34044D4E9A1"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "7F910DDB4504FC0F"
@@ -56,6 +61,11 @@
 		{
 			dependencies: ["2509450198728111"]
 			id: "3CC01A5B40D1B31A"
+			rewards: [{
+				id: "2BD406FE172AB58E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "600A6DA2D8876084"
 				item: "gtceu:lv_assembler"
@@ -69,6 +79,11 @@
 			dependencies: ["2509450198728111"]
 			description: ["Unlocks access to gallium!"]
 			id: "7B7ACB833ACCCEEE"
+			rewards: [{
+				id: "76B48FAE064F5323"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5009479D4EA549AF"
@@ -93,6 +108,11 @@
 				"You will get &5gallium&r as byproduct"
 			]
 			id: "0C8B45E4575A6125"
+			rewards: [{
+				id: "6B3D81B6830F7327"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4177FA7B09AE4BFE"
 				item: "gtceu:gallium_dust"
@@ -107,6 +127,11 @@
 				"12A5CD98C69DD7E0"
 			]
 			id: "3753E61B93A406A0"
+			rewards: [{
+				id: "6B237B9AA78DEB32"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E84F39BA553A823"
 				item: "gtceu:lv_centrifuge"
@@ -118,6 +143,11 @@
 		{
 			dependencies: ["3753E61B93A406A0"]
 			id: "1816BCA4BDA19D5C"
+			rewards: [{
+				id: "658D922DF84E5300"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43171A812E767375"
 				item: "gtceu:arsenic_dust"
@@ -132,6 +162,11 @@
 				"1816BCA4BDA19D5C"
 			]
 			id: "3FB591D33A8461D4"
+			rewards: [{
+				id: "61123A7D8BC18785"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -155,6 +190,11 @@
 				"3753E61B93A406A0"
 			]
 			id: "3EA108CE2C622C48"
+			rewards: [{
+				id: "30C282D4C5966A1F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "45B850EEAC1BC777"
 				item: "gtceu:phenolic_circuit_board"
@@ -166,6 +206,11 @@
 		{
 			dependencies: ["3EA108CE2C622C48"]
 			id: "21DAE8984CDC9A44"
+			rewards: [{
+				id: "357F9A2E95A9173A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "3F9342F2AF36CF56"
@@ -182,6 +227,12 @@
 				"5955E1625D920AD9"
 			]
 			id: "7F1A662BC5DD5056"
+			rewards: [{
+				count: 4
+				id: "75DAED72A2ABEB28"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "This one gotta room Doom"
@@ -196,6 +247,11 @@
 		{
 			dependencies: ["2509450198728111"]
 			id: "0984886ECAA14064"
+			rewards: [{
+				id: "75E52BABA47EF1C6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "24C49A9A07C50608"
 				item: "gtceu:lv_arc_furnace"
@@ -208,6 +264,11 @@
 			dependencies: ["0984886ECAA14064"]
 			hide_dependent_lines: true
 			id: "12A5CD98C69DD7E0"
+			rewards: [{
+				id: "6150F3A46D5812CF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			size: 1.25d
 			tasks: [
 				{
@@ -241,6 +302,11 @@
 				"3CC01A5B40D1B31A"
 			]
 			id: "27387225DE14B39B"
+			rewards: [{
+				id: "5C342EAB4535AB7A"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4C5F1DD01458AF44"
@@ -266,6 +332,11 @@
 		{
 			dependencies: ["2509450198728111"]
 			id: "18FEDA07E133EDCA"
+			rewards: [{
+				id: "5BCB14DEBA2ECF36"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "7B2D0B13BE14523D"
@@ -284,6 +355,11 @@
 		{
 			dependencies: ["18FEDA07E133EDCA"]
 			id: "6B9C1713E3C42399"
+			rewards: [{
+				id: "35C347BC069244AA"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05E42151208973B7"
 				item: "gtceu:aluminium_dust"
@@ -295,6 +371,11 @@
 		{
 			dependencies: ["27387225DE14B39B"]
 			id: "3305D2189876F39E"
+			rewards: [{
+				id: "2C374BBA549BA830"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				count: 16L
 				id: "61D6D97B8683C736"
@@ -311,8 +392,15 @@
 				"205438A3BCBB794E"
 			]
 			id: "623A17C3B9F530E3"
+			rewards: [{
+				count: 2
+				id: "1DCBA27AE5885A5D"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Blu"
 			tasks: [{
 				id: "5C17DB0A83E5C8E9"
 				item: "gtceu:aluminium_ingot"
@@ -324,6 +412,11 @@
 		{
 			dependencies: ["7F1A662BC5DD5056"]
 			id: "3EE0BB9441CA45F5"
+			rewards: [{
+				id: "5C14F2CA5524A148"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			subtitle: "Cheaper Circuits"
 			tasks: [{
 				id: "139321BFD15F8E36"
@@ -336,6 +429,11 @@
 		{
 			dependencies: ["74E4A7EA06264A37"]
 			id: "230B55050606E37A"
+			rewards: [{
+				id: "79F2038DC48FC5BF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D6B3C5A6C17446C"
 				item: "gtceu:starch_dust"
@@ -350,6 +448,11 @@
 				"643A20E15EFE9517"
 			]
 			id: "7E69A50A8478B6E8"
+			rewards: [{
+				id: "5C22DF124A9CDAB3"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7520CB1AF02E257B"
 				item: "gtceu:lactic_acid_bucket"
@@ -361,6 +464,11 @@
 		{
 			dependencies: ["74E4A7EA06264A37"]
 			id: "1DD90687E60E80C0"
+			rewards: [{
+				id: "0A415B1D7CB3672B"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4924E4D472A8DBAC"
 				item: "minecraft:sugar_cane"
@@ -372,6 +480,11 @@
 		{
 			dependencies: ["1DD90687E60E80C0"]
 			id: "643A20E15EFE9517"
+			rewards: [{
+				id: "01304F6E9A19E05C"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "73647CF59BBCD7EB"
 				item: "minecraft:sugar"
@@ -383,6 +496,11 @@
 		{
 			dependencies: ["1DD90687E60E80C0"]
 			id: "7E82D5044767A7B9"
+			rewards: [{
+				id: "6C1BDB11C3A6F17F"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "702574CF472D0D00"
 				item: "gtceu:propylene_bucket"
@@ -394,6 +512,11 @@
 		{
 			dependencies: ["7E82D5044767A7B9"]
 			id: "69BB1CE917AA964B"
+			rewards: [{
+				id: "49D385848EB7781E"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72273B33EFCE233C"
 				item: "gtceu:2_ethylhexanoic_acid_bucket"
@@ -405,6 +528,11 @@
 		{
 			dependencies: ["74E4A7EA06264A37"]
 			id: "1FE54DDC91416E47"
+			rewards: [{
+				id: "49553867B7E09FB2"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "120B56C9EABCD269"
 				item: "gtceu:tin_dioxide_dust"
@@ -419,6 +547,11 @@
 				"1FE54DDC91416E47"
 			]
 			id: "2B8CCC15FC808DEE"
+			rewards: [{
+				id: "7E02061DE3194DC6"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CCAB5B086122672"
 				item: "gtceu:stannous_octoate_dust"
@@ -433,6 +566,11 @@
 				"2B8CCC15FC808DEE"
 			]
 			id: "4A8DF8E168EA488A"
+			rewards: [{
+				id: "235E724A90911AB5"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3DF7B0C6EA04572E"
 				item: "gtceu:polylactic_acid_bucket"
@@ -444,6 +582,11 @@
 		{
 			dependencies: ["4A8DF8E168EA488A"]
 			id: "79B3225C4417161E"
+			rewards: [{
+				id: "5C792D70239F48FC"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "I have NO IDEA how that works"
 			tasks: [{

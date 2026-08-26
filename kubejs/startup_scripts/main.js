@@ -24,7 +24,9 @@ global.FuelRods = [
 global.Bundles = [
     [`sapling`, `#45c145`],
     [`unbreakable_tools_pack`, `#725487`],
-    [`beehive_pack`, `#ffd755`],
+    [`beehive`, `#ffd755`],
+    [`botanist`, `#3c7345`],
+    [`mana`, `#7cdaff`],
 ]
 global.Universal = [
     [`ulv`, `#bdb2a2`],
