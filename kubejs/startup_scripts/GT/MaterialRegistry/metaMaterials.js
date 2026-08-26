@@ -20,7 +20,7 @@ function FormatMaterialItemName(Prefix,Material) {
     return p
 };
 // Hello you fellow code digger! Welcome to so called "Meta materials" that I made to fix my issue with shaders on items, feel free to use, but PLEASE mention puff_official as a contributor and GTFTE as an inspiration.
-function GenerateMetaMaterialJSON(IconSet, Name, Material) {
+function GenerateMetaMaterialJSON(IconSet, Material) {
     console.log(`Generating meta material for ${Material}`);
 
     GTCEuStartupEvents.registry(`gtceu:material`, event => {
@@ -42,8 +42,7 @@ function GenerateMetaMaterialJSON(IconSet, Name, Material) {
         MaterialTypeList.forEach(([MaterialType, MaterialPrefix, PrefixTranslation]) => {
             console.log("gtceu:item/material_sets/" + IconSet + "/" + MaterialType)
             register.create(`gtceu:${Material}_${MaterialType}`)
-                .modelJson(JsonIO.read(`kubejs/assets/gtceu/models/item/material_sets/${IconSet}/${MaterialType}.json`))
-                .translationKey(`material.gtceu.infinity`)
+                .modelJson(JsonIO.read(`kubejs/assets/gtceu/models/item/material_sets/${IconSet}/${MaterialType}.json`));
         })
     });
     GTCEuStartupEvents.materialModification(event => {
@@ -57,5 +56,5 @@ function GenerateMetaMaterialJSON(IconSet, Name, Material) {
         };
     });
 };
-GenerateMetaMaterialJSON(`infinity`, `material.gtceu.infinity`, `infinity`)
+GenerateMetaMaterialJSON(`infinity`, `infinity`)
 //GenerateMetaMaterialJSON(`eternal_matrix`, `material.gtceu.eternal_matrix`, `eternal_matrix`)

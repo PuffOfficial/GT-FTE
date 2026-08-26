@@ -609,6 +609,19 @@
 			x: 0.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["341F5E87D65F4FDD"]
+			id: "3BD6AD7776E62D31"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3D2413512E59E5E0"
+				item: "gtmutils:omnibreaker"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
 	]
 	subtitle: ["HEV Suit is better"]
 	title: "Chapter 4 | HV"

@@ -30,23 +30,3 @@ ItemEvents.tooltip(Tooltip => {
         };
     };
 });
-
-let CurrentLanguages = [
-    `en_us`, `ja_jp`, `pl_pl`
-]
-
-let MaterialItems = [
-    `ingot`, `plate`, `rod`, `bolt`, `screw`, `double_plate`, `gear`, `small_gear`, `ring`, `dust`, `nugget`, `foil`
-]
-
-function RegisterMetaMaterialLang(Material) {
-    CurrentLanguages.forEach(lang => {
-        ClientEvents.lang(lang, event => {
-            MaterialItems.forEach(item => {
-                event.add(`item.gtceu.${Material}_${item}`, Component.translate(`tagprefix.${item}`, Component.translatable(`material.gtceu.${Material}`).getString()).getString())
-            });
-        });
-    });
-};
-
-RegisterMetaMaterialLang(`infinity`)

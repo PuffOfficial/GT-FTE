@@ -79,6 +79,19 @@
     "gtfte.tagprefix.ring": "a Ring",
     "gtfte.tagprefix.bolt": "a Bolt",
     "gtfte.tagprefix.screw": "a Screw",
-    "gtfte.tagprefix.rod": "a Rod"
+    "gtfte.tagprefix.rod": "a Rod",
 
+    "MetaMaterials": "META MATERIALS DOWN HERE!!!!",
+    
+    "item.gtceu.infinity_ingot": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Ingot",
+    "item.gtceu.infinity_plate": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Plate",
+    "item.gtceu.infinity_rod": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Rod",
+    "item.gtceu.infinity_bolt": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Bolt",
+    "item.gtceu.infinity_screw": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Screw",
+    "item.gtceu.infinity_double_plate": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Double Plate",
+    "item.gtceu.infinity_gear": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Gear",
+    "item.gtceu.infinity_small_gear": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Small Gear",
+    "item.gtceu.infinity_ring": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Ring",
+    "item.gtceu.infinity_dust": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Dust",
+    "item.gtceu.infinity_nugget": "<neon p=8 r=2 a=0.15><rainb>Infinity</rainb></neon> Nugget"
 }
