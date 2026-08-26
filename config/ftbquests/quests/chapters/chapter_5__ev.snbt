@@ -664,6 +664,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "REALLY damn cool sieve!"
 			tasks: [{
 				id: "3647FDC054D43E13"
 				item: "gtceu:sluice"
@@ -1205,7 +1206,11 @@
 		}
 		{
 			dependencies: ["2EC2D709ED7B523C"]
-			description: ["Yo, remember Bauxite Line? No...? Then go and make it!"]
+			description: [
+				"Yo, remember Bauxite Line?"
+				"No...? Then go and make it! "
+				"It's a source of neodymium too."
+			]
 			id: "15EAFB902DDF8166"
 			rewards: [{
 				id: "7E1C6E93A8AD5B40"
@@ -1228,6 +1233,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Can I sluice it??"
 			tasks: [{
 				id: "72052D198986E28B"
 				item: "gtceu:bauxite_slurry_bucket"
@@ -1262,7 +1268,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "Crackin' yo... Okay it is better to not do this joke."
+			subtitle: "Crackin' yo... My lawyer suggested me to not continue this pun."
 			tasks: [{
 				id: "4B486C9EE7F22BAF"
 				item: "gtceu:cracker"

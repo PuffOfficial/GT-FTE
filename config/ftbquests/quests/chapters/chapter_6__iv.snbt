@@ -233,6 +233,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Mannn I am not a sinner!"
 			tasks: [{
 				id: "63A0C5304BECD2BC"
 				title: "Runes Of 7 Sins"
@@ -387,6 +388,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Oh my god what is this recipe??"
 			tasks: [{
 				count: 4L
 				id: "4A7890E6B12D485E"
@@ -434,6 +436,7 @@
 		}
 		{
 			dependencies: ["5BF7F695DB9E039A"]
+			description: ["By the way, don't forget to throw Lexica Botania in here too!"]
 			id: "306FD13D129536BA"
 			rewards: [{
 				id: "12D6DA93E71FDA0D"
@@ -1464,6 +1467,7 @@
 			y: 6.0d
 		}
 		{
+			description: ["You can still kinda kill wither the Vanilla way, but uhhh, there is recipe through Chemical Reactor for Peaceful players"]
 			id: "4B808659905090CE"
 			rewards: [{
 				id: "6D31D962D70593CD"
@@ -1496,6 +1500,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Woah..."
 			tasks: [{
 				id: "1F225E19AB9601C6"
 				item: "botania:life_essence"
@@ -1835,7 +1840,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "How do i use this in epoxy?"
+			subtitle: "How do I use this in epoxy?"
 			tasks: [{
 				id: "0C07205B32A21A5D"
 				item: "gtceu:biomass_bucket"
@@ -1869,6 +1874,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Okay this has to be the most simplified ways of making it."
 			tasks: [{
 				id: "0EDA08985CCA30A4"
 				item: "gtceu:epichlorohydrin_bucket"
