@@ -261,8 +261,8 @@ ServerEvents.recipes(event => {
         `minecraft:string`,
         `kubejs:simple_knitting_kit`
     ]).damageIngredient(`kubejs:simple_knitting_kit`);
-    event.shapeless(`6x gtceu:wood_plate`, [
-        `#minecraft:oak_logs`,
+    event.shapeless(`gtceu:wood_plate`, [
+        `#minecraft:planks`,
         `#forge:tools/saws`
     ]);
     event.shapeless(`gtceu:treated_wood_plate`, [

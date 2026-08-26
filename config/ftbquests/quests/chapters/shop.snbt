@@ -285,14 +285,15 @@
 			icon: "kubejs:beehive_pack_bundle"
 			id: "77CA6E70791D3D44"
 			rewards: [{
-				count: 4
-				id: "4089490E5E61C209"
-				item: "forestry:beehive_nether"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "04ED5F2105D2BECE"
+				table_id: 788457905767063638L
+				title: "Bee hive of your choice"
+				type: "choice"
 			}]
 			tasks: [{
 				consume_items: true
-				count: 8L
+				count: 2L
 				id: "462D9189F9185424"
 				item: "kubejs:p_credit"
 				type: "item"
