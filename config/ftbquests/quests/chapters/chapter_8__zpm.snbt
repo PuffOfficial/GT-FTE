@@ -132,7 +132,7 @@
 			id: "7526A264778255DD"
 			shape: "gear"
 			size: 1.25d
-			subtitle: "Expensive, isn't it?"
+			subtitle: "Mechanic overused by too many packs"
 			tasks: [{
 				id: "1BD0FBADF99E6F91"
 				item: "gtceu:luv_fusion_reactor"
@@ -174,7 +174,7 @@
 		}
 		{
 			dependencies: ["1ECCCECBE241A6B2"]
-			description: [""]
+			description: ["&o&8P.S. Look for Trinium Sulfide instead.&r"]
 			id: "30D651E27E494C96"
 			subtitle: "Even I got confused while was trying to understand trinium line"
 			tasks: [{
@@ -187,7 +187,7 @@
 		}
 		{
 			dependencies: ["34200949BA7F72DC"]
-			description: ["You probably expected computers only in late ZPM-early UV, but as you see, you need them now!"]
+			description: [""]
 			id: "425D8A14B797AFEE"
 			shape: "gear"
 			tasks: [
@@ -259,6 +259,7 @@
 		}
 		{
 			dependencies: ["7526A264778255DD"]
+			description: [""]
 			id: "6EE3E412D9EDFA1A"
 			optional: true
 			shape: "diamond"
@@ -282,7 +283,7 @@
 			id: "1D9A561D8570E9A6"
 			shape: "gear"
 			size: 1.0d
-			subtitle: "Heh, even more expensive!"
+			subtitle: "Expensive, isn't it?"
 			tasks: [{
 				id: "6E0517C289F78464"
 				item: "gtceu:zpm_fusion_reactor"
@@ -566,6 +567,6 @@
 			y: -4.0d
 		}
 	]
-	subtitle: ["Fusing Unfuseable"]
+	subtitle: ["Fusing Unfusable"]
 	title: "Chapter 8 | ZPM"
 }

@@ -29,13 +29,22 @@
 		{
 			can_repeat: true
 			dependencies: ["17F721F6D4B53924"]
-			description: ["Terra - 27-25-4-35-10-28 (Aka your base)"]
+			description: [""]
+			hide_until_deps_complete: true
+			icon: "sgjourney:classic_stargate_base_block"
 			id: "1C999655CA3E2F77"
 			rewards: [
 				{
+					command: "/sgjourney stargateNetwork address minecraft:overworld"
+					icon: "minecraft:grass_block"
+					id: "0325CE242EA47B8A"
+					title: "Overworld"
+					type: "command"
+				}
+				{
 					command: "/sgjourney stargateNetwork address sgjourney:abydos"
 					elevate_perms: true
-					icon: "gtceu:abydos_marker"
+					icon: "minecraft:sand"
 					id: "688451655BD262B1"
 					title: "Abydos"
 					type: "command"
@@ -43,7 +52,7 @@
 				{
 					command: "/sgjourney stargateNetwork address sgjourney:cavum_tenebrae"
 					elevate_perms: true
-					icon: "gtceu:cavum_tenebrae_marker"
+					icon: "minecraft:deepslate"
 					id: "454CD8F3E0688D54"
 					title: "Cavum Tenebrae"
 					type: "command"
@@ -51,21 +60,21 @@
 				{
 					command: "/sgjourney stargateNetwork address sgjourney:chulak"
 					elevate_perms: true
-					icon: "gtceu:chulak_marker"
+					icon: "minecraft:oak_log"
 					id: "20BE1478F6DF2FA3"
 					title: "Chulak"
 					type: "command"
 				}
 				{
 					command: "/sgjourney stargateNetwork address sgjourney:rima"
-					icon: "gtceu:rima_marker"
+					icon: "minecraft:moss_block"
 					id: "407238B90C5241F4"
 					title: "Rima"
 					type: "command"
 				}
 				{
 					command: "/sgjourney stargateNetwork address sgjourney:unitas"
-					icon: "gtceu:unitas_marker"
+					icon: "sgjourney:sulfur_sand"
 					id: "697FD166CCDD7929"
 					title: "Unitas"
 					type: "command"
@@ -76,9 +85,9 @@
 				title: "Get All Codes"
 				type: "checkmark"
 			}]
-			title: "Stargate Codes"
-			x: 1.5d
-			y: 0.0d
+			title: "Galactic Codes"
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -108,7 +117,50 @@
 				title: "Quest Shape Info"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"I think you remember as you traveled through stargate a few chapters ago, so now you can treat this as a sequel!"
+				""
+				"&oExtragalactic&r connections require &oatleast&r &l&a500000000&r&rFE."
+				""
+				"&o&8\"Extragalactic\" connections mean that you travel from one galaxy, to another one.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "sgjourney:classic_dhd"
+			id: "4E34BE54849F36B1"
+			rewards: [
+				{
+					command: "/sgjourney stargateNetwork extragalacticAddress minecraft:overworld"
+					icon: "minecraft:grass_block"
+					id: "4CE9648C344373AE"
+					title: "Overworld"
+					type: "command"
+				}
+				{
+					command: "/sgjourney stargateNetwork extragalacticAddress sgjourney:lantea"
+					id: "2E023E50C123FFD1"
+					title: "Lantea"
+					type: "command"
+				}
+				{
+					command: "/sgjourney stargateNetwork extragalacticAddress sgjourney:athos"
+					icon: "minecraft:spruce_log"
+					id: "75350B957D0746F4"
+					title: "Athos"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "19ECD3ED3B05FC2A"
+				title: "Get all codes"
+				type: "checkmark"
+			}]
+			title: "Extragalactic Codes"
+			x: 1.0d
 			y: 1.5d
 		}
 	]

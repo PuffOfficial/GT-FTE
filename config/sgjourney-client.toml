@@ -16,7 +16,7 @@
 			#Decide if Event Horizons should be shinier
 			shiny_event_horizons = true
 			#If true Wormholes will produce Vortex after a Kawoosh
-			enable_vortex = false
+			enable_vortex = true
 			#The amount of distortion the Stargate Event Horizon will experience
 			#Range: 0 ~ 25
 			event_horizon_distortion = 25

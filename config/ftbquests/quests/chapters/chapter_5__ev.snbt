@@ -1155,6 +1155,7 @@
 		}
 		{
 			dependencies: ["17F721F6D4B53924"]
+			description: [""]
 			id: "21006FCD6F81BA4E"
 			rewards: [
 				{

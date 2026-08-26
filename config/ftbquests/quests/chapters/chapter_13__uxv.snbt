@@ -17,9 +17,6 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	subtitle: [
-		"Eternity."
-		"In Development"
-	]
+	subtitle: ["In Development"]
 	title: "Chapter 13 | UXV"
 }

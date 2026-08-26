@@ -49,7 +49,7 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 			.where(`F`, Predicates.blocks(`gtceu:treated_wood_frame`))
 			.where(` `, Predicates.any())
 			.build())
-		.workableCasingModel(`gtceu:block/treated_wood_planks`, `gtceu:block/machines/brewery`)
+		.workableCasingModel(`gtceu:block/treated_wood_planks`, `gtceu:block/machines/brewery`);
 	//-----Large crucible-----//
 	event.create(`large_crucible`, `multiblock`)
 		.rotationState(RotationState.NON_Y_AXIS)
@@ -77,7 +77,7 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 			.where(`f`, Predicates.abilities(PartAbility.MUFFLER))
 			.where(` `, Predicates.any())
 			.build())
-		.workableCasingModel(`kubejs:block/porcelain_bricks`, `gtceu:block/machines/brewery`)
+		.workableCasingModel(`kubejs:block/porcelain_bricks`, `gtceu:block/machines/brewery`);
 	//-----Daycycle Simulation Chamber-----//
 	event.create(`daycycle_simulation_chamber`, `multiblock`)
 		.rotationState(RotationState.NON_Y_AXIS)
@@ -103,7 +103,7 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 			.where(`S`, Predicates.blocks(`minecraft:oak_sapling`))
 			.where(` `, Predicates.any())
 			.build())
-		.workableCasingModel(`gtceu:block/casings/solid/machine_casing_solid_steel`, `gtceu:block/machines/fermenter`)
+		.workableCasingModel(`gtceu:block/casings/solid/machine_casing_solid_steel`, `gtceu:block/machines/fermenter`);
 	//-----Sluice-----//
 	event.create(`sluice`, `multiblock`)
 		.rotationState(RotationState.NON_Y_AXIS)
@@ -127,7 +127,7 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 			.where(`W`, Predicates.blocks(`minecraft:water`))
 			.where(` `, Predicates.any())
 			.build())
-		.workableCasingModel(`gtceu:block/casings/solid/machine_casing_solid_steel`, `gtceu:block/machines/sifter`)
+		.workableCasingModel(`gtceu:block/casings/solid/machine_casing_solid_steel`, `gtceu:block/machines/sifter`);
 	//-----Terrestrial Agglomeration Chamber-----//
 	event.create(`terrestrial`, `multiblock`)
 		.rotationState(RotationState.NON_Y_AXIS)
@@ -153,7 +153,7 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 			.where(`G`, Predicates.blocks(`botania:mana_pylon`))
 			.where(` `, Predicates.any())
 			.build())
-		.workableCasingModel(`kubejs:block/casings/manasteel_plated_livingrock/manasteel_plated_livingrock_casing`, `kubejs:block/multiblock/terrastrial`)
+		.workableCasingModel(`kubejs:block/casings/manasteel_plated_livingrock/manasteel_plated_livingrock_casing`, `kubejs:block/multiblock/terrastrial`);
 	//-----Stargate Exmaple-----//
 	event.create(`stargate_example`, `multiblock`)
 		.rotationState(RotationState.NON_Y_AXIS)
@@ -167,5 +167,5 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 			.where(`B`, Predicates.blocks(`sgjourney:classic_stargate_base_block`))
 			.where(` `, Predicates.any())
 			.build())
-		.workableCasingModel(`sgjourney:block/classic_stargate_ring`, `gtceu:block/multiblock/blank`)
+		.workableCasingModel(`sgjourney:block/classic_stargate_ring`, `gtceu:block/multiblock/blank`);
 });
