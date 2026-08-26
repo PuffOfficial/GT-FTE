@@ -1484,6 +1484,12 @@
 				"37A35AFEACBCBDD4"
 				"6FC766282E9B65EA"
 			]
+			description: [
+				"Okay, first of all, this is a &obossfight.&r"
+				""
+				"To summon gaia you need ritual, I recommend you checking it on the internet or in built-in Botania guidebook. "
+				"&8&oDon't forget to throw guidebook in to Alfheim portal first&r"
+			]
 			id: "7DE65C3E8F1A7680"
 			rewards: [{
 				id: "483F169290080797"

@@ -1262,6 +1262,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Crackin' yo... Okay it is better to not do this joke."
 			tasks: [{
 				id: "4B486C9EE7F22BAF"
 				item: "gtceu:cracker"

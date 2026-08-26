@@ -823,7 +823,7 @@
 		}
 		{
 			dependencies: ["17F721F6D4B53924"]
-			icon: "minecraft:grass_block"
+			icon: "minecraft:oak_log"
 			id: "7284819AAFFE90AD"
 			tasks: [{
 				dimension: "sgjourney:chulak"

@@ -21,6 +21,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: false
-	title: "&b&9GT:&r Flatter Then Ever"
+	title: "&b&9GT:&r Flatter Than Ever"
 	version: 13
 }

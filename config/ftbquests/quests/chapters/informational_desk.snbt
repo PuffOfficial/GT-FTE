@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "informational_desk"
 	group: ""
+	icon: "minecraft:pufferfish"
 	id: "531DED5B3F7D93C9"
 	order_index: 0
 	quest_links: [ ]
