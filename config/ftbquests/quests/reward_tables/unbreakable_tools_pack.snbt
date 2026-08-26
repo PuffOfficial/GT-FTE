@@ -1,0 +1,85 @@
+{
+	icon: "kubejs:unbreakable_tools_pack_bundle"
+	id: "16834B592E73C2C7"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "gtceu:unbreakium_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 3
+						MaxDamage: 64999
+						ToolSpeed: 5.8f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:unbreakium_wire_cutter"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 3
+						MaxDamage: 64999
+						ToolSpeed: 5.8f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:unbreakium_screwdriver"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						MaxDamage: 64999
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "gtceu:unbreakium_crowbar"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 3
+						MaxDamage: 64999
+						ToolSpeed: 5.8f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
+		}
+	]
+	title: "Unbreakable Tools Pack"
+}

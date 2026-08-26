@@ -21,6 +21,11 @@ global.FuelRods = [
 
     [`naquadria`, `#68c868`, Component.translatable(`material.gtceu.naquadria`)]
 ]
+global.Bundles = [
+    [`sapling`, `#45c145`],
+    [`unbreakable_tools_pack`, `#725487`],
+    [`beehive_pack`, `#ffd755`],
+]
 global.Universal = [
     [`ulv`, `#bdb2a2`],
     [`lv`, `#ffa663`],
@@ -121,6 +126,9 @@ StartupEvents.registry(`item`, register => {
     for (const [name, displayName] of Boules) {
         register.create(`${name}_boule`).texture(`kubejs:item/components/boule/${name}_boule`).tooltip(`§7Still Raw Circuit`).displayName(`${displayName} Boule`)
         register.create(`${name}_wafer`).texture(`kubejs:item/components/wafer/${name}_wafer`).displayName(`${displayName} Wafer`)
+    }   
+    for (const [name, tint] of global.Bundles) {
+        register.create(`${name}_bundle`).textureJson({ layer0: `kubejs:item/components/bundles/bundle`, layer1: `kubejs:item/components/bundles/bundle_wrap` }).color(0, tint)
     }
 })
 

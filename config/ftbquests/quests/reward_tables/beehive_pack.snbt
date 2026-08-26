@@ -1,0 +1,20 @@
+{
+	icon: "kubejs:beehive_pack_bundle"
+	id: "0AF12A49B1982056"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 2, item: "forestry:beehive_forest" }
+		{ count: 2, item: "forestry:beehive_meadows" }
+		{ count: 2, item: "forestry:beehive_desert" }
+		{ count: 2, item: "forestry:beehive_jungle" }
+		{ count: 2, item: "forestry:beehive_end" }
+		{ count: 2, item: "forestry:beehive_snow" }
+		{ count: 2, item: "forestry:beehive_swamp" }
+		{ count: 2, item: "forestry:beehive_savanna" }
+		{ count: 2, item: "forestry:beehive_lush" }
+		{ count: 2, item: "forestry:beehive_aquatic" }
+		{ count: 2, item: "forestry:beehive_nether" }
+	]
+	title: "Beehive Pack"
+}

@@ -14,14 +14,17 @@
 			description: ["&lFun fact:&r Even if you enable Wandering Traders through gamerules, they will be disabled by default on next world launch"]
 			hide_dependent_lines: true
 			id: "3D4008D7CA276577"
+			shape: "gear"
+			size: 1.25d
 			subtitle: "Very original"
 			tasks: [{
+				consume_items: false
 				id: "527FACAAAB069E86"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -56,7 +59,7 @@
 			}]
 			title: "Jet Boots"
 			x: -1.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -76,8 +79,8 @@
 				type: "item"
 			}]
 			title: "Wrought Iron"
-			x: -2.5d
-			y: 0.0d
+			x: -6.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -101,8 +104,8 @@
 				type: "item"
 			}]
 			title: "Steel"
-			x: -2.5d
-			y: -1.5d
+			x: -5.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -126,8 +129,8 @@
 				type: "item"
 			}]
 			title: "Aluminium"
-			x: -2.5d
-			y: -3.0d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -148,8 +151,8 @@
 				type: "item"
 			}]
 			title: "Stainless Steel"
-			x: -2.5d
-			y: -4.5d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -174,7 +177,7 @@
 			}]
 			title: "Titanium"
 			x: -2.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -195,8 +198,8 @@
 				type: "item"
 			}]
 			title: "Tungstensteel"
-			x: -4.0d
-			y: 0.0d
+			x: -1.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -228,8 +231,8 @@
 				type: "item"
 			}]
 			title: "Rhodium-Plated Palladium and Thaumium"
-			x: -4.0d
-			y: -1.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			can_repeat: true
@@ -253,8 +256,8 @@
 				type: "item"
 			}]
 			title: "Naquadah Alloy"
-			x: -4.0d
-			y: -3.0d
+			x: 0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3D4008D7CA276577"]
@@ -265,6 +268,7 @@
 				item: "gtceu:prospector.hv"
 				type: "item"
 			}]
+			subtitle: "It's worth it."
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -274,80 +278,18 @@
 			}]
 			title: "Advanced Prospector (HV)"
 			x: 1.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3D4008D7CA276577"]
-			icon: "forestry:beehive_desert"
+			icon: "kubejs:beehive_pack_bundle"
 			id: "77CA6E70791D3D44"
-			rewards: [
-				{
-					count: 4
-					id: "6DBDF9ADF1D1875C"
-					item: "forestry:beehive_forest"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "308B5B360B234D59"
-					item: "forestry:beehive_meadows"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "7A472650118FA042"
-					item: "forestry:beehive_desert"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "721E77FB95922664"
-					item: "forestry:beehive_jungle"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1A8A55C9F57A5326"
-					item: "forestry:beehive_end"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "518772CCD2A27086"
-					item: "forestry:beehive_snow"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "10486804C451C927"
-					item: "forestry:beehive_savanna"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4C2A024575A30931"
-					item: "forestry:beehive_lush"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5C66B0D5645D5ED5"
-					item: "forestry:beehive_swamp"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "36CC668E06A0CBB6"
-					item: "forestry:beehive_aquatic"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4089490E5E61C209"
-					item: "forestry:beehive_nether"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "4089490E5E61C209"
+				item: "forestry:beehive_nether"
+				type: "item"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -355,104 +297,44 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			title: "Hive Kit"
+			title: "Hive Bundle"
 			x: -1.0d
 			y: -3.5d
 		}
 		{
+			dependencies: ["3D4008D7CA276577"]
 			description: [
 				"&oUnbreakable&r set of tools! Why would you need them? Uhhh, idk."
 				""
-				"&8&oPickaxe, axe and shovel are &lnot&r &8&oincluded in to \"Unbreakable™ Tools\" pack.&r"
+				"&8&oPickaxe, axe and shovel are &lnot&r &8&oincluded in to \"Unbreakable™ Tools\" Bundle.&r"
 			]
-			icon: "gtceu:unbreakium_ingot"
+			icon: {
+				Count: 1
+				id: "gtceu:unbreakium_wrench"
+				tag: {
+					Damage: 0
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						DefaultEnchantments: [ ]
+						HarvestLevel: 3
+						MaxDamage: 64999
+						ToolSpeed: 5.8f
+					}
+					HideFlags: 2
+					Unbreakable: 1b
+				}
+			}
 			id: "1885BAC158AC7294"
-			rewards: [
-				{
-					id: "3B0A77574C0141E7"
-					item: {
-						Count: 1
-						id: "gtceu:unbreakium_wire_cutter"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 3
-								MaxDamage: 64999
-								ToolSpeed: 5.8f
-							}
-							HideFlags: 2
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "36742652FC230043"
-					item: {
-						Count: 1
-						id: "gtceu:unbreakium_screwdriver"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								MaxDamage: 64999
-							}
-							HideFlags: 2
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4F8BED073EC8CB73"
-					item: {
-						Count: 1
-						id: "gtceu:unbreakium_crowbar"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 3
-								MaxDamage: 64999
-								ToolSpeed: 5.8f
-							}
-							HideFlags: 2
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "518085C88F48B009"
-					item: {
-						Count: 1
-						id: "gtceu:unbreakium_wrench"
-						tag: {
-							Damage: 0
-							DisallowContainerItem: 0b
-							GT.Behaviours: {
-								Mode: 2b
-							}
-							GT.Tool: {
-								DefaultEnchantments: [ ]
-								HarvestLevel: 3
-								MaxDamage: 64999
-								ToolSpeed: 5.8f
-							}
-							HideFlags: 2
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F4629D0DD4FAF6F"
+				table_id: 1622223137187021511L
+				title: "Unbreakable™ Tools Bundle"
+				type: "all_table"
+			}]
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -460,8 +342,96 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			title: "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable™ </grad></neon>Tools"
+			title: "<neon p=8 r=2 a=0.15><grad from=#744a92 to=#1E90FF hue uni>Unbreakable™ </grad></neon>Tools Bundle"
 			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "05E7B44AA752A9DB"
+			tasks: [{
+				id: "0D85940141E88097"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "436EA534055906C4"
+			tasks: [{
+				id: "7E0880C52FE8F130"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "6C35BA1C168420BA"
+			tasks: [{
+				id: "672E1E6DC5EE8BDA"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "4E2BC0874E825BDE"
+			tasks: [{
+				id: "51B2B753EBBB6DF4"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "51478379F446DBC8"
+			tasks: [{
+				id: "2F0042BFDC8D6E2C"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "6E2271C19CD17D87"
+			tasks: [{
+				id: "0C116C3E3AD5A0FB"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "In Development"
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D4008D7CA276577"]
+			icon: "kubejs:sapling_bundle"
+			id: "75987B33F8967818"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: "kubejs:sapling_bundle"
+				id: "05F2A0C152A463A5"
+				table_id: 6412927794060024301L
+				title: "Sapling of your choice"
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "7F2A18B6203EF5FB"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
+			title: "Sapling Bundle"
+			x: -3.0d
 			y: -3.5d
 		}
 	]
