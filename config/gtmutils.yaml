@@ -10,7 +10,7 @@ features:
 
   # What tier the Omni-breaker is, if enabled. (ULV = 0, LV = 1, MV = 2, ...)
   # (Unless the default recipe is overridden, can only support LV to IV!)
-  omnibreakerTier: 3
+  omnibreakerTier: 5
 
   # The energy capacity of the Omni-breaker.
   omnibreakerEnergyCapacity: 40960000
