@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.LV]);
     // MARK: Multiblocks   
     event.recipes.gtceu.assembler(`gtfte:ventilation`)
-        .itemInputs(`4x gtceu:steel_plate`, `2x gtceu:iron_rotor`, `gtceu:lv_machine_hull`, `gtceu:mv_electric_motor`)
+        .itemInputs(`4x gtceu:steel_plate`, `2x gtceu:iron_rotor`, `gtceu:lv_machine_hull`, `gtceu:mv_electric_motor`, `2x ${global.LV.Cable}` )
         .itemOutputs(`gtceu:lv_ventilation`)
         .duration(200)
         .EUt(GTValues.VA[GTValues.MV]);

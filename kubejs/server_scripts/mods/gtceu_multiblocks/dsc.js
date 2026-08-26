@@ -56,6 +56,18 @@ const PH2CTrees = [
 ]
 
 ServerEvents.recipes(event => {
+        event.shaped(`gtceu:daycycle_simulation_chamber`, [
+                `BFC`,
+                `EAE`,
+                `DED`
+        ], {
+                A: `gtceu:solid_machine_casing`,
+                B: global.MV.RobotArm,
+                C: global.MV.Pump,
+                D: global.MV.Cable(`single`),
+                E: global.MV.Circuit,
+                F: `gtceu:tempered_glass`
+        });
         for (const [type, byproduct] of MinecraftTrees) {
                 event.recipes.gtceu.growth_simulator(`gtfte:${type}_dsc`)
                         .notConsumable(`minecraft:${type}_sapling`).circuit(1)
