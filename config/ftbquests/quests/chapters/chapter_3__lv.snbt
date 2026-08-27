@@ -270,6 +270,7 @@
 				type: "item"
 			}]
 			size: 1.25d
+			subtitle: "How does it work? No idea lol"
 			tasks: [
 				{
 					id: "26E304733E45C08A"
