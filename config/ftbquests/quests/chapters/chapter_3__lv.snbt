@@ -262,6 +262,7 @@
 		}
 		{
 			dependencies: ["0984886ECAA14064"]
+			description: ["Mixing some ores with oxygen for some reason... Outputs... Completely different elements? What?"]
 			hide_dependent_lines: true
 			id: "12A5CD98C69DD7E0"
 			rewards: [{
