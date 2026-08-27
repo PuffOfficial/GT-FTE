@@ -17,7 +17,7 @@ event.recipes.gtceu.chemical_reactor("gtfte:maleic_anhydride")
         .notConsumable("gtceu:molybdenum_trioxide_dust")
         .inputFluids(["gtceu:benzene 1000", "gtceu:air 3500"])
         .outputFluids(["minecraft:water 1000", "gtceu:maleic_anhydride 1000"])
-        .itemOutputs(`2xgtceu:carbon_dust`)
+        .itemOutputs(`2x gtceu:carbon_dust`)
         .duration(300)
         .EUt(GTValues.VA[GTValues.HV]);
 
