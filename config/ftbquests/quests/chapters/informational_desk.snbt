@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "informational_desk"
 	group: ""
-	icon: "minecraft:pufferfish"
+	icon: "sgjourney:pda"
 	id: "531DED5B3F7D93C9"
 	order_index: 0
 	quest_links: [ ]
@@ -24,6 +24,7 @@
 				title: "Alright ig."
 				type: "checkmark"
 			}]
+			title: "Start"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -123,6 +124,7 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["03BF5FF67AED96DB"]
 			description: [
 				"I think you remember as you traveled through stargate a few chapters ago, so now you can treat this as a sequel!"
 				""

@@ -124,6 +124,7 @@
     "block.gtceu.steam_bender": "Steam Bender",
     "block.gtceu.large_barrel": "Industrial-Size Treated Wood Barrel",
     "block.gtceu.large_crucible": "Industrial-Size Porcelain Crucible",
+    "block.gtceu.large_aquarium": "Industrial-Size Aquarium",
     "block.gtceu.etbf": "Extreme Temperature Blast Furnace",
     "block.gtceu.alchemical_crucible": "Alchemical Crucible",
     "block.gtceu.aspect_collector": "Aspect Collector",
@@ -160,6 +161,7 @@
     "gtceu.evaporation": "Evaporation",
     "gtceu.recycling": "Recycling",
     "gtceu.crucible": "Melting",
+    "gtceu.aquarium": "Aquarium",
 
     "tooltips": "<---TOOLTIPS--->",
 

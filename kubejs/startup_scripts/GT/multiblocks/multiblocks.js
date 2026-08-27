@@ -25,6 +25,11 @@ GTCEuStartupEvents.registry(`gtceu:recipe_type`, event => {
 		.setMaxIOSize(2, 1, 1, 1)
 		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
 		.setSound(GTSoundEntries.CHEMICAL);
+	event.create(`aquarium`)
+		.category(`multiblock`)
+		.setMaxIOSize(2, 6, 2, 0)
+		.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW_MULTIPLE, FillDirection.LEFT_TO_RIGHT)
+		.setSound(GTSoundEntries.TURBINE);
 });
 
 GTCEuStartupEvents.registry(`gtceu:machine`, event => {
@@ -168,4 +173,33 @@ GTCEuStartupEvents.registry(`gtceu:machine`, event => {
 			.where(` `, Predicates.any())
 			.build())
 		.workableCasingModel(`sgjourney:block/classic_stargate_ring`, `gtceu:block/multiblock/blank`);
+	//-----Aquarium-----//
+	event.create(`large_aquarium`, `multiblock`)
+		.rotationState(RotationState.NON_Y_AXIS)
+		.recipeTypes([`aquarium`])
+		.recipeModifiers([GTRecipeModifiers.OC_NON_PERFECT])
+		.appearanceBlock(() => Block.getBlock(`gtceu:clean_machine_casing`))
+		.pattern(definition => FactoryBlockPattern.start()
+			.aisle(`aaaaa`, `abbba`, `abbba`, `abbba`, `abbba`, `aaaaa`)
+			.aisle(`aaaaa`, `bcccb`, `bedcb`, `beddb`, `bfddb`, `abbba`)
+			.aisle(`aaaaa`, `bcccb`, `bdddb`, `bdddb`, `bdddb`, `abbba`)
+			.aisle(`gaaaa`, `bcccb`, `bcdeb`, `bddeb`, `bddfb`, `abbba`)
+			.aisle(`aaaaa`, `bcccb`, `bcddb`, `bdddb`, `bdddb`, `abbba`)
+			.aisle(`aaaaa`, `bcccb`, `bccdb`, `beddb`, `bfddb`, `abbba`)
+			.aisle(`aaOaa`, `abbba`, `abbba`, `abbba`, `abbba`, `aaaaa`)
+			.where(`a`, Predicates.blocks(`gtceu:clean_machine_casing`)
+				.or(Predicates.abilities(PartAbility.IMPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.EXPORT_ITEMS).setMaxGlobalLimited(1).setPreviewCount(1))
+				.or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(1).setPreviewCount(1)))
+		.where(`O`, Predicates.controller(Predicates.blocks(definition.get())))
+		.where(`b`, Predicates.blocks(`gtceu:tempered_glass`))
+		.where(`c`, Predicates.blocks(`minecraft:sand`))
+		.where(`d`, Predicates.blocks(`minecraft:water`))
+		.where(`e`, Predicates.blocks(`minecraft:kelp_plant`))
+		.where(`f`, Predicates.blocks(`minecraft:kelp`))
+		.where(`g`, Predicates.blocks(`gtceu:lv_ventilation`))
+		.where(` `, Predicates.any())
+		.build())
+	.workableCasingModel(`gtceu:block/casings/solid/machine_casing_clean_stainless_steel`, `gtceu:block/multiblock/gcym/large_maceration_tower`);
 });

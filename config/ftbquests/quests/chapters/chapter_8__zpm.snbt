@@ -410,7 +410,6 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "Yet again."
 			tasks: [{
 				count: 16L
 				id: "2C16F1258DA76459"
@@ -713,12 +712,14 @@
 		}
 		{
 			dependencies: ["34200949BA7F72DC"]
+			description: [""]
 			id: "7CF2F3D38893F8CB"
 			rewards: [{
 				id: "116D1AAF18D345E5"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Again."
 			tasks: [{
 				count: 16L
 				id: "404D47F2F7519143"

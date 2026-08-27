@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
   event.recipes.gtceu.compressor(`gtfte:compressed_chest`)
     .itemInputs(`9x minecraft:chest`)
     .itemOutputs(`avaritia:compressed_chest`)
-    .duration(9600)
+    .duration(4800)
     .EUt(GTValues.VA[GTValues.LV]);
   event.recipes.gtceu.compressor(`gtfte:compressed_porcelain_clay`)
     .itemInputs(`exdeorum:porcelain_clay_ball`)

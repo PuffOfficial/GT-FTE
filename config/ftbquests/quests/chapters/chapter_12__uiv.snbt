@@ -5,6 +5,14 @@
 	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_uiv_circuit"
 	id: "46B2F78DD4265A81"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/voltage/uiv/top"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 12
 	quest_links: [ ]
 	quests: [{

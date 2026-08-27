@@ -5,6 +5,14 @@
 	group: "7D7D730D2E28CCD3"
 	icon: "kubejs:universal_uhv_circuit"
 	id: "7202288CD8932143"
+	images: [{
+		height: 2.0d
+		image: "gtceu:block/casings/voltage/uhv/top"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	order_index: 10
 	quest_links: [ ]
 	quests: [{
