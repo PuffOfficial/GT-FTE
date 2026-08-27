@@ -18,7 +18,6 @@ global.FuelRods = [
     [`uranium_235`, `#42df42`, Component.translatable(`material.gtceu.uranium_235`)],
     [`uranium_236`, `#04a604`, Component.translatable(`material.gtceu.uranium_236`)],
     [`thorium`, `#25411b`, Component.translatable(`material.gtceu.thorium`)],
-
     [`naquadria`, `#68c868`, Component.translatable(`material.gtceu.naquadria`)]
 ]
 global.Bundles = [
@@ -26,7 +25,7 @@ global.Bundles = [
     [`unbreakable_tools_pack`, `#725487`],
     [`beehive`, `#ffd755`],
     [`botanist`, `#3c7345`],
-    [`mana`, `#7cdaff`],
+    [`mana`, `#61d2ff`],
 ]
 global.Universal = [
     [`ulv`, `#bdb2a2`],
@@ -96,7 +95,6 @@ StartupEvents.registry(`item`, register => {
     register.create(`stargate_chevron`).texture(`kubejs:item/stargate/stargate_chevron`)
     register.create(`stargate_computation_mainframe`).texture(`kubejs:item/stargate/stargate_computation_mainframe`).maxStackSize(1)
     register.create(`stargate_field_generator`).texture(`kubejs:item/stargate/stargate_field_generator`)
-    register.create(`space_continuum_stabilizer`).texture(`kubejs:item/stargate/space_continuum_stabilizer`).displayName(`Space-time Continuum Stabilizer`)
 
     ULVCraftingComponents.forEach(Type => {
         register.create(`ulv_${Type}`).texture(`kubejs:item/components/ulv_` + Type).tooltip(Component.translatable(`gtfte.tooltip.ulv_сomponent`))

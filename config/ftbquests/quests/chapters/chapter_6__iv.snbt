@@ -1834,37 +1834,20 @@
 		}
 		{
 			dependencies: ["2494CE22E5E552E4"]
-			id: "615538151D712C1D"
-			rewards: [{
-				id: "22B693C14061FAF8"
-				item: "kubejs:p_credit"
-				type: "item"
-			}]
-			subtitle: "How do I use this in epoxy?"
-			tasks: [{
-				id: "0C07205B32A21A5D"
-				item: "gtceu:biomass_bucket"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["615538151D712C1D"]
 			id: "380BA097D465DBA3"
 			rewards: [{
 				id: "1A7877AA9ECBC202"
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "Magic."
+			subtitle: "Figure out it yourself idk."
 			tasks: [{
 				id: "4AA594701BFB9858"
 				item: "gtceu:glycerol_bucket"
 				type: "item"
 			}]
 			x: -0.5d
-			y: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["380BA097D465DBA3"]
