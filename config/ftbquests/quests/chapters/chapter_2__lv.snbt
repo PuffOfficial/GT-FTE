@@ -818,6 +818,7 @@
 		{
 			dependencies: ["7D37D5E1AF5DBA7D"]
 			id: "7CD8A8BF79B0C7B7"
+			subtitle: "IN DEVELOPMENT!"
 			tasks: [{
 				id: "5C749F996F200901"
 				item: "gtceu:primitive_alloy_smelter"
@@ -838,6 +839,19 @@
 			}]
 			x: 7.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["35FE18644DAE5F47"]
+			id: "2FEE9548554A201E"
+			optional: true
+			shape: "diamond"
+			tasks: [{
+				id: "3BA16572F309AD6B"
+				item: "watercollector:watercollector"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["The Power Of... Hydrokinetics...?"]

@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 
 
   event.recipes.gtceu.sifter(`gtfte:gravel_sifting_fixed`)
-    .itemInputs(`minecraft:gravel`).circuit(2)
+    .itemInputs(`minecraft:gravel`).circuit(3)
     .itemOutputs([`minecraft:flint`])
     .chancedOutput(`minecraft:flint`, 9000, 0)
     .chancedOutput(`minecraft:flint`, 8000, 0)

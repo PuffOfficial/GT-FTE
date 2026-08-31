@@ -1,3 +1,4 @@
+
 GTCEuStartupEvents.registry(`gtceu:recipe_type`, event => {
 	// MARK: Register (Recipe Types)
 	event.create(`barrel`)

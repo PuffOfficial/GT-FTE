@@ -1302,6 +1302,27 @@
 			x: -1.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["6C0EFE14B0A63EB0"]
+			description: [
+				"There's 2 recipes for gravel sifting: 1st and 2nd circuit."
+				""
+				"1st gives common ores like iron, copper and etc."
+				"2nd gives rarer minerals like diamonds, emeralds and etc."
+				""
+				"Why can't I make it as separate quests? there's not enough space lol."
+			]
+			icon: "minecraft:gravel"
+			id: "5A3629C7709ADC3A"
+			tasks: [{
+				id: "56ABD09B179C42AA"
+				title: "Alright"
+				type: "checkmark"
+			}]
+			title: "Gravel Automation Info"
+			x: -6.0d
+			y: -1.5d
+		}
 	]
 	title: "Processing Page"
 }

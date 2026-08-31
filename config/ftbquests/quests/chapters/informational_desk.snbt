@@ -11,7 +11,7 @@
 		{
 			description: [
 				"Good morning, pioneer of P-Corp."
-				"You are not first pioneer in this sector, to be more accurate, you are №&k192."
+				"You are not first pioneer in this sector, so we have an experience with envirovement and we will try to help you out here."
 				""
 				"Don't worry, you won't have to contact them, good if you're introvert."
 				""
@@ -93,13 +93,21 @@
 		}
 		{
 			description: [
-				"Thanks to:"
-				"&#8bdce3Diggypt_3&r for providing some textures. (Infinity Coil)"
+				"&o&8Thanks to:&r"
+				"&#8bdce3@Diggypt_3&r for providing some textures. (Infinity Coil)"
+				""
+				"&o&8Translators:&r"
+				"&2@bekaa0668&r - Polish Translation"
+				"&2@gha8989&r - Japanese Translation"
+				""
+				"&o&8Honourable Mentions:&r"
+				"<grad from=#ff4d31 to=#ffc55b hue uni>@phoenixvine</grad> on GTM server for dealing with my stupidity and still trying to teach me Java."
+				"<grad from= #5691ff to= #5bf1ff hue uni>@notargxment</grad> for sharing his code for future Coremod."
 			]
 			id: "65F80D206E1533B3"
 			tasks: [{
 				id: "2F4F30EA56F54602"
-				title: "Credits/Contributors"
+				title: "Mannn those people are great!"
 				type: "checkmark"
 			}]
 			x: -1.5d
