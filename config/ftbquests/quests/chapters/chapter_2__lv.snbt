@@ -104,8 +104,8 @@
 			}]
 			subtitle: "Cheaper wires"
 			tasks: [{
-				id: "23294B9D6BE43905"
-				item: "gtceu:ulv_wiremill"
+				id: "621FA5F232CB138D"
+				item: "ftecore:ulv_wiremill"
 				type: "item"
 			}]
 			x: 4.0d
@@ -120,8 +120,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "477D39E65E8C0062"
-				item: "gtceu:ulv_arc_furnace"
+				id: "36D67B03B5D12646"
+				item: "ftecore:ulv_arc_furnace"
 				type: "item"
 			}]
 			x: 4.0d
@@ -137,8 +137,8 @@
 			}]
 			subtitle: "Okay, that one is not cheaper"
 			tasks: [{
-				id: "4766B8705FB60D7C"
-				item: "gtceu:ulv_assembler"
+				id: "3924297F0355F4FF"
+				item: "ftecore:ulv_assembler"
 				type: "item"
 			}]
 			x: 4.0d
@@ -154,8 +154,8 @@
 			}]
 			subtitle: "Probably cheaper rubber?"
 			tasks: [{
-				id: "16C235160EB8A559"
-				item: "gtceu:ulv_extractor"
+				id: "384501C037D7BEF0"
+				item: "ftecore:ulv_extractor"
 				type: "item"
 			}]
 			x: 4.0d
@@ -170,8 +170,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "40A69B09DA79AF12"
-				item: "gtceu:ulv_polarizer"
+				id: "08F202ADFA687B6D"
+				item: "ftecore:ulv_polarizer"
 				type: "item"
 			}]
 			x: 4.0d
@@ -187,8 +187,8 @@
 			}]
 			subtitle: "Automated Sieve"
 			tasks: [{
-				id: "2BE06AF7E759EDD9"
-				item: "gtceu:ulv_sifter"
+				id: "7411D97FED30F7FE"
+				item: "ftecore:ulv_sifter"
 				type: "item"
 			}]
 			x: 4.0d
@@ -239,8 +239,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5126038C49F40EBB"
-				item: "gtceu:ulv_compressor"
+				id: "37366994DF13115A"
+				item: "ftecore:ulv_compressor"
 				type: "item"
 			}]
 			x: 4.0d
@@ -258,8 +258,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6F592C9ECF94DE55"
-				item: "gtceu:ulv_macerator"
+				id: "21AF730156AEEE65"
+				item: "ftecore:ulv_macerator"
 				type: "item"
 			}]
 			x: 4.0d
@@ -538,8 +538,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "7D3CD1831D39CD26"
-				item: "gtceu:ulv_electrolyzer"
+				id: "2F3AC0423250404E"
+				item: "ftecore:ulv_electrolyzer"
 				type: "item"
 			}]
 			x: 4.0d
@@ -749,10 +749,9 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Buggy, just in case."
 			tasks: [{
-				id: "0DC127BF58276167"
-				item: "gtceu:primitive_electric_furnace"
+				id: "7CB2AF02129BFE7E"
+				item: "ftecore:primitive_electric_furnace"
 				type: "item"
 			}]
 			x: -1.5d
@@ -802,12 +801,12 @@
 			}]
 			tasks: [
 				{
-					id: "6534D183B9757AE3"
-					item: "gtceu:ulv_extruder"
+					id: "3C1B46837EAFC936"
+					item: "ftecore:ulv_extruder"
 					type: "item"
 				}
 				{
-					id: "320353D7CD8EB46D"
+					id: "40C69A166984788A"
 					item: "gtceu:ingot_extruder_mold"
 					type: "item"
 				}
@@ -818,12 +817,31 @@
 		{
 			dependencies: ["7D37D5E1AF5DBA7D"]
 			id: "7CD8A8BF79B0C7B7"
-			subtitle: "IN DEVELOPMENT!"
-			tasks: [{
-				id: "5C749F996F200901"
-				item: "gtceu:primitive_alloy_smelter"
-				type: "item"
-			}]
+			subtitle: "Multiblock!"
+			tasks: [
+				{
+					id: "564BF3F957047C19"
+					item: "ftecore:primitive_alloy_smelter"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "215569244588C962"
+					item: { Count: 8, id: "ftecore:solid_wrought_iron_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "73A05A1D4F07D41B"
+					item: { Count: 9, id: "ftecore:wrought_iron_firebox" }
+					type: "item"
+				}
+				{
+					id: "441F82B34170D202"
+					item: "ftecore:primitive_maintenance_hatch"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -3.5d
 		}
@@ -833,8 +851,8 @@
 			optional: true
 			shape: "diamond"
 			tasks: [{
-				id: "58450B592B8EE953"
-				item: "gtceu:primitive_bender"
+				id: "704C81E4AA988E54"
+				item: "ftecore:primitive_bender"
 				type: "item"
 			}]
 			x: 7.0d

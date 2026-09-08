@@ -9,11 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [
-				"Hiii! I'm Mike, your guide through this timeline"
-				""
-				"&o&8DEV NOTE: If you want to play in peaceful - Feel free to do it, pack &lhas special recipes for it&r"
-			]
+			description: ["&o&8DEV NOTE: If you want to play in peaceful - Feel free to do it, pack &lhas special recipes for it&r"]
 			id: "5E77582D4F02E361"
 			rewards: [{
 				id: "590C366B72BB5AB2"

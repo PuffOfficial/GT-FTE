@@ -1,17 +1,4 @@
 ServerEvents.recipes(event => {
-    //ULV
-    event.shaped(`gtceu:ulv_assembler`, [
-        `EBE`,
-        `DAD`,
-        `CBC`
-    ], {
-        A: global.ULV.Hull,
-        B: global.ULV.Circuit,
-        C: global.ULV.Cable(`single`),
-        D: global.ULV.Conveyor,
-        E: global.ULV.RobotArm,
-    }
-    );
     event.recipes.gtceu.assembler(`gtfte:quartz_fibre`)
         .itemInputs(`gtceu:glass_plate`, `3x gtceu:nether_quartz_dust`)
         .itemOutputs(`2x ae2:quartz_fiber`)

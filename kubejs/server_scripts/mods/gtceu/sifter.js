@@ -1,17 +1,4 @@
 ServerEvents.recipes(event => {
-  //ULV
-  event.shaped(`gtceu:ulv_sifter`, [
-    `CEC`,
-    `DAD`,
-    `BEB`
-  ], {
-    A: global.ULV.Hull,
-    B: global.ULV.Circuit,
-    C: global.ULV.Cable(`single`),
-    D: global.ULV.Piston,
-    E: `exdeorum:string_mesh`,
-  }
-  );
   function sifting(input, fluid, output, time, circuit, id, eu) {
     event.recipes.gtceu.sifter(`gtfte:` + id)
       .itemInputs(input).circuit(circuit)

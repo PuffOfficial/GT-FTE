@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     })
     event.custom({
         "type":"exdeorum:crook",
-        "block_predicate":{"block":"minecraft:grass"},
+        "block_predicate":{"block":"minecraft:grass_block"},
         "chance":0.2,
         "result":"rootsclassic:old_root"
     })

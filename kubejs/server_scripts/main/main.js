@@ -280,10 +280,6 @@ ServerEvents.recipes(event => {
     event.shapeless(`gtceu:programmed_circuit`, [
         `#gtceu:circuits`,
     ]);
-    // MARK: DELETE LATER
-    event.shapeless(`gtceu:lv_ventilation`, [
-        `kubejs:simple_ventilation`
-    ]);
     event.shapeless(`exdeorum:string_mesh`, [
         `kubejs:string_mesh_chunk`,
         `kubejs:string_mesh_chunk`,
@@ -381,39 +377,6 @@ ServerEvents.recipes(event => {
         D: global.EV.Sensor,
         E: global.EV.Emitter,
     });
-    // MARK: Multi blocks
-    event.shaped(`gtceu:primitive_alloy_smelter`, [
-        `ABA`,
-        `BDB`,
-        `CBC`
-    ], {
-        A: global.ULV.Circuit,
-        B: global.ULV.Wire(`quadruple`),
-        C: global.ULV.Cable(`single`),
-        D: global.ULV.Hull,
-    });
-    event.shaped(`gtceu:primitive_bender`, [
-        `AFA`,
-        `BDB`,
-        `CEC`
-    ], {
-        A: global.ULV.Piston,
-        B: global.ULV.Circuit,
-        C: global.ULV.Motor,
-        D: global.ULV.Hull,
-        E: global.ULV.Cable(`single`),
-        F: `gtceu:wrought_iron_plate`,
-    });
-    event.shaped(`gtceu:primitive_electric_furnace`, [
-        `ADA`,
-        `DBD`,
-        `CDC`
-    ], {
-        A: global.ULV.Circuit,
-        B: global.ULV.Hull,
-        C: global.ULV.Cable(`single`),
-        D: global.ULV.Wire(`double`),
-    });
     // MARK: Gregtech Affliated
     event.shaped(`gtceu:zpm_ionizing_module`, [
         `CAC`,
@@ -426,22 +389,6 @@ ServerEvents.recipes(event => {
         D: global.LuV.RobotArm,
         E: global.LuV.Emitter
     });
-    event.shaped(`gtceu:ulv_primitive_maintenance_hatch`, [
-        `GFD`,
-        `HBE`,
-        `CAI`
-    ], {
-        A: global.ULV.Circuit,
-        B: global.ULV.Hull,
-        C: global.ULV.Cable(`single`),
-        D: global.tools.AnyWrench,
-        E: global.tools.AnyScrewdriver,
-        F: global.tools.AnyWireCutter,
-        G: global.tools.AnyMallet,
-        H: `gtceu:treated_wood_plate`,
-        I: `gtceu:copper_small_fluid_pipe`,
-    }
-    )
     // MARK: Crafting Components
     event.shaped(`gtceu:empty_fuel_rod`, [
         `BCB`,
@@ -501,7 +448,7 @@ ServerEvents.recipes(event => {
         E: `gtceu:manasteel_rod`,
         F: global.EV.Circuit,
     });
-    event.shaped(`2x kubejs:wrought_iron_firebox`, [
+    event.shaped(`2x ftecore:wrought_iron_firebox`, [
         `BAB`,
         `ACA`,
         `BAB`

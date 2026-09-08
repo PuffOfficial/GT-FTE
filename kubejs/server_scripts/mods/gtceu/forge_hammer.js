@@ -1,16 +1,4 @@
 ServerEvents.recipes(event => {
-        event.shaped(`gtceu:ulv_forge_hammer`, [
-                `CDC`,
-                `BAB`,
-                `CEC`
-        ], {
-                A: global.ULV.Hull,
-                B: global.ULV.Circuit,
-                C: global.ULV.Cable(`single`),
-                D: global.ULV.Piston,
-                E: `minecraft:iron_block`
-        }
-        );
         event.recipes.gtceu.forge_hammer(`gtfte:cobblestone_to_gravel`)
                 .itemInputs(`minecraft:cobblestone`)
                 .itemOutputs(`minecraft:gravel`)
