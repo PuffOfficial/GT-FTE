@@ -90,7 +90,7 @@ ServerEvents.recipes(event => {
         .EUt(GTValues.VA[GTValues.MV]);
     // MARK: Roots
     event.recipes.gtceu.assembler(`gtfte:standing_stone`)
-        .itemInputs([`minecraft:chiseled_stone_bricks`, `4x minecraft:stone_bricks`, `2x gtceu:marble_bricks`, `2x gtceu:verdant_copper_plate`])
+        .itemInputs([`minecraft:chiseled_stone_bricks`, `4x minecraft:stone_bricks`, `2x gtceu:marble_bricks`, `2x ftecore:verdant_copper_plate`])
         .itemOutputs(`rootsclassic:attuned_standing_stone`)
         .duration(600)
         .EUt(GTValues.VA[GTValues.ULV]);

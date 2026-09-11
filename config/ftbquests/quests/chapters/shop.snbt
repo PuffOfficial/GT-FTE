@@ -63,7 +63,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3D4008D7CA276577"]
+			dependencies: [
+				"3D4008D7CA276577"
+				"06BF29E326F5AF1C"
+			]
 			icon: "gtceu:wrought_iron_ingot"
 			id: "38A950D5E15EB9A7"
 			rewards: [{
@@ -134,7 +137,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3D4008D7CA276577"]
+			dependencies: [
+				"3D4008D7CA276577"
+				"7BB3829EDCF68E6E"
+			]
 			icon: "gtceu:stainless_steel_ingot"
 			id: "4E472D79CEA6DFC1"
 			rewards: [{
@@ -181,7 +187,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["3D4008D7CA276577"]
+			dependencies: [
+				"3D4008D7CA276577"
+				"3865EDCA5B62A8E5"
+			]
 			icon: "gtceu:tungsten_steel_ingot"
 			id: "7CB22472E0A86F9A"
 			rewards: [{
@@ -574,6 +583,11 @@
 			]
 			icon: "gtceu:micro_processor_computer"
 			id: "06CE344E8C16298F"
+			rewards: [{
+				id: "4B7186FACB6EAAA1"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
 			tasks: [{
 				count: 10L
 				id: "2933C8074C705CF9"

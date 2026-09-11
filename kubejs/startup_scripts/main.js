@@ -70,7 +70,6 @@ StartupEvents.registry(`item`, register => {
     register.create(`the_watch_of_times`).maxDamage(67)
 
     register.create(`stone_stick`)
-    register.create(`stick_fragments`).texture(`kubejs:item/stick_fragments`)
     register.create(`simple_knitting_kit`).texture(`kubejs:item/knitting_kit`).maxDamage(`10`)
     register.create(`string_mesh_chunk`).texture(`kubejs:item/mesh_chunk`)
 

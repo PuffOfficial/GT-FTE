@@ -167,8 +167,7 @@
     "block.gtceu.lv_steam_turbine":"§l§cNuh Uh, Jestem Wyłączony!",
     "block.gtceu.mv_steam_turbine":"§l§cNuh Uh, Jestem Wyłączony!",
     "block.gtceu.hv_steam_turbine":"§l§cNuh Uh, Jestem Wyłączony!",
-    "block.gtceu.primitive_blast_furnace":"§l§cNuh Uh, Jestem Wyłączony!§r Użyj 'Prymitywny Elektryczny Piec Wydmuchowy'",
-
+    
     "gtceu.jei.ore_vein.abydos/tungstate_pyrite": "Ruda Tungstanu-Scheelitu",
     "gtceu.jei.ore_vein.abydos/copper": "Ruda Miedzi",
     "gtceu.jei.ore_vein.abydos/lubricant": "Ruda Lubrykantu",

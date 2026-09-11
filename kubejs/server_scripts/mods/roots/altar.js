@@ -62,7 +62,7 @@ event.custom({
     },
   ],
   "result": {
-    "item": "gtceu:living_steel_ingot",
+    "item": "ftecore:living_steel_ingot",
     "count": 8
   }
 });

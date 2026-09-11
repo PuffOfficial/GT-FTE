@@ -17,23 +17,6 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
         )
         .formula(`Fe(C6H10O5)2`)
 
-    event.create(`verdant_copper`)
-        .ingot()
-        .color(0x7eea73).secondaryColor(0x244120).iconSet(`bright`)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE,
-            GTMaterialFlags.GENERATE_ROD,
-            GTMaterialFlags.GENERATE_FINE_WIRE,
-            GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_FRAME,
-            GTMaterialFlags.GENERATE_ROTOR,
-            GTMaterialFlags.GENERATE_RING,
-            GTMaterialFlags.GENERATE_SMALL_GEAR,
-            GTMaterialFlags.GENERATE_GEAR,
-            GTMaterialFlags.GENERATE_SPRING,
-            GTMaterialFlags.GENERATE_BOLT_SCREW
-        )
-        .formula(`Cu(C6H10O5)2`)
 
     event.create(`dragon_gold`)
         .ingot()
@@ -52,22 +35,4 @@ GTCEuStartupEvents.registry(`gtceu:material`, event => {
             GTMaterialFlags.GENERATE_BOLT_SCREW
         )
         .formula(`Au(C6H10O5)2`)
-
-    event.create(`living_steel`)
-        .ingot()
-        .color(0x244120).secondaryColor(0x3d3d3d).iconSet(`metallic`)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE,
-            GTMaterialFlags.GENERATE_ROD,
-            GTMaterialFlags.GENERATE_FINE_WIRE,
-            GTMaterialFlags.GENERATE_FOIL,
-            GTMaterialFlags.GENERATE_FRAME,
-            GTMaterialFlags.GENERATE_ROTOR,
-            GTMaterialFlags.GENERATE_RING,
-            GTMaterialFlags.GENERATE_SMALL_GEAR,
-            GTMaterialFlags.GENERATE_GEAR,
-            GTMaterialFlags.GENERATE_SPRING,
-            GTMaterialFlags.GENERATE_BOLT_SCREW
-        )
-        .formula(`Fe`)
 })

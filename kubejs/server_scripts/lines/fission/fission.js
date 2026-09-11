@@ -8,17 +8,6 @@ const Fuels = [
 ]
 
 ServerEvents.recipes(event => {
-        event.shaped(`gtceu:primitive_electric_blast_furnace`, [
-                `DDD`,
-                `BAB`,
-                `CBC`
-        ], {
-                A: `gtceu:firebricks`,
-                B: global.ULV.Circuit,
-                C: global.ULV.Cable(`single`),
-                D: `minecraft:furnace`,
-        }
-        )
         for (const [duration, Fuel, Coolant, Waste, Production, id] of Fuels) {
                 event.recipes.gtceu.fission(`gtfte:${id}`)
                         .itemInputs([`gtceu:${Fuel}_fuel_rod`, `gtceu:${Fuel}_fuel_rod`, `gtceu:${Fuel}_fuel_rod`, `gtceu:${Fuel}_fuel_rod`])

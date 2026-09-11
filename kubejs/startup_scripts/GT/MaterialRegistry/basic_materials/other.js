@@ -1,6 +1,5 @@
 // Priority: 999
 GTCEuStartupEvents.registry(`gtceu:material_icon_set`, event => {
-    event.create(`ceramic`).parent(`dull`)
     event.create(`pearl`).parent(`ruby`)
     event.create(`gaia`).parent(`metallic`)
     event.create(`infinity`).parent(`metallic`)
@@ -11,10 +10,6 @@ GTCEuStartupEvents.registry(`gtceu:material_icon_set`, event => {
 })
 
 GTCEuStartupEvents.registry(`gtceu:material`, event => {
-    event.create(`ceramic`)
-        .ingot()
-        .color(0x9b6045).secondaryColor(0x83513c).iconSet(`ceramic`)
-        .flags(GTMaterialFlags.GENERATE_PLATE)
 
     event.create(`artificial_amethyst`)
         .gem()

@@ -152,7 +152,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "Probably cheaper rubber?"
+			subtitle: "Alright I am confused now, idk figure out yourself if rubber is cheaper or not."
 			tasks: [{
 				id: "384501C037D7BEF0"
 				item: "ftecore:ulv_extractor"
@@ -313,8 +313,8 @@
 			}]
 			subtitle: "Brick 2.0"
 			tasks: [{
-				id: "185AF3AF393DB277"
-				item: "gtceu:ceramic_ingot"
+				id: "095C2595F765B759"
+				item: "ftecore:ceramic_ingot"
 				type: "item"
 			}]
 			x: 5.0d
@@ -332,8 +332,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "43F22347980DBC7E"
-				item: "gtceu:ceramic_plate"
+				id: "59B080B931A2C429"
+				item: "ftecore:ceramic_plate"
 				type: "item"
 			}]
 			x: 7.0d
@@ -342,7 +342,7 @@
 		{
 			dependencies: [
 				"048349612D145110"
-				"43E6A51234A307E8"
+				"7AB6A757104C3EB3"
 			]
 			description: [""]
 			id: "0BB20AF10BC7E7EE"
@@ -351,28 +351,17 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
-			subtitle: "The hell is... \"PEBF\"? Where is my \"PBF\"!!!"
+			subtitle: "The hell is... \"PEBF\"? We have \"PBF\"!"
 			tasks: [
 				{
-					id: "7A1552EC904AEE84"
-					item: "gtceu:primitive_electric_blast_furnace"
+					id: "7F0FC73A01BE325B"
+					item: "gtceu:primitive_blast_furnace"
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "6F003F787372D3E7"
-					item: { Count: 8, id: "kubejs:wrought_iron_firebox" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "39E8D0958E5E9A78"
-					item: { Count: 10, id: "kubejs:solid_wrought_iron_casing" }
-					type: "item"
-				}
-				{
-					id: "3B83882F58B32C5E"
-					item: "gtceu:ulv_primitive_maintenance_hatch"
+					count: 32L
+					id: "1BDC5D57EFAFE4A0"
+					item: { Count: 32, id: "gtceu:firebricks" }
 					type: "item"
 				}
 			]
@@ -577,7 +566,7 @@
 				""
 				"But, you can speed up this process by breaking wheat with crook!"
 			]
-			icon: "gtceu:verdant_copper_ingot"
+			icon: "ftecore:verdant_copper_ingot"
 			id: "4A08A3ECB0190812"
 			rewards: [{
 				id: "40291EECE39D7210"
@@ -591,8 +580,8 @@
 					type: "item"
 				}
 				{
-					id: "0A3833FE79A754C4"
-					item: "gtceu:verdant_copper_ingot"
+					id: "47582C2016445C8B"
+					item: "ftecore:verdant_copper_ingot"
 					type: "item"
 				}
 			]
@@ -696,8 +685,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "27966D0FB0651548"
-				item: "gtceu:living_steel_ingot"
+				id: "68B194BBB8869555"
+				item: "ftecore:living_steel_ingot"
 				type: "item"
 			}]
 			x: 10.0d

@@ -153,6 +153,14 @@ ServerEvents.recipes(event => {
     // MARK: Multiblocks
 
     // Bender
+    event.recipes.gtceu.assembler(`gtfte:pbf`)
+        .itemInputs(`gtceu:firebricks`, `4x gtceu:andesite_alloy_frame`, `8x gtceu:wrought_iron_plate`)
+        .inputFluids(`gtceu:glue 100`)
+        .itemOutputs(`gtceu:primitive_blast_furnace`)
+        .duration(1200)
+        .EUt(GTValues.VA[GTValues.ULV]);
+
+    // Bender
     event.shaped(`ftecore:primitive_bender`, [
         `AFA`,
         `BDB`,
@@ -165,6 +173,7 @@ ServerEvents.recipes(event => {
         E: global.ULV.Cable(`single`),
         F: `gtceu:wrought_iron_plate`,
     });
+    // Electric Furnace
     event.shaped(`ftecore:primitive_electric_furnace`, [
         `ADA`,
         `DBD`,
@@ -175,6 +184,7 @@ ServerEvents.recipes(event => {
         C: global.ULV.Cable(`single`),
         D: global.ULV.Wire(`double`),
     });
+    // Alloy Smelter
     event.shaped(`ftecore:primitive_alloy_smelter`, [
         `ABA`,
         `BDB`,
@@ -184,5 +194,17 @@ ServerEvents.recipes(event => {
         B: global.ULV.Wire(`quadruple`),
         C: global.ULV.Cable(`single`),
         D: global.ULV.Hull,
+    });
+    // Large Compressor
+    event.shaped(`ftecore:primitive_large_compressor`, [
+        `AEA`,
+        `BDB`,
+        `CAC`
+    ], {
+        A: global.ULV.Circuit,
+        B: global.ULV.Piston,
+        C: global.ULV.Cable(`quadruple`),
+        D: global.ULV.Hull,
+        E: `gtceu:wrought_iron_plate`,
     });
 });

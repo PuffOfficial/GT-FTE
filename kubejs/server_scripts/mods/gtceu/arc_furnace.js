@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         .EUt(4);
     event.recipes.gtceu.arc_furnace(`gtfte:ceramic`)
         .itemInputs(`minecraft:clay_ball`)
-        .itemOutputs(`gtceu:ceramic_ingot`)
+        .itemOutputs(`ftecore:ceramic_ingot`)
         .duration(60)
         .EUt(GTValues.VA[GTValues.ULV]);
     event.recipes.gtceu.arc_furnace(`gtfte:realgar_dust`)

@@ -170,8 +170,7 @@
     "block.gtceu.lv_steam_turbine":"§l§cNuh Uh, I Am Disabled!",
     "block.gtceu.mv_steam_turbine":"§l§cNuh Uh, I Am Disabled!",
     "block.gtceu.hv_steam_turbine":"§l§cNuh Uh, I Am Disabled!",
-    "block.gtceu.primitive_blast_furnace":"§l§cNuh Uh, I Am Disabled!§r Use 'Primitive Electric Blast Furnace' instead!",
-
+    
     "gtceu.jei.ore_vein.abydos/tungstate_pyrite": "Tungstate-Scheelite Vein",
     "gtceu.jei.ore_vein.abydos/copper": "Copper Vein",
     "gtceu.jei.ore_vein.abydos/lubricant": "Lubricant Vein",

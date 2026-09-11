@@ -111,7 +111,6 @@ ServerEvents.recipes(event => {
     event.remove({ output: `ae2:charged_certus_quartz_crystal` });
     event.remove({ output: `gtceu:vacuum_tube` });
     event.remove({ output: `gtceu:magnetic_iron_rod` });
-    event.remove({ output: `gtceu:steel_ingot` });
     event.remove({ output: `gtceu:resistor` });
     event.remove({ output: `gtceu:ceramic_plate` });
 
@@ -351,9 +350,9 @@ ServerEvents.recipes(event => {
         `CAC`
     ], {
         A: `gtceu:stone_plate`,
-        B: `gtceu:fine_verdant_copper_wire`,
-        C: `gtceu:root_iron_screw`,
-        D: `gtceu:double_root_iron_plate`,
+        B: `ftecore:fine_verdant_copper_wire`,
+        C: `ftecore:root_iron_screw`,
+        D: `ftecore:double_root_iron_plate`,
     });
     event.shaped(`rootsclassic:altar`, [
         `BBB`,
@@ -361,8 +360,8 @@ ServerEvents.recipes(event => {
         `CDC`
     ], {
         B: `gtceu:gold_plate`,
-        C: `gtceu:double_root_iron_plate`,
-        D: `gtceu:verdant_copper_plate`,
+        C: `ftecore:double_root_iron_plate`,
+        D: `ftecore:verdant_copper_plate`,
         E: global.ULV.Circuit,
         F: `minecraft:chiseled_stone_bricks`,
     });
@@ -434,7 +433,7 @@ ServerEvents.recipes(event => {
         B: `gtceu:coal_dust`,
         C: `gtceu:small_copper_spring`,
         D: `minecraft:paper`,
-        E: `gtceu:ceramic_plate`,
+        E: `ftecore:ceramic_plate`,
     });
     event.shaped(`kubejs:hv_mana_amplifier`, [
         `DFD`,
@@ -493,7 +492,7 @@ ServerEvents.recipes(event => {
         `CBC`,
         `DAD`
     ], {
-        A: `gtceu:living_steel_plate`,
+        A: `ftecore:living_steel_plate`,
         B: global.IV.Circuit,
         C: `botania:livingrock_bricks`,
         D: `gtceu:double_manasteel_plate`,

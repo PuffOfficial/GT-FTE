@@ -72,18 +72,11 @@
 		{
 			dependencies: ["7108651344CB541D"]
 			id: "7FE5AAE27855C2E0"
-			rewards: [
-				{
-					id: "17FB8512B9D79FBF"
-					item: "kubejs:p_credit"
-					type: "item"
-				}
-				{
-					id: "1BBACF476B965DB9"
-					item: "kubejs:p_credit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "17FB8512B9D79FBF"
+				item: "kubejs:p_credit"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "672F97BEB0197F22"
@@ -223,6 +216,7 @@
 				item: "kubejs:p_credit"
 				type: "item"
 			}]
+			subtitle: "Borrrinnnnngggg"
 			tasks: [{
 				id: "621BDB6B49A680DF"
 				item: "exdeorum:oak_sieve"
