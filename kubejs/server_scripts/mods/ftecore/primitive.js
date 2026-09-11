@@ -13,6 +13,8 @@ let conversionList = [
     [`gtceu:ulv_wiremill`, `ftecore:ulv_wiremill`],
     [`gtceu:ulv_arc_furnace`, `ftecore:ulv_arc_furnace`],
 
+    [`gtceu:ulv_hydrokinetic_dynamo`, `ftecore:ulv_hydrokinetic_dynamo`],
+
     [`gtceu:primitive_bender`, `ftecore:primitive_bender`],
     [`gtceu:primitive_electric_furnace`, `ftecore:primitive_electric_furnace`],
     [`gtceu:primitive_alloy_smelter`, `ftecore:primitive_alloy_smelter`],
@@ -148,6 +150,20 @@ ServerEvents.recipes(event => {
         G: global.tools.AnyMallet,
         H: `gtceu:treated_wood_plate`,
         I: `gtceu:copper_small_fluid_pipe`,
+    });
+
+    //Hydrokinetic Dynamo
+    event.shaped(`ftecore:ulv_hydrokinetic_dynamo`, [
+        `FEF`,
+        `BAB`,
+        `DCD`
+    ], {
+        A: global.ULV.Hull,
+        B: global.ULV.Motor,
+        C: global.ULV.Pump,
+        D: global.ULV.Cable(`single`),
+        E: `gtceu:iron_rotor`,
+        F: `#forge:glass`,
     });
 
     // MARK: Multiblocks

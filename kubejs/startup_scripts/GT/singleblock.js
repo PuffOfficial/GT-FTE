@@ -8,13 +8,6 @@ const $ParallelHatchPartMachine = Java.loadClass("com.gregtechceu.gtceu.common.m
 
 // CUSTOM RECIPE TYPES
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('hydrokinetic_dynamo')
-        .category('generator')
-        .setEUIO('out')
-        .setMaxIOSize(0, 1, 1, 0)
-        .setProgressBar(GuiTextures.PROGRESS_BAR_MIXER, FillDirection.LEFT_TO_RIGHT)
-        .setSound(GTSoundEntries.BATH)
-
     event.create('magmatic_dynamo')
         .category('generator')
         .setEUIO('out')
