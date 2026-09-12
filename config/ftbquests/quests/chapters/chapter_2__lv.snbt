@@ -721,8 +721,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0537316ADEB409CB"
-				item: "gtceu:ulv_hydrokinetic_dynamo"
+				id: "4089A6525A821789"
+				item: "ftecore:ulv_hydrokinetic_dynamo"
 				type: "item"
 			}]
 			x: 1.5d

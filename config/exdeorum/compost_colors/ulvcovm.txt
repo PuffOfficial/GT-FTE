@@ -1,0 +1,7 @@
+// Compost colors for ulvcovm. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ulv_conveyor_module, #645548
+ulv_electric_motor, #917570
+ulv_electric_piston, #ffbb96
+ulv_electric_pump, #a2847d
+ulv_fluid_regulator, #9a7972
+ulv_robot_arm, #a08079
