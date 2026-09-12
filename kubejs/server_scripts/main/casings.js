@@ -1,5 +1,4 @@
 const Casings = [
-  ["ftecore:solid_wrought_iron_casing", "wrought_iron", "andesite_alloy"],
   ["kubejs:hss_plated_nocturium_casing", "hsse", "nocturium"],
   ["kubejs:corruption_proof_casing", "titanium_noctium", "titanium_noctium"],
   ["kubejs:radiation_resistant_casing", "radiation_resistant_alloy", "tungsten_steel"],

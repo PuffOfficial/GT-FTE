@@ -1,11 +1,4 @@
 GTCEuStartupEvents.registry(`gtceu:material`, event => {
-    //Andesite Alloy
-    event.create(`andesite_alloy`)
-        .ingot()
-        .color(0x6a6a6a).secondaryColor(0x4b5f4f).iconSet(GTMaterialIconSet.METALLIC)
-        .flags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_FRAME, GTMaterialFlags.GENERATE_SMALL_GEAR)
-        .formula(`ZnFe2(Mg3Si2H4O9)4(KNO3)`)
-        .components(`zinc`, `2x iron`, `2x andesite`);
     //Jetboots - Obsidian Gold
     event.create(`obsidian_gold`)
         .ingot()
