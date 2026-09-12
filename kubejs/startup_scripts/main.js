@@ -43,7 +43,6 @@ global.Universal = [
     [`uxv`, `#fff765`],
     [`opv`, `#2600ff`]
 ]
-let ULVCraftingComponents = [`robot_arm`, `conveyor_module`, `electric_motor`, `electric_pump`, `electric_piston`]
 
 global.Casings = [
     [`vanadium_steel`, `metal`, `pickaxe`, `Reconstruction-Proof Vanadium Steel Casing`],
@@ -95,9 +94,6 @@ StartupEvents.registry(`item`, register => {
     register.create(`stargate_computation_mainframe`).texture(`kubejs:item/stargate/stargate_computation_mainframe`).maxStackSize(1)
     register.create(`stargate_field_generator`).texture(`kubejs:item/stargate/stargate_field_generator`)
 
-    ULVCraftingComponents.forEach(Type => {
-        register.create(`ulv_${Type}`).texture(`kubejs:item/components/ulv_` + Type).tooltip(Component.translatable(`gtfte.tooltip.ulv_сomponent`))
-    })
     Datas.forEach(([name, texture]) => {
         register.create(`${name}_data`).textureJson({layer0: `kubejs:item/components/data/data_bg`, layer1: texture, layer2: `kubejs:item/components/data/data_template`})
     })
