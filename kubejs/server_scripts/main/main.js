@@ -388,6 +388,17 @@ ServerEvents.recipes(event => {
         D: global.LuV.RobotArm,
         E: global.LuV.Emitter
     });
+    event.shaped(`gtceu:basic_electronic_circuit`, [
+        `DAD`,
+        `EBE`,
+        `CCC`
+    ], {
+        A: `ftecore:living_steel_plate`,
+        B: `gtceu:resin_printed_circuit_board`,
+        C: global.ULV.Cable(`single`),
+        D: global.ULV.Circuit,
+        E: `#gtceu:resistors`
+    });
     // MARK: Crafting Components
     event.shaped(`gtceu:empty_fuel_rod`, [
         `BCB`,

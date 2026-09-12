@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
     // MARK: Multiblocks
 
     event.recipes.gtceu.assembler(`gtfte:pbf`)
-        .itemInputs(`gtceu:firebricks`, `4x gtceu:andesite_alloy_frame`, `8x gtceu:wrought_iron_plate`)
+        .itemInputs(`gtceu:firebricks`, `4x ftecore:andesite_alloy_frame`, `8x gtceu:wrought_iron_plate`)
         .inputFluids(`gtceu:glue 200`)
         .itemOutputs(`gtceu:primitive_blast_furnace`)
         .duration(1200)
