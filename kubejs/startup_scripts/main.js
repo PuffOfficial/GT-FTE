@@ -46,7 +46,6 @@ global.Universal = [
 
 global.Casings = [
     [`vanadium_steel`, `metal`, `pickaxe`, `Reconstruction-Proof Vanadium Steel Casing`],
-    [`solid_wrought_iron`, `metal`, `pickaxe`, `Solid Wrought Iron Casing`],
     [`radiation_resistant`, `metal`, `pickaxe`, `Radiation Resistant Casing`],
     [`hss_plated_nocturium`, `metal`, `pickaxe`, `HSS-E Plated Nocturium Casing`],
     [`etbf`, `metal`, `pickaxe`, `E.T.B.F. Casing`],
