@@ -52,24 +52,6 @@ function AlchemyOverclock(machine, recipe) {
     return ModifierFunction.IDENTITY
 }
 
-//ULV Parallel Logic, but has issue with the programmed circuit recipes <= NEEDS TO BE FIXED (Feel free to you use it)
-function ULVParallel(machine, recipe, parallelAmount) {
-    if (!(machine instanceof $MetaMachine)) return ModifierFunction.NULL
-    if (!(recipe instanceof $GTRecipe)) return ModifierFunction.NULL
-
-    if (machine instanceof $IMultiController && machine.isFormed()){
-
-    let eut = recipe.getInputEUt().getTotalEU();
-    let parallels = $ParallelLogic.getParallelAmount(machine,recipe,parallelAmount)
-
-    return ModifierFunction.builder()
-        .modifyAllContents($ContentModifier.multiplier(parallels))
-        .durationMultiplier(1.5)
-        .parallels(parallels)
-        .build();
-    }
-    return ModifierFunction.IDENTITY
-}
 //Default, but has issue with the programmed circuit recipes <= NEEDS TO BE FIXED (Feel free to you use it)
 function DefaultParallel(machine, recipe, parallelAmount) {
     if (!(machine instanceof $MetaMachine)) return ModifierFunction.NULL
@@ -92,5 +74,4 @@ const ionizingCleanroom = new $CleanroomType("ionizing", "gtfte.ionizing_cleanro
 const spaceModule = new $CleanroomType("space_module", "gtfte.space_module")
 //Custom partAbilities
 const $PartAbility = Java.loadClass("com.gregtechceu.gtceu.api.machine.multiblock.PartAbility");
-const PRIMITIVE_MAINTENANCE = new $PartAbility("primitive_maintenance")
 const VENTILATION = new $PartAbility("ventilation")
