@@ -6,6 +6,7 @@ const ResourceKey = Java.loadClass("net.minecraft.resources.ResourceKey")
 GTCEuServerEvents.oreVeins(event => {
     event.removeAll()
     //CUSTOM
+
     // MARK: ABYDOS:
     event.add("abydos/tungstate_pyrite", vein => {
         vein.weight(15)

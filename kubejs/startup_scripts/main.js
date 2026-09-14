@@ -243,6 +243,9 @@ GTCEuStartupEvents.registry(`gtceu:world_gen_layer`, event => {
     event.create(`unitas_sand`)
         .targets(`sgjourney:sulfur_sand`, `#minecraft:stone_ore_replaceables`)
         .dimensions(`sgjourney:unitas`)
+
+    event.create(`overworld_bedrock`)
+        .targets(`minecraft:bedrock`)
 })
 
 GTCEuStartupEvents.registry(`gtceu:dimension_marker`, event => {
