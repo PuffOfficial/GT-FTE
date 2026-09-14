@@ -67,4 +67,15 @@ ServerEvents.recipes(event => {
                 .outputFluids(`gtceu:tectonic_petrotheum 250`)
                 .duration(100)
                 .EUt(GTValues.VA[GTValues.LV]);
+// MARK: Roots
+        event.recipes.gtceu.extractor(`gtfte:verdant_sprig_extracting`)
+                .itemInputs(`minecraft:wheat`)
+                .chancedOutput(`rootsclassic:verdant_sprig`, 5000, 0)
+                .duration(100)
+                .EUt(GTValues.VA[GTValues.ULV]);
+        event.recipes.gtceu.extractor(`gtfte:old_root_extracting`)
+                .itemInputs(`minecraft:dirt`)
+                .chancedOutput(`rootsclassic:old_root`, 5000, 0)
+                .duration(100)
+                .EUt(GTValues.VA[GTValues.ULV]);
 })

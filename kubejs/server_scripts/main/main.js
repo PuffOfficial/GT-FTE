@@ -365,6 +365,16 @@ ServerEvents.recipes(event => {
         E: global.ULV.Circuit,
         F: `minecraft:chiseled_stone_bricks`,
     });
+        event.shaped(`rootsclassic:mundane_standing_stone`, [
+        `ADA`,
+        `ACA`,
+        `ABA`
+    ], {
+        A: `gtceu:stone_plate`,
+        B: `minecraft:stone`,
+        C: `ftecore:double_root_iron_plate`,
+        D: `ftecore:verdant_copper_plate`,
+    });
     event.shaped(`sgjourney:classic_dhd`, [
         `ABA`,
         `DCE`,
@@ -457,15 +467,6 @@ ServerEvents.recipes(event => {
         D: `gtceu:stainless_steel_plate`,
         E: `gtceu:manasteel_rod`,
         F: global.EV.Circuit,
-    });
-    event.shaped(`2x ftecore:wrought_iron_firebox`, [
-        `BAB`,
-        `ACA`,
-        `BAB`
-    ], {
-        A: `gtceu:wrought_iron_rod`,
-        B: `gtceu:wrought_iron_plate`,
-        C: `minecraft:campfire`,
     });
     //-----Stargate-----//
     event.shaped(`kubejs:stargate_coil`, [

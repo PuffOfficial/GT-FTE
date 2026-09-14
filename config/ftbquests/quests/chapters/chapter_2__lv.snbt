@@ -495,6 +495,7 @@
 		}
 		{
 			dependencies: ["0938597485E2E543"]
+			description: ["Oxygen is cool, right?"]
 			id: "558DE2F6968B43B5"
 			rewards: [{
 				id: "0BD3132322D2B959"
@@ -523,7 +524,7 @@
 			description: [
 				"Time for some farming! Has 1/30 chance to drop from any crop"
 				""
-				"But, you can speed up this process by breaking wheat with crook!"
+				"But, you can speed up this process by breaking wheat with crook... Duh."
 			]
 			icon: "ftecore:verdant_copper_ingot"
 			id: "4A08A3ECB0190812"
@@ -553,13 +554,9 @@
 			description: [
 				"Try breaking some grass, to get old roots, has 1/10 chance"
 				""
-				"Don't know how to get grass in a flat world? - Use bonemeal"
-				""
-				"Don't know hot to get bonemeal in a flat world? - Skeletons at night"
-				""
-				"Lazy to farm bonemeal? Break grass with a crook, it will give you more roots"
+				"Lazy to farm bonemeal? Break grass &oblocks&r with a crook, it will give you roots too."
 			]
-			icon: "gtceu:root_iron_ingot"
+			icon: "ftecore:root_iron_ingot"
 			id: "12BC49D2BB967B94"
 			rewards: [{
 				id: "7484BBEC3F7D2DA7"
@@ -573,8 +570,8 @@
 					type: "item"
 				}
 				{
-					id: "3EE75CE26209D987"
-					item: "gtceu:root_iron_ingot"
+					id: "309B59BF2B543130"
+					item: "ftecore:root_iron_ingot"
 					type: "item"
 				}
 			]
