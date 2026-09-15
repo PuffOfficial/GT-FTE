@@ -219,22 +219,4 @@ event.remove({ id: 'gtceu:assembly_line/field_generator_luv' })
        ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Item.of('gtceu:electric_jetpack')).EUt(GTValues.VA[GTValues.EV]).duration(2000))         
        .duration(600)
         .EUt(GTValues.VA[GTValues.IV])
-//Extreme multis
-    event.recipes.gtceu.assembly_line('gtfte:etbf')
-        .itemInputs(
-                '8x gtceu:electric_blast_furnace',
-                '16x gtceu:polytetrafluoroethylene_frame',
-                '32x gtceu:hssg_coil_block',
-                '32x gtceu:niobium_titanium_single_cable',
-                global.ZPM.CircuitMulti(2), 
-        )
-        .itemOutputs('gtceu:etbf')
-        .inputFluids(
-          Fluid.of('gtceu:soldering_alloy',1296),
-          Fluid.of('gtceu:ignis', 16000),
-          Fluid.of('gtceu:machina', 1000),
-        )
-       ["scannerResearch(java.util.function.UnaryOperator)"](b => b.researchStack(Item.of('gtceu:electric_blast_furnace')).EUt(GTValues.VA[GTValues.IV]).duration(2000))         
-       .duration(4800)
-        .EUt(GTValues.VA[GTValues.LuV])
 })
