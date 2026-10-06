@@ -1,0 +1,6 @@
+{
+    "item.avaritia.infinity_ingot": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>§fbarren§r",
+    "item.avaritia.infinity_nugget": "<neon p=8 r=2 a=0.15><rainb>Unendlichkets</rainb></neon>§fnugget§r",
+    "item.avaritia.infinity_catalyst": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>§fkatalyst§r",
+    "block.avaritia.infinity": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>§fblock"
+}

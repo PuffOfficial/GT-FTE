@@ -1,0 +1,97 @@
+{
+    "item.kubejs.ulv_electric_piston": "ULV Elektrischer Kolben",
+    "item.kubejs.ulv_robot_arm": "ULV Roboterarm",
+    "item.kubejs.ulv_conveyor_module": "ULV Förderband",
+    "item.kubejs.ulv_electric_motor": "ULV Elektrischer Motor",
+    "item.kubejs.ulv_electric_pump": "ULV Elektrische Pumpe",
+
+    "item.kubejs.universal_ulv_circuit": "Universeller ULV Schaltkreis",
+    "item.kubejs.universal_lv_circuit": "Universeller LV Schaltkreis",
+    "item.kubejs.universal_mv_circuit": "Universeller MV Schaltkreis",
+    "item.kubejs.universal_hv_circuit": "Universeller HV Schaltkreis",
+    "item.kubejs.universal_ev_circuit": "Universeller EV Schaltkreis",
+    "item.kubejs.universal_iv_circuit": "Universeller IV Schaltkreis",
+    "item.kubejs.universal_luv_circuit": "Universeller LuV Schaltkreis",
+    "item.kubejs.universal_zpm_circuit": "Universeller ZPM Schaltkreis",
+    "item.kubejs.universal_uv_circuit": "Universeller UV Schaltkreis",
+    "item.kubejs.universal_uhv_circuit": "Universeller UHV Schaltkreis",
+    "item.kubejs.universal_uev_circuit": "Universeller UEV Schaltkreis",
+    "item.kubejs.universal_uiv_circuit": "Universeller UIV Schaltkreis",
+    "item.kubejs.universal_uxv_circuit": "Universeller UXV Schaltkreis",
+    "item.kubejs.universal_opv_circuit": "Universeller OpV Schaltkreis",
+
+    "item.kubejs.ram_mainframe": "RAM Großrechner",
+    "item.kubejs.ram_stick": "RAM Speichermodul",
+
+    "item.kubejs.stick_fragments": "Speicherfragment",
+    "item.kubejs.simple_knitting_kit": "Einfache Nähnadeln",
+    "item.kubejs.string_mesh_chunk": "Siebstück",
+
+    "item.kubejs.p_credit": "P-Credit",
+
+    "item.kubejs.alfheim_runes": "Alfheim-Runen",
+
+    "gtfte.cavum_tenebrae": "§o§7Sieht so aus als wäre die Atmosphäre hier giftig... Vielleicht solltest du einen Anzug verwenden?",
+    "gtfte.unitas": "§o§7Du atmest tief ein... Und riechst Schwefel...?",
+    "gtfte.rima": "§o§7Du atmest tief ein, und fühlst dich... Normal",
+    "gtfte.chulak": "§o§7Du atmest tief ein, und fühlst dich absolut... Normal?",
+    "gtfte.abydos": "§o§7Du atmest tief ein... Es ist heiß hier!",
+    "gtfte.dizzy": "§o§7Mir wird schwummerig...",
+    "gtfte.overworld": "§o§7Du fühlst dich erleichtert nach dieser Reise.",
+
+    "gtfte.tooltip.material.infinity": "<rainb>Das dichteste Material im gesamten Universum als %s<rainb>.</rainb>",
+
+    "gtfte.name.universal_circuit": "%s Universeller Schaltkreis",
+    "gtfte.tooltip.universal_circuit": "§7Du spürst die Macht von %s!",
+
+    "gtfte.name.fuel_rod": "Brennstab (%s)",
+
+    "gtfte.name.primitive_maintenance_hatch": "Primitive Wartungsklappe",
+    "gtfte.name.ionizing_module": "Ionisierungsmodul",
+    "gtfte.tooltip.bedrock_crusher": "Kein großer Schürfer",
+    "gtfte.tooltip.energizer": "Kein Turbolader!",
+    "gtfte.tooltip.daycycle_simulation_chamber": "Lebenssimulation, aber für Pflanzen",
+
+    "gtfte.tooltip.primitive": "Erlaubt nur §8ULV§r energieklappen.",
+    "gtfte.tooltip.ulv_component": "§7Nicht stark genug um als Cover zu funktionieren...",
+
+    "gtfte.tooltip.alchemical_crucible_1": "Kessel, aber besser.",
+    "gtfte.tooltip.alchemical_crucible_2": "§7Für jede Spannungsstufe über §rLV§7 wird die Temperatur um §r75K§7 erhöht.",
+
+    "gtfte.components.heat_capacity": "Wärmekapazität: %s§cK§r",
+    "gtfte.components.parallels": "Standard-Parallelen: %s§r",
+
+    "gtfte.tooltip.etbf": "Hat alle Modifikatoren eines elektrischen Hochofens",
+
+    "gtfte.tooltip.defaultParallel": "Hat Standard-Parallelen:§5 %s §r",
+
+    "gtfte.ionizing_cleanroom": "<grad from=#b81825 to=#422957 hue uni>Ionisierungsmodul",
+
+    "gtfte.tagprefix.ingot": "ein Barren",
+    "gtfte.tagprefix.plate": "eine Platte",
+    "gtfte.tagprefix.tiny_dust": "ein winziger Staubhaufen",
+    "gtfte.tagprefix.small_dust": "ein kleiner Staubhaufen",
+    "gtfte.tagprefix.dust": "ein Staubhaufen",
+    "gtfte.tagprefix.double_plate": "eine Doppelplatte",
+    "gtfte.tagprefix.gear": "ein Zahnrad",
+    "gtfte.tagprefix.small_gear": "ein kleines Zahnrad",
+    "gtfte.tagprefix.nugget": "ein Nugget",
+    "gtfte.tagprefix.ring": "ein Ring",
+    "gtfte.tagprefix.bolt": "ein Bolzen",
+    "gtfte.tagprefix.screw": "eine Schraube",
+    "gtfte.tagprefix.rod": "eine Stange",
+
+    "MetaMaterials": "META MATERIALS DOWN HERE!!!!",
+    
+    "item.gtceu.infinity_ingot": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>barren",
+    "item.gtceu.infinity_plate": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>platte",
+    "item.gtceu.infinity_rod": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>stange",
+    "item.gtceu.infinity_bolt": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>bolzen",
+    "item.gtceu.infinity_screw": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>schraube",
+    "item.gtceu.infinity_double_plate": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>doppelplatte",
+    "item.gtceu.infinity_gear": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>zahnrad",
+    "item.gtceu.infinity_small_gear": "Kleines <neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>zahnrad",
+    "item.gtceu.infinity_ring": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>ring",
+    "item.gtceu.infinity_dust": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>staub",
+    "item.gtceu.infinity_nugget": "<neon p=8 r=2 a=0.15><rainb>Unendlichkeits</rainb></neon>nugget"
+}
